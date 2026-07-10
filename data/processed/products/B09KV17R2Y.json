@@ -1,0 +1,197 @@
+{
+  "parent_asin": "B09KV17R2Y",
+  "title": "Ice Maker Countertop Machine, 9 Bullet Ice Cubes Ready in 6 Mins, 22lbs Ice Cubes in 24H, Self-Cleaning, LCD Display, 2.1L Electric Stainless Steel Ice Maker with Ice Scoop, Basket",
+  "brand": "Leuwd",
+  "price": 119.99,
+  "average_rating": 3.9,
+  "n_reviews": 130,
+  "n_candidates": 38,
+  "n_obs": 37,
+  "n_events": 35,
+  "median_months": 3.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 479.96,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.973,
+      "lo": 0.8232,
+      "hi": 0.9961
+    },
+    {
+      "t": 0.25,
+      "s": 0.9459,
+      "lo": 0.8007,
+      "hi": 0.9862
+    },
+    {
+      "t": 0.5,
+      "s": 0.9181,
+      "lo": 0.7672,
+      "hi": 0.9728
+    },
+    {
+      "t": 1.0,
+      "s": 0.8068,
+      "lo": 0.6369,
+      "hi": 0.9029
+    },
+    {
+      "t": 1.2,
+      "s": 0.779,
+      "lo": 0.6062,
+      "hi": 0.8828
+    },
+    {
+      "t": 1.25,
+      "s": 0.7512,
+      "lo": 0.5762,
+      "hi": 0.862
+    },
+    {
+      "t": 1.5,
+      "s": 0.7234,
+      "lo": 0.5467,
+      "hi": 0.8406
+    },
+    {
+      "t": 2.0,
+      "s": 0.6677,
+      "lo": 0.4896,
+      "hi": 0.7958
+    },
+    {
+      "t": 2.5,
+      "s": 0.6399,
+      "lo": 0.4618,
+      "hi": 0.7726
+    },
+    {
+      "t": 3.0,
+      "s": 0.473,
+      "lo": 0.3052,
+      "hi": 0.6235
+    },
+    {
+      "t": 3.5,
+      "s": 0.4452,
+      "lo": 0.2808,
+      "hi": 0.5971
+    },
+    {
+      "t": 5.0,
+      "s": 0.3895,
+      "lo": 0.2334,
+      "hi": 0.5428
+    },
+    {
+      "t": 6.0,
+      "s": 0.2697,
+      "lo": 0.1369,
+      "hi": 0.4216
+    },
+    {
+      "t": 7.0,
+      "s": 0.2397,
+      "lo": 0.1149,
+      "hi": 0.3895
+    },
+    {
+      "t": 10.0,
+      "s": 0.1798,
+      "lo": 0.074,
+      "hi": 0.3227
+    },
+    {
+      "t": 11.0,
+      "s": 0.1498,
+      "lo": 0.0554,
+      "hi": 0.2878
+    },
+    {
+      "t": 11.99,
+      "s": 0.1198,
+      "lo": 0.0383,
+      "hi": 0.2516
+    },
+    {
+      "t": 12.0,
+      "s": 0.03,
+      "lo": 0.0023,
+      "hi": 0.132
+    },
+    {
+      "t": 15.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 22
+    },
+    {
+      "mode": "cooling_failure",
+      "count": 6
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 2
+    },
+    {
+      "mode": "motor_failure",
+      "count": 2
+    },
+    {
+      "mode": "control_failure",
+      "count": 2
+    },
+    {
+      "mode": "other",
+      "count": 1
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "stopped_working": [
+      "Crapped out one week after warranty",
+      "I used this ice maker every day since I bought it. It worked great, relatively quite and easy to use. Then one day a year later it just quit on me. I can tell it\u2019s getting power but not doing it\u2019s job. Therefore, I have just ordered another ice maker, different brand.",
+      "This ice maker was great, but despite cleaning properly, etc, it is already broken. Bought in March of 2022 and it\u2019s August\u2026 started having issues in July. I wouldn\u2019t recommend this ice maker because it is too pricey to break in 5 months."
+    ],
+    "noise_vibration": [
+      "Was noisy and broke after a few months of use",
+      "[[VIDEOID:4df2ba9c3102afa2c84d8efa3131deca]] After 3 months that it was working perfect it started to make very loud noise like a tractor!<br />I hope someone will call to replace it!"
+    ],
+    "cooling_failure": [
+      "It worked great for a few weeks and then started making small, super soft ice cubes. I did the self clean and that didn\u2019t seem to do anything. Amazon reluctantly agreed to replace it since it was a few days over the 30 day guarantee. The replacement worked great\u2026 for about 5 weeks. I have tried reaching out to the manufacturer with no reply. I have followed all instructions and nothing seems to he",
+      "I\u2019ve used this ice maker for two months and it isn\u2019t working already.  The element inside continually freezes up and voila\u2019 NO ICE.<br /><br />My electric bill has also increased significantly since using this product.  As I use a lot of ice, I assumed it would be less expensive to make ice as opposed to buying a bagged ice.  Boy was I wrong.  It is costing me between $4 and $9 per day to run this",
+      "Stopped making ice. Delivered 7/21/22 and stopped working 2.5 months later."
+    ],
+    "motor_failure": [
+      "I bought this about 10 months ago. It worked well for the first 6 months, although it only ever made the larger ice cubes, never the smaller size. But, after the first 6 months it has stopped many times. Unplugging it for about a day and then starting fresh would work. But, it's been more and more often. Finally, two days ago it completely stopped pumping water. It still freezes, but can't get the",
+      "6 months and it stopped working. The pump makes a loud noise and stopped workin. Not pleased at all with it and don\u2019t recommend it."
+    ],
+    "other": [
+      "Do NOT buy this ice maker. I\u2019m on my 3rd one for the same design flaw. I refuse to give up at this point because I want to get my $ worth. Yes, I\u2019m that person. Save yourself the angst of reordering, setting up return, printing the shipping label, taking it BACK to UPS to get your refund only to have this POS work for 3 months and then the same design \ud83d\udca9 flaw happens again. I shall never quit as it"
+    ],
+    "wont_power_on": [
+      "I was so excited to receive this for my family, for Christmas. This machine was great at first.  Ran it two or three times a week.  It wasn't too loud, made ice quickly.  The basket inside was a little flimsy and It was a little difficult to clean but overall I was impressed.  Then after using it for a month and a half it just stopped working.  The machine doesn't stay on. I am so upset.  I will b"
+    ],
+    "control_failure": [
+      "It turns off automatically without making ice and when it does make ice, it doesn\u2019t freeze the little ice cubes long enough to enjoy when you\u2019re ready for a cold drink! Doesn\u2019t make ice cubes! It doesn\u2019t stay on long enough for them to freeze! The clean button doesn\u2019t even work. I hate I wasted money on this machine. It only look nice and that\u2019s it! Don\u2019t waste your money on this machine! I purcha",
+      "I bought this product and in less than a year it stopped making all the cubes and only made half of the cubes 6 months in and now it doesn\u2019t make any cubes. I followed the cleaning guidelines and nothing."
+    ]
+  },
+  "published": true
+}

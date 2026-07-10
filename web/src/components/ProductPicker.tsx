@@ -1,20 +1,9 @@
 import { useState, useEffect, useCallback } from 'react'
-import type { IndexEntry, ProductData } from '../types'
+import type { CatalogEntry, ProductData } from '../types'
+import { fetchCatalog, fetchProductLive } from '../api'
 
 interface Props {
   onSelectPair: (left: ProductData, right: ProductData) => void
-}
-
-async function fetchIndex(): Promise<IndexEntry[]> {
-  const res = await fetch('/index.json')
-  if (!res.ok) throw new Error(`index.json: ${res.status}`)
-  return res.json()
-}
-
-async function fetchProduct(asin: string): Promise<ProductData> {
-  const res = await fetch(`/products/${asin}.json`)
-  if (!res.ok) throw new Error(`${asin}: ${res.status}`)
-  return res.json()
 }
 
 function EntryRow({
@@ -23,7 +12,7 @@ function EntryRow({
   onToggle,
   selectionFull,
 }: {
-  entry: IndexEntry
+  entry: CatalogEntry
   selected: boolean
   onToggle: () => void
   selectionFull: boolean
@@ -43,68 +32,59 @@ function EntryRow({
     >
       <div className="flex items-start justify-between gap-2">
         <span className="text-[#d0d0d0] leading-snug flex-1">{entry.title}</span>
-        {entry.cost_per_year != null && (
-          <span className="shrink-0 text-[#888] text-xs">
-            ${entry.cost_per_year.toFixed(0)}/yr
-          </span>
-        )}
+        <span className="shrink-0 text-[#555] text-xs">{entry.n_reviews} reviews</span>
       </div>
       <div className="flex gap-3 mt-1 text-[10px] text-[#555]">
         {entry.brand && <span>{entry.brand}</span>}
         {entry.price != null && <span>${entry.price.toFixed(0)}</span>}
         {entry.average_rating != null && <span>★ {entry.average_rating.toFixed(1)}</span>}
-        {entry.median_months != null && (
-          <span>
-            {entry.median_is_lower_bound ? '>' : ''}
-            {entry.median_months.toFixed(0)}mo
-          </span>
-        )}
-        <span>n={entry.n_obs}</span>
+        {entry.subcategory && <span>{entry.subcategory}</span>}
       </div>
     </button>
   )
 }
 
 export default function ProductPicker({ onSelectPair }: Props) {
-  const [index, setIndex] = useState<IndexEntry[]>([])
+  const [catalog, setCatalog] = useState<CatalogEntry[]>([])
   const [query, setQuery] = useState('')
   const [selected, setSelected] = useState<string[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
   const [comparing, setComparing] = useState(false)
+  const [status, setStatus] = useState('')
 
+  // Debounced server-side catalog search.
   useEffect(() => {
-    fetchIndex()
-      .then(setIndex)
-      .catch((e) => setError(e.message))
-      .finally(() => setLoading(false))
-  }, [])
+    let active = true
+    const id = setTimeout(() => {
+      fetchCatalog(query, 200)
+        .then((c) => active && setCatalog(c))
+        .catch((e) => active && setError(e.message))
+        .finally(() => active && setLoading(false))
+    }, 200)
+    return () => {
+      active = false
+      clearTimeout(id)
+    }
+  }, [query])
 
-  const filtered = index.filter((e) => {
-    if (!query) return true
-    const q = query.toLowerCase()
-    return (
-      e.title.toLowerCase().includes(q) ||
-      (e.brand && e.brand.toLowerCase().includes(q)) ||
-      (e.subcategory && e.subcategory.toLowerCase().includes(q))
+  const toggle = useCallback((asin: string) => {
+    setSelected((prev) =>
+      prev.includes(asin) ? prev.filter((a) => a !== asin) : [...prev.slice(-1), asin],
     )
-  })
-
-  const toggle = useCallback(
-    (asin: string) => {
-      setSelected((prev) =>
-        prev.includes(asin) ? prev.filter((a) => a !== asin) : [...prev.slice(-1), asin],
-      )
-    },
-    [],
-  )
+  }, [])
 
   const compare = async () => {
     if (selected.length < 2) return
     setComparing(true)
+    setError('')
     try {
-      const [a, b] = await Promise.all(selected.map(fetchProduct))
-      // Put longer-lived product on the left
+      setStatus('Reading reviews with the model … (first run can take a few seconds)')
+      const [a, b] = await Promise.all(selected.map(fetchProductLive))
+      if (!a.curve.length || !b.curve.length) {
+        const thin = !a.curve.length ? a.title : b.title
+        throw new Error(`Not enough dated failure/longevity mentions for "${thin}" yet.`)
+      }
       const [left, right] =
         (a.median_months ?? 0) >= (b.median_months ?? 0) ? [a, b] : [b, a]
       onSelectPair(left, right)
@@ -112,22 +92,11 @@ export default function ProductPicker({ onSelectPair }: Props) {
       setError(e.message)
     } finally {
       setComparing(false)
+      setStatus('')
     }
   }
 
-  if (loading) return <p className="text-[#555] text-sm">Loading product index …</p>
-  if (error) return <p className="text-[#ef4444] text-sm">Error: {error}</p>
-  if (!index.length) {
-    return (
-      <div className="text-center py-12 space-y-3">
-        <p className="text-[#555]">No products exported yet.</p>
-        <p className="text-[#444] text-xs">
-          Run the pipeline:{' '}
-          <code className="text-[#666]">python -m lemon.validate --export</code>
-        </p>
-      </div>
-    )
-  }
+  if (loading) return <p className="text-[#555] text-sm">Loading catalog from the server …</p>
 
   return (
     <div className="space-y-4">
@@ -144,11 +113,22 @@ export default function ProductPicker({ onSelectPair }: Props) {
           disabled={selected.length < 2 || comparing}
           className="px-4 py-2 text-sm font-medium rounded-lg transition-colors bg-[#f5e642] text-black disabled:opacity-30 disabled:cursor-not-allowed hover:bg-[#ffe600]"
         >
-          {comparing ? 'Loading …' : 'Compare'}
+          {comparing ? 'Extracting …' : 'Compare'}
         </button>
       </div>
 
-      {selected.length > 0 && (
+      {error && (
+        <p className="text-xs text-[#ef4444]">
+          {error}{' '}
+          {error.includes('Failed to fetch') && (
+            <span className="text-[#666]">
+              — is the server running? <code>python -m lemon.server</code>
+            </span>
+          )}
+        </p>
+      )}
+      {status && <p className="text-xs text-[#f5e642]">{status}</p>}
+      {!error && !status && selected.length > 0 && (
         <p className="text-xs text-[#555]">
           {selected.length === 1
             ? 'Select one more product to compare'
@@ -157,7 +137,7 @@ export default function ProductPicker({ onSelectPair }: Props) {
       )}
 
       <div className="space-y-1.5 max-h-[60vh] overflow-y-auto pr-1">
-        {filtered.map((e) => (
+        {catalog.map((e) => (
           <EntryRow
             key={e.parent_asin}
             entry={e}
@@ -166,7 +146,7 @@ export default function ProductPicker({ onSelectPair }: Props) {
             selectionFull={selected.length >= 2}
           />
         ))}
-        {filtered.length === 0 && (
+        {catalog.length === 0 && (
           <p className="text-[#555] text-sm text-center py-8">No results for "{query}"</p>
         )}
       </div>

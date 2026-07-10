@@ -2,14 +2,23 @@
 
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 ROOT = Path(__file__).resolve().parents[2]
 RAW = ROOT / "data" / "raw"
 CACHE = ROOT / "data" / "cache"
 PROCESSED = ROOT / "data" / "processed"
 
+# Load environment variables from the repo-root .env (GEMINI_API_KEY, etc.).
+load_dotenv(ROOT / ".env")
+
 CATEGORY = "Appliances"
 REVIEWS_FILE = RAW / f"{CATEGORY}.jsonl.gz"
 META_FILE = RAW / f"meta_{CATEGORY}.jsonl.gz"
+
+# Fast per-product lookup index + browsable catalog (built once from the raw files).
+REVIEWS_DB = CACHE / "reviews.db"
+CATALOG_FILE = CACHE / "catalog.json"
 
 # gemini-2.5-flash-lite is retired for new API keys; 3.1-flash-lite is the
 # pinned successor (deterministic across the hackathon). Verified working.

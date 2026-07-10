@@ -48,9 +48,16 @@ class KMResult:
         return self.curve[-1]["t"] if self.curve else 0.0
 
 
-def fit_km(observations: list[tuple[float, bool]], max_points: int = 120) -> Optional[KMResult]:
+def fit_km(
+    observations: list[tuple[float, bool]],
+    max_points: int = 120,
+    min_obs: Optional[int] = None,
+    min_events: Optional[int] = None,
+) -> Optional[KMResult]:
+    min_obs = config.MIN_OBSERVATIONS if min_obs is None else min_obs
+    min_events = config.MIN_EVENTS if min_events is None else min_events
     n_events = sum(1 for _, e in observations if e)
-    if len(observations) < config.MIN_OBSERVATIONS or n_events < config.MIN_EVENTS:
+    if len(observations) < min_obs or n_events < min_events:
         return None
 
     durations = [d for d, _ in observations]

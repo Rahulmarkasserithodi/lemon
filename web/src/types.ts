@@ -26,6 +26,20 @@ export interface ProductData {
   curve: CurvePoint[]
   failure_modes: FailureMode[]
   snippets: Record<string, string[]>    // {failure_mode: [text, ...]}
+  // Present on live-server responses:
+  n_reviews?: number
+  n_candidates?: number
+  published?: boolean                    // meets strict publish thresholds
+}
+
+export interface CatalogEntry {
+  parent_asin: string
+  title: string
+  brand: string
+  subcategory: string
+  price: number | null
+  average_rating: number | null
+  n_reviews: number
 }
 
 export interface IndexEntry {
@@ -48,7 +62,6 @@ export interface HeroPair {
   note: string
   median_ratio: number
 }
-
 // Merged data point for the overlaid chart
 export interface MergedPoint {
   t: number

@@ -1,0 +1,233 @@
+{
+  "parent_asin": "B073BLHCND",
+  "title": "Panda Portable Compact Laundry Dryer, 3.5 cu.ft, Black and White, PAN760SF",
+  "brand": "Panda",
+  "price": 339.32,
+  "average_rating": 4.5,
+  "n_reviews": 553,
+  "n_candidates": 62,
+  "n_obs": 48,
+  "n_events": 33,
+  "median_months": 12.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 339.32,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.25,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.5,
+      "s": 0.9787,
+      "lo": 0.8584,
+      "hi": 0.997
+    },
+    {
+      "t": 0.66,
+      "s": 0.9574,
+      "lo": 0.8404,
+      "hi": 0.9892
+    },
+    {
+      "t": 0.75,
+      "s": 0.9574,
+      "lo": 0.8404,
+      "hi": 0.9892
+    },
+    {
+      "t": 1.25,
+      "s": 0.9139,
+      "lo": 0.7867,
+      "hi": 0.9668
+    },
+    {
+      "t": 1.27,
+      "s": 0.8922,
+      "lo": 0.7601,
+      "hi": 0.9537
+    },
+    {
+      "t": 2.0,
+      "s": 0.8922,
+      "lo": 0.7601,
+      "hi": 0.9537
+    },
+    {
+      "t": 3.0,
+      "s": 0.8699,
+      "lo": 0.7329,
+      "hi": 0.9394
+    },
+    {
+      "t": 4.0,
+      "s": 0.8012,
+      "lo": 0.6523,
+      "hi": 0.8914
+    },
+    {
+      "t": 5.0,
+      "s": 0.7776,
+      "lo": 0.6256,
+      "hi": 0.8738
+    },
+    {
+      "t": 6.0,
+      "s": 0.7533,
+      "lo": 0.5982,
+      "hi": 0.8554
+    },
+    {
+      "t": 7.0,
+      "s": 0.7282,
+      "lo": 0.5702,
+      "hi": 0.836
+    },
+    {
+      "t": 8.0,
+      "s": 0.7031,
+      "lo": 0.5429,
+      "hi": 0.8162
+    },
+    {
+      "t": 9.0,
+      "s": 0.7031,
+      "lo": 0.5429,
+      "hi": 0.8162
+    },
+    {
+      "t": 10.5,
+      "s": 0.6771,
+      "lo": 0.5148,
+      "hi": 0.7953
+    },
+    {
+      "t": 11.0,
+      "s": 0.5989,
+      "lo": 0.4342,
+      "hi": 0.7298
+    },
+    {
+      "t": 11.75,
+      "s": 0.5729,
+      "lo": 0.4084,
+      "hi": 0.7071
+    },
+    {
+      "t": 12.0,
+      "s": 0.4687,
+      "lo": 0.3101,
+      "hi": 0.6124
+    },
+    {
+      "t": 15.0,
+      "s": 0.4394,
+      "lo": 0.2827,
+      "hi": 0.5856
+    },
+    {
+      "t": 18.0,
+      "s": 0.4101,
+      "lo": 0.2561,
+      "hi": 0.5582
+    },
+    {
+      "t": 24.0,
+      "s": 0.2051,
+      "lo": 0.0924,
+      "hi": 0.3486
+    },
+    {
+      "t": 36.0,
+      "s": 0.1025,
+      "lo": 0.0221,
+      "hi": 0.2566
+    },
+    {
+      "t": 48.0,
+      "s": 0.1025,
+      "lo": 0.0221,
+      "hi": 0.2566
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 16
+    },
+    {
+      "mode": "motor_failure",
+      "count": 4
+    },
+    {
+      "mode": "heating_failure",
+      "count": 3
+    },
+    {
+      "mode": "cooling_failure",
+      "count": 3
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 2
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 2
+    },
+    {
+      "mode": "leak",
+      "count": 2
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 2
+    }
+  ],
+  "snippets": {
+    "stopped_working": [
+      "Dryer broke within a year.  I contacted Pandas service dept.  They wanted me to do my own trouble shooting and remove the back panel and do my own repairs!  Then when I explained I'm disabled they charged me $50 and replaced it with a cheaper and smaller model.  DO NOT BUY PANDA.  Worst service ever.",
+      "Bought this dryer and broke in 5 weeks. Horrible purchase.",
+      "OMG GUYS my husband and I just moved into our apartment and they have a laundry room but they closed it down due to the Covid-19 virus. We bought the dryer, it dries pretty good! I haven\u2019t seen my light bill yet so I don\u2019t know how economical it is but it\u2019s SO HELPFUL. I recommend the panda washer with the purple lid too. Totally worth the money.<br /><br />UPDATE:<br />It is with a heavy heart th"
+    ],
+    "heating_failure": [
+      "After two years of light use, the heating element stopped, and the dryer stayed on all night. I opened the panel to troubleshoot, and to my horror find a melted circuit board and wires that completely burned in half. I'll never buy this brand again. Fortunate it didn't burn everything down.",
+      "I loved the dryer at first but 4 months later it stoped getting hot. I called the 888# and they want an mailbox # so of course i didn't get an answer. Now I guess I have to email them. I regret not getting a warranty. Totally mad!",
+      "Great for small apartments, but it was not durable. It stopped heating only after 10-12 months of use. Better off going to a laundry mat or air drying your clothes insteading of wasting your money."
+    ],
+    "wont_power_on": [
+      "While this little dryer was great at first, it started to have problems 11 months in.  At first, the drum would not stop when opening the door.  That was okay to deal with.  Then, the heat slowly started to go and finally, the dryer doesn't turn on at all.<br /><br />I called customer service who told me to email them with my purchase info.  I emailed 3 times and the email was undeliverable.  I tr",
+      "Product quit working mid-cycle on day 22 of using it. At most there have been 15 uses. Won\u2019t turn on, stopped mid-cycle. No ability to get support for the product on the weekend. There is an 800# to call on the front and no one is available.  I loved the unit until today when it quit."
+    ],
+    "cooling_failure": [
+      "This dryer is great for small spaces! Unfortunately after just two years our dryer is pretty much dead, it overheats and shuts off constantly after a good 3 minutes. I'm hoping I can take it apart and see what's wrong with it since I'm sure I'm past the warranty, but it's a nice little dryer that gets the job done!",
+      "I shopped around for a long time before settling on a small washer and drier for my place. I needed something that would fit, and of course I don't have 220v inside so had to be 110v plug. Also I don't like dealing with cheap junk, so it had to be reliable. This is a great partner to my Black & Decker portable washer - I can put two washed loads in here and this will get everything dry. Unless you",
+      "This dryer was good when it came everything except a horrible chemical smell that never went away!!! I'm sure it came straight from China and who knows what kind of chemicals they're using but if you have allergies or your sensitive the smell never goes away!  I bought it in February of 2021, it is now broken in September of 2021! it only blows cold air and will not turn off!  Do not purchase appl"
+    ],
+    "motor_failure": [
+      "Great dryer, my only complaint is the lint filter. Too hard to clean, so I took it out and just use the screen and a pantyhose leg attached to the end of the vent hose (it's vented indoors for now) Update you can't not use the lint screen it clogs up the back vent.<br /><br />Lasted only 18 months. Pretty sure the motor is shot, makes a weird noise and no heat.",
+      "my wife loves this dryer in our apt. i also got her a near full size washer from RCA. this dryer works, buy an extra belt just in case it breaks. it broke on us after 2 years of use. i replaced the belt and no more issues.",
+      "The dryer is perfect for small spaces and still drying a decent size load.<br />I have one issue that I strongly advise to people that may purchase this product. The stock fan belt on this specific model is the only downside to this product.<br />After 6 months the dryer stopped working. After removing the rear panel to inspect, I discovered the fan belt had snapped and was ripped in 3 other spots"
+    ],
+    "electrical_fault": [
+      "Died after 1 year of use. While it worked it was pretty decent for the price.<br /><br />Had to change out the fuse myself the first time it blew, second time it melted the whole mechanism and now its officially dead.",
+      "I live on second floor apartment. I already have a portable washer by haier for a total of 9 years that is working like brand new. I would use the dryer in my building only for towels and sheets, everything else I would Line dry or a hanger. (I go to my daughters to wash/dry Comforters)  I got so tired of going down multiple flights of stairs in that creepy basement and cleaning, disinfecting the "
+    ],
+    "leak": [
+      "[[VIDEOID:2d5fe3684c1c270a5e469a77526cf0c3]] Update2: I fixed the drip without any manufacturer or vendor help. It turns out the vent on the dryer was stuffed with lint blocking the exhaust. Idk how the lint escaped from the big filter inside and into the vent especially enough to clog it. I always cleaned or replaced the interior filter after use. Unclogged about two cups or more of lint from the",
+      "Worked fine for the first two years but then it started leaking water"
+    ],
+    "physical_breakage": [
+      "I used this dryer for about 15 months when the felt seal that sits between the spinning drum and the door rim started disintegrating. I didn't realize at first what was happening but the dryer started making an increasingly loud grinding sound. By the time that I figured out what the problem was, the metal rubbing on metal created a nasty black metal dust that ended up ruining a bunch of bed sheet",
+      "It\u2019s a good size and pretty quiet, however only after 2 weeks of owning it, the knob for the timer has broken and the dryer can no longer be turned off with it. I have to open the door and unplug it to stop it. It\u2019s very inconvenient for an appliance of this size to be broken so quickly."
+    ]
+  },
+  "published": true
+}

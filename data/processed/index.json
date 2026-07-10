@@ -1,5 +1,31 @@
 [
   {
+    "parent_asin": "B09KV17R2Y",
+    "title": "Ice Maker Countertop Machine, 9 Bullet Ice Cubes Ready in 6 Mins, 22lbs Ice Cubes in 24H, Self-Cleaning, LCD Display, 2.1L Electric Stainless Steel Ice Maker with Ice Scoop, Basket",
+    "brand": "Leuwd",
+    "subcategory": "",
+    "price": 119.99,
+    "average_rating": 3.9,
+    "n_obs": 37,
+    "n_events": 35,
+    "median_months": 3.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 479.96
+  },
+  {
+    "parent_asin": "B073BLHCND",
+    "title": "Panda Portable Compact Laundry Dryer, 3.5 cu.ft, Black and White, PAN760SF",
+    "brand": "Panda",
+    "subcategory": "",
+    "price": 339.32,
+    "average_rating": 4.5,
+    "n_obs": 48,
+    "n_events": 33,
+    "median_months": 12.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 339.32
+  },
+  {
     "parent_asin": "B09YC8YCV6",
     "title": "B09YC8YCV6",
     "brand": "",

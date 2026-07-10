@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "left": "B073BLHCND",
+    "right": "B09KV17R2Y",
+    "note": "A $339 compact dryer outlives a $120 countertop ice maker 4-to-1. The ice maker's median time-to-failure is ~3 months, so its cost-per-year-of-life ($480) is actually higher than the pricier, longer-lived dryer ($339).",
+    "median_ratio": 4.0
+  }
+]
+
