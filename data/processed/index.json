@@ -91,6 +91,19 @@
     "cost_per_year": 359.96
   },
   {
+    "parent_asin": "B07M8JMYHQ",
+    "title": "Luma Comfort Clear Ice Cube Maker Machine | First Cubes In 15 Minutes, 28 lbs. of Ice in 24 Hours | Countertop Portable Design in Stainless Steel - IM200SS",
+    "brand": "Luma Comfort",
+    "subcategory": "",
+    "price": 249.99,
+    "average_rating": 3.9,
+    "n_obs": 108,
+    "n_events": 84,
+    "median_months": 6.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 499.98
+  },
+  {
     "parent_asin": "B09W5PMK5X",
     "title": "COMFEE\u2019 Washing Machine 2.4 Cu.ft LED Portable Washing Machine and Washer Lavadora Port\u00e1til Compact Laundry, 8 Models, Environmentally Friendly, Child Lock for RV, Dorm, Apartment Ivory White",
     "brand": "COMFEE'",
@@ -115,6 +128,19 @@
     "median_months": 11.0,
     "median_is_lower_bound": false,
     "cost_per_year": 362.17
+  },
+  {
+    "parent_asin": "B074R7GK8V",
+    "title": "COSTWAY Portable Mini Washing Machine with Spin Dryer, Washing Capacity 5.5lbs, Electric Compact Machines Durable Design Energy Saving, Rotary Controller, Laundry Washer for Home Apartment RV, Blue",
+    "brand": "COSTWAY",
+    "subcategory": "",
+    "price": 99.99,
+    "average_rating": 3.7,
+    "n_obs": 70,
+    "n_events": 53,
+    "median_months": 2.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 599.94
   },
   {
     "parent_asin": "B07HKXVQYC",

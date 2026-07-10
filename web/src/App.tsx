@@ -1,11 +1,8 @@
 import { useState } from 'react'
-import type { ProductData } from './types'
 import DemoMode from './components/DemoMode'
-import CompareView from './components/CompareView'
-import ProductPicker from './components/ProductPicker'
 import { INK, ON_INK, inkAlpha } from './theme'
 
-type Tab = 'demo' | 'browse' | 'about'
+type Tab = 'demo' | 'about'
 
 function Nav({ tab, setTab }: { tab: Tab; setTab: (t: Tab) => void }) {
   const btn = (id: Tab, label: string) => (
@@ -23,8 +20,7 @@ function Nav({ tab, setTab }: { tab: Tab; setTab: (t: Tab) => void }) {
   )
   return (
     <nav className="flex items-center gap-2">
-      {btn('demo', 'Demo')}
-      {btn('browse', 'Browse')}
+      {btn('demo', 'Compare')}
       {btn('about', 'About')}
     </nav>
   )
@@ -32,12 +28,6 @@ function Nav({ tab, setTab }: { tab: Tab; setTab: (t: Tab) => void }) {
 
 export default function App() {
   const [tab, setTab] = useState<Tab>('demo')
-  const [pair, setPair] = useState<[ProductData, ProductData] | null>(null)
-
-  const handlePair = (left: ProductData, right: ProductData) => {
-    setPair([left, right])
-    setTab('browse')
-  }
 
   return (
     <div className="min-h-screen bg-[#121415] text-[#e8e6df]">
@@ -61,42 +51,7 @@ export default function App() {
 
         {/* Main content */}
         <main className="px-4 sm:px-10 py-10 max-w-[1440px] mx-auto">
-          {tab === 'demo' && <DemoMode onExit={() => setTab('browse')} />}
-
-          {tab === 'browse' && (
-            <div>
-              {pair ? (
-                <div className="space-y-8">
-                  <button
-                    onClick={() => setPair(null)}
-                    className="font-mono text-[10.5px] uppercase tracking-[0.08em] transition-colors"
-                    style={{ color: inkAlpha(0.5) }}
-                  >
-                    ← Back to product list
-                  </button>
-                  <CompareView left={pair[0]} right={pair[1]} />
-                </div>
-              ) : (
-                <div className="space-y-6 max-w-2xl">
-                  <div>
-                    <div
-                      className="font-mono text-[10px] font-semibold uppercase tracking-[0.08em] mb-2"
-                      style={{ color: inkAlpha(0.42) }}
-                    >
-                      Select — two products
-                    </div>
-                    <h1 className="font-serif text-[26px] font-semibold text-[#e8e6df] mb-1">
-                      Browse products
-                    </h1>
-                    <p className="text-sm" style={{ color: inkAlpha(0.5) }}>
-                      Select two products and click Compare to see their survival curves side by side.
-                    </p>
-                  </div>
-                  <ProductPicker onSelectPair={handlePair} />
-                </div>
-              )}
-            </div>
-          )}
+          {tab === 'demo' && <DemoMode />}
 
           {tab === 'about' && (
             <div className="max-w-2xl space-y-5 text-[15px] leading-relaxed" style={{ color: inkAlpha(0.72) }}>

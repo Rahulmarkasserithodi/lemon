@@ -1,0 +1,308 @@
+{
+  "parent_asin": "B07M8JMYHQ",
+  "title": "Luma Comfort Clear Ice Cube Maker Machine | First Cubes In 15 Minutes, 28 lbs. of Ice in 24 Hours | Countertop Portable Design in Stainless Steel - IM200SS",
+  "brand": "Luma Comfort",
+  "price": 249.99,
+  "average_rating": 3.9,
+  "n_reviews": 530,
+  "n_candidates": 135,
+  "n_obs": 108,
+  "n_events": 84,
+  "median_months": 6.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 499.98,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9722,
+      "lo": 0.9164,
+      "hi": 0.991
+    },
+    {
+      "t": 0.06,
+      "s": 0.9629,
+      "lo": 0.9041,
+      "hi": 0.9859
+    },
+    {
+      "t": 0.12,
+      "s": 0.9535,
+      "lo": 0.8919,
+      "hi": 0.9804
+    },
+    {
+      "t": 0.18,
+      "s": 0.9442,
+      "lo": 0.88,
+      "hi": 0.9745
+    },
+    {
+      "t": 0.25,
+      "s": 0.9161,
+      "lo": 0.845,
+      "hi": 0.9555
+    },
+    {
+      "t": 0.38,
+      "s": 0.9068,
+      "lo": 0.8337,
+      "hi": 0.9487
+    },
+    {
+      "t": 0.5,
+      "s": 0.86,
+      "lo": 0.7786,
+      "hi": 0.9132
+    },
+    {
+      "t": 0.75,
+      "s": 0.8411,
+      "lo": 0.7569,
+      "hi": 0.8981
+    },
+    {
+      "t": 1.0,
+      "s": 0.7831,
+      "lo": 0.6918,
+      "hi": 0.8503
+    },
+    {
+      "t": 1.27,
+      "s": 0.7727,
+      "lo": 0.6801,
+      "hi": 0.8415
+    },
+    {
+      "t": 1.33,
+      "s": 0.7622,
+      "lo": 0.6685,
+      "hi": 0.8327
+    },
+    {
+      "t": 1.5,
+      "s": 0.7309,
+      "lo": 0.6342,
+      "hi": 0.8059
+    },
+    {
+      "t": 1.93,
+      "s": 0.7205,
+      "lo": 0.6229,
+      "hi": 0.7969
+    },
+    {
+      "t": 2.0,
+      "s": 0.6265,
+      "lo": 0.5241,
+      "hi": 0.7129
+    },
+    {
+      "t": 2.5,
+      "s": 0.6155,
+      "lo": 0.5127,
+      "hi": 0.7029
+    },
+    {
+      "t": 3.0,
+      "s": 0.5715,
+      "lo": 0.4678,
+      "hi": 0.6624
+    },
+    {
+      "t": 4.0,
+      "s": 0.5606,
+      "lo": 0.4567,
+      "hi": 0.6522
+    },
+    {
+      "t": 5.0,
+      "s": 0.5148,
+      "lo": 0.4108,
+      "hi": 0.6093
+    },
+    {
+      "t": 6.0,
+      "s": 0.4347,
+      "lo": 0.333,
+      "hi": 0.532
+    },
+    {
+      "t": 7.0,
+      "s": 0.4233,
+      "lo": 0.3222,
+      "hi": 0.5207
+    },
+    {
+      "t": 8.0,
+      "s": 0.4118,
+      "lo": 0.3114,
+      "hi": 0.5094
+    },
+    {
+      "t": 10.0,
+      "s": 0.4004,
+      "lo": 0.3006,
+      "hi": 0.498
+    },
+    {
+      "t": 11.99,
+      "s": 0.389,
+      "lo": 0.29,
+      "hi": 0.4866
+    },
+    {
+      "t": 12.0,
+      "s": 0.2402,
+      "lo": 0.1579,
+      "hi": 0.3322
+    },
+    {
+      "t": 12.5,
+      "s": 0.2252,
+      "lo": 0.1444,
+      "hi": 0.3172
+    },
+    {
+      "t": 13.0,
+      "s": 0.2102,
+      "lo": 0.1312,
+      "hi": 0.3019
+    },
+    {
+      "t": 14.0,
+      "s": 0.1652,
+      "lo": 0.0935,
+      "hi": 0.2545
+    },
+    {
+      "t": 15.0,
+      "s": 0.1652,
+      "lo": 0.0935,
+      "hi": 0.2545
+    },
+    {
+      "t": 18.0,
+      "s": 0.1486,
+      "lo": 0.0801,
+      "hi": 0.2372
+    },
+    {
+      "t": 24.0,
+      "s": 0.0743,
+      "lo": 0.0262,
+      "hi": 0.1563
+    },
+    {
+      "t": 31.0,
+      "s": 0.0495,
+      "lo": 0.0116,
+      "hi": 0.132
+    },
+    {
+      "t": 36.0,
+      "s": 0.0248,
+      "lo": 0.0023,
+      "hi": 0.1046
+    },
+    {
+      "t": 65.0,
+      "s": 0.0248,
+      "lo": 0.0023,
+      "hi": 0.1046
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 46
+    },
+    {
+      "mode": "motor_failure",
+      "count": 12
+    },
+    {
+      "mode": "control_failure",
+      "count": 12
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 7
+    },
+    {
+      "mode": "cooling_failure",
+      "count": 4
+    },
+    {
+      "mode": "rust_corrosion",
+      "count": 3
+    },
+    {
+      "mode": "leak",
+      "count": 2
+    },
+    {
+      "mode": "other",
+      "count": 1
+    },
+    {
+      "mode": "heating_failure",
+      "count": 1
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "noise_vibration": [
+      "DO NOT BUY THIS POS!!!<br />In less than 2 weeks, (using it only twice) the pump is howling.<br />A scare the dogs, wake the dead, unearthly HOWL.<br /><br />Too bad - it makes great ice.<br />But, because of the NEW UNIT'S pump failure, I would give this negative stars if possible.",
+      "This machine produces delicious, frozen, clear, awesome ice. It makes a tray of ice quickly. You will be amazed how quickly the ice is made and how quiet the machine is. That is, until the machine begins making loud grinding noises, then refuses to produce ice, at all. A quirk is that the ice pops out joined and requires a bit of smashing to separate. We were willing to live with this quirk, as th",
+      "Just seeing if anyone has any cleaning hacks/part replacements that work to keep this thing clean. I ended up moving on to a Nostalgia brand that doesn\u2019t have the same seeming supernatural resistance to cleaning practices that the Luma did, but the ice basket is too close to the freezing area so it\u2019s just always big blocks of ice that I need to break up every drop (it usually stops for FULL) after"
+    ],
+    "stopped_working": [
+      "For the most part, we enjoyed this machine but we did expect to get a few years of use of of this product.  We did  not know that we were buying  something that was pretty much,  disposable.  Incredibly disappointed.  There are a lot of other machines out there, I would recommend trying a different brand.",
+      "I read all the reviews about how this unit can fail but I took my chances because I find it hard to believe something so expensive could be such bad quality. Well, here I am with one EXPENSIVE, noisy, large, and heavy paperweight. Of course something happened after the &#34;return window&#34; (I only used it three times in 2 months). It was a bit of work to used ( have to keep the water reservoir ",
+      "Quit at 1 year mark not very dependable"
+    ],
+    "motor_failure": [
+      "I wrote a review when I first bought this item in July 2019. It worked great, and we used it every other day with no problems. The first time I noticed something was in October after we got back from a 10 day vacation. I had drained out the water and left the lid open while we were gone. When I turned it on the first time it didn't come on immediately. I turned it off and on a couple of times then",
+      "Lasted 6 Days and stopped pumping water. Would not recommend!",
+      "Mine lasted a whole 8 months before the pump died.  Warranty on this is worthless as it costs more to ship than to but a new one.  ANY warranty that doesn't pay shipping, replace for free, or fully refund is a SCAM.  All these sellers do it and there warranty's aren't worth the paper they are written on...<br /><br />And good luck ever finding a ice maker.  4 different brands all died in about a y"
+    ],
+    "control_failure": [
+      "Super nice Ice maker.  perfect for a top of a table.  Work with ice bucket and perfect for a mid size party.  use bottled water.  Ice is clear and fancy.  However claims for 5 times longer lasting than other ice is just silly.<br /><br />Well after 7 months  it now only makes big hunks of ice that hang onto the Ice making fins.  A real deal breaker.  Will be looking to return for refund or replace",
+      "3 Months almost to the day and it made a screeching noise, stopped making ice.  Turned off , left it off over night now the power button come on but the machine does nothing.  Waste of time and money.  When it worked I was constantly having to clean the bottom reservoir.  After just a few hours use the ice would cloud up and taste terrible.",
+      "Update 6-10-16: There is no fixing bad design and bad parts.  Luma would not warranty their crap product.  Ice maker is now in the landfill.<br /><br />Update 2-22-16 : Luma took the ice maker back for repair.  Two weeks after repair the same problem is happening.  Their &#34;fix&#34; did not last.  We have contacted them again and are awaiting a response.<br /><br />Update 12-15-15 from 5 to 2 st"
+    ],
+    "other": [
+      "Save your money. Buying this is a BIG mistake!  Parts failed just after a year with only moderate use. I contacted the manufacturer and they won\u2019t sell parts. It can\u2019t be fixed. Disposable garbage. When it works it makes wonderful clear ice. What a shame. This company should be ashamed of themselves and they don\u2019t deserve their customers."
+    ],
+    "cooling_failure": [
+      "Bought another one. Unpack the ice maker waited a day before plugging in, was working but no ice figured i wait and try again another 2 hours still no ice and water is luke warm. Returning product and waiting for new replacement. Only bad thing about waiting for replacement is waiting little over a month wait.<br /><br />Will update once i received new replacement.<br /><br />Received Replacement ",
+      "Died after 14 months.  Manufacturer offered 20% off a replacement, but still very frustrating.  Ps. The symptom of &#34;Ice freezing&#34; into a brick and not falling into tray and then unit shutting off and blinking is apparently a result of the compressor failing (making it too cold).  I was told it is cost-prohibitive to replace.",
+      "After having this device for 90 days, can NEVER get a returned call from Luma, does not make ice and drop into bin, does not keep putting water where it suppose to in order to keep machine running.. Very disappointed, and now can't return it.  Only place is to throw into the trash and order a different model."
+    ],
+    "leak": [
+      "great ice maker but this is my second one and both have leaked.  first one leaked out of the box second one started leaking in 45 days.",
+      "Have had this for about 3 months.  It worked for about 2 months and then started dumping a whole bunch of water in the ice side.  Who wants constantly soupy ice?  Drained, cleaned, and restarted, and it would work for maybe a day and then repeat the same issue.  Sent it back to Luma for repairs and got the  unit back (took a month), with no evident repairs.  Right out of the box, it did the same t"
+    ],
+    "heating_failure": [
+      "Worked great while it lasted. After 6 months  the unit quit the heat cycle to release the cubed. Freezes up and ice just builds up on the grids."
+    ],
+    "rust_corrosion": [
+      "Had one for a couple of years.  It was very temperamental.  When completely cleaned it worked well.  Even with bottled water it would still accumulate deposits that required a thorough cleaning.  There's a sensor near the bottom of the ice bin that would help regulate how much water moves from the reservoir in the back to the ice maker in the front.  It's metal (I assume because a conductive mater",
+      "The machine works great as far as speed to make Ice it's everything else with it that's the problem. We have only had the machine 6 months. However in that short time the metal ice trays are nasty and rusted out, so everytime you make ice it's has these little flakes of the debrie that's falling off the ice tray. Also the ice was never crystal clear right from the start. And yes, we use only filte",
+      "I really like this ice maker for the one month I have had it.  I give it only 4 stars because I haven't had it long enough to have experienced any problems keeping it clean or to evaluate possible reliability problems.  So far it does what I wanted it to do.  I also agree with all previous comments.  The cubes are smaller than I would prefer and they do have holes in them.  But the unit is compact"
+    ],
+    "physical_breakage": [
+      "I ordered this two weeks before a party that I needed it for to ensure I'd have it in time. I'm a Prime member so I'm used to Two-Day Shipping, and although this was not a Prime item, it seemed like a nice unit and it was supposed to arrive in time, which it did, on the Tuesday evening before the Saturday for which it was needed.<br /><br />Big mistake. Unfortunately, the unit I received was shatt"
+    ]
+  },
+  "published": true
+}
