@@ -82,7 +82,7 @@ def find_pairs(products: list[dict], top_n: int = 5) -> list[dict]:
             pa, pb = a.get("price"), b.get("price")
             if pa and pb:
                 price_ratio = max(pa, pb) / max(min(pa, pb), 0.01)
-                if price_ratio > 1.30 / (1 - 0.30):  # ≈ ±30%: max/min ≤ 1/0.7 ≈ 1.43
+                if price_ratio > 1.30:  # same tier: higher price ≤ 1.3× the lower
                     continue
             # If one or both prices are missing, still include (just can't show cost_per_year comparison)
 

@@ -1,0 +1,321 @@
+{
+  "parent_asin": "B09W5PMK5X",
+  "title": "COMFEE\u2019 Washing Machine 2.4 Cu.ft LED Portable Washing Machine and Washer Lavadora Port\u00e1til Compact Laundry, 8 Models, Environmentally Friendly, Child Lock for RV, Dorm, Apartment Ivory White",
+  "brand": "COMFEE'",
+  "price": 399.0,
+  "average_rating": 3.5,
+  "n_reviews": 2179,
+  "n_candidates": 248,
+  "n_obs": 174,
+  "n_events": 78,
+  "median_months": 12.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 399.0,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9655,
+      "lo": 0.9249,
+      "hi": 0.9844
+    },
+    {
+      "t": 0.06,
+      "s": 0.9538,
+      "lo": 0.9098,
+      "hi": 0.9766
+    },
+    {
+      "t": 0.09,
+      "s": 0.9421,
+      "lo": 0.8951,
+      "hi": 0.9684
+    },
+    {
+      "t": 0.12,
+      "s": 0.9421,
+      "lo": 0.8951,
+      "hi": 0.9684
+    },
+    {
+      "t": 0.25,
+      "s": 0.9127,
+      "lo": 0.8593,
+      "hi": 0.9464
+    },
+    {
+      "t": 0.5,
+      "s": 0.8822,
+      "lo": 0.8234,
+      "hi": 0.9224
+    },
+    {
+      "t": 0.75,
+      "s": 0.8633,
+      "lo": 0.8014,
+      "hi": 0.9071
+    },
+    {
+      "t": 1.0,
+      "s": 0.8244,
+      "lo": 0.757,
+      "hi": 0.8746
+    },
+    {
+      "t": 1.13,
+      "s": 0.8176,
+      "lo": 0.7493,
+      "hi": 0.8689
+    },
+    {
+      "t": 1.25,
+      "s": 0.8176,
+      "lo": 0.7493,
+      "hi": 0.8689
+    },
+    {
+      "t": 1.5,
+      "s": 0.8038,
+      "lo": 0.7338,
+      "hi": 0.8572
+    },
+    {
+      "t": 1.75,
+      "s": 0.8038,
+      "lo": 0.7338,
+      "hi": 0.8572
+    },
+    {
+      "t": 2.0,
+      "s": 0.7615,
+      "lo": 0.6868,
+      "hi": 0.8208
+    },
+    {
+      "t": 3.0,
+      "s": 0.6769,
+      "lo": 0.5946,
+      "hi": 0.7461
+    },
+    {
+      "t": 4.0,
+      "s": 0.6512,
+      "lo": 0.5669,
+      "hi": 0.7232
+    },
+    {
+      "t": 4.5,
+      "s": 0.6512,
+      "lo": 0.5669,
+      "hi": 0.7232
+    },
+    {
+      "t": 5.0,
+      "s": 0.6512,
+      "lo": 0.5669,
+      "hi": 0.7232
+    },
+    {
+      "t": 5.2,
+      "s": 0.6415,
+      "lo": 0.5562,
+      "hi": 0.7147
+    },
+    {
+      "t": 6.0,
+      "s": 0.6026,
+      "lo": 0.5141,
+      "hi": 0.68
+    },
+    {
+      "t": 7.0,
+      "s": 0.592,
+      "lo": 0.5027,
+      "hi": 0.6707
+    },
+    {
+      "t": 8.0,
+      "s": 0.5813,
+      "lo": 0.4911,
+      "hi": 0.6611
+    },
+    {
+      "t": 8.5,
+      "s": 0.5701,
+      "lo": 0.479,
+      "hi": 0.6512
+    },
+    {
+      "t": 9.0,
+      "s": 0.5701,
+      "lo": 0.479,
+      "hi": 0.6512
+    },
+    {
+      "t": 10.0,
+      "s": 0.5473,
+      "lo": 0.4545,
+      "hi": 0.6308
+    },
+    {
+      "t": 11.0,
+      "s": 0.5357,
+      "lo": 0.4421,
+      "hi": 0.6203
+    },
+    {
+      "t": 11.9,
+      "s": 0.524,
+      "lo": 0.4298,
+      "hi": 0.6098
+    },
+    {
+      "t": 11.99,
+      "s": 0.5124,
+      "lo": 0.4177,
+      "hi": 0.5992
+    },
+    {
+      "t": 12.0,
+      "s": 0.4076,
+      "lo": 0.3124,
+      "hi": 0.5004
+    },
+    {
+      "t": 14.0,
+      "s": 0.4076,
+      "lo": 0.3124,
+      "hi": 0.5004
+    },
+    {
+      "t": 15.0,
+      "s": 0.3821,
+      "lo": 0.2816,
+      "hi": 0.4817
+    },
+    {
+      "t": 16.0,
+      "s": 0.3821,
+      "lo": 0.2816,
+      "hi": 0.4817
+    },
+    {
+      "t": 18.0,
+      "s": 0.3548,
+      "lo": 0.2498,
+      "hi": 0.4611
+    },
+    {
+      "t": 24.0,
+      "s": 0.2838,
+      "lo": 0.1693,
+      "hi": 0.4094
+    },
+    {
+      "t": 28.0,
+      "s": 0.2838,
+      "lo": 0.1693,
+      "hi": 0.4094
+    },
+    {
+      "t": 36.0,
+      "s": 0.2838,
+      "lo": 0.1693,
+      "hi": 0.4094
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "leak",
+      "count": 20
+    },
+    {
+      "mode": "control_failure",
+      "count": 19
+    },
+    {
+      "mode": "stopped_working",
+      "count": 17
+    },
+    {
+      "mode": "motor_failure",
+      "count": 11
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 7
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 7
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 3
+    },
+    {
+      "mode": "heating_failure",
+      "count": 1
+    },
+    {
+      "mode": "other",
+      "count": 1
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "noise_vibration": [
+      "After two years of regular use, the washer is now incredibly loud during the spinning cycle. Loud enough that I fear my neighbors will complain, it drowns out all other sounds in the apartment. I spent a couple of hours looking for solutions online and need help finding information on ordering replacement parts or repairing it myself. I cannot find any support for my issues. I'll go with another b",
+      "LOVE this machine... very quiet, efficient, washes a load fast, cleans well... can not say enough about this machine.<br /><br />Only con is that the control panel is a bit confusing and tiresome, not very straight forward or intuative.<br /><br />Now the bad part. Testing out the machine the day after i got it (Saturday). On about the 5th test load, the machine started making a loud grating/grind",
+      "[[VIDEOID:14946924b901fe7f72623c7c1c0eba33]] I reviewed many portable washers for months before settling on this guy! I was so excited, so many wonderful reviews and it looked like it would be perfect for me!<br /><br />1) I got it delivered on the 5th and used it - just fine. I leveled it and everything. I was in love with this washer the first use.<br />2) I use it for the second time on the 8th"
+    ],
+    "leak": [
+      "My product leaks. It\u2019s stopped working after literally 34 days when I can no longer return it. I don\u2019t know what to do I literally saved to get this and now I have nothing",
+      "I had to hold onto this for over a month until I moved into my new apartment building. I finally eagerly unpacked it this week set it up according to the instructions and ran a load. It immediately backed up so much water into the building's pipes that it flooded the floor below me and destroyed an expensive electrical panel, which I now have to pay for. The flooding set off the building's fire al",
+      "First Amazon delivery damaged it. But they came and got it and replaced it free of charge.  Hassle,  yes,  but they were decent about it.<br /><br />New one came.  It was big and beautiful.  Worked like a dream. Very powerful.  Very quiet.<br /><br />Then,  3 days later,  I did a load,  and it overfilled and flooded my apartment before I knew it. Lots of water damage.  It showed an E1 error: water"
+    ],
+    "heating_failure": [
+      "This thing over heated and I only had it 45 days . I only used it for baby clothes and my items and it\u2019s not working . The manufacturer said throw it out after they refused to replace it"
+    ],
+    "control_failure": [
+      "Okay, so I've had this washer for a few months & the spin cycle would start but if it didn't like the balance of the load it threw the unit into rinse and would do this all day long, I know because it took all day my first use until I realized \"hey, I'm still on my 1st load\" the company Midea who manufactures these COMFEE washers was all over getting this taken care of i.e ship out new unit and th",
+      "This machine will not stop filling, no matter what level I've set it on, it overflows. My kitchen is flooded! Trying to get it returned, or to even get a hold of a human on the phone is a nightmare. Eventually got someone who said she was going to process a returnless refund. We'll  see how that goes! I want to know why it takes 5 minutes to take my money for an order, but a week to return it to m",
+      "This is the second one I've received from them. The first one stopped working after I barely used it. The second stopped working after little use as well. Also had an e3 error. They would not service it, tell me how to fix it or send me a new one per their guarantee of a 1 year warranty only a refund. That's not what I asked for. This companies customer service is vile. DO NOT BUY. NOT WORTH THE M"
+    ],
+    "stopped_working": [
+      "Going to contact customer service. It broke after 3 months of normal usage.",
+      "[[VIDEOID:8f43e8c0a92ba14c8d4fed2e89ace834]] I was so excited about this beauty! It arrived 1 day earlier.<br /><br />I started unpacking it. Unfortunately this beauty was damaged :( lots of dents and broken parts \ud83d\ude22<br /><br />I contacted amazon to report this, they asked me to test it to make sure it was working properly. It took a while to load the water. Amazon offered me a 30% off. After I hun",
+      "I have had this washer a littler over a year and I had loved it!! Everything was amazing it worked great washed my clothes great!  The only thing it didn\u2019t was to good was towels. But other then that I had no complaints until now.  My washer stopped draining. I have taken it apart and made sure nothing was clogged and I just can\u2019t get it to freaking drain!!!  I tried to reach out to the manufactur"
+    ],
+    "motor_failure": [
+      "I purchased the washer and had to get two replacements already. Both times the washer just gave out and quit spinning it smelled like something was burnt. If the washer would have lasted longer then a month and mind you I wash once a week so I do about 2 loads a week so that\u2019s 8 loads a month this washer broke on me with in the month I had it I had to wait a month for the replacement then use it m",
+      "Bought this product December 2020.  It had a smaller tub then I thought, but seemed to work well.<br /><br />It's now May 6 2021 and the washer no longer works.  The inside tub no longer moves.  The only thing it does now is fill with water and drain.  There's also like an electrical burning smell.  I couldn't get ahold of the manufacturer, as it hasn't been quite 6 months yet.  I didn't use it ev",
+      "The washer worked fabulously...until it didn't. Just under the 90-day mark, it suddenly stopped spin drying the clothes and had a strong burning smell. I contacted the manufacturer thinking they'd repair it, but instead they're issuing a full refund. Now must buy a new one, but not this brand again."
+    ],
+    "electrical_fault": [
+      "DO NOT BUY THIS WASHER. We originally were so happy with this purchase for our house. We had the washer for all of two months. One day the washer started to smoke and smelled of burnt rubber and other nasty smells. The washer was only filled with a couple of t shirts, like 6.  We immediately contacted Amazon and they were amazing in issuing us a replacement. Not even one and a half  months with th",
+      "Washer is great for small spaces. I had it for about 3 months and put a small load in- 2 shirts, two kitchen towels and some socks. Second load was also small- noticed there was still soap residue, so I went to put it on a rinse cycle and it didn\u2019t do anything. Filled it up with water and the washing cycle would not start. Did a \u201cmedium\u201d load to see if it was a glitch and it only added more water ",
+      "At first this washer worked great! Washed clothes and small blankets with ease. Unfortunately after less than a year of use I will have to get rid of it. It doesn't want to wash and smells like it wants to catch of fire. I follow the limits on the washer and don't push it because I didn't want to break it. But it's now a hazard. Also there is no direct way to contact the manufacturer. You can go t"
+    ],
+    "physical_breakage": [
+      "Barrel broke within two weeks even with me being very Careful on what I put in and how much I put in",
+      "This little machine is very convenient to use and can easily fit into a bathroom or closet. HOWEVER,  AFTER USING IT A FEW WEEKS THE LID BROKE.  WHEN I FINALLY CONTACTED AMAZON THEY SENT ME A MESSAGE ABOUT THE INLET HOSE BUT I DID NOT COMPLAIN ABOUT THE INLET HOSE. THE LID COMPLETELY BROKE OFF THE HINGE. I WAS ABLE TO CONTINUE USING IT BUT HAD TO KEEP PLACING THE LID IN THE GROOVE SO IT WOULD TRIG",
+      "Like the size.  I find it difficult to maneuver because it only has an indentation for one hand on one side.  Not easy to move.  Now after only a month, the lid just broke off.  The hinges for the lid, I am now seeing, are very cheap plastic.  For this, I cannot recommend this machine."
+    ],
+    "other": [
+      "Update: I have had this washer for about 4 months. It works well but kinda dangerous. I had the hose in the sink and it slipped and water got everywhere. When I ran to stop the water, I fell and gave myself a concussion. This happed. A second time. The hose got lose and water got everywhere. I didn\u2019t fall the second time, but I was afraid of getting a electrocuted. I don\u2019t know how to make this wa"
+    ],
+    "wont_power_on": [
+      "I\u2019ve only had this for 3months and I already started having issues with the machine. IT WONT POWER ON! The worst part is I can\u2019t seem to find a contact of any sort to see if I can troubleshoot. The PDFs for trouble shooting aren\u2019t any help either."
+    ]
+  },
+  "published": true
+}

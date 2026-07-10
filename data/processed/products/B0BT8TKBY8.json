@@ -1,0 +1,285 @@
+{
+  "parent_asin": "B0BT8TKBY8",
+  "title": "Whynter CUF-301BK 3 cu. ft Energy Star Upright Freezer with Lock \u2013 Black",
+  "brand": "Whynter",
+  "price": 331.99,
+  "average_rating": 4.5,
+  "n_reviews": 1321,
+  "n_candidates": 121,
+  "n_obs": 98,
+  "n_events": 58,
+  "median_months": 11.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 362.17,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9898,
+      "lo": 0.9298,
+      "hi": 0.9986
+    },
+    {
+      "t": 0.06,
+      "s": 0.9898,
+      "lo": 0.9298,
+      "hi": 0.9986
+    },
+    {
+      "t": 0.09,
+      "s": 0.9795,
+      "lo": 0.9205,
+      "hi": 0.9948
+    },
+    {
+      "t": 0.15,
+      "s": 0.9795,
+      "lo": 0.9205,
+      "hi": 0.9948
+    },
+    {
+      "t": 0.25,
+      "s": 0.9479,
+      "lo": 0.8793,
+      "hi": 0.978
+    },
+    {
+      "t": 0.33,
+      "s": 0.9374,
+      "lo": 0.8658,
+      "hi": 0.9714
+    },
+    {
+      "t": 0.5,
+      "s": 0.9268,
+      "lo": 0.8526,
+      "hi": 0.9644
+    },
+    {
+      "t": 0.75,
+      "s": 0.916,
+      "lo": 0.8391,
+      "hi": 0.9571
+    },
+    {
+      "t": 1.0,
+      "s": 0.8719,
+      "lo": 0.7853,
+      "hi": 0.9252
+    },
+    {
+      "t": 1.13,
+      "s": 0.8601,
+      "lo": 0.7711,
+      "hi": 0.9164
+    },
+    {
+      "t": 1.5,
+      "s": 0.8483,
+      "lo": 0.7571,
+      "hi": 0.9074
+    },
+    {
+      "t": 1.75,
+      "s": 0.8483,
+      "lo": 0.7571,
+      "hi": 0.9074
+    },
+    {
+      "t": 2.0,
+      "s": 0.7886,
+      "lo": 0.6882,
+      "hi": 0.8599
+    },
+    {
+      "t": 3.0,
+      "s": 0.7218,
+      "lo": 0.6127,
+      "hi": 0.8049
+    },
+    {
+      "t": 4.0,
+      "s": 0.6481,
+      "lo": 0.5319,
+      "hi": 0.7424
+    },
+    {
+      "t": 5.0,
+      "s": 0.6481,
+      "lo": 0.5319,
+      "hi": 0.7424
+    },
+    {
+      "t": 6.0,
+      "s": 0.6165,
+      "lo": 0.4979,
+      "hi": 0.715
+    },
+    {
+      "t": 8.0,
+      "s": 0.5665,
+      "lo": 0.445,
+      "hi": 0.6711
+    },
+    {
+      "t": 9.0,
+      "s": 0.5499,
+      "lo": 0.4278,
+      "hi": 0.6562
+    },
+    {
+      "t": 10.0,
+      "s": 0.5327,
+      "lo": 0.4102,
+      "hi": 0.6407
+    },
+    {
+      "t": 10.5,
+      "s": 0.5155,
+      "lo": 0.3928,
+      "hi": 0.6251
+    },
+    {
+      "t": 11.0,
+      "s": 0.4811,
+      "lo": 0.3586,
+      "hi": 0.5934
+    },
+    {
+      "t": 11.88,
+      "s": 0.4639,
+      "lo": 0.3418,
+      "hi": 0.5773
+    },
+    {
+      "t": 11.97,
+      "s": 0.4468,
+      "lo": 0.3253,
+      "hi": 0.561
+    },
+    {
+      "t": 12.0,
+      "s": 0.3437,
+      "lo": 0.2301,
+      "hi": 0.46
+    },
+    {
+      "t": 12.15,
+      "s": 0.3207,
+      "lo": 0.2082,
+      "hi": 0.4387
+    },
+    {
+      "t": 16.0,
+      "s": 0.2978,
+      "lo": 0.1869,
+      "hi": 0.417
+    },
+    {
+      "t": 18.0,
+      "s": 0.2749,
+      "lo": 0.1664,
+      "hi": 0.3947
+    },
+    {
+      "t": 20.0,
+      "s": 0.2474,
+      "lo": 0.1411,
+      "hi": 0.3693
+    },
+    {
+      "t": 21.0,
+      "s": 0.2199,
+      "lo": 0.1174,
+      "hi": 0.3428
+    },
+    {
+      "t": 24.0,
+      "s": 0.11,
+      "lo": 0.0379,
+      "hi": 0.2256
+    },
+    {
+      "t": 30.0,
+      "s": 0.0733,
+      "lo": 0.0165,
+      "hi": 0.1897
+    },
+    {
+      "t": 36.0,
+      "s": 0.0733,
+      "lo": 0.0165,
+      "hi": 0.1897
+    },
+    {
+      "t": 55.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 42
+    },
+    {
+      "mode": "cooling_failure",
+      "count": 11
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 2
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 1
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 1
+    },
+    {
+      "mode": "leak",
+      "count": 1
+    },
+    {
+      "mode": "rust_corrosion",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "wont_power_on": [
+      "Ordered first freezer  (2.1 cu ft)-- DEAD on delivery! delivery service was good/5+, but the freezer does not work - power went on for a few minutes or hours, then dead on day one. thankfully, Amazon agreed to offer refund or replacement.<br /><br />Ordered 2nd freezer (1.1 cu ft) -- This one works and interior gets very cold pretty fast (have only been in use for 1 day so far).  Sound is very mil",
+      "I PURCHASED THIS FREEZER FOR MY ELDERLY FATHER IN QUARANTINE.  IT LASTED 3 MONTHS & BURNED OUT.  ALL THE FOOD WAS LOST.  NOT HAPPY."
+    ],
+    "stopped_working": [
+      "Update: The company worked efficiently and fairly w/me to rule out some more minor issues, then said they\u2019d have to have the unit back to determine if it needed to be replaced or could be fixed, the catch was that I\u2019d have to pay for the shipping, which with their fedex account, ended up being @ $50. I received the new one, which is warranted for a year. I will update again in another year or two ",
+      "Freezer was fine until it just stopped working and all our food defrosted. It was only 1.5 years old. Never had another brand do that. Even my 30 year old freezer still works. Very poor quality to just stop working 6 months after warranty expired.",
+      "Broke within a few weeks currently in an email chain with their customer service department. They keep asking me to check this or check that."
+    ],
+    "electrical_fault": [
+      "Starter relay broke with in 4 months"
+    ],
+    "cooling_failure": [
+      "After 3 months it stopped working. It runs but does not freeze. Checked manual - all precautions were followed. I'm now deciding return options. Items in the freezer were ruined. After returning this defective product, I only received part of my refund. Apparently there was a \"restocking fee\" deducted from the refund amount. How are they going to restock an item that's defective? Boooo Amazon Prim",
+      "It came with a small dent at the top left corner in the back. It has been a little over 30 days since I plugged it up for use.  I received it on April 15 and it  worked fine until today 5/19/21. It made a funny noise and later I noticed the side of it got hot and the inside was collecting ice. By morning everything had started defrosting because it stopped working. I plan on returning it because i",
+      "Purchased July 9, received July 14.  Installed, ran 24 hours. OK. Put in meat products. The end of August noticed water under the freezer.  Inside was warm.  All of the meats were defrosted and unusable.  Contacted Amazon via voice, said that the period that they could help ended August 11\u2014suggested contact manufacturer. I went to the Whynter site, sent an email with the problem.  They responded w"
+    ],
+    "physical_breakage": [
+      "[[VIDEOID:916326837e51faa056a4063517a41c0a]] This freezer keeps getting a lot of ice buildup . Found out the door was bad at the bottom. I had contacted the manufacturer and they wanted warranty information. But they never gave me a warranty on it. I had the problem when I got and 4 months went by. The only thing that saved me over this was the Allstate protection plan that I also bought."
+    ],
+    "leak": [
+      "It worked well at first, but a few days ago we started to smell a strong nail polish remover type odor in the breezeway where the freezer was.  After a process of elimination we determined it was the freezer emitting the smell.  We moved the freezer to the garage so we aren't breathing the fumes anymore (now it smells in the garage).  We assume that it is just a matter of time before all the coola"
+    ],
+    "rust_corrosion": [
+      "Has rust and hasnt been a year with it"
+    ]
+  },
+  "published": true
+}

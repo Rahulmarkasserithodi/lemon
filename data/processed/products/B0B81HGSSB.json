@@ -1,0 +1,188 @@
+{
+  "parent_asin": "B0B81HGSSB",
+  "title": "EdgeStar KC2000 Full Size Kegerator and Keg Beer Cooler",
+  "brand": "EdgeStar",
+  "price": 519.2,
+  "average_rating": 4.6,
+  "n_reviews": 339,
+  "n_candidates": 31,
+  "n_obs": 27,
+  "n_events": 17,
+  "median_months": 9.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 692.27,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.8889,
+      "lo": 0.6939,
+      "hi": 0.9627
+    },
+    {
+      "t": 0.1,
+      "s": 0.8502,
+      "lo": 0.6485,
+      "hi": 0.941
+    },
+    {
+      "t": 0.2,
+      "s": 0.8116,
+      "lo": 0.6048,
+      "hi": 0.917
+    },
+    {
+      "t": 0.25,
+      "s": 0.8116,
+      "lo": 0.6048,
+      "hi": 0.917
+    },
+    {
+      "t": 0.5,
+      "s": 0.771,
+      "lo": 0.559,
+      "hi": 0.8902
+    },
+    {
+      "t": 0.75,
+      "s": 0.7282,
+      "lo": 0.5115,
+      "hi": 0.8606
+    },
+    {
+      "t": 1.0,
+      "s": 0.5997,
+      "lo": 0.3817,
+      "hi": 0.7622
+    },
+    {
+      "t": 4.0,
+      "s": 0.5997,
+      "lo": 0.3817,
+      "hi": 0.7622
+    },
+    {
+      "t": 5.5,
+      "s": 0.5452,
+      "lo": 0.3252,
+      "hi": 0.7206
+    },
+    {
+      "t": 6.0,
+      "s": 0.5452,
+      "lo": 0.3252,
+      "hi": 0.7206
+    },
+    {
+      "t": 8.0,
+      "s": 0.5452,
+      "lo": 0.3252,
+      "hi": 0.7206
+    },
+    {
+      "t": 9.0,
+      "s": 0.477,
+      "lo": 0.2538,
+      "hi": 0.6706
+    },
+    {
+      "t": 11.99,
+      "s": 0.4089,
+      "lo": 0.1921,
+      "hi": 0.6158
+    },
+    {
+      "t": 12.0,
+      "s": 0.3407,
+      "lo": 0.1385,
+      "hi": 0.5563
+    },
+    {
+      "t": 18.0,
+      "s": 0.2726,
+      "lo": 0.0924,
+      "hi": 0.492
+    },
+    {
+      "t": 24.0,
+      "s": 0.2726,
+      "lo": 0.0924,
+      "hi": 0.492
+    },
+    {
+      "t": 36.0,
+      "s": 0.2726,
+      "lo": 0.0924,
+      "hi": 0.492
+    },
+    {
+      "t": 37.0,
+      "s": 0.1363,
+      "lo": 0.0119,
+      "hi": 0.4083
+    },
+    {
+      "t": 48.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "leak",
+      "count": 6
+    },
+    {
+      "mode": "cooling_failure",
+      "count": 6
+    },
+    {
+      "mode": "control_failure",
+      "count": 2
+    },
+    {
+      "mode": "motor_failure",
+      "count": 1
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 1
+    },
+    {
+      "mode": "stopped_working",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "leak": [
+      "Could not find a direct phone number to call the company so had to send an email. Connected everything kegerator worked great the first day the next day co2 canister empty.  Instructions do not say to test for CO2 leaks which they should since it is hard to believe a canister would empty all co2 in less than a day.",
+      "Cap having a leak in the C02 tank somewhere between the regulator and the keg seems if I'd leave it off at night in turn it back on when I use it it's OK.just got tank refilled leaked out one day",
+      "C02 cylinder has been filled twice and is empty, havent even had this purchase for 30 days. Clearly, there is a leak in the new cylinder."
+    ],
+    "cooling_failure": [
+      "This thing is garbage. It does not fit some of the most popular kegs and it does not get cold. I wish I would have paid attention to the other 1 star reviews.<br />I found a keg that just fits that was cold a day ago, it warmed up in this trash can. I have it set to the lowest cold setting. The best it will do is 44.2 degrees.<br /> Then I read that customer service is non existent. I love Amazon ",
+      "Great way to save money on beer, however, it stopped keeping temps below 42 after the first few weeks. I installed a small computer fan to help circulate the air but I feel like this shouldn\u2019t be a problem in the first place.",
+      "I initially liked this product however within 5 to 6 months of use, the fridge complete stopped working and keeping my beer cooled to proper temperatures.  I have a thermometer inside and it never gets cooled off.  I have sent a request to see what can be done, but as of now I do not recommend this product."
+    ],
+    "motor_failure": [
+      "Received a few days ago. Assembly was easy. Youtube video's were very useful. A little noisy at times, but tolerable. Beer temp has been perfect with temp setting at 6. CO2 filled for $15 and set at 6-7psi. Great addition to bar. An external digital temp gauge would be a great addition. Only complaint is it will not fit a 1/2 keg of Miller Lite for parties. But, it does fit a 1/4 keg and a Sixtel "
+    ],
+    "physical_breakage": [
+      "I bought this kegerator for my fiance about a year and a half ago and he has had nothing but problems with it.  I also bought the 5 year appliance warranty with it (which at the time was 469$ for the keg and 71$ for the warranty).  Well the first time i called about the warranty, they told me that you could only go through edgestar directly.  So i called them and they gave me the name appliance pe"
+    ],
+    "control_failure": [
+      "Received the unit, Assembled per the instructions.<br />Added a keg, let set for two days. Temp was good, 4 days later the regulator went bad, now I have keg full of useless Yuengling Lager. Pressure will not adjust on the regular. Won't go over 4lbs.<br />The system has been checked for leaks; none are visible.<br />I am very disappointed with the quality.<br />I CAN NOT recommend this unit",
+      "I had two main issues. The first was a leak that allowed all the CO2 I purchased to leak out. I was shipped a second value unit but it did not have a quick release as the first one did. Second the unit was cold as it should have been for a few days..The temp kept going up even after putting it on the coldest setting. I was emailed instructions to override the unit to get it cold, but it did not wo"
+    ],
+    "stopped_working": [
+      "After about a year of use, my unit has stopped working. It has never been moved, constantly cleaned, no abuse. Certainly better options for the money spent."
+    ]
+  },
+  "published": true
+}

@@ -1,0 +1,166 @@
+{
+  "parent_asin": "B0B7BJZ4LX",
+  "title": "COLZER Elegant Mini Wine Fridge 18 Bottle 12 inch Wine Cooler Refrigerator, Built-in or Freestanding Wine Cooler, Stainless Steel Double-Layer Tempered Glass Door",
+  "brand": "COLZER",
+  "price": 499.99,
+  "average_rating": 4.3,
+  "n_reviews": 261,
+  "n_candidates": 40,
+  "n_obs": 31,
+  "n_events": 24,
+  "median_months": 9.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 666.65,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.25,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.33,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.5,
+      "s": 0.9655,
+      "lo": 0.7795,
+      "hi": 0.9951
+    },
+    {
+      "t": 0.75,
+      "s": 0.8912,
+      "lo": 0.6992,
+      "hi": 0.9636
+    },
+    {
+      "t": 1.0,
+      "s": 0.8541,
+      "lo": 0.6563,
+      "hi": 0.9427
+    },
+    {
+      "t": 2.0,
+      "s": 0.7798,
+      "lo": 0.5739,
+      "hi": 0.8946
+    },
+    {
+      "t": 3.0,
+      "s": 0.6629,
+      "lo": 0.4511,
+      "hi": 0.8087
+    },
+    {
+      "t": 4.0,
+      "s": 0.6214,
+      "lo": 0.4094,
+      "hi": 0.7762
+    },
+    {
+      "t": 5.0,
+      "s": 0.577,
+      "lo": 0.3651,
+      "hi": 0.7408
+    },
+    {
+      "t": 6.0,
+      "s": 0.5327,
+      "lo": 0.323,
+      "hi": 0.7039
+    },
+    {
+      "t": 9.0,
+      "s": 0.4883,
+      "lo": 0.2829,
+      "hi": 0.6656
+    },
+    {
+      "t": 10.0,
+      "s": 0.3995,
+      "lo": 0.2083,
+      "hi": 0.5847
+    },
+    {
+      "t": 12.0,
+      "s": 0.2663,
+      "lo": 0.1104,
+      "hi": 0.4519
+    },
+    {
+      "t": 18.0,
+      "s": 0.0888,
+      "lo": 0.0154,
+      "hi": 0.2453
+    },
+    {
+      "t": 24.0,
+      "s": 0.0444,
+      "lo": 0.0032,
+      "hi": 0.1853
+    },
+    {
+      "t": 33.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "cooling_failure",
+      "count": 13
+    },
+    {
+      "mode": "stopped_working",
+      "count": 5
+    },
+    {
+      "mode": "control_failure",
+      "count": 4
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 4
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "physical_breakage": [
+      "Arrived damaged after 3 weeks. Probably drop shipped from China. Waiting for a replacement."
+    ],
+    "control_failure": [
+      "Purchased this wine cooler to replace an old one that died after 15 years.  It arrived in good shape.  However, after unpacking and installing by my handyman, I discovered the thermostat is not working properly.  It will not switch from F to C nor will it increase or decrease in temperature.  As I have already paid to have it installed and as I am a single woman, I am not able to rebox and send ba",
+      "I purchased this wine cooler refrigerator back in August of 2020, and now in late November, it is showing me the error code (E3) where the set temperature is normally displayed. According to the user's manual, when an error code shows up, contact Colzer customer service by email, so I just sent it earlier today. Let's see how this problem is going to get addressed. Will update this review with my ",
+      "Update 1-24-22. We had a problem with the E3 error again and the fix they suggested didn\u2019t work this time. I contacted customer service and they were very helpful and sent out a new temperature sensor with detailed instructions and video of how to replace it. Teresa was very helpful and we got it working again in a short time. Even shipping from Hong Kong was done in a very responsible timeframe t"
+    ],
+    "stopped_working": [
+      "We were enjoying our Colzer wine cooler, but it suddenly stopped working.  We contacted Colzer's customer service, and Theresa was very responsive.  The problem was quickly diagnosed and Theresa arranged for expedited shipping of a replacement cooler.  It arrived a day early and works great, so we are all set to move our wine bottles back into the Colzer and resume our enjoyment.",
+      "This is hands down one of the best purchases we\u2019ve made. We have had our Colzer for about a year and a half and we absolutely love it. It\u2019s super quiet with a nice sleek look, fits perfectly in our kitchen. We were bummed when it stopped working suddenly. We reached out to customer service thinking it would be a nightmare trying to get it repaired but it was actually the exact opposite. This compa",
+      "After two years, my wine cooler stopped working.  I contacted the company and after a few months, I received a new one.  It is so quiet compared to the first one.  I think that might have been a sign that something wasn't right with the first one.  It is beautiful and keeps my wine chilled perfectly.  Working with the company took a few months, but they were gracious and cooperative.  I would do b"
+    ],
+    "cooling_failure": [
+      "It looks good and ran fairly quietly while it was working...but around 6 months into being plugged in it stopped keeping its cool temperature and the buttons barely work for the settings, on top of just not working to set the temp at all.<br />Not entirely sure what to do with a warm wine fridge.",
+      "My joy of owning this unit was short lived.  Unit stopped cooling after 10 months.  Working with customer service now to get a resolution.  So disappointed since this was such a beautiful unit up until now.",
+      "Update June 19, 2020: Colzer customer service replaced with brand new unit! Awesome customer service!<br /><br />Cooler stopped cooling after 4 months. Amazon said to contact company via email. Company will not contact me back with warranty information. Supposed to have 3year warranty."
+    ],
+    "noise_vibration": [
+      "This is a great wine refrigerator!  It's just the right size and performed beautifully.  After a few months of use, it developed a rattle.  I contacted Colzer and after some trouble-shooting, they replaced it with a new one.  I am so pleased!  Their customer service team is extremely responsive and easy to deal with.  I feel confident that Colzer is serious and responsible in dealing with any prod",
+      "The wine cooler after 5 month\u2019s started to make a cracking noise.<br />I sent an email to support and they asked to send them video. I did it three times and they just ignore me. The company is not ready to support its product. Don\u2019t buy!",
+      "I\u2019ve purchased two of these. One in February and one a month later because I LOVED it so much. A few months after the purchase (May) the fridge started making a ticking sound. I reached out to Colzers warranty department and instead of sending me a replacement part, they decided to send me a replacement fridge (the attached pictures). I really liked this fridge, however am incredibly disappointed "
+    ]
+  },
+  "published": true
+}

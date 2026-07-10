@@ -1,0 +1,416 @@
+{
+  "parent_asin": "B01ALBMIEI",
+  "title": "Giantex Portable Mini Compact Twin Tub Washing Machine 20lbs Washer Spain Spinner Portable Washing Machine, Blue+ White",
+  "brand": "Giantex",
+  "price": 149.99,
+  "average_rating": 4.2,
+  "n_reviews": 4251,
+  "n_candidates": 486,
+  "n_obs": 373,
+  "n_events": 187,
+  "median_months": 11.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 163.63,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9786,
+      "lo": 0.9576,
+      "hi": 0.9892
+    },
+    {
+      "t": 0.05,
+      "s": 0.9759,
+      "lo": 0.9541,
+      "hi": 0.9874
+    },
+    {
+      "t": 0.06,
+      "s": 0.9598,
+      "lo": 0.9342,
+      "hi": 0.9756
+    },
+    {
+      "t": 0.09,
+      "s": 0.9544,
+      "lo": 0.9276,
+      "hi": 0.9714
+    },
+    {
+      "t": 0.1,
+      "s": 0.9517,
+      "lo": 0.9244,
+      "hi": 0.9693
+    },
+    {
+      "t": 0.15,
+      "s": 0.9517,
+      "lo": 0.9244,
+      "hi": 0.9693
+    },
+    {
+      "t": 0.25,
+      "s": 0.9325,
+      "lo": 0.9018,
+      "hi": 0.9539
+    },
+    {
+      "t": 0.5,
+      "s": 0.9158,
+      "lo": 0.8824,
+      "hi": 0.94
+    },
+    {
+      "t": 0.62,
+      "s": 0.9129,
+      "lo": 0.8791,
+      "hi": 0.9376
+    },
+    {
+      "t": 0.75,
+      "s": 0.9013,
+      "lo": 0.8658,
+      "hi": 0.9278
+    },
+    {
+      "t": 1.0,
+      "s": 0.8483,
+      "lo": 0.8065,
+      "hi": 0.8817
+    },
+    {
+      "t": 1.25,
+      "s": 0.842,
+      "lo": 0.7996,
+      "hi": 0.8762
+    },
+    {
+      "t": 1.5,
+      "s": 0.8294,
+      "lo": 0.7857,
+      "hi": 0.865
+    },
+    {
+      "t": 2.0,
+      "s": 0.76,
+      "lo": 0.7107,
+      "hi": 0.8021
+    },
+    {
+      "t": 2.66,
+      "s": 0.7567,
+      "lo": 0.7072,
+      "hi": 0.7991
+    },
+    {
+      "t": 3.0,
+      "s": 0.69,
+      "lo": 0.6367,
+      "hi": 0.7372
+    },
+    {
+      "t": 3.5,
+      "s": 0.6864,
+      "lo": 0.6329,
+      "hi": 0.7339
+    },
+    {
+      "t": 4.0,
+      "s": 0.6578,
+      "lo": 0.6029,
+      "hi": 0.7071
+    },
+    {
+      "t": 4.5,
+      "s": 0.6542,
+      "lo": 0.5991,
+      "hi": 0.7037
+    },
+    {
+      "t": 5.0,
+      "s": 0.6179,
+      "lo": 0.5613,
+      "hi": 0.6693
+    },
+    {
+      "t": 6.0,
+      "s": 0.5633,
+      "lo": 0.5055,
+      "hi": 0.6171
+    },
+    {
+      "t": 6.5,
+      "s": 0.5594,
+      "lo": 0.5014,
+      "hi": 0.6133
+    },
+    {
+      "t": 7.0,
+      "s": 0.5434,
+      "lo": 0.485,
+      "hi": 0.598
+    },
+    {
+      "t": 8.0,
+      "s": 0.5152,
+      "lo": 0.4564,
+      "hi": 0.5708
+    },
+    {
+      "t": 9.0,
+      "s": 0.5027,
+      "lo": 0.4437,
+      "hi": 0.5588
+    },
+    {
+      "t": 10.0,
+      "s": 0.5027,
+      "lo": 0.4437,
+      "hi": 0.5588
+    },
+    {
+      "t": 11.0,
+      "s": 0.4901,
+      "lo": 0.4309,
+      "hi": 0.5465
+    },
+    {
+      "t": 11.97,
+      "s": 0.4858,
+      "lo": 0.4266,
+      "hi": 0.5424
+    },
+    {
+      "t": 12.0,
+      "s": 0.4432,
+      "lo": 0.3838,
+      "hi": 0.5008
+    },
+    {
+      "t": 13.0,
+      "s": 0.4293,
+      "lo": 0.3689,
+      "hi": 0.4883
+    },
+    {
+      "t": 14.0,
+      "s": 0.4224,
+      "lo": 0.3615,
+      "hi": 0.482
+    },
+    {
+      "t": 15.0,
+      "s": 0.4224,
+      "lo": 0.3615,
+      "hi": 0.482
+    },
+    {
+      "t": 16.0,
+      "s": 0.4224,
+      "lo": 0.3615,
+      "hi": 0.482
+    },
+    {
+      "t": 18.0,
+      "s": 0.4224,
+      "lo": 0.3615,
+      "hi": 0.482
+    },
+    {
+      "t": 19.0,
+      "s": 0.4149,
+      "lo": 0.3534,
+      "hi": 0.4752
+    },
+    {
+      "t": 19.5,
+      "s": 0.4073,
+      "lo": 0.3453,
+      "hi": 0.4684
+    },
+    {
+      "t": 23.5,
+      "s": 0.3998,
+      "lo": 0.3372,
+      "hi": 0.4615
+    },
+    {
+      "t": 24.0,
+      "s": 0.3394,
+      "lo": 0.2748,
+      "hi": 0.4051
+    },
+    {
+      "t": 27.5,
+      "s": 0.3394,
+      "lo": 0.2748,
+      "hi": 0.4051
+    },
+    {
+      "t": 30.0,
+      "s": 0.3394,
+      "lo": 0.2748,
+      "hi": 0.4051
+    },
+    {
+      "t": 36.0,
+      "s": 0.3152,
+      "lo": 0.2478,
+      "hi": 0.3847
+    },
+    {
+      "t": 42.0,
+      "s": 0.3152,
+      "lo": 0.2478,
+      "hi": 0.3847
+    },
+    {
+      "t": 48.0,
+      "s": 0.2927,
+      "lo": 0.2184,
+      "hi": 0.3707
+    },
+    {
+      "t": 54.0,
+      "s": 0.2927,
+      "lo": 0.2184,
+      "hi": 0.3707
+    },
+    {
+      "t": 60.0,
+      "s": 0.2341,
+      "lo": 0.1465,
+      "hi": 0.3337
+    },
+    {
+      "t": 72.0,
+      "s": 0.2341,
+      "lo": 0.1465,
+      "hi": 0.3337
+    },
+    {
+      "t": 78.0,
+      "s": 0.1756,
+      "lo": 0.0746,
+      "hi": 0.3117
+    },
+    {
+      "t": 84.0,
+      "s": 0.1756,
+      "lo": 0.0746,
+      "hi": 0.3117
+    },
+    {
+      "t": 96.0,
+      "s": 0.1756,
+      "lo": 0.0746,
+      "hi": 0.3117
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "motor_failure",
+      "count": 70
+    },
+    {
+      "mode": "stopped_working",
+      "count": 62
+    },
+    {
+      "mode": "leak",
+      "count": 30
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 11
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 7
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 7
+    },
+    {
+      "mode": "control_failure",
+      "count": 5
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 4
+    },
+    {
+      "mode": "heating_failure",
+      "count": 2
+    },
+    {
+      "mode": "rust_corrosion",
+      "count": 2
+    },
+    {
+      "mode": "other",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "motor_failure": [
+      "I bought this machine and I absolutely loved it. Perfect size for my studio. I just put it in the bathtub and put a nylon sock over the end of the hose capture all the excess lint. It was perfect. I bought the 5-year warranty. After a year it started having complications. I reached out to have it fixed with no response. I was still able to use it by having to do things I shouldn't have had to. Las",
+      "First off, the customer service is wonderful. I had received an initial order that was damaged and the product was replaced immediately.  I average about 3-4 loads a week and that averages to about 500 loads overall.  Still washing like a champ, and if you take these same numbers times the trips to the laundromat (and the time, which is my biggest drawback) you have saved a lot. The laundry comes ",
+      "This was my review when i started using the machine: This product is very good, with excellent features, and it works perfectly, but they should make drainage hose longer.<br /><br />Now today: Get ready to be disappointed. After three months of using this machine, the spin dryer broke down. You'd think it would last .longer, but no it won't. I thought those people who left a bad review about the "
+    ],
+    "stopped_working": [
+      "Great little mavhine! Washes very well, spin cycle dries them unbelieveably well. My only complaint is it died after 13 months of using 3 times a month or less.",
+      "I purchased one of these througha different vendor. It couldn\u2019t be any easier to use. After reading all the reviews and such I chose to just park mine in the bathtub and fill by aiming the shower head to spray directly into the washer.<br /><br />I started with a bit of extra caution for the first few loads until I got a full measure of the pattern of use. It always kept up with whatever I came up",
+      "Loved the washer very light and powerful. I loved it so much I recommended my brother in law to get one. But washer was working fine and all of a sudden it stopped working. I got it March 26th and today is April 26th ecxacly one month.... So I need another but definitely not this one again... Very disappointed"
+    ],
+    "leak": [
+      "Leaking after owning it for two years?  Used this as a back up, so I never put stress or strain on the motor.  Tried contacting the seller and they pretty much ignored me. All I want to know is who can repair this machine and where to get parts. Thought Giantex would help me out and let me know where to get parts, but no! They don't care about the consumer.  They just want you to buy it, give them",
+      "This was a great machine really got the dirt out of our summer clothes working at the cabin. But a small valve gasket cracked. Due to the machine being one year and one month old it is out of warranty and the company does not sell parts to replace it. it is a $10 part. This is pitiful I'm not asking them to pay for it I just want the part that fits my machine. Very difficult to find. Haven't found",
+      "I have been very pleased with my purchase as well as the customer support I have received so far.<br /><br />My only complaint is that the drain hose is a poor quality piece. The design underneath allows for the hose to be directed to the left or right but I knew that if I attempted to switch the direction the hose would fail. It felt brittle, so I never disturbed it.<br /><br />After a few months"
+    ],
+    "physical_breakage": [
+      "The spinner broke after 3 months..... Now i have to buy something else. Not happy.... 2 stars because it cost the same as going to the Landry matt this whole time. Would not recommend to anyone.",
+      "It's taken me awhile to figure out how best to make this work without buying additional &#34;stuff,&#34; and I finally think I have it.  Despite the fact that a piece has already broken (more on that later), I'm really glad I bought this, and I did based on reviews; hence my taking the time to write about my experience.  For inquiring minds, it does come in a box that DOESN'T identify what's insid",
+      "It worked fine at the beginning but there were some inconveniences. The hose that drains is located at the bottom so its difficult to drain out the water unless its elevated higher. I also had to bring a bucket in order to drain the water because my apartments bathroom is so small that it doesnt fit in there. So now I put the machine top of table and walk back and forth from the bathroom to the ma"
+    ],
+    "electrical_fault": [
+      "Love this machine. I add detergent and cycle it 1.5 times then I drain add more water with softener and cycle it another time+ drain and add a few pieces to spinner at a time and spin up to 3 times per load depending what's in it. Mine broke after 3 weeks due to electrical problems but that was probably on my side due to RV issues.",
+      "I'm pretty disappointed! When I first received this washer I was excited until I open the box and the Machine was wet and dirty as if it had been used I thought it was supposed to be new. I decided to give it a try anyway. It washes pretty good and the spinner spins well to almost dry but now after having it a little over a week smoke is coming from the spinner and it smells as if something is bur",
+      "I loved how it worked! It lasted for about 11 months of regular use. I did maybe two loads a week, sometimes I would fall behind and do three or four loads in a week. It could handle linens also- one set of microfiber wires sheets at a time or three towels. This week it started running the washer without the timer being on and there was a burning smell coming from it. Overall worth it, I was hopin"
+    ],
+    "noise_vibration": [
+      "I have had this product just over a month and already the spin dryer stopped working, only makes a very loud noise and no spinning.  Very disappointed.  Ordered a different brand with a much better rating.  Save your money, do not buy this product!",
+      "After 15 uses, the spin dryer broke. It spins, but the entire machine moves, meaning that the thing travels across the floor, and the water isn't extracted. I am about to move and will not be needing this anymore, so I'm not fussing with trying to fix it. From other reviews, it sounds like this is a common problem.<br /><br />I also had problems with fuzz collecting on my clothes. And, even on the",
+      "Love the washer! The dryer side however broke down already and it has only been about a month since I got it. I\u2019ve been careful not to load up the dryer with super damp clothes and I have only used it a few times. It was very noisy and shook a lot from the very first time I used it, I might have gotten a damaged one. The size is perfect."
+    ],
+    "heating_failure": [
+      "I have used this everyday for three months, only today to have the spinner/dryer start smelling like burning plastic/rubber. I felt at the base in two areas that felt very hot to the touch. I will not use the dryer part anymore out of concern of starting a fire, but plan on using the washing side as that still works. From what I have read from other reviews, the seller does not do returns, so keep",
+      "[[VIDEOID:22a5c0afd76ebd7e116170a4f3d1e4b4]] I purchased this 3/26/22. It was intended to be used in a small cabin we have (family of 3). Our 1st time using it was 6/1/22. It worked wonderful for the first few weeks and then started to struggle with the drying feature. At this point I would say the drying feature is non functional as you can see in my video. I really wanted to love this min washer"
+    ],
+    "rust_corrosion": [
+      "Over a year old and love the purchase. Be careful not to get the dials wet.. the numbers and such are wearing off.. but you learn your machine and know where you want things.<br /><br />Update: We\u2019ve has the machine for over two years now and it finally bit the dust (the spin dryer side). Somehow the machine was getting water inside and one of the pieces that runs the spin cycle rusted and snapped",
+      "I got one of this two years ago, and now it's ttly down. It worked pretty good at the beginning, but a year later, noisy up, screws/springs of those timers all rusted and functions failed."
+    ],
+    "control_failure": [
+      "Just doesn't last. Count on a cheap washer for light use, don't expect it to last. Use it carefully, don't overfill it with heavy loads. The smaller loads, the better. Is a heavy consumer of water when compared to a typical washer that can handle a full size load. This takes a lot of water to wash tiny loads.<br />The worst problem is the 60 day warranty, which should tell you how confident the co",
+      "[[VIDEOID:dca609d614471cf0ed2b792bdf6e2803]] Bought this after eyeing it for 2 years.. yeah I was sceptical! So far so good. As a family of 4 - 2 slim adults 2 kids under 6 it's worked wonderfully - it even get the cloth diapers clean. I do worry about the strength, the agitation faded my husband's black shirt & 2 Wrangler jeans, I see the dye going down the drain \ud83d\ude13!!!  I now wash things on a 7ish",
+      "This portable washer lasted for 8 months and was used prob an average of 3 to 4 times per week. It was handy for small loads.  Now, the spinning side no longer drains water.  No real instructions on how to fix, except by trail and error or pay someone.  Was hoping it would have lasted a year. You get what you pay for."
+    ],
+    "other": [
+      "I avoid writing negative reviews unless something is broken and the manufacturer or seller's customer service is poor when I attempt to get the issue resolved.  If a new machine is broken upon arrival, it is typically simply a lemon. Just about every brand has a lemon out there -- be it a makeup compact containing a crack in the powder or a vase with a chip. It's unfair to trash the brand or the i"
+    ],
+    "wont_power_on": [
+      "I only got to wash one load and the washer quit working. I paid $106.00 for it and am completely disappointed. The first load worked fine. I only put in one pair of khaki pants, one shirt, and one nightgown. It washed okay, then spun them very dry. No problems. The weather was rainy for quite a few days so didn't wash anymore. Then yesterday I placed one pair of shorts, two shirts, one khakis. I s",
+      "Update: customer service answered my email promptly and offered either to send parts for repair and give a 50% refund, or I could get a full refund or a replacement, after I return my non-working one.<br /><br />When I emailed to describe exactly what was happening, they offered a replacement or a full refund only, with no need to return the machine.  The replacement is supposed to arrive in about",
+      "I used this the first day it\u2019s wives it and I absolutely loved it. It was the perfect size, not too loud and cleaned my clothes pretty good. I had 0 complaints honestly. I then tried to use it again a few days later but it didn\u2019t want to work anymore. I contacted Giantex and they responded within 24 hours and were very helped up. They sent me videos on how to troubleshoot it and even offered to re"
+    ]
+  },
+  "published": true
+}

@@ -1,0 +1,222 @@
+{
+  "parent_asin": "B09QC9947J",
+  "title": "COMFEE' Countertop Dishwasher, Portable Dishwasher with 6L Built-in Water Tank, Mini Dishwasher with More Space Inside, 7 Programs, UV Hygiene& Auto Door Open, for Apartments, Dorms& RVs",
+  "brand": "COMFEE'",
+  "price": 349.95,
+  "average_rating": 4.4,
+  "n_reviews": 626,
+  "n_candidates": 94,
+  "n_obs": 63,
+  "n_events": 36,
+  "median_months": 4.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 1049.85,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9683,
+      "lo": 0.879,
+      "hi": 0.992
+    },
+    {
+      "t": 0.06,
+      "s": 0.9683,
+      "lo": 0.879,
+      "hi": 0.992
+    },
+    {
+      "t": 0.09,
+      "s": 0.9516,
+      "lo": 0.8572,
+      "hi": 0.9841
+    },
+    {
+      "t": 0.25,
+      "s": 0.9182,
+      "lo": 0.8144,
+      "hi": 0.9651
+    },
+    {
+      "t": 0.5,
+      "s": 0.8835,
+      "lo": 0.7709,
+      "hi": 0.9428
+    },
+    {
+      "t": 0.75,
+      "s": 0.8482,
+      "lo": 0.7282,
+      "hi": 0.9181
+    },
+    {
+      "t": 0.87,
+      "s": 0.8305,
+      "lo": 0.7075,
+      "hi": 0.9051
+    },
+    {
+      "t": 1.0,
+      "s": 0.7245,
+      "lo": 0.5898,
+      "hi": 0.8214
+    },
+    {
+      "t": 2.0,
+      "s": 0.6586,
+      "lo": 0.5159,
+      "hi": 0.7683
+    },
+    {
+      "t": 2.5,
+      "s": 0.6351,
+      "lo": 0.4901,
+      "hi": 0.749
+    },
+    {
+      "t": 3.0,
+      "s": 0.5645,
+      "lo": 0.416,
+      "hi": 0.6888
+    },
+    {
+      "t": 3.5,
+      "s": 0.5363,
+      "lo": 0.3858,
+      "hi": 0.6653
+    },
+    {
+      "t": 4.0,
+      "s": 0.4516,
+      "lo": 0.3007,
+      "hi": 0.591
+    },
+    {
+      "t": 4.06,
+      "s": 0.4194,
+      "lo": 0.2688,
+      "hi": 0.5628
+    },
+    {
+      "t": 4.5,
+      "s": 0.3871,
+      "lo": 0.2383,
+      "hi": 0.5337
+    },
+    {
+      "t": 5.0,
+      "s": 0.3871,
+      "lo": 0.2383,
+      "hi": 0.5337
+    },
+    {
+      "t": 6.0,
+      "s": 0.3484,
+      "lo": 0.2009,
+      "hi": 0.5002
+    },
+    {
+      "t": 9.0,
+      "s": 0.3049,
+      "lo": 0.1601,
+      "hi": 0.4629
+    },
+    {
+      "t": 10.0,
+      "s": 0.2178,
+      "lo": 0.0901,
+      "hi": 0.3807
+    },
+    {
+      "t": 11.99,
+      "s": 0.1742,
+      "lo": 0.0609,
+      "hi": 0.3357
+    },
+    {
+      "t": 12.0,
+      "s": 0.1307,
+      "lo": 0.036,
+      "hi": 0.2876
+    },
+    {
+      "t": 24.0,
+      "s": 0.0653,
+      "lo": 0.0061,
+      "hi": 0.2325
+    },
+    {
+      "t": 36.0,
+      "s": 0.0653,
+      "lo": 0.0061,
+      "hi": 0.2325
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "control_failure",
+      "count": 18
+    },
+    {
+      "mode": "stopped_working",
+      "count": 7
+    },
+    {
+      "mode": "leak",
+      "count": 6
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 4
+    },
+    {
+      "mode": "motor_failure",
+      "count": 1
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 1
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "control_failure": [
+      "Absolute junk. Received E4 error after 3 weeks use. Customer service was no help what so ever. Returning to Amazon.",
+      "First, I\u2019ll review this product before it broke in under 30 days.<br />1. It\u2019s tiny inside! This is supposed to be the plus, and is priced higher than most comparable dishwashers.<br />My Daughter had recently purchased one, and it\u2019s much larger inside, with two levels.  Photos included to show how small the inside is.<br />2. The silverware holder. In the advertisement photo it shows them hanging",
+      "The first one I had broke after about a month and a half. It worked fine until one day all the buttons worked except for the start button. I did unplug it and plug it back in a couple of times which fixed it briefly but eventually I had to return it for a replacement. I had the exact same problem with the replacement but that one only lasted about two weeks"
+    ],
+    "stopped_working": [
+      "My husband and I hate doing dishes so we decided to buy this . It broke after a month of light use. We had to throw it away and are so upset that we wasted so much money.",
+      "I first bought this Comfee mini in January, and it stopped working properly a week or two ago, now November, so within the 12-month warrantee. I reached out to both customer support emails that I saw here, and got responses to both. One rep (Kiarra V.) was supremely quick, replying almost instantly every time, it was amazing. She processed my claim in a snap.<br /><br />Got my check in the mail to",
+      "I am very upset. I bought this dishwasher in September of 2022, and as of March 2023 it no longer works. We used it 5-7 times a week. Dont waste your time. Go find a different countertop dishwasher."
+    ],
+    "motor_failure": [
+      "The original dishwasher in my home was installed with modifications that prevent me from replacing it without remodeling my kitchen. This model fits on the countertop directly over it, under the cabinet. My countertops are set unusually low however (one of the reasons I can't replace the old unit without a remodel). I don't produce a lot of dirty dishes so it fits my lifestyle fine. I have been ab"
+    ],
+    "leak": [
+      "Ok, so I gave this pretty high star rating, even though we had to have it replaced in a month. I believe the issue is the lack of instructions on how to properly care for this machine. Also, lack of instruction on how to fix common problems. The controls are fairly simple and hook up is a breeze. It takes up a small space on the counter (relatively) and actually fit next to our sink like the space",
+      "This dishwasher is an instant regret.. I usually love Comfee products but this dishwasher comes with so many issues. It was easy to set up, however, the dish washer often leaks water, doesn\u2019t dry the dishes all the way, there\u2019s still soap on the dishes, and more to come. I\u2019ve had this less than a week and we spent more time cleaning the mess than it actually doing the dishes. Wanted to liked this ",
+      "I got this product and at first I loved it\u2026 for the 4 weeks it worked. Randomly during a cycle it began to pour water everywhere, all of my counters and kitchen floor. Tried finding the issue and couldn\u2019t on my own, had my boyfriend who works on similar machinery look at it, take it apart, and not be able to figure out the issue because it\u2019s so poorly made. Basically ended up paying a lot of money"
+    ],
+    "noise_vibration": [
+      "I got this at the end of November for my mom. Not 3 months later and I'm having to figure out how to get it replaced or fixed because the return window just closed.  She said it was great. If only it had lasted. Update- it is completely useless now. It got really loud and stopped getting the dishes clean.  And I can't get any help..."
+    ],
+    "electrical_fault": [
+      "Was looking for a compact countertop dishwasher for our new apartment and have had success with them in the past with other brands. The Comfee brand has a nice aesthetic but it feels like they sacrificed functionality to make it pretty. When it arrived in July the packaging was wet and soggy but we decided to give it a shot anyways as they said they test each machine to make sure it works. Within "
+    ],
+    "wont_power_on": [
+      "I purchased this dishwasher on March 27, 2022 and it stopped working not even 10 months later. It would not turn on. I reached out to Comfee by email and through Facebook, but they would not respond to my warranty request (this comes with a 1 year workmanship warranty). I reached out to Amazon customer service to help me with this, and they said they would refund me and I can just throw it away.<b",
+      "[[VIDEOID:9f35ed1b970dd7dd5cd319d2ba26c3c8]] I hate that this has touchscreen controls. Sometimes the dishwasher won\u2019t turn on and it seems to be because the button isn\u2019t registering the touch. I\u2019ve been using it for 3 months and this started happening about 2 months in. I\u2019ve tried unplugging and replugging into different outlets. Sometimes that helps, other times it just won\u2019t turn on and I have ",
+      "[[VIDEOID:bbcff032c191af3d0f0032b4638c0d7f]] Update (2/15): After using this dishwasher for only the last few months, we have started having issues with it. One day I came home and noticed it had shut off mid cycle as the power on it was off and the bottom was still full of hot soapy water. I thought it was just a fluke thing until it started happening more and more. It is not a power issue as I h"
+    ]
+  },
+  "published": true
+}

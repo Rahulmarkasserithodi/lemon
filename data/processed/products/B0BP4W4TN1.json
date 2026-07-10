@@ -1,0 +1,205 @@
+{
+  "parent_asin": "B0BP4W4TN1",
+  "title": "Galanz GLR10TWEEFR True Top Freezer Retro Refrigerator Frost Free Dual Door Fridge, Adjustable Electrical Thermostat Control, 10.0 Cu Ft, White",
+  "brand": "Galanz",
+  "price": 614.94,
+  "average_rating": 4.2,
+  "n_reviews": 568,
+  "n_candidates": 86,
+  "n_obs": 59,
+  "n_events": 49,
+  "median_months": 6.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 1229.88,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9661,
+      "lo": 0.8712,
+      "hi": 0.9914
+    },
+    {
+      "t": 0.25,
+      "s": 0.9492,
+      "lo": 0.8506,
+      "hi": 0.9833
+    },
+    {
+      "t": 0.5,
+      "s": 0.9146,
+      "lo": 0.807,
+      "hi": 0.9636
+    },
+    {
+      "t": 0.75,
+      "s": 0.897,
+      "lo": 0.785,
+      "hi": 0.9524
+    },
+    {
+      "t": 1.0,
+      "s": 0.8267,
+      "lo": 0.7017,
+      "hi": 0.9028
+    },
+    {
+      "t": 1.33,
+      "s": 0.8079,
+      "lo": 0.6797,
+      "hi": 0.8888
+    },
+    {
+      "t": 2.0,
+      "s": 0.6952,
+      "lo": 0.5556,
+      "hi": 0.7986
+    },
+    {
+      "t": 3.0,
+      "s": 0.56,
+      "lo": 0.4178,
+      "hi": 0.6803
+    },
+    {
+      "t": 3.25,
+      "s": 0.5407,
+      "lo": 0.399,
+      "hi": 0.6626
+    },
+    {
+      "t": 4.0,
+      "s": 0.5021,
+      "lo": 0.3621,
+      "hi": 0.6267
+    },
+    {
+      "t": 6.0,
+      "s": 0.3862,
+      "lo": 0.2565,
+      "hi": 0.5142
+    },
+    {
+      "t": 7.0,
+      "s": 0.3456,
+      "lo": 0.2208,
+      "hi": 0.4735
+    },
+    {
+      "t": 8.0,
+      "s": 0.3252,
+      "lo": 0.2034,
+      "hi": 0.4528
+    },
+    {
+      "t": 12.0,
+      "s": 0.1951,
+      "lo": 0.0987,
+      "hi": 0.3157
+    },
+    {
+      "t": 13.0,
+      "s": 0.1707,
+      "lo": 0.0804,
+      "hi": 0.2895
+    },
+    {
+      "t": 14.0,
+      "s": 0.1464,
+      "lo": 0.0633,
+      "hi": 0.2624
+    },
+    {
+      "t": 18.0,
+      "s": 0.122,
+      "lo": 0.0473,
+      "hi": 0.2345
+    },
+    {
+      "t": 24.0,
+      "s": 0.0976,
+      "lo": 0.0327,
+      "hi": 0.2054
+    },
+    {
+      "t": 36.0,
+      "s": 0.0325,
+      "lo": 0.0029,
+      "hi": 0.1346
+    },
+    {
+      "t": 60.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "cooling_failure",
+      "count": 32
+    },
+    {
+      "mode": "stopped_working",
+      "count": 16
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 4
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 3
+    },
+    {
+      "mode": "control_failure",
+      "count": 2
+    },
+    {
+      "mode": "leak",
+      "count": 1
+    },
+    {
+      "mode": "motor_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "cooling_failure": [
+      "Do not buy - has already stopped cooling 3 times, less than a year and a half since purchase. It's unreliable, as it will randomly just stop cooling (the number inside, the coolness setting, will start blinking first then it just drops cooling) and I have to move everything out while we try to figure out what's going on. I really just wish I hadn't bought this fridge.<br />* Amazon customer servic",
+      "I should know by now when a price is too good to be true there\u2019s a reason. The red 12 cubic feet refrigerator did not work from the first hour and now is in the way, created a ton of extra work and is a major disappointment. The freezer part works but the bottom refrigerator section has never made it below 50 degrees. I should have listened to the other reviews.  Now I have to wait over a week for",
+      "GALANZ WILL NOT SEND REPAIR NOR DO THEY HAVE REPLACEMENTS AMAZON WILL MAKE YOU WAIT FOR THEM TO RESPOND WHICH CAN PUT YOU OUTSIDE YOUR RETURN WINDOW AND WONT REFUND EITHER<br /><br />Had this lesson than 2 months and our fridge hardly gets cold. Nothing blocking freezer is freezing emailed the manufacturer for over 4 weeks with no response because I was barely outside of the Amazon return window a"
+    ],
+    "stopped_working": [
+      "This product worked for about 1 month.  I have contact Galanz and the have done nothing but say the will get back to me.  They have promised a refund but it has been 3 months and nothing but excuses why it hasn't come",
+      "Don\u2019t be lured in to buying these\u2026 Adorable refrigerators that last about 3 months. Took 6 months of wrangling with Galanz to get them to honor their warranty for the first dead fridge, only to have the replacement we bought for our Airbnb unit up and die. Now there are two carcasses in my back garage. Who pays to take them away? We do. No more. Done with these P\u2019sOS. Spare yourself and buy someth",
+      "Quit working within a year.  Have an extended warranty but they won't let me use it because they state it's under manfacure warranty.  Amazon is no help, useless, states that return window has closed.  Don't buy anything from these people"
+    ],
+    "wont_power_on": [
+      "First of all it took 3 different orders (2 different places) to finally get one delivered without damage.  The top is plastic and was crushed each time.  I finally accepted the last one that came because it had the least damage, but still damaged.  It is beautiful! We use it at our auto repair shop and customers comment on it all the time.  Literally 2 months later, we came to work after the weeke",
+      "The Galanz service was nonexistent. The refrigerator was delivered on time but did not work when we plugged it in. The office says they spent two weeks looking for someone to come service the unit. Their answer was to offer a refund\u2026. If we disabled the unit, submitted excessive documentation, waited 8-10 weeks for a refund and then disposed of the refrigerator ourselves. Worthless warranty! Buyer",
+      "I bought a retro frig july 2020 , the temp control has never worked correct , it freezes everything even on lowest setting, then died and wont even turn on, but what is worse is the so called warranty, i spent an entire week of trying to get them to respond to us to get repairs  to no avail. WE finally had to get the vendor (Home Depot ) to contact them to which they still did nothing except to pr"
+    ],
+    "control_failure": [
+      "Had it for a month and have tested it with a thermometer since the day I got it. I don't open it a lot since I recently moved, but it is my only fridge. There are no problems with the freezer so far, I love the look, everything appears sealed correctly, the doors work fine, and it's level. I cannot get it between 35-38 degrees F, though. There are 5 numbered settings for the fridge part with 5 bei",
+      "It lasted only one night. I had to wait for over two months for the manufacturer to order a control board, but they didn\u2019t come-very bad product."
+    ],
+    "physical_breakage": [
+      "The fridge arrived late\u2026the handles are plastic and were broken. Working the phone for a month trying to get them to just send a replacement handle. Honestly, this is the worst customer service I\u2019ve ever experienced. The product is made in China\u2026I wouldn\u2019t buy a Galanz product again\u2026they are awful.",
+      "There's a lot of plastic on it. I've had it for 6 months now and the inner plastic shelves on the door are breaking, the white plastic liner on the shelves are broken and have fallen off. The freezer never really sealed well and it freezes over. I keep a spatula in the door to knock the ice down. It is super cute.",
+      "[[VIDEOID:4b22cefeb553c2159f4dcb00e4b8d9cd]] It was cute and affordable but faulty handles that failed in less than a month. Plastic inserts to attach handles.  Hoping the 6 year warranty works in our favor. Watching for  a response from the seller."
+    ],
+    "leak": [
+      "My 5 year old Frigidaire decided to start leaking, which would cost over $600 to repair. I paid $400 for it at a black Friday sale 5 years ago. Thanks to inflation, comparable sized models now cost $700 or more on back Friday sale. If new appliances are just going to break in 5 years anyway, I couldn't justify spending $700 or more. So, this was the largest fridge I could find that was on sale for"
+    ],
+    "motor_failure": [
+      "This refrigerator broke down almost a year to the purchase date. Also, there was a section in the top shelf of the fridge that froze and ruined food. The \"freezing part\" happened almost immediately, but I didn't want to deal with the hassle of returning a refrigerator. I wish I did. Very cute, but a lemon."
+    ]
+  },
+  "published": true
+}

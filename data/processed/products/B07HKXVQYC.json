@@ -1,0 +1,254 @@
+{
+  "parent_asin": "B07HKXVQYC",
+  "title": "Giantex Portable Washing Machine, Full Automatic Washer and Dryer Combo, with Built-in Pump Drain 8 LBS Capacity Compact Laundry Washer Spinner for Apartment RV Dorm",
+  "brand": "Giantex",
+  "price": 249.99,
+  "average_rating": 4.2,
+  "n_reviews": 852,
+  "n_candidates": 107,
+  "n_obs": 87,
+  "n_events": 50,
+  "median_months": 12.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 249.99,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.977,
+      "lo": 0.9112,
+      "hi": 0.9942
+    },
+    {
+      "t": 0.1,
+      "s": 0.9654,
+      "lo": 0.8965,
+      "hi": 0.9887
+    },
+    {
+      "t": 0.25,
+      "s": 0.9421,
+      "lo": 0.8665,
+      "hi": 0.9755
+    },
+    {
+      "t": 0.75,
+      "s": 0.9072,
+      "lo": 0.823,
+      "hi": 0.9525
+    },
+    {
+      "t": 1.0,
+      "s": 0.8834,
+      "lo": 0.794,
+      "hi": 0.9355
+    },
+    {
+      "t": 1.25,
+      "s": 0.8705,
+      "lo": 0.7783,
+      "hi": 0.9262
+    },
+    {
+      "t": 1.5,
+      "s": 0.8449,
+      "lo": 0.7477,
+      "hi": 0.907
+    },
+    {
+      "t": 2.0,
+      "s": 0.8193,
+      "lo": 0.7179,
+      "hi": 0.8871
+    },
+    {
+      "t": 2.5,
+      "s": 0.8193,
+      "lo": 0.7179,
+      "hi": 0.8871
+    },
+    {
+      "t": 3.0,
+      "s": 0.7522,
+      "lo": 0.6419,
+      "hi": 0.8328
+    },
+    {
+      "t": 4.0,
+      "s": 0.738,
+      "lo": 0.626,
+      "hi": 0.8211
+    },
+    {
+      "t": 5.0,
+      "s": 0.7235,
+      "lo": 0.61,
+      "hi": 0.8091
+    },
+    {
+      "t": 5.5,
+      "s": 0.7235,
+      "lo": 0.61,
+      "hi": 0.8091
+    },
+    {
+      "t": 6.0,
+      "s": 0.6349,
+      "lo": 0.5148,
+      "hi": 0.7329
+    },
+    {
+      "t": 7.0,
+      "s": 0.6194,
+      "lo": 0.4985,
+      "hi": 0.7193
+    },
+    {
+      "t": 8.0,
+      "s": 0.6194,
+      "lo": 0.4985,
+      "hi": 0.7193
+    },
+    {
+      "t": 9.0,
+      "s": 0.6031,
+      "lo": 0.4813,
+      "hi": 0.705
+    },
+    {
+      "t": 10.0,
+      "s": 0.5864,
+      "lo": 0.4637,
+      "hi": 0.6902
+    },
+    {
+      "t": 11.97,
+      "s": 0.5696,
+      "lo": 0.4463,
+      "hi": 0.6753
+    },
+    {
+      "t": 12.0,
+      "s": 0.3853,
+      "lo": 0.2677,
+      "hi": 0.5015
+    },
+    {
+      "t": 13.0,
+      "s": 0.3661,
+      "lo": 0.2496,
+      "hi": 0.483
+    },
+    {
+      "t": 14.0,
+      "s": 0.3468,
+      "lo": 0.2318,
+      "hi": 0.4643
+    },
+    {
+      "t": 18.0,
+      "s": 0.3275,
+      "lo": 0.2144,
+      "hi": 0.4453
+    },
+    {
+      "t": 24.0,
+      "s": 0.2697,
+      "lo": 0.1641,
+      "hi": 0.3867
+    },
+    {
+      "t": 35.0,
+      "s": 0.2697,
+      "lo": 0.1641,
+      "hi": 0.3867
+    },
+    {
+      "t": 36.0,
+      "s": 0.2248,
+      "lo": 0.1151,
+      "hi": 0.3568
+    },
+    {
+      "t": 42.0,
+      "s": 0.2248,
+      "lo": 0.1151,
+      "hi": 0.3568
+    },
+    {
+      "t": 60.0,
+      "s": 0.2248,
+      "lo": 0.1151,
+      "hi": 0.3568
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "motor_failure",
+      "count": 16
+    },
+    {
+      "mode": "stopped_working",
+      "count": 13
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 9
+    },
+    {
+      "mode": "leak",
+      "count": 7
+    },
+    {
+      "mode": "control_failure",
+      "count": 3
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 1
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "control_failure": [
+      "Purchased this machine for a small prewar apartment without a laundry room. This machine was pretty good while it lasted - easy to hook up to the sink faucet, surprisingly big capacity, wash cycles less than an hour. It was noisy, but a rolling stand so it's not sitting on the ground would help (unfortunately I couldn't fit one in the space where this needed to go).<br /><br />Unfortunately, the m",
+      "Stopped draining after 3 months",
+      "problems  smells  bad  want drain water  want spin this all happen in less then a year after i got it  the smell was so bad i had to clean each wash keep the door open and air purifier and  fan on it all the time and when i got done with all these problems and had been unable to contact any one at this 24 hr service  and got info to amazon  on the washer quit working  and message was sent to me fr"
+    ],
+    "stopped_working": [
+      "It is a nice little workhorse. Your clothes get really clean, you can hardly hear it when working. Very happy after a month of use.<br /><br />UPDATE AUG 29,2019<br /><br />The dream is over and the nightmare has just begun. The little washing machine stopped working two weeks ago and after several attempts to communicate (via email) with the manufacturer, they just don't reply. I want to know if ",
+      "Broke one month after owning it, trash.",
+      "I like this little washing machine, except the short host and it doesn't have softener receptacle. But it works well only for only 6 months!!! I contact the seller couple times, but they never responded. Very bad customer service and poor quality! This is the worst product I bought in Amazon!"
+    ],
+    "leak": [
+      "Broke aftwr a year. Tub became seperated from its carriage or whatever and water would leak out the sides. They didn't want it back or anything so that shows you they know how crappy it is. Good thing I got an EXTRA warranty from Amazon",
+      "Flooded the house repeatedly. Stopped working all together after 2 months. DO NOT BUY",
+      "I did like this machine, although you could never use the \"high\" level water option, medium was enough for it to start splashing out and over etc.  But after 2 years it just sarong a very bad leak from the bottom, not from the basin but from within the machine, at the bottom, it was bad, luckily I was there and saw it.  Garbage, but I guess for the price what did I expect."
+    ],
+    "physical_breakage": [
+      "After about three months my lid broke and has to be held open to load which gets annoying . It recently started shaking so bag it jumps around \ud83e\udd26\ud83c\udffb\u200d\u2640\ufe0f\ud83d\ude29",
+      "Poor design. It worked great for a month or 2 but then the agitator plate stopped rotating due to very poor design. The metal insert is way too small and started tearing apart the plastic plate. Ive tried fixing it many different ways including using epoxy, but the motor is too strong and continues to tear apart the plastic agitator plate. Thinking of getting a different brand.",
+      "The plastic agitator plate stripped out within 6 months so the washer no longer agitated. I contacted the seller and looked at third parties- nobody sells replacement parts for this. Luckily I was able to fix it with a bit of JB Weld for plastic. Took a bit of finagling, but wasn\u2019t too difficult to do. It agitates perfectly again."
+    ],
+    "motor_failure": [
+      "***Update***<br />10 months later and the water pump stops working. Not worth the buy.<br /><br />I absolutely love this machine. I would recommend buying it and I would also recommend the company selling it. The company is very responsive and truly cares about their customers satisfaction. The reason that I'm giving this item only 4 stars rather than 5 is because I find that the sensors are prett",
+      "I've had two of these. I loved this washer when I first got it. It worked wonderfully and even fit my sheets. However, it started having problems spinning which was a pain and took time to play with and restart, then it stopped working all together within a year. I bought it with a warranty but because it was under a year old it was still under manufacturer warranty. I contacted the manufacturer m",
+      "Good for a year now it doesn't work the agitator went out or a spring because the basket dropped and I only put 6lbs of clothing at a time .."
+    ],
+    "noise_vibration": [
+      "[[VIDEOID:8bfcb87c41bc09b6d3fe340b8b961b39]] Perfect weight easy to hook up. So far I like it but I'm just doing the first load now. It is super tiny but I think that's one of the things I like about it since there's only one person in this house don't need to do that much laundry. Totally saves on quarters. what I spend at the laundromat in a month or two would probably pay for it.<br /><br />UPD"
+    ],
+    "wont_power_on": [
+      "Stopped working after 7 months, will not turn on."
+    ]
+  },
+  "published": true
+}

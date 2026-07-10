@@ -1,0 +1,167 @@
+{
+  "parent_asin": "B08C6GQKQW",
+  "title": "Portable Countertop Dishwasher, 5 Washing Programs, Built-in 3-Cups Water Tank, 3D Cyclone Spray, Fruit & Vegetable Cleaning with Basket, High Temperature, Air Drying - Lights, Faucet Adapter Included",
+  "brand": "KAPAS",
+  "price": 308.0,
+  "average_rating": 4.5,
+  "n_reviews": 568,
+  "n_candidates": 60,
+  "n_obs": 44,
+  "n_events": 21,
+  "median_months": 12.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 308.0,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.25,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 1.0,
+      "s": 0.9524,
+      "lo": 0.8227,
+      "hi": 0.9879
+    },
+    {
+      "t": 1.1,
+      "s": 0.9266,
+      "lo": 0.7893,
+      "hi": 0.9758
+    },
+    {
+      "t": 2.0,
+      "s": 0.9009,
+      "lo": 0.7568,
+      "hi": 0.9617
+    },
+    {
+      "t": 3.0,
+      "s": 0.8727,
+      "lo": 0.72,
+      "hi": 0.9452
+    },
+    {
+      "t": 3.2,
+      "s": 0.8437,
+      "lo": 0.6833,
+      "hi": 0.9269
+    },
+    {
+      "t": 4.0,
+      "s": 0.7564,
+      "lo": 0.5823,
+      "hi": 0.8658
+    },
+    {
+      "t": 5.0,
+      "s": 0.7249,
+      "lo": 0.5467,
+      "hi": 0.8424
+    },
+    {
+      "t": 6.0,
+      "s": 0.626,
+      "lo": 0.4407,
+      "hi": 0.7651
+    },
+    {
+      "t": 8.0,
+      "s": 0.5813,
+      "lo": 0.3897,
+      "hi": 0.7318
+    },
+    {
+      "t": 11.0,
+      "s": 0.5813,
+      "lo": 0.3897,
+      "hi": 0.7318
+    },
+    {
+      "t": 12.0,
+      "s": 0.436,
+      "lo": 0.2427,
+      "hi": 0.6146
+    },
+    {
+      "t": 13.0,
+      "s": 0.3488,
+      "lo": 0.149,
+      "hi": 0.5583
+    },
+    {
+      "t": 18.0,
+      "s": 0.2616,
+      "lo": 0.0811,
+      "hi": 0.4888
+    },
+    {
+      "t": 24.0,
+      "s": 0.1308,
+      "lo": 0.011,
+      "hi": 0.3999
+    },
+    {
+      "t": 30.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "control_failure",
+      "count": 7
+    },
+    {
+      "mode": "motor_failure",
+      "count": 5
+    },
+    {
+      "mode": "stopped_working",
+      "count": 4
+    },
+    {
+      "mode": "heating_failure",
+      "count": 3
+    },
+    {
+      "mode": "leak",
+      "count": 2
+    }
+  ],
+  "snippets": {
+    "stopped_working": [
+      "The product only last four months and then it ceased to function.  To schedule a servcie call the cost is about $300 that about the cost of the machine.  The extended warranty is a must when buying. Local servicers would not consider repairing due to the parts coming from another country.",
+      "It was great while it worked.  Unfortunately, there is warranty beyond the 90 days return period, no customer service whatsoever and no way to get help when it stops working.  Having to throw away a $350 appliance after a little over a year doesn't sit well with me.",
+      "Broke after three months\u2026.."
+    ],
+    "control_failure": [
+      "Was very happy with it while I had it for 4 months, then it broke. The water pump quit pumping the water into the actual system so it would not start, then it told me it didn\u2019t have enough water even though it was filled to the brim and I could see it.<br /><br />Customer service told me I was out of time for a replacement and told me to ship it back to them. Essentially telling me there was no wa",
+      "I had it for five months and it worked beautifully. However, one day it just stopped. $300 for machine that only worked five months!! Appears to be problem moving water from tank to the machine. It thinks its overflowing, but it's not moving water. Absolutely loved it until it stopped working. Nothing I tried seemed to fix it. Advice: don't buy it unless you want to replace in a few months!",
+      "1.5 year update:<br />We got an E4 error and the washer stopped working. I don't totally mind as to me it cost less than $1 a day if you divide the cost by days it was used (I used it 2-3 times a day as well). Still disappointed but I ordered a new one (with insurance since it was available this time). I still say it's worth it so 4 stars cause of how much time and effort it saves. I basically see"
+    ],
+    "heating_failure": [
+      "below is my original review and this is the update. i started getting E3 error code last night and it has something to do with the heating element, voltage may be to low.<br />i tried looking up information on this DW and \"NOTHING\", i pulled the bottom off and was able to determine where the heating element was located, as for replacing it again \"NOTHING\" so at this point it's a throwaway<br /><br",
+      "This cleans the dishes really well (on standard or strong wash) and it is quiet.  I tried the eco wash once and I needed to rewash the load.  There is no sloped area to put the glasses and mugs, so after the drying cycle has ended, the bottoms of them are still all wet.  The utensils go on a rack at the top and sometimes they don't get 100% cleaned.  It doesn't fit much.  I started to use my small",
+      "Broke after one year. I bought the Portable Countertop Dishwasher November 2020, the heating element went out on it last week. I did not use it that often."
+    ],
+    "motor_failure": [
+      "Delivered June 6, 2022. It worked a few times then The top water spinner stops working. I need to interrupt the cycle, open the door, and hand spin it to get it to work. Sometimes it works sometimes I have to keep interrupting the cycle and repeat. The purpose of a dishwasher is to get your dishes clean not stand there to keep spinning the water blade to work. I want to return this. It is not wort",
+      "Update: 2 months later the lower spray arm stopped spinning. Will be returning. Otherwise it was working fine.<br /><br />Not happy with this dishwasher. First, it came packed like new but had moldy spots on top where you are supposed to add water. Looks like it was tested and sealed with moisture inside it. Second, it doesn\u2019t drain all the way after the wash cycle. There\u2019s still some water sittin",
+      "Other manufacturers like Hava have a 2 YEAR warranty. This product by Kapa (distributed by DGI) only has a three month warranty. If yours is like mine, it will fail after a year of light use. Pump no longer works. Will update review if any appliance repair tech will take it in. Seller was did not provide a recommended service tech. Save your money and look at other options or buy a multi year exte"
+    ],
+    "leak": [
+      "This started leaking after less than 1 month of use. Seller says the return window closed yesterday?!?! The hoses are tight and the filters are clean. It's leaking water out of the bottom of the unit, NOT from any hose connection. That was a lot of money for it to be non-functional after less than a month!",
+      "This is a great dishwasher. I plumbed it in under the kitchen sink in my traveling tiny house and use it 2-3 times a day. I can use it if I have a water hook up or not because it is a hybrid tank / inlet system. It has bounced around on the road for 2 1/2 years without problem.<br /><br />That is, until I recently when I encountered an E4 error. This means there is an overflow situation inside of "
+    ]
+  },
+  "published": true
+}

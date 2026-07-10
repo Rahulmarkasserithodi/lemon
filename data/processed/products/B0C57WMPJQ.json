@@ -1,0 +1,430 @@
+{
+  "parent_asin": "B0C57WMPJQ",
+  "title": "Silonn Ice Makers Countertop, 9 Cubes Ready in 6 Mins, 26lbs in 24Hrs, Self-Cleaning Ice Machine with Ice Scoop and Basket, 2 Sizes of Bullet Ice for Home Kitchen Office Bar Party",
+  "brand": "Silonn",
+  "price": 80.97,
+  "average_rating": 4.4,
+  "n_reviews": 3445,
+  "n_candidates": 583,
+  "n_obs": 499,
+  "n_events": 447,
+  "median_months": 5.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 194.33,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.982,
+      "lo": 0.9656,
+      "hi": 0.9906
+    },
+    {
+      "t": 0.06,
+      "s": 0.976,
+      "lo": 0.958,
+      "hi": 0.9863
+    },
+    {
+      "t": 0.09,
+      "s": 0.9739,
+      "lo": 0.9555,
+      "hi": 0.9848
+    },
+    {
+      "t": 0.1,
+      "s": 0.9739,
+      "lo": 0.9555,
+      "hi": 0.9848
+    },
+    {
+      "t": 0.12,
+      "s": 0.9739,
+      "lo": 0.9555,
+      "hi": 0.9848
+    },
+    {
+      "t": 0.25,
+      "s": 0.9517,
+      "lo": 0.9287,
+      "hi": 0.9673
+    },
+    {
+      "t": 0.28,
+      "s": 0.9496,
+      "lo": 0.9263,
+      "hi": 0.9657
+    },
+    {
+      "t": 0.33,
+      "s": 0.9476,
+      "lo": 0.9239,
+      "hi": 0.964
+    },
+    {
+      "t": 0.38,
+      "s": 0.9455,
+      "lo": 0.9215,
+      "hi": 0.9623
+    },
+    {
+      "t": 0.5,
+      "s": 0.9208,
+      "lo": 0.8933,
+      "hi": 0.9415
+    },
+    {
+      "t": 0.63,
+      "s": 0.9188,
+      "lo": 0.8909,
+      "hi": 0.9398
+    },
+    {
+      "t": 0.75,
+      "s": 0.9064,
+      "lo": 0.877,
+      "hi": 0.9291
+    },
+    {
+      "t": 1.0,
+      "s": 0.8378,
+      "lo": 0.8019,
+      "hi": 0.8677
+    },
+    {
+      "t": 1.03,
+      "s": 0.8336,
+      "lo": 0.7974,
+      "hi": 0.8639
+    },
+    {
+      "t": 1.1,
+      "s": 0.8314,
+      "lo": 0.7951,
+      "hi": 0.8619
+    },
+    {
+      "t": 1.25,
+      "s": 0.8251,
+      "lo": 0.7882,
+      "hi": 0.8561
+    },
+    {
+      "t": 1.26,
+      "s": 0.8229,
+      "lo": 0.7859,
+      "hi": 0.8541
+    },
+    {
+      "t": 1.36,
+      "s": 0.8208,
+      "lo": 0.7837,
+      "hi": 0.8522
+    },
+    {
+      "t": 1.5,
+      "s": 0.808,
+      "lo": 0.77,
+      "hi": 0.8404
+    },
+    {
+      "t": 1.75,
+      "s": 0.808,
+      "lo": 0.77,
+      "hi": 0.8404
+    },
+    {
+      "t": 2.0,
+      "s": 0.7078,
+      "lo": 0.6648,
+      "hi": 0.7464
+    },
+    {
+      "t": 2.06,
+      "s": 0.7057,
+      "lo": 0.6625,
+      "hi": 0.7444
+    },
+    {
+      "t": 2.1,
+      "s": 0.7035,
+      "lo": 0.6603,
+      "hi": 0.7423
+    },
+    {
+      "t": 2.5,
+      "s": 0.697,
+      "lo": 0.6535,
+      "hi": 0.7361
+    },
+    {
+      "t": 2.87,
+      "s": 0.6948,
+      "lo": 0.6513,
+      "hi": 0.734
+    },
+    {
+      "t": 3.0,
+      "s": 0.6011,
+      "lo": 0.5553,
+      "hi": 0.6438
+    },
+    {
+      "t": 3.75,
+      "s": 0.5989,
+      "lo": 0.5531,
+      "hi": 0.6416
+    },
+    {
+      "t": 4.0,
+      "s": 0.5501,
+      "lo": 0.5038,
+      "hi": 0.5939
+    },
+    {
+      "t": 4.5,
+      "s": 0.5479,
+      "lo": 0.5015,
+      "hi": 0.5918
+    },
+    {
+      "t": 5.0,
+      "s": 0.4942,
+      "lo": 0.4478,
+      "hi": 0.5388
+    },
+    {
+      "t": 5.5,
+      "s": 0.492,
+      "lo": 0.4456,
+      "hi": 0.5366
+    },
+    {
+      "t": 6.0,
+      "s": 0.3572,
+      "lo": 0.3133,
+      "hi": 0.4012
+    },
+    {
+      "t": 6.03,
+      "s": 0.3549,
+      "lo": 0.3111,
+      "hi": 0.3989
+    },
+    {
+      "t": 6.5,
+      "s": 0.3526,
+      "lo": 0.3089,
+      "hi": 0.3966
+    },
+    {
+      "t": 7.0,
+      "s": 0.3094,
+      "lo": 0.2673,
+      "hi": 0.3523
+    },
+    {
+      "t": 8.0,
+      "s": 0.2401,
+      "lo": 0.2016,
+      "hi": 0.2806
+    },
+    {
+      "t": 9.0,
+      "s": 0.2145,
+      "lo": 0.1776,
+      "hi": 0.2538
+    },
+    {
+      "t": 10.0,
+      "s": 0.1935,
+      "lo": 0.1581,
+      "hi": 0.2316
+    },
+    {
+      "t": 10.5,
+      "s": 0.1911,
+      "lo": 0.156,
+      "hi": 0.2291
+    },
+    {
+      "t": 11.0,
+      "s": 0.1557,
+      "lo": 0.1236,
+      "hi": 0.1913
+    },
+    {
+      "t": 11.5,
+      "s": 0.1534,
+      "lo": 0.1214,
+      "hi": 0.1888
+    },
+    {
+      "t": 11.97,
+      "s": 0.1416,
+      "lo": 0.1108,
+      "hi": 0.1761
+    },
+    {
+      "t": 11.99,
+      "s": 0.118,
+      "lo": 0.0898,
+      "hi": 0.1504
+    },
+    {
+      "t": 12.0,
+      "s": 0.0378,
+      "lo": 0.0225,
+      "hi": 0.059
+    },
+    {
+      "t": 12.75,
+      "s": 0.0346,
+      "lo": 0.02,
+      "hi": 0.0555
+    },
+    {
+      "t": 13.0,
+      "s": 0.0283,
+      "lo": 0.0151,
+      "hi": 0.0484
+    },
+    {
+      "t": 14.4,
+      "s": 0.0252,
+      "lo": 0.0128,
+      "hi": 0.0447
+    },
+    {
+      "t": 18.0,
+      "s": 0.0063,
+      "lo": 0.0013,
+      "hi": 0.0206
+    },
+    {
+      "t": 19.0,
+      "s": 0.0031,
+      "lo": 0.0003,
+      "hi": 0.0163
+    },
+    {
+      "t": 24.5,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 304
+    },
+    {
+      "mode": "control_failure",
+      "count": 34
+    },
+    {
+      "mode": "cooling_failure",
+      "count": 29
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 24
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 19
+    },
+    {
+      "mode": "leak",
+      "count": 17
+    },
+    {
+      "mode": "motor_failure",
+      "count": 14
+    },
+    {
+      "mode": "rust_corrosion",
+      "count": 6
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 6
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 2
+    },
+    {
+      "mode": "heating_failure",
+      "count": 1
+    },
+    {
+      "mode": "other",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "stopped_working": [
+      "Quit working after 9 months for no reason.",
+      "This worked great for about 4 months of daily use. We descaled it frequently. It's pretty noisy (the motor revving) but as long as it worked, we tolerated it. After 4weeks it started leaking. I could not determine the source but it still made ice. 3 days after Amazon closed the window, it stopped working all together. It turns on but it makes no ice. I expected it would last at least 1 year. I gue",
+      "I bought this while pregnant- didn\u2019t have for a year and it one day just stopped working. The light says it\u2019s on- but no ice is being made. Just it\u2019s just a paper weight. Although I loved it when it was functional"
+    ],
+    "cooling_failure": [
+      "I bought this on Amazon Prime Day, shipped a lot faster than what it originally told me. However, the darn thing doesn\u2019t work. I had it plugged in over 2 hours (after sitting upright for 24 hrs). It made all the noises it was supposed to, but the water never froze into ice cubes \ud83d\ude2d.<br /><br />I called support on the back of the Manuel and they weren\u2019t much help. It was finally suggested that due t",
+      "The mechanics still work as if it were making ice but the silver prongs do not get cold. I don't know what to do. I loved this ice machine but I did not expect it to \"die\" within a year. I purchased April 8th 2022 my return window has closed however if the company or seller wants to reach out ill be glad to update my review. Thanks but as of now don't waist your money.",
+      "After 8 months of use this ice maker stopped getting cold therefore stopped making ice.  We enjoy having ice available whenever we want, but are very disappointed in the longevity of this product and will have a hard time purchasing another off brand ice maker."
+    ],
+    "control_failure": [
+      "Bought to replace 1 year old IGLOO I couldn't find replacement sychronous motor for (another story).<br />Silonn arrived non-functional. Power light came on but no water was pumped. The extractor did not cycle. No ice was made. Let ice maker sit 2 days after receiving for freon / coolant to settle BEFORE plugging in. Returned.",
+      "This was a great little ice maker for about 6 months. It just stopped making ice, the light on the panel shows \u201cice maker full\u201d but the ice bin is empty. There\u2019s water in the receptacle so not sure what the issue is. I\u2019ve not been able to find information for product support so not sure I\u2019d recommend this machine.",
+      "It worked perfectly fine with no issues. Fan can be a bit noisy, but the ice is wonderful to have instantly. Four months later.....  Now, you have to turn it on/off to get the errors to clear out like low water after you fill it. It no longer knows when it has too much ice and keeps making ice, so the sensor is broken. Occassionally, it will defrost the ice for no reason whatsoever."
+    ],
+    "leak": [
+      "Loved it but it totally died after 5 months of use. Adult used and owned, cleaned regularly and it never moved the countertop. Just started leaking one day. Sucks.",
+      "Only had this ice machine for 6 months before it started leaking from the bottom. I made sure the play was tight and everything. It\u2019s a bummer.",
+      "So this is our 2nd one and both leaked after 1 month of having them. I'm upset paid over $100 for then and they both failed. I need to find a good one that will not fail. The tubing on then failed and there is no way to fix them my husband tried. Super unsatisfied and super bummed cause I love having ice ready to go"
+    ],
+    "motor_failure": [
+      "Product just stopped working in 7 months suddenly. Motor is not running now. I wish I knew life span before.",
+      "These countertop ice machines are great!<br />They have a weak point, the water pump quits. I havedug into either one that died. This one only 4 months.  I don't see customer support or parts for them. Looking for advice on a repair",
+      "This counter top ice maker came super handy when our Samsung fridge quit making ice. We\u2019ve used it pretty much non stop since getting it in March. With that being said\u2026 there are no real directions on how to clean so did our best. Always ran filtered water for ice. Now it won\u2019t pump. It will power but won\u2019t pump water. Took it apart to see if maybe the water line was plugged\u2026 nope. Pump just wont "
+    ],
+    "noise_vibration": [
+      "It worked well for the first 5 months, then stopped altogether, and made a loud banging sound",
+      "[[VIDEOID:b33647ef68d53dfa46b8dc4f74dc59c6]] I first bought this product in December 2021 it stopped working 2021,so I bought another., thinking Perhaps I had done something wrong. This was not the case.<br />Received it in May of 2022 and all of a sudden it starts making a horrible sound. I called Amazon and was told I couldn\u2019t return it as of less than a month ago. I was told to run white vinega",
+      "Just after 2 months of use it is making a very loud noise and has a burning smell odor."
+    ],
+    "rust_corrosion": [
+      "This is my second one and in less than a month it\u2019s rusting inside ! Like why ! I clean it and all . I followed proper instructions, 1 but 2 come on now !",
+      "Rust on right side causing failure of product after 8 months of use. It\u2019s just me and my husband, not high demand. Cleaned and maintained. Was great up until it died today. I\u2019d expect this product to last a few years, not months. Disappointed",
+      "Only used bottled water in it and after a few months the prongs that make the ice were all rusted."
+    ],
+    "heating_failure": [
+      "bought this and after a few months it started over heating and smelling really hott and i would unplug wait awhile (days) and plug back, eventually ice started melting inside from heat of machine, today makes the end of 6 months and its dead as a doorknob, dont buy"
+    ],
+    "other": [
+      "Very pleased with this ice maker, it does make a little noise, but that's expected and it's not a lot or very loud noise, makes the ice fast, simple and easy to use, good instructions and made of quality materials, would certainly recommend it to others.<br /><br />Very good service from the sellers.  It worked perfectly for four months, then I had a problem with the unit, and thought they would p"
+    ],
+    "physical_breakage": [
+      "The machine was working fine until I unplugged it one day less than 3 months after I got it. The bottom prong of the plug broke off in my outlet. When I reached out to the manufacturer for help I was told to take it to a repair shop. When I asked about a warranty, I got no response whatsoever. Poor customer service. Avoid this machine.",
+      "Works great just super loud at times I can hear it occassionally in the middle of the night from another room.<br />Update: 3 months into owning it and it has broken and is not returnable. The little flap that allows it to scoop the ices has popped off and will not go back on. It is unusable in this state so be aware.",
+      "I've had a few ice makers. I liked this one was self cleaning and came with an ice scoop. But I had it 7 months then the Paddle that pushed the new ice into the basket broke off, so I was having to scoop the ice with my hand into the basket. It was annoying but do-able. Now, right around the 1 year mark, a piece of dirty plastic was found below where the ice is made and there was no ice in the mac"
+    ],
+    "electrical_fault": [
+      "This ice machine did its job until 5 months, where it started to smell like burned plastic and stopped working. Since Amazon support ends after 90 days and manufacturer is nearly impossible to find, we\u2019re out of luck. Don\u2019t buy.",
+      "I had one last about a year then quit working out of no where so for the price bought another lasted 30 miss before it started smelling like a electrical fire in my kitchen got hot almost caught fire"
+    ],
+    "wont_power_on": [
+      "I have had it for a few months and now it just stopped working.  The power won't go on. It doesn't do anything.  I tried everything and still can't get it to work.  What a rip off.  And the return date closed.  So I'm out 100.00 and no ice maker. DON'T BUY THIS PIECE OF JUNK.",
+      "This does exactly what it's supposed to do and is relatively quiet. We're using it as our primary source of ice for our home bar, and moving the ice from the ice maker to the freezer requires fairly constant attention to fill the ice bins and to keep the reservoir full of water, but so far we're happy with it.<br /><br />Edit: Eight months later and it's dead. Went to turn it on, and nothing. Not ",
+      "Husband ordered this for my birthday as we were wanting a countertop ice maker. At first, I thought it was a neat appliance, however it seemed to take a while to make ice. We have not used it in a couple of months and went to make ice today and it won't turn on. We had left it plugged in and had not moved it since we placed it on the counter. Feel like we waisted money on a product that should hav"
+    ]
+  },
+  "published": true
+}

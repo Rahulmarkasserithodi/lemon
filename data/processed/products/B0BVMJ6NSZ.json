@@ -1,0 +1,285 @@
+{
+  "parent_asin": "B0BVMJ6NSZ",
+  "title": "Whynter BR-130SB Beverage Refrigerator with Internal Fan \u2013 Stainless Steel 120-Can Capacity",
+  "brand": "Whynter",
+  "price": 300.48,
+  "average_rating": 4.2,
+  "n_reviews": 753,
+  "n_candidates": 94,
+  "n_obs": 78,
+  "n_events": 49,
+  "median_months": 10.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 360.58,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9872,
+      "lo": 0.9125,
+      "hi": 0.9982
+    },
+    {
+      "t": 0.06,
+      "s": 0.9872,
+      "lo": 0.9125,
+      "hi": 0.9982
+    },
+    {
+      "t": 0.09,
+      "s": 0.974,
+      "lo": 0.9001,
+      "hi": 0.9934
+    },
+    {
+      "t": 0.1,
+      "s": 0.974,
+      "lo": 0.9001,
+      "hi": 0.9934
+    },
+    {
+      "t": 0.12,
+      "s": 0.9605,
+      "lo": 0.8824,
+      "hi": 0.9871
+    },
+    {
+      "t": 0.13,
+      "s": 0.947,
+      "lo": 0.8648,
+      "hi": 0.9798
+    },
+    {
+      "t": 0.25,
+      "s": 0.8658,
+      "lo": 0.7649,
+      "hi": 0.9255
+    },
+    {
+      "t": 0.5,
+      "s": 0.8514,
+      "lo": 0.7475,
+      "hi": 0.9149
+    },
+    {
+      "t": 0.75,
+      "s": 0.8514,
+      "lo": 0.7475,
+      "hi": 0.9149
+    },
+    {
+      "t": 1.0,
+      "s": 0.8204,
+      "lo": 0.7103,
+      "hi": 0.8918
+    },
+    {
+      "t": 1.5,
+      "s": 0.7876,
+      "lo": 0.6715,
+      "hi": 0.8666
+    },
+    {
+      "t": 1.75,
+      "s": 0.7712,
+      "lo": 0.6526,
+      "hi": 0.8537
+    },
+    {
+      "t": 2.0,
+      "s": 0.7384,
+      "lo": 0.6157,
+      "hi": 0.8272
+    },
+    {
+      "t": 3.0,
+      "s": 0.7048,
+      "lo": 0.5788,
+      "hi": 0.7995
+    },
+    {
+      "t": 4.0,
+      "s": 0.6667,
+      "lo": 0.5363,
+      "hi": 0.7681
+    },
+    {
+      "t": 5.0,
+      "s": 0.625,
+      "lo": 0.4902,
+      "hi": 0.7336
+    },
+    {
+      "t": 6.0,
+      "s": 0.5604,
+      "lo": 0.4215,
+      "hi": 0.6782
+    },
+    {
+      "t": 7.0,
+      "s": 0.5173,
+      "lo": 0.3779,
+      "hi": 0.6399
+    },
+    {
+      "t": 10.0,
+      "s": 0.4957,
+      "lo": 0.3566,
+      "hi": 0.6203
+    },
+    {
+      "t": 10.7,
+      "s": 0.4742,
+      "lo": 0.3357,
+      "hi": 0.6004
+    },
+    {
+      "t": 11.0,
+      "s": 0.4311,
+      "lo": 0.295,
+      "hi": 0.5598
+    },
+    {
+      "t": 11.99,
+      "s": 0.4095,
+      "lo": 0.2752,
+      "hi": 0.5391
+    },
+    {
+      "t": 12.0,
+      "s": 0.3664,
+      "lo": 0.2366,
+      "hi": 0.4969
+    },
+    {
+      "t": 12.5,
+      "s": 0.342,
+      "lo": 0.2144,
+      "hi": 0.4734
+    },
+    {
+      "t": 14.0,
+      "s": 0.3175,
+      "lo": 0.1929,
+      "hi": 0.4495
+    },
+    {
+      "t": 15.0,
+      "s": 0.2911,
+      "lo": 0.1697,
+      "hi": 0.4237
+    },
+    {
+      "t": 17.0,
+      "s": 0.2646,
+      "lo": 0.1474,
+      "hi": 0.3973
+    },
+    {
+      "t": 18.0,
+      "s": 0.1852,
+      "lo": 0.086,
+      "hi": 0.3139
+    },
+    {
+      "t": 22.0,
+      "s": 0.1588,
+      "lo": 0.0676,
+      "hi": 0.2844
+    },
+    {
+      "t": 24.0,
+      "s": 0.0794,
+      "lo": 0.0212,
+      "hi": 0.1892
+    },
+    {
+      "t": 30.0,
+      "s": 0.0529,
+      "lo": 0.0098,
+      "hi": 0.1544
+    },
+    {
+      "t": 36.0,
+      "s": 0.0265,
+      "lo": 0.0021,
+      "hi": 0.1177
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "cooling_failure",
+      "count": 26
+    },
+    {
+      "mode": "stopped_working",
+      "count": 15
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 5
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 2
+    },
+    {
+      "mode": "motor_failure",
+      "count": 2
+    },
+    {
+      "mode": "leak",
+      "count": 2
+    },
+    {
+      "mode": "control_failure",
+      "count": 2
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "stopped_working": [
+      "Was great until it died less than 2 years after we bought it",
+      "It broke after 7 months of use and they want $75 to fix it and me to pay shipping to them and $55 to ship it back<br /><br />The item cost $200 new<br /><br />Junk! Poor customer service. Very disappointed",
+      "Bought it in June - Stopped working in November<br />Now we will see if the 2 yr Assurant 360 Plan is worth anything ...."
+    ],
+    "cooling_failure": [
+      "I purchased in January with a three year warranty that has mysteriously disappeared on Amazon it quit working on November 21st just before Thanksgiving.  Less then a year and still trying to find out what protection I had. It will no longer go under 50 degrees. To boot the 3 year protection site wont recognize order number for either the plan or the stupid fridge. No way to get ahold of anybody , ",
+      "After reading all the other reviews I was hoping this was the one! Well after 48hrs of running the temp was only 58 degrees. Let it run for another 24 hrs and down to 35 degrees. So I loaded it up with soft drinks and the temp went back up to 60 degrees and stayed there for another two days.<br />The top shelf never got colder than 55 degrees and the bottom shelf dropped to 28 degrees and froze an",
+      "Received this as a gift a year ago to use as a beer fridge purchased thru Amazon. Product came with dents, but not too many. Given the cost to return I decided to keep it.  At first it cooled if not loaded too heavy at once. After a couple months, it didn't cool as well. After 10 months, it has quit cooling completely.  It runs but doesn't cool.  It will cost more for parts than to replace.  Very "
+    ],
+    "physical_breakage": [
+      "Loch broke after two weeks, had to spend 30 minutes to get it open after turning it upside down.",
+      "I wanted to love this refrigerator so bad. Gave it to my husband as a Christmas gift for his man cave. He notified me a few hours later that the door doesn't close. Sure enough it's been a week and still waiting on the replacement."
+    ],
+    "noise_vibration": [
+      "We were happy with our Whynter mini fridge for about 1.5 years.  it was performing well, then all of a sudden the motor has been making an extremely loud noises a few times a day.  It is like an airplane taking off. Because we are schooling and working from home, i will need to replace this refrigerator with another.  Very disappointed.",
+      "While I was initially very happy about this purchase, I've encountered two negatives. One small, and one huge.<br />The small one was simply a design issue, I'm sure they made the decision based on economics. The interior light has to be turned on with a switch, it does not activate when the door opens. No big deal, it's kind of a cheap fridge, I guess that just goes with the territory.<br />The s",
+      "After a year and a half, my Whynter BR-128WS Beverage Refrigerator began making an extremely loud, reverberating sound and overheating.  I turned the fridge off and this continued.  I unplugged the device and it finally stopped.  This happened a day before I left for vacation.  Had it happened one day later, my house likely would have burned down.<br /><br />Things happen in life and even the best"
+    ],
+    "motor_failure": [
+      "Worked good until today, 5 months after I bought it and the motor started making a loud noise and before I could unplug it it just died. Purchased on 1/29/21 died on 6/11/21...",
+      "Two years and the fan died. Can\u2019t get a response for parts."
+    ],
+    "leak": [
+      "The refrigerator does a decent job of cooling, but items in the back freeze and the front glass door sweats and leaks water on the floor.  I did not think of it as a warranty item, but the manufacturer wants me to pay the freight to return it after two months and no help is available after twelve.  I am in month 14.  We will keep the item, but we do not feel it is a good value for the price.",
+      "Worked for about a year and a half. Put it in our showroom and never hardly used it. Noticed it leaking all over our hardwood floor the other day and threw it away. Leaked water and quit cooling. Got one cheaper somewhere else and bought a warranty."
+    ],
+    "control_failure": [
+      "Had this unit a little over 45 days now and the thermostat went out but since day one it had a rough clicking sound in the middle of the night that made me uncomfortable to the point that I had to cock my clock. Thankfully the machine went out and no longer works as of this morning so that I can write that a review instead of trying to find somebody helpful on their service line which was unavaila",
+      "[[VIDEOID:4edc4fc988c6955e13baee1950b1aa]] I bought the whynter 121 Can Beverage Refrigaretor with a Digital Control and internal Fan on July 27, just before moving back to Brazil. The product was shipped with the rest of my household goods in a container in the original box.<br /><br />The digital sensor stopped working properly less than 1 week after I turned it on and my beverages never get col"
+    ],
+    "electrical_fault": [
+      "Commentary on customer service will follow this general review of the BR-1211DS.<br /><br />If you've ever had teenagers staring into the open door of the refrigerator as they contemplate whatever teenagers think about, you'll understand why I used to tell them to close the door and look from the outside. After a  while they would realize they were staring at the closed refrigerator and they would"
+    ]
+  },
+  "published": true
+}

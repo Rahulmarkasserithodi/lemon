@@ -1,0 +1,211 @@
+{
+  "parent_asin": "B0C1JXJFG5",
+  "title": "Farberware FCDMGDWH Complete Portable Countertop Dishwasher with LED Light 2 Place Settings, 5 Wash Programs, Glass Door, White",
+  "brand": "Farberware",
+  "price": 349.99,
+  "average_rating": 4.4,
+  "n_reviews": 864,
+  "n_candidates": 111,
+  "n_obs": 78,
+  "n_events": 42,
+  "median_months": 10.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 419.99,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9872,
+      "lo": 0.9125,
+      "hi": 0.9982
+    },
+    {
+      "t": 0.06,
+      "s": 0.9742,
+      "lo": 0.9007,
+      "hi": 0.9935
+    },
+    {
+      "t": 0.12,
+      "s": 0.9612,
+      "lo": 0.8845,
+      "hi": 0.9873
+    },
+    {
+      "t": 0.25,
+      "s": 0.9222,
+      "lo": 0.8351,
+      "hi": 0.9643
+    },
+    {
+      "t": 0.5,
+      "s": 0.8554,
+      "lo": 0.754,
+      "hi": 0.9172
+    },
+    {
+      "t": 0.75,
+      "s": 0.8278,
+      "lo": 0.7218,
+      "hi": 0.8962
+    },
+    {
+      "t": 1.0,
+      "s": 0.7726,
+      "lo": 0.6597,
+      "hi": 0.8522
+    },
+    {
+      "t": 2.0,
+      "s": 0.728,
+      "lo": 0.6102,
+      "hi": 0.8155
+    },
+    {
+      "t": 3.0,
+      "s": 0.6331,
+      "lo": 0.5081,
+      "hi": 0.7344
+    },
+    {
+      "t": 4.0,
+      "s": 0.616,
+      "lo": 0.49,
+      "hi": 0.7195
+    },
+    {
+      "t": 5.0,
+      "s": 0.5632,
+      "lo": 0.4351,
+      "hi": 0.6729
+    },
+    {
+      "t": 6.0,
+      "s": 0.545,
+      "lo": 0.4165,
+      "hi": 0.6566
+    },
+    {
+      "t": 7.0,
+      "s": 0.5262,
+      "lo": 0.3974,
+      "hi": 0.6398
+    },
+    {
+      "t": 10.0,
+      "s": 0.4872,
+      "lo": 0.3581,
+      "hi": 0.6044
+    },
+    {
+      "t": 11.0,
+      "s": 0.4677,
+      "lo": 0.339,
+      "hi": 0.5864
+    },
+    {
+      "t": 12.0,
+      "s": 0.3898,
+      "lo": 0.2653,
+      "hi": 0.5122
+    },
+    {
+      "t": 18.0,
+      "s": 0.3508,
+      "lo": 0.2209,
+      "hi": 0.4835
+    },
+    {
+      "t": 19.0,
+      "s": 0.307,
+      "lo": 0.1739,
+      "hi": 0.4505
+    },
+    {
+      "t": 24.0,
+      "s": 0.2631,
+      "lo": 0.1324,
+      "hi": 0.414
+    },
+    {
+      "t": 36.0,
+      "s": 0.2631,
+      "lo": 0.1324,
+      "hi": 0.414
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "control_failure",
+      "count": 18
+    },
+    {
+      "mode": "leak",
+      "count": 15
+    },
+    {
+      "mode": "stopped_working",
+      "count": 8
+    },
+    {
+      "mode": "heating_failure",
+      "count": 3
+    },
+    {
+      "mode": "motor_failure",
+      "count": 1
+    },
+    {
+      "mode": "rust_corrosion",
+      "count": 1
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 1
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "heating_failure": [
+      "I have purchased this dishwasher 3 times, twice returned once it was after 30 days and I lost my money. Everytime I got E3 error which means the dishwasher not heating the water. Customer service say it's not fixable, the machine is junk. Very poor quality.",
+      "First dishwasher worked for a few weeks, then the heating element went out. Just got my replacement today, and I get error E1. I'm fed up with this. It's garbage and I'm furious. Stay away. Seriously. If you see this review and are thinking about buying it, DON'T.",
+      "The heating  element stopped working after 10 months and then our warranty replacement spring an internal leak and died three months later.  $400 for 13 months of use?  Garbage."
+    ],
+    "leak": [
+      "After 5 months it stopped working due to it leaking water and code E1 coming up saying low water pressure which was because of it leaking water out of the bottom of it.",
+      "Noise level excellent.<br />Was it ok, absolutely, we loved it.<br />Washing was ok, yes.<br />A little expensive, but worth it if it was a quality product. Leaked after two weeks of normal usage and I've seen others have the same problem in the reviews. Not sure why. I am really sad returning this.",
+      "We got it and it works nicely but after a week or two of using it started leaking. We still have trouble finding the location of the leak."
+    ],
+    "motor_failure": [
+      "[[VIDEOID:3256f398403dcd69914678ad31e16782]] Its only been one day I am impressed. It cleans good. I used the cascade platinum. I poured the hottest water my sink will give which came it about 125 to 130 F. I recommend reading the directions before opening its not many pages. Will try to review again in six months.<br /><br />Update late: Ended up having to send the first one back it stopped spinn"
+    ],
+    "control_failure": [
+      "The dishwasher worked very well for the first 3 months, after that we suddenly received an E1 error. We were using the tank, so it was not hooked up with the sink. We cleaned the dishwasher after every use, so it was not clear what caused the error, since it was filling up with water for a few minutes and then gave the error code and drained the water. I contacted customer support by email since w",
+      "Loving this little washer. The first one had an issue with the top washer not spinning, but Amazon has another one on my porch in just a few days. Other than that it works great and gets my dishes clean.<br /><br />Edit: a couple of weeks later, dishwasher stopped working,  gave an E1 code, said \"plumbing issue, contact a plumber\". Which is nonsense.  Second one returned for a refund.  Don't waste",
+      "I used this machine for a year, worked pretty well. It's a little picky about the detergent you use. The best by a mile was the great value lemon gel. Most powder types left a lot of residue. The hardware is pretty well made. I took it apart to inspect everything after having some issues. I did remove the giant block of cast iron they add to increase the weight in the rear. I get why they added it"
+    ],
+    "rust_corrosion": [
+      "04/20/22 Update<br />Everything still working as it's supposed to but my dish rack is now rusting and falling apart.  I never did anything to it, never bent it, never cut into the plastic wrap around it..nothing...but it's rusting and falling apart.  I need a new one and I hope I can get one otherwise I have a large paperweight on my hands.<br />*******************************<br /><br />06/30/202"
+    ],
+    "stopped_working": [
+      "This is my first dishwasher ever and I'm almost 40. I live in a small house with a small kitchen. I felt silly at first loading my dishes, cups and silverware in this dishwasher and only washing my pans. It has been two weeks and I'm pretty sure I have never made a better purchase in my life. My husband I cook and eat constantly and this little bugger has cleaned up my sink and given me back some ",
+      "This is nice for the first few week then it would not pump water it stop working the most I every use is twice a day with a couple hr in between. Had it replace and did the same thing. This time I ask for my money back.",
+      "This was easy to use and worked well for about 2 years.  Luckily I bought the insurance coverage.  It cleans dishes well but does not scrub have a disposal.  It uses less water than handwashing.  The bottom spinner stopped working.  I contacted Asurion, and they had no one to fix it so they refunded me.<br /><br />It is very quiet.  The cycle is pretty long but I don't mind that.  It would be good"
+    ],
+    "electrical_fault": [
+      "Day 1.<br />I don\u2019t think my dishwasher is \u201cbrand new\u201d the photos I\u2019ve provided show yellowing and some brown marks on one side that I noticed after hooking up the drain hose. It looks like it\u2019s been sitting next to something and got too hot... started browning?<br /><br />It leaked somewhere during my trial run. Gotta figure out if I put the hose on to loose \ud83d\ude11 I hope that\u2019s all it is.<br /><br />"
+    ],
+    "noise_vibration": [
+      "The water heater does not work. And as the dishwasher was preparing drain it started making a terrible grinding noise.<br />The instruction manual is horrible.<br />I found a brand that a friend has and it works well and has worked for over a year. So I am returning this... monstrosity.. and buying one I have personal experience with at my friends.<br />Would not recommend."
+    ]
+  },
+  "published": true
+}

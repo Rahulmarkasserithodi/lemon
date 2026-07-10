@@ -1,9 +1,20 @@
 [
   {
-    "left": "B073BLHCND",
+    "left": "B07BR6G8T7",
+    "right": "B09QC9947J",
+    "note": "Two portable countertop dishwashers at near-identical price ($329 vs $350) and star rating — yet the COMFEE' dies at a median 4 months versus 11 for the EdgeStar. Same shelf, same price, but ~3x the cost per year of life ($1,050 vs $359).",
+    "median_ratio": 2.75
+  },
+  {
+    "left": "B07NVJP82G",
+    "right": "B07B94ZR74",
+    "note": "Both cost $90 to the dollar. The AGLUCKY ice maker lasts a median 6 months; the SUPER DEAL twin-tub washer just 3 — so the washer costs twice as much per year of life ($360 vs $180) despite the identical sticker price.",
+    "median_ratio": 2.0
+  },
+  {
+    "left": "B01ALBMIEI",
     "right": "B09KV17R2Y",
-    "note": "A $339 compact dryer outlives a $120 countertop ice maker 4-to-1. The ice maker's median time-to-failure is ~3 months, so its cost-per-year-of-life ($480) is actually higher than the pricier, longer-lived dryer ($339).",
-    "median_ratio": 4.0
+    "note": "The pricier $150 Giantex washer outlives the $120 countertop ice maker nearly 4-to-1 (median 11 vs 3 months), so it is dramatically cheaper to own: $164 vs $480 per year of life. Sticker price hides which product is actually the lemon.",
+    "median_ratio": 3.67
   }
 ]
-

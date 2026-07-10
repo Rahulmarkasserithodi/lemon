@@ -1,0 +1,185 @@
+{
+  "parent_asin": "B07BR6G8T7",
+  "title": "EdgeStar DWP62BL 6 Place Setting Energy Star Rated Portable Countertop Dishwasher - Black",
+  "brand": "EdgeStar",
+  "price": 329.0,
+  "average_rating": 4.4,
+  "n_reviews": 530,
+  "n_candidates": 66,
+  "n_obs": 44,
+  "n_events": 17,
+  "median_months": 11.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 358.91,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9773,
+      "lo": 0.8494,
+      "hi": 0.9968
+    },
+    {
+      "t": 0.06,
+      "s": 0.9773,
+      "lo": 0.8494,
+      "hi": 0.9968
+    },
+    {
+      "t": 0.1,
+      "s": 0.9773,
+      "lo": 0.8494,
+      "hi": 0.9968
+    },
+    {
+      "t": 0.25,
+      "s": 0.9773,
+      "lo": 0.8494,
+      "hi": 0.9968
+    },
+    {
+      "t": 0.75,
+      "s": 0.9516,
+      "lo": 0.8193,
+      "hi": 0.9877
+    },
+    {
+      "t": 1.0,
+      "s": 0.9516,
+      "lo": 0.8193,
+      "hi": 0.9877
+    },
+    {
+      "t": 2.0,
+      "s": 0.8956,
+      "lo": 0.7441,
+      "hi": 0.9597
+    },
+    {
+      "t": 3.0,
+      "s": 0.8396,
+      "lo": 0.6762,
+      "hi": 0.9248
+    },
+    {
+      "t": 4.0,
+      "s": 0.8073,
+      "lo": 0.6358,
+      "hi": 0.9038
+    },
+    {
+      "t": 6.0,
+      "s": 0.702,
+      "lo": 0.5122,
+      "hi": 0.8293
+    },
+    {
+      "t": 9.0,
+      "s": 0.6194,
+      "lo": 0.42,
+      "hi": 0.7676
+    },
+    {
+      "t": 11.0,
+      "s": 0.4955,
+      "lo": 0.2989,
+      "hi": 0.6648
+    },
+    {
+      "t": 12.0,
+      "s": 0.4542,
+      "lo": 0.2621,
+      "hi": 0.6281
+    },
+    {
+      "t": 18.0,
+      "s": 0.4542,
+      "lo": 0.2621,
+      "hi": 0.6281
+    },
+    {
+      "t": 18.75,
+      "s": 0.3634,
+      "lo": 0.1588,
+      "hi": 0.573
+    },
+    {
+      "t": 24.0,
+      "s": 0.3634,
+      "lo": 0.1588,
+      "hi": 0.573
+    },
+    {
+      "t": 36.0,
+      "s": 0.3634,
+      "lo": 0.1588,
+      "hi": 0.573
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "control_failure",
+      "count": 6
+    },
+    {
+      "mode": "leak",
+      "count": 6
+    },
+    {
+      "mode": "stopped_working",
+      "count": 3
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 2
+    },
+    {
+      "mode": "heating_failure",
+      "count": 1
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 1
+    },
+    {
+      "mode": "motor_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "heating_failure": [
+      "I liked this machine just fine  (thus the two stars), except that the dryer no longer works, exactly one year after I got it, which is not enough time for a machine that costs this much."
+    ],
+    "physical_breakage": [
+      "damaged so bad could not use and this was a gift for my wife Christmas and now im 4 days into the new year and have not even received my refund to get her something else for present",
+      "I bought this in January 2020 and had a hard time finding someone to install it, so I just started using it at the first week of April 2020.<br /><br />PROS<br />It washes the dishes well.<br />Very easy to use<br />It is quiet<br /><br />CONS<br />So after 3 weeks of using the dishwasher, which was less than 10 times, 3 parts have broke; the handle on the silverware basket (no big deal), 3 of the"
+    ],
+    "control_failure": [
+      "Did a great job while it worked. Error message came on one day that water pressure wasn't good. I checked every aspect concerning this issue and it couldn't be resolved. I called EdgeStar and they proceeded immediately to send a replacement since I was under 90 days of the warranty. Lets see how the new one goes.",
+      "Easy to install.  Easy to hook up.  Error if u dont have water running.  Hold a lot of dishes.  Looks nice.  Lots of settings but i just use 2 and one.  If u tilt the door u can put a lot of water treatment in it.<br /><br />The bad<br />Good luck getting to eat ur detergent no matter how hot ur water is.  On that, run ur water tell it gets hot.<br />Not even a year of owning it i had to replace t",
+      "Stopped dispensing soap after less than 6 months of very light use! I am not happy. The soap door just does not open for any cycle. DO NOT BUY THIS UNIT.<br />I would think these types of problems would take years to occur. Especially with the machine only being used a couple times a week. Not happy with the quality. Hopefully there is some sort of warranty."
+    ],
+    "leak": [
+      "It worked for just shy of 9 months before it quit draining and started leaking water all over my floor. Kinda sucky since we live above someone! I said I'd buy another if this one ceased to worked, but I'm not so sure 9 months was worth it. I've cleaned the filter and checked the pump propeller...everything checked out fine. I'd need to rip the whole thing apart and access the pump, but not even t",
+      "Brand new dishwasher constantly displays an \"e4\" error. Will not finish a cycle. Does not drain properly. I thought the problem was the hoses that had to be connected, but those connections are totally secure. It seems to be leaking out the bottom of the dishwasher. Silverware basket handle arrived broken, but I wouldn't have returned the whole thing for that. It was easy enough to install but use",
+      "I bought this product cause I don't have a dishwasher. But I was very disappointed. It was easy to install and easy to use but that is all the good things I can say. It leaked water everywhere, didn't wash the dish I put in it to test it out. Had it for one day and returned it."
+    ],
+    "stopped_working": [
+      "Ordered on February 18, 2021 and here it is Sept 10, 2022 and it just died.  Only used it a few times a week.  While it was nice, I don't think it's worth it if you are looking for something for more than an apartment you leased for a year.  Do not recommend",
+      "Worked great at first but stopped working at 6 months.",
+      "This Co is selling defective products and will not make it right.<br />Only used for 3 months the stopped said I hooked it up wrong"
+    ],
+    "noise_vibration": [
+      "I Liked how much I could effectively fit in the racks and how quiet it was.  It worked well until it suddenly started making a terrible loud noise and stopped working after about 11 months of daily use.  Not sure I would recommend based on the short lifespan.  Overall pretty disappointed."
+    ],
+    "motor_failure": [
+      "I loved this dishwasher, it cleaned my dishes well and fit great in my small kitchen.  BUT, it died after only 4 months and the parts and labor warranty lasts, yes, 3 months.  It gave me an E4 error and the pump isn't working.  I checked and its not that the screen is full of food, it is clean and it requires that I ship it back to the company for repairs and they only pay for parts, I'm responsib"
+    ]
+  },
+  "published": true
+}

@@ -1,0 +1,333 @@
+{
+  "parent_asin": "B07B94ZR74",
+  "title": "SUPER DEAL Compact Mini Twin Tub Washing Machine, Portable Laundry Washer w/Wash and Spin Cycle Combo, Built-in Gravity Drain, 13lbs Capacity for Camping, Apartments, Dorms, College Rooms, RV\u2019s and mo",
+  "brand": "SUPER DEAL",
+  "price": 89.99,
+  "average_rating": 4.0,
+  "n_reviews": 2171,
+  "n_candidates": 296,
+  "n_obs": 244,
+  "n_events": 180,
+  "median_months": 3.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 359.96,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9508,
+      "lo": 0.915,
+      "hi": 0.9718
+    },
+    {
+      "t": 0.06,
+      "s": 0.9383,
+      "lo": 0.8998,
+      "hi": 0.9623
+    },
+    {
+      "t": 0.09,
+      "s": 0.9299,
+      "lo": 0.8896,
+      "hi": 0.9558
+    },
+    {
+      "t": 0.12,
+      "s": 0.9215,
+      "lo": 0.8796,
+      "hi": 0.9492
+    },
+    {
+      "t": 0.15,
+      "s": 0.9215,
+      "lo": 0.8796,
+      "hi": 0.9492
+    },
+    {
+      "t": 0.25,
+      "s": 0.8831,
+      "lo": 0.8351,
+      "hi": 0.9178
+    },
+    {
+      "t": 0.4,
+      "s": 0.8831,
+      "lo": 0.8351,
+      "hi": 0.9178
+    },
+    {
+      "t": 0.5,
+      "s": 0.8439,
+      "lo": 0.7911,
+      "hi": 0.8844
+    },
+    {
+      "t": 0.75,
+      "s": 0.8176,
+      "lo": 0.7619,
+      "hi": 0.8614
+    },
+    {
+      "t": 1.0,
+      "s": 0.7198,
+      "lo": 0.657,
+      "hi": 0.7731
+    },
+    {
+      "t": 1.17,
+      "s": 0.7153,
+      "lo": 0.6522,
+      "hi": 0.7689
+    },
+    {
+      "t": 1.25,
+      "s": 0.7153,
+      "lo": 0.6522,
+      "hi": 0.7689
+    },
+    {
+      "t": 1.5,
+      "s": 0.7107,
+      "lo": 0.6474,
+      "hi": 0.7647
+    },
+    {
+      "t": 1.75,
+      "s": 0.7061,
+      "lo": 0.6426,
+      "hi": 0.7605
+    },
+    {
+      "t": 2.0,
+      "s": 0.5915,
+      "lo": 0.5242,
+      "hi": 0.6524
+    },
+    {
+      "t": 2.5,
+      "s": 0.577,
+      "lo": 0.5095,
+      "hi": 0.6386
+    },
+    {
+      "t": 3.0,
+      "s": 0.4616,
+      "lo": 0.3943,
+      "hi": 0.5262
+    },
+    {
+      "t": 3.25,
+      "s": 0.4565,
+      "lo": 0.3892,
+      "hi": 0.5212
+    },
+    {
+      "t": 3.5,
+      "s": 0.4514,
+      "lo": 0.3842,
+      "hi": 0.5161
+    },
+    {
+      "t": 4.0,
+      "s": 0.4155,
+      "lo": 0.349,
+      "hi": 0.4806
+    },
+    {
+      "t": 4.5,
+      "s": 0.4102,
+      "lo": 0.3438,
+      "hi": 0.4753
+    },
+    {
+      "t": 5.0,
+      "s": 0.3681,
+      "lo": 0.3031,
+      "hi": 0.4332
+    },
+    {
+      "t": 6.0,
+      "s": 0.3041,
+      "lo": 0.2423,
+      "hi": 0.3681
+    },
+    {
+      "t": 7.0,
+      "s": 0.2986,
+      "lo": 0.2371,
+      "hi": 0.3624
+    },
+    {
+      "t": 8.0,
+      "s": 0.2931,
+      "lo": 0.2319,
+      "hi": 0.3567
+    },
+    {
+      "t": 9.0,
+      "s": 0.2874,
+      "lo": 0.2266,
+      "hi": 0.351
+    },
+    {
+      "t": 10.0,
+      "s": 0.2759,
+      "lo": 0.2158,
+      "hi": 0.3392
+    },
+    {
+      "t": 11.0,
+      "s": 0.2587,
+      "lo": 0.1998,
+      "hi": 0.3213
+    },
+    {
+      "t": 11.5,
+      "s": 0.2527,
+      "lo": 0.1942,
+      "hi": 0.3151
+    },
+    {
+      "t": 11.97,
+      "s": 0.2466,
+      "lo": 0.1886,
+      "hi": 0.3089
+    },
+    {
+      "t": 11.99,
+      "s": 0.2406,
+      "lo": 0.183,
+      "hi": 0.3027
+    },
+    {
+      "t": 12.0,
+      "s": 0.1564,
+      "lo": 0.1079,
+      "hi": 0.2131
+    },
+    {
+      "t": 18.0,
+      "s": 0.1466,
+      "lo": 0.0986,
+      "hi": 0.2038
+    },
+    {
+      "t": 24.0,
+      "s": 0.1344,
+      "lo": 0.0864,
+      "hi": 0.1931
+    },
+    {
+      "t": 30.0,
+      "s": 0.1176,
+      "lo": 0.0689,
+      "hi": 0.1804
+    },
+    {
+      "t": 36.0,
+      "s": 0.1176,
+      "lo": 0.0689,
+      "hi": 0.1804
+    },
+    {
+      "t": 44.0,
+      "s": 0.0784,
+      "lo": 0.0255,
+      "hi": 0.1711
+    },
+    {
+      "t": 48.0,
+      "s": 0.0392,
+      "lo": 0.0044,
+      "hi": 0.1446
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "motor_failure",
+      "count": 74
+    },
+    {
+      "mode": "stopped_working",
+      "count": 74
+    },
+    {
+      "mode": "leak",
+      "count": 14
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 8
+    },
+    {
+      "mode": "control_failure",
+      "count": 7
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 6
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 4
+    },
+    {
+      "mode": "other",
+      "count": 2
+    },
+    {
+      "mode": "rust_corrosion",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "motor_failure": [
+      "Well it just stopped working after a month..I didn't use it all June,maybe used it 4 times but did two different loads each time today I did my first load as usual , finished the second and went to drain it,I don't know what happened but now it won't spin,just make the spin noise but subtle.i tried to see if the washer part would at least wash and same thing,making little noise but not spinning.im",
+      "I want to love this item because the washer is awesome! But the spinner is a nightmare. It's virtually impossible to get it to spin without knocking, LOUDLY. I purchased this item two months ago, and the spinner stopped working two months to the day. This would be the perfect washer if only the spinner worked. The company sent me three videos (in Chinese) to fix the spinner. It worked once but the",
+      "It works good but your only able to wash a half of a load at a time, and spin dry half of that. Washes, and spinner broke within a month."
+    ],
+    "rust_corrosion": [
+      "I purchased this March 2020 because of COVID and living in an apartment with shared laundry space. The product lasted until September 2020 until the bottom rusted out HOWEVER it was due to me not being able to drain the washing machine without water coming underneath it in my tub. I expected this to last about 6-8 months and I\u2019ve liked the item so far. For reference, I used this item almost daily "
+    ],
+    "stopped_working": [
+      "I had so much hope that it would work.<br />But I got home a few days ago, I just had a baby so I asked for this washing machine so I wouldn't have to leave the house with my newborn baby ...<br />I opened the box two days after I arrived and it does not work, neither where the clothes are washed, nor where they are squeezed ...<br />I am so frustrated I contacted amazon who kindly sent an email t",
+      "It only lasted 3 to 4months though, so I am NOT happy about that.",
+      "Cheap quality broke 2 weeks later"
+    ],
+    "leak": [
+      "We bought this washer and we loved it. For the last 5 months it has worked great but we have noticed that there is now a strong unpleasant odor on the clothes we wash. It's not our water and this washer/dryer has been cleaned on a regular basis. We are not sure what would be the issue. It also has started to leak from the bottom as well and there is black mold growing where the bottom part is scre",
+      "Its an amazing product not going to say its not, but after 1 day of use it started leaking from the \"washing side\" under the pulsator. Going to fix it myself but still a good product minus that defect",
+      "[[VIDEOID:d1c199536fd31e51e4d83e5b804b57b5]] It was excellent at the beginning but after the 4-5 months of use the water leaks from the spinner. The description says it\u2019s \u2018Not loud at all\u2019 but it gets super loud. The hoe doesn\u2019t even fit on the faucet properly"
+    ],
+    "electrical_fault": [
+      "It lasted exactly the time for the restauran time to end. ( 3 days later)",
+      "This portable washing machine was terrible I say was because it is already broken the the timer switch for the loads went out the wiring inside the washing machine started to burn my bathroom was completely full of smoke the agitator would not spin now it's sitting beside the road for the trash man to come pick it up. I only used it for about 2 and 1/2 months it was small so I washed my kids cloth",
+      "Fatal, it didn't last 15 days, it stopped working and it smelled burnt."
+    ],
+    "physical_breakage": [
+      "I used this 4 times and the plastic in the basin has a huge hole in it and the plastic on the spinner is splintering. I've only used it for underwear and T- shirts. The spinner has never worked well, but the wash was fine. If the plastic wasn't so cheap that it broke down in less than a week, I would have no issue with the actual cleaning function of the machine. I put in a request to return.",
+      "The spinner broke on the 2 day",
+      "The spinner broke after a few weeks. I was able to get a full refund, but only after they had me take apart the machine to try and fix it myself."
+    ],
+    "wont_power_on": [
+      "the washer worked fine.  i used it 4 times a month.  but the electrical cord at the base had a sudden short in power cord.  it does not turn on.  I have taken very good care of this washer. it is defective.",
+      "Won\u2019t power on after only 5 uses. Seller refuses to grant the 3 year warranty, and instead offered me $5 off a new one. Much better portable washers out there.",
+      "Worked great for three weeks, then stopped working completely. Neither the washer or dryer work - it acts like it's unplugged, even though it is plugged in and getting power."
+    ],
+    "control_failure": [
+      "I have used it three times so far. It is doing a good job at cleaning my clothes, even better than the washer that is on my apartment building.  It is more time consuming. I do suggest getting an extension cord and having a shower head you can take and fill up the tank with. All in all I am glad I bought it so far. It will save me some money. :)<br /><br />Edit: I have had this washer a year and I",
+      "Bought it Jan. 2020. Now is Apr.6th 2021. The drying side is broken. Water won't drain properly but stays in the tank which keeps clothes wet after spinning.<br />One year it's worn out.<br />Anyway, I was pretty satisfied with it before.",
+      "[[VIDEOID:fc9d8240c76e5335329fb4b62f15b8f7]] I have purchased three of these in less than a year and all three broke. It fills with water but will not run the wash cycle.  It produces a chemical smell and isn't safe to operate. Customer service is suspicious, asking me to communicate via personal address instead of through amazon.  Customer service sent multiple messages badgering me after I reque"
+    ],
+    "other": [
+      "The item is defective, the seller refused to pay for my return shipping  , spent 3 months fighting it, amazon did nothing,  don't waste you money its plastic and super small so you can only wash underwear anyway.",
+      "I received my washing machine, and unfortunately the dryer part blew out after 2-3 weeks of usage but I reached out to the seller/company who were very helpful they first offered a solution to fix the problem although the solution did not fixing the problem the company offered to ship me out a replacement, I have received the replacement it works perfect I love it! This washer is also great for sm"
+    ]
+  },
+  "published": true
+}

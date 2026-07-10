@@ -1,0 +1,523 @@
+{
+  "parent_asin": "B07NVJP82G",
+  "title": "AGLUCKY Countertop Ice Maker Machine, Portable Ice Makers Countertop, Make 26 lbs ice in 24 hrs,Ice Cube Ready in 6-8 Mins with Ice Scoop and Basket",
+  "brand": "AGLUCKY",
+  "price": 89.94,
+  "average_rating": 4.3,
+  "n_reviews": 4241,
+  "n_candidates": 982,
+  "n_obs": 894,
+  "n_events": 849,
+  "median_months": 6.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 179.88,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9899,
+      "lo": 0.9807,
+      "hi": 0.9947
+    },
+    {
+      "t": 0.06,
+      "s": 0.9832,
+      "lo": 0.9723,
+      "hi": 0.9898
+    },
+    {
+      "t": 0.09,
+      "s": 0.981,
+      "lo": 0.9696,
+      "hi": 0.9881
+    },
+    {
+      "t": 0.12,
+      "s": 0.9776,
+      "lo": 0.9655,
+      "hi": 0.9855
+    },
+    {
+      "t": 0.18,
+      "s": 0.9765,
+      "lo": 0.9641,
+      "hi": 0.9846
+    },
+    {
+      "t": 0.25,
+      "s": 0.9619,
+      "lo": 0.9471,
+      "hi": 0.9726
+    },
+    {
+      "t": 0.33,
+      "s": 0.9608,
+      "lo": 0.9458,
+      "hi": 0.9717
+    },
+    {
+      "t": 0.42,
+      "s": 0.9596,
+      "lo": 0.9445,
+      "hi": 0.9707
+    },
+    {
+      "t": 0.5,
+      "s": 0.9405,
+      "lo": 0.9229,
+      "hi": 0.9542
+    },
+    {
+      "t": 0.66,
+      "s": 0.9394,
+      "lo": 0.9216,
+      "hi": 0.9533
+    },
+    {
+      "t": 0.75,
+      "s": 0.9181,
+      "lo": 0.898,
+      "hi": 0.9343
+    },
+    {
+      "t": 1.0,
+      "s": 0.8628,
+      "lo": 0.8384,
+      "hi": 0.8838
+    },
+    {
+      "t": 1.03,
+      "s": 0.8617,
+      "lo": 0.8372,
+      "hi": 0.8827
+    },
+    {
+      "t": 1.1,
+      "s": 0.8605,
+      "lo": 0.836,
+      "hi": 0.8817
+    },
+    {
+      "t": 1.17,
+      "s": 0.8594,
+      "lo": 0.8348,
+      "hi": 0.8806
+    },
+    {
+      "t": 1.25,
+      "s": 0.8571,
+      "lo": 0.8324,
+      "hi": 0.8785
+    },
+    {
+      "t": 1.37,
+      "s": 0.856,
+      "lo": 0.8311,
+      "hi": 0.8774
+    },
+    {
+      "t": 1.5,
+      "s": 0.8401,
+      "lo": 0.8143,
+      "hi": 0.8626
+    },
+    {
+      "t": 2.0,
+      "s": 0.7833,
+      "lo": 0.7546,
+      "hi": 0.809
+    },
+    {
+      "t": 2.5,
+      "s": 0.7798,
+      "lo": 0.751,
+      "hi": 0.8057
+    },
+    {
+      "t": 2.83,
+      "s": 0.7786,
+      "lo": 0.7498,
+      "hi": 0.8046
+    },
+    {
+      "t": 3.0,
+      "s": 0.6988,
+      "lo": 0.6673,
+      "hi": 0.728
+    },
+    {
+      "t": 3.06,
+      "s": 0.6976,
+      "lo": 0.6661,
+      "hi": 0.7268
+    },
+    {
+      "t": 3.17,
+      "s": 0.6965,
+      "lo": 0.6649,
+      "hi": 0.7257
+    },
+    {
+      "t": 3.27,
+      "s": 0.6953,
+      "lo": 0.6637,
+      "hi": 0.7246
+    },
+    {
+      "t": 3.5,
+      "s": 0.6918,
+      "lo": 0.6601,
+      "hi": 0.7212
+    },
+    {
+      "t": 4.0,
+      "s": 0.6311,
+      "lo": 0.5982,
+      "hi": 0.6622
+    },
+    {
+      "t": 4.06,
+      "s": 0.63,
+      "lo": 0.597,
+      "hi": 0.661
+    },
+    {
+      "t": 4.33,
+      "s": 0.6288,
+      "lo": 0.5958,
+      "hi": 0.6599
+    },
+    {
+      "t": 4.5,
+      "s": 0.6276,
+      "lo": 0.5946,
+      "hi": 0.6587
+    },
+    {
+      "t": 5.0,
+      "s": 0.5724,
+      "lo": 0.5387,
+      "hi": 0.6045
+    },
+    {
+      "t": 6.0,
+      "s": 0.4617,
+      "lo": 0.428,
+      "hi": 0.4946
+    },
+    {
+      "t": 6.25,
+      "s": 0.4605,
+      "lo": 0.4269,
+      "hi": 0.4934
+    },
+    {
+      "t": 6.5,
+      "s": 0.4558,
+      "lo": 0.4222,
+      "hi": 0.4887
+    },
+    {
+      "t": 7.0,
+      "s": 0.4333,
+      "lo": 0.4,
+      "hi": 0.4662
+    },
+    {
+      "t": 7.25,
+      "s": 0.4321,
+      "lo": 0.3988,
+      "hi": 0.465
+    },
+    {
+      "t": 7.5,
+      "s": 0.4286,
+      "lo": 0.3953,
+      "hi": 0.4614
+    },
+    {
+      "t": 8.0,
+      "s": 0.3658,
+      "lo": 0.3336,
+      "hi": 0.3981
+    },
+    {
+      "t": 8.25,
+      "s": 0.3646,
+      "lo": 0.3324,
+      "hi": 0.3969
+    },
+    {
+      "t": 8.5,
+      "s": 0.3635,
+      "lo": 0.3313,
+      "hi": 0.3957
+    },
+    {
+      "t": 9.0,
+      "s": 0.3194,
+      "lo": 0.2883,
+      "hi": 0.3508
+    },
+    {
+      "t": 10.0,
+      "s": 0.2765,
+      "lo": 0.2468,
+      "hi": 0.3069
+    },
+    {
+      "t": 10.87,
+      "s": 0.2753,
+      "lo": 0.2457,
+      "hi": 0.3056
+    },
+    {
+      "t": 11.0,
+      "s": 0.231,
+      "lo": 0.2032,
+      "hi": 0.2599
+    },
+    {
+      "t": 11.5,
+      "s": 0.2298,
+      "lo": 0.202,
+      "hi": 0.2586
+    },
+    {
+      "t": 11.75,
+      "s": 0.2286,
+      "lo": 0.2009,
+      "hi": 0.2574
+    },
+    {
+      "t": 11.76,
+      "s": 0.2274,
+      "lo": 0.1998,
+      "hi": 0.2561
+    },
+    {
+      "t": 11.9,
+      "s": 0.2226,
+      "lo": 0.1952,
+      "hi": 0.2511
+    },
+    {
+      "t": 11.97,
+      "s": 0.2178,
+      "lo": 0.1906,
+      "hi": 0.2461
+    },
+    {
+      "t": 11.99,
+      "s": 0.1973,
+      "lo": 0.1712,
+      "hi": 0.2248
+    },
+    {
+      "t": 12.0,
+      "s": 0.0589,
+      "lo": 0.0444,
+      "hi": 0.0763
+    },
+    {
+      "t": 12.03,
+      "s": 0.0577,
+      "lo": 0.0433,
+      "hi": 0.075
+    },
+    {
+      "t": 13.0,
+      "s": 0.0517,
+      "lo": 0.0381,
+      "hi": 0.0682
+    },
+    {
+      "t": 14.0,
+      "s": 0.0457,
+      "lo": 0.033,
+      "hi": 0.0614
+    },
+    {
+      "t": 15.0,
+      "s": 0.0421,
+      "lo": 0.0299,
+      "hi": 0.0573
+    },
+    {
+      "t": 16.0,
+      "s": 0.0397,
+      "lo": 0.0279,
+      "hi": 0.0545
+    },
+    {
+      "t": 18.0,
+      "s": 0.0205,
+      "lo": 0.0124,
+      "hi": 0.0318
+    },
+    {
+      "t": 18.5,
+      "s": 0.0192,
+      "lo": 0.0114,
+      "hi": 0.0303
+    },
+    {
+      "t": 19.0,
+      "s": 0.0179,
+      "lo": 0.0104,
+      "hi": 0.0288
+    },
+    {
+      "t": 20.0,
+      "s": 0.0179,
+      "lo": 0.0104,
+      "hi": 0.0288
+    },
+    {
+      "t": 21.0,
+      "s": 0.0165,
+      "lo": 0.0094,
+      "hi": 0.0271
+    },
+    {
+      "t": 22.0,
+      "s": 0.0151,
+      "lo": 0.0084,
+      "hi": 0.0255
+    },
+    {
+      "t": 24.0,
+      "s": 0.0041,
+      "lo": 0.0012,
+      "hi": 0.0113
+    },
+    {
+      "t": 30.75,
+      "s": 0.0021,
+      "lo": 0.0003,
+      "hi": 0.0097
+    },
+    {
+      "t": 36.0,
+      "s": 0.0021,
+      "lo": 0.0003,
+      "hi": 0.0097
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 562
+    },
+    {
+      "mode": "control_failure",
+      "count": 68
+    },
+    {
+      "mode": "motor_failure",
+      "count": 65
+    },
+    {
+      "mode": "cooling_failure",
+      "count": 62
+    },
+    {
+      "mode": "leak",
+      "count": 35
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 29
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 22
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 7
+    },
+    {
+      "mode": "rust_corrosion",
+      "count": 6
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 6
+    },
+    {
+      "mode": "other",
+      "count": 5
+    },
+    {
+      "mode": "heating_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "cooling_failure": [
+      "It wasnt even a year old when it stopped making ice. So I contacted seller . They wanted a vidoe of the problem,so I made one . I has a hard time uploading it. I asked customer service for help.  They said they couldn't help me . Now I am stuck with a broken ice maker . It's sad because I loved it .",
+      "It was great until it wasnt. It stopped working after about 9 months - would not get cold to make ice.",
+      "I turned it off for winter but decided I'd turn back on.  After 2 1/2 months turned off, it stopped freezing. Never changed it's spot. It will not freeze! Can't contact manufacturer for help!"
+    ],
+    "stopped_working": [
+      "It broke after owning it for a year, it will start the cycle to make ice but then stop. Loved them machine but sad it broke.",
+      "This was great and made nice sizes of ice. Unfortunately it just stopped working after 10 months.",
+      "I wanted to love this ice maker and it worked great until it just quit making ice.  I haven\u2019t even had it two months and boom, now I\u2019ve wasted 100.00.<br />Ive reached out to the manufacturer but received no reply.  Bear this in mind if you\u2019re considering ordering this model."
+    ],
+    "motor_failure": [
+      "great the first 2 weeks, started getting louder and louder, eventual there was a big spark, and i could smell the wires melting. No way to return it since it is 9 days past the ending return date. My advice, look elsewhere.",
+      "To bought this six months ago. It\u2019s already stopped working. The motor is shot. Please do not purchase this, in 6 months it will be a complete waste of money. A huge disappointment!",
+      "It was a great little machine for a year and a half and then the motor went out, can\u2019t get it to work anymore. It should\u2019ve lasted longer than a year and a half. I won\u2019t buy another one"
+    ],
+    "rust_corrosion": [
+      "This has been a great little countertop ice maker. It makes some funny sounds as it goes, but it works fantastically. I've used it daily for about ten months, using filtered water and cleaning regularly. Unfortunately, the ice maker is broken, as it no longer pulls water up to make the ice. Also, as I was attempting to see if it could be salvaged, I noticed what looked like rust coming out up wher",
+      "I LOVED this for 18 months, but METAL parts in WATER = rusty ice. First I noticed a couple months ago there was orange residue in my tank. I got one of these for my dad, and his gets yucky because he uses tap water. I ONLY use filtered store bought water. I have a cup that gets ZERO residue so I know it's clean water. So I assumed I got bad water, cleaned it out and refilled it.<br /><br />I notic",
+      "So it looks great, is quiet, and is fairly quick to make ice.<br /><br />The problem is it has no self cleaning feature, has a bunch of metal parts, and doesn't stay particularly cold inside.  So while it excels at making ice, rust and mold are also things it is quite effective at making.  Not particularly healthy things to drink.<br /><br />So while it's possibly a good ice maker if you babysit i"
+    ],
+    "control_failure": [
+      "[[VIDEOID:de10df65a7a3ce5e0bf81bcba2a6cb90]] I have had this for a year and a half. Started malfunctioning about a month ago. Keeps saying the ice is full even though it is not. I was able to get past it but now I cannot. It will not make any more ice it just keeps saying that it is full and I cannot find a reset button or anything to fix it. I had cleaned it and scrubbed it several times to stop ",
+      "Worked for a few months then wouldn't register there was water in it.  Was offered to send me a part so I could replace it myself instead of honoring the warranty.  When I finally got through to someone they tried to insist I give a 5 star review because they eventually refunded me (more then a month after first contact)",
+      "Worked great for a while. 2 1/2 months in and now it only makes 5 cubes at a time<br />Additional info. Unit only made 4 cubes at a time. Contacted seller through Amazon and they issued a full refund. Can\u2019t complain about that."
+    ],
+    "noise_vibration": [
+      "Ran for about a month then stopped pumping water. The fan sounded like a soup can full of rocks on an escalator. So loud I turned it off when I was within 2 rooms of it and it still only lasted a few weeks",
+      "2 months old.  Already making a lot of motor noise and past the return date.  Do NOT recommend",
+      "Works well. The bullet shape and small size makes it easier to blend for smoothies!<br />Only gripes are: 1) the ice doesn't stay frozen long, similar to having an ice bucket. But it does recycle the melted ice. 2) it is a bit loud when dumping the ice into the basket. Not a big deal for parties and such, but can sound like shuffling in another room... So don't watch a scary movie with it less tha"
+    ],
+    "wont_power_on": [
+      "I loved this thing at first. Yes it\u2019s a little loud and creates a lot of heat in the kitchen. But it does what it supposed to do, for 14 months. Then it just flat out died. I took good care of it, kept it clean, and stored it clean and dry when it was not in use. This was not a user error. For this reason I would not suggest the purchase, nor would I buy it again. On would expect an appliance to l",
+      "BOUGHT THIS MACHINE  ONE YEAR AGO.  IT ONLY LASTED FOR ONE YEAR,  THEN STOPPED WORKING.. TRIED EVERYTHING TO GET IT STARTED AGAIN.  DEAD AS A DOORNAIL.. I GAVE IT 2 STARS BECAUSE IT WAS GOOD WHILE IT LASTED.. WILL BE LOOKING FOR ANOTHER MODEL AND BRAND.",
+      "Work for a while but now cubes have a film of water on them.<br />Also just after 5 months it\u2019s broken and won\u2019t run!"
+    ],
+    "leak": [
+      "At first, we loved this ice maker!! Makes ice quickly and easily! Then, JUST when the 30 days ran out, it began to leak! I am very disappointed in this machine! Had great hopes for it, but cannot recommend anyone buying this - for over $100 - not pocket change! And now, I'm stuck with an ice maker that leaks all over and is pretty much useless!! AGLUCKY - not such a \"lucky\" buy!!",
+      "I have to be honest I\u2019m not thrilled with the fact that it only makes nine ice cubes at a time and if you don\u2019t remove the made ice, it just melts back into the water reserve. After using this product for four months, it started to leak all over my counter, I\u2019ll follow the suggestions for product support by defrosting it that did nothing. It continues to leak so obviously, this item is worthless t",
+      "We loved this ice machine, great size cubes, but suddenly unit started leaking after using for 5 months.  Very Disappointed, now we just have to throw $100+ dollars away."
+    ],
+    "physical_breakage": [
+      "Worked great for first 2 months, then afterwards quality of ice got bad. The ice also melted extremely fast. I also found it super hard to clean. Black stuff and mold would appear on the inside. I notice the ice wouldn\u2019t taste good. The top of the machine broke last week and that was my last stray with the ice machine. I am throwing it away. It was good while it lasted\u2026. It was also super loud thr",
+      "I brought this ice machine at the end of August 2021 and it lasted with fairly frequent use until June 2022 when it broke.  The internal part which turns to deliver the finished ice broke off it's metal rod and I can't get it back on.  It barely lasted 9 months.  It also made a lot of noise and doesn't seem very well insulated (so I suspect it wastes a lot of power).  I wish it had a place to put ",
+      "Died after one year.  Found little plastic bits in the water reservoir.  Appears that the spline connecting the motor and the tray where the ice gets made is broken.  Look elsewhere unless you like to throw your money away."
+    ],
+    "electrical_fault": [
+      "I bought this in Nov 2021 as a Christmas gift for my wife since our new home's fridge didn't have an icemaker, and she likes to have iced coffees a couple of times a week. Started using it just after the new year, and it broke in the beginning of June, so less than 6 months of use. It plugs in, and runs water through, but after awhile it starts smelling like burned plastic. Of course the product s",
+      "[[VIDEOID:8ceab792e90695c231f99102026a962f]] First off, I LOVE my ice maker. However, I only had it for 6 months and I had to unplug it for good just recently. Why? Well, I started to smell something burning like wires burning, so I looked throughout the kitchen and couldn't find where it was coming from. Until I checked around the ice maker and finally found where it was coming from. Before unplu",
+      "GARBAGE! I bought the ice maker in July on sale for a Christmas present for a family member. When we plugged it in it smelled like burning electronics and never cooled the water or made a single ice cube.  Reached out to Amazon but the warranty was over since I bought it months before.  Reached out to the seller and they said they would give me a full refund.  Then they denied the refund and said "
+    ],
+    "other": [
+      "6 or 7 months later Ice not work.",
+      "We had this for about a year and a half before it eventually failed.  During its use though, it did make ice fast. The reoccurring problem we had with it though, was that it was difficult to clean. A brownish film would get in very hard to reach areas after only about 2 weeks of use. We always used bottled spring water as well. I believe it was this build up that eventually led to its failure. If ",
+      "I bought this based on the high reviews.  I did not realize how noisy it would be when regenerating ice.  That said, I can live with the noise. What I can\u2019t live with, is the awful chlorine flavor.  We have our whole house on a water filter and we only use filtered, reverse osmosis water.  Four days into using this machine, all of the ice started having a strong chlorine taste.  Will be returning."
+    ],
+    "heating_failure": [
+      "The first of this make and model counter top ice maker we bought through Amazon was dead on arrival.  It simply did not work at all, so we returned it for a refund and bought another identical one.  It worked fine for about a month or so, then one day we noticed the exterior plastic shell had melted, obviously due to some overheating problem inside the unit.  It still produces ice, but we consider"
+    ]
+  },
+  "published": true
+}

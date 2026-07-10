@@ -1,0 +1,406 @@
+{
+  "parent_asin": "B0BS6H2WL5",
+  "title": "EUHOMY Ice Maker Machine Countertop, 26 lbs in 24 Hours, 9 Cubes Ready in 6 Mins, Self-Clean Electric Ice Maker Compact Potable Ice Maker with Ice Scoop and Basket. for Home/Kitchen/Office.(White)",
+  "brand": "E EUHOMY",
+  "price": 49.99,
+  "average_rating": 4.5,
+  "n_reviews": 3481,
+  "n_candidates": 427,
+  "n_obs": 365,
+  "n_events": 314,
+  "median_months": 6.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 99.98,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9781,
+      "lo": 0.9567,
+      "hi": 0.989
+    },
+    {
+      "t": 0.06,
+      "s": 0.9698,
+      "lo": 0.9462,
+      "hi": 0.9832
+    },
+    {
+      "t": 0.09,
+      "s": 0.9561,
+      "lo": 0.9293,
+      "hi": 0.9729
+    },
+    {
+      "t": 0.1,
+      "s": 0.9505,
+      "lo": 0.9226,
+      "hi": 0.9685
+    },
+    {
+      "t": 0.25,
+      "s": 0.92,
+      "lo": 0.887,
+      "hi": 0.9437
+    },
+    {
+      "t": 0.3,
+      "s": 0.9172,
+      "lo": 0.8837,
+      "hi": 0.9414
+    },
+    {
+      "t": 0.33,
+      "s": 0.9144,
+      "lo": 0.8805,
+      "hi": 0.939
+    },
+    {
+      "t": 0.5,
+      "s": 0.8917,
+      "lo": 0.8548,
+      "hi": 0.9197
+    },
+    {
+      "t": 0.62,
+      "s": 0.8889,
+      "lo": 0.8516,
+      "hi": 0.9173
+    },
+    {
+      "t": 0.75,
+      "s": 0.8548,
+      "lo": 0.8139,
+      "hi": 0.8874
+    },
+    {
+      "t": 1.0,
+      "s": 0.7831,
+      "lo": 0.7364,
+      "hi": 0.8225
+    },
+    {
+      "t": 1.06,
+      "s": 0.7802,
+      "lo": 0.7333,
+      "hi": 0.8198
+    },
+    {
+      "t": 1.13,
+      "s": 0.7772,
+      "lo": 0.7302,
+      "hi": 0.8171
+    },
+    {
+      "t": 1.25,
+      "s": 0.7743,
+      "lo": 0.727,
+      "hi": 0.8144
+    },
+    {
+      "t": 1.5,
+      "s": 0.7477,
+      "lo": 0.6988,
+      "hi": 0.7898
+    },
+    {
+      "t": 1.8,
+      "s": 0.7447,
+      "lo": 0.6957,
+      "hi": 0.787
+    },
+    {
+      "t": 2.0,
+      "s": 0.6849,
+      "lo": 0.6331,
+      "hi": 0.7309
+    },
+    {
+      "t": 2.03,
+      "s": 0.6819,
+      "lo": 0.63,
+      "hi": 0.7281
+    },
+    {
+      "t": 2.25,
+      "s": 0.6788,
+      "lo": 0.6269,
+      "hi": 0.7252
+    },
+    {
+      "t": 2.5,
+      "s": 0.6758,
+      "lo": 0.6237,
+      "hi": 0.7224
+    },
+    {
+      "t": 3.0,
+      "s": 0.5974,
+      "lo": 0.5433,
+      "hi": 0.6472
+    },
+    {
+      "t": 3.5,
+      "s": 0.5881,
+      "lo": 0.5339,
+      "hi": 0.6382
+    },
+    {
+      "t": 4.0,
+      "s": 0.5383,
+      "lo": 0.4836,
+      "hi": 0.5898
+    },
+    {
+      "t": 4.25,
+      "s": 0.5352,
+      "lo": 0.4804,
+      "hi": 0.5867
+    },
+    {
+      "t": 5.0,
+      "s": 0.5037,
+      "lo": 0.4489,
+      "hi": 0.5558
+    },
+    {
+      "t": 5.5,
+      "s": 0.5005,
+      "lo": 0.4458,
+      "hi": 0.5527
+    },
+    {
+      "t": 6.0,
+      "s": 0.3991,
+      "lo": 0.346,
+      "hi": 0.4517
+    },
+    {
+      "t": 7.0,
+      "s": 0.38,
+      "lo": 0.3274,
+      "hi": 0.4323
+    },
+    {
+      "t": 8.0,
+      "s": 0.3512,
+      "lo": 0.2997,
+      "hi": 0.4031
+    },
+    {
+      "t": 9.0,
+      "s": 0.3225,
+      "lo": 0.2722,
+      "hi": 0.3737
+    },
+    {
+      "t": 10.0,
+      "s": 0.297,
+      "lo": 0.248,
+      "hi": 0.3474
+    },
+    {
+      "t": 11.0,
+      "s": 0.265,
+      "lo": 0.218,
+      "hi": 0.3142
+    },
+    {
+      "t": 11.83,
+      "s": 0.2618,
+      "lo": 0.215,
+      "hi": 0.3109
+    },
+    {
+      "t": 11.9,
+      "s": 0.2586,
+      "lo": 0.212,
+      "hi": 0.3075
+    },
+    {
+      "t": 11.99,
+      "s": 0.2521,
+      "lo": 0.206,
+      "hi": 0.3007
+    },
+    {
+      "t": 12.0,
+      "s": 0.1293,
+      "lo": 0.095,
+      "hi": 0.169
+    },
+    {
+      "t": 12.03,
+      "s": 0.1254,
+      "lo": 0.0915,
+      "hi": 0.1648
+    },
+    {
+      "t": 12.5,
+      "s": 0.1214,
+      "lo": 0.088,
+      "hi": 0.1606
+    },
+    {
+      "t": 13.0,
+      "s": 0.1097,
+      "lo": 0.0776,
+      "hi": 0.1479
+    },
+    {
+      "t": 14.0,
+      "s": 0.1056,
+      "lo": 0.0741,
+      "hi": 0.1435
+    },
+    {
+      "t": 16.0,
+      "s": 0.1016,
+      "lo": 0.0705,
+      "hi": 0.1391
+    },
+    {
+      "t": 18.0,
+      "s": 0.0731,
+      "lo": 0.0465,
+      "hi": 0.1076
+    },
+    {
+      "t": 22.0,
+      "s": 0.0691,
+      "lo": 0.0432,
+      "hi": 0.1029
+    },
+    {
+      "t": 24.0,
+      "s": 0.0325,
+      "lo": 0.0156,
+      "hi": 0.0594
+    },
+    {
+      "t": 34.0,
+      "s": 0.0244,
+      "lo": 0.0091,
+      "hi": 0.053
+    },
+    {
+      "t": 36.0,
+      "s": 0.0081,
+      "lo": 0.0009,
+      "hi": 0.0371
+    },
+    {
+      "t": 45.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 162
+    },
+    {
+      "mode": "leak",
+      "count": 54
+    },
+    {
+      "mode": "control_failure",
+      "count": 36
+    },
+    {
+      "mode": "cooling_failure",
+      "count": 30
+    },
+    {
+      "mode": "motor_failure",
+      "count": 12
+    },
+    {
+      "mode": "other",
+      "count": 9
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 6
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 5
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 3
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 2
+    },
+    {
+      "mode": "rust_corrosion",
+      "count": 2
+    }
+  ],
+  "snippets": {
+    "stopped_working": [
+      "My igloo died after 3 years. This one does the same thing. Works great.",
+      "It worked right out of the box. Easy to use and makes ice fast!<br /><br />Update: Stopped working after 6 months",
+      "It worked right out of the box. Easy to use and makes ice fast!<br /><br />Update: Stopped working after 6 months"
+    ],
+    "noise_vibration": [
+      "Worked for a week.  Sounded like an electric weed eater this morning.  Stopped making ice.  Save your money.  Took 35 minutes with an Amazon CS rep to finally put me through to one who took care of me.  You cannot just return this thing.  No option.  They will refund you after it breaks and you threaten to cancel all of your current order as well as prime membership.",
+      "no problem with the ice maker for 2 months and then all of a sudden the pump starts to make a horrific very loud noise.<br /><br />and of course this company unheard of and unreachable for a replacement unit.<br /><br />I guess I will just buy another ice maker from another brand...",
+      "Edit: Customer service did finally get back to me and issued a full refund for the machine, so upgrade from 1 to 3 stars. I would have actually taken my chances with a replacement as up until it didn't work and got gross, we LOVED this ice maker. There is a chance we just got a faulty one and I would take the chance on buying another. I have both bartended and worked with a commercial full sized i"
+    ],
+    "leak": [
+      "Not easy to clean.<br />We haven't had a year and it's leaking from somewhere",
+      "After 8 months of using it weekly, the unit now leaks, doesn't make ice, and motor is quite noisy. Reached out to customer service for help in troubleshooting and awaiting response. I'm not pleased. One would think it would work more than a handful of times",
+      "Generates ice pretty quickly but has it's limitations. It makes 9 ice cubes in 8 minutes, at first they come out small and soft, but they will come out larger after it runs a while. Essentially it makes enough for 4 glasses an hour, so I'd consider it enough ice for 2 to 4 people actively drinking, clearly not nearly enough for a party. The downside is it does not hold much ice, so there is no goo"
+    ],
+    "electrical_fault": [
+      "UPDATE:<br />The customer service I received is second to none.  A day after I posted my review, I received an email from the company offering me a replacement or my money back.  No questions asked.  I opted for the replacement because I think the one I got may have just been defective.  3 days later I get the UPS tracking and received my replacement.  I will add to this update in a month or so af",
+      "followed instructions to the letter, this machine worked great for 1 week, then died. Everything that was noted to do was followed but the machine froze up., smelled like it was burning. There was nothing close to it and it was an appropriate distance from the wall. Not happy."
+    ],
+    "control_failure": [
+      "Quick Freeze, Compact.<br />We have a small apartment kitchen & this is PERFECT.  No more freezer space lost to ice cube trays!<br /><br />The one we received as a Christmas gift started malfunctioning in June.  EUHOMY replaced product for no charge to me and shipped within a week!! Great customer service!!",
+      "This ice machine worked great for the first 8 months.  Now it thinks it needs water to be added when in fact it is full of water.  We will see how the company responds to the warranty.  I will update as they respond.",
+      "We were thrilled with its performance at first. In fact the process fascinated our grandchildren. My son even bought one for his family. Thus far we have used this maker on about 8 to 10 occasions since we purchased it last October. However it has been malfunctioning the most recent 2 times we used it. The machine just stooped making ice cubes for no apparent reason. Today it produced one tray the"
+    ],
+    "cooling_failure": [
+      "Update: The company emailed me about the product and asked if I would like a new one sent or a refund. They were very helpful. They reached out and made things right. Even though the product failed they were very easy to work with on getting the situation taken care of. I\u2019m updating to 4 stars because they were willing to make it right. In my book, that\u2019s a good company.<br /><br />I got this ice ",
+      "This thing worked well...for one week. Then half of the rods stopped freezing, so it would produce about 2 ice cubes at a time. I returned it and ordered a different brand.<br /><br />If you win the lottery and get one that doesn't fail, these work fairly well for making ice quickly that you can use in drinks, etc. The overall design is fine if it isn't defective.",
+      "I've had three of these ice makers and longest one last 2 years. The most recent one lasted 14 months. All times the refrigerant went out and would no longer freeze water. But while it worked it was great, makes lots of ice and is fairly quiet. I would recommend buying the extended warranty plan thru Amazon to cover your bases."
+    ],
+    "other": [
+      "Makes perfect ice.<br />Update: after 2 months of use, it started smelling.  Although it's been cleaned, it seems like mold got into places that can't be cleansed.  I've since thrown it out.",
+      "worked well for 7 months then ice started tasting awful--there is mold inside in numerous places that i cannot reach to clean - it was still under warranty so i made many emails to the manufacturer and they would not stand behind their warranty.  Amazon had to step in to take care of this.  Do not buy from this company.",
+      "UPDATE: 10/22/2020:<br />The company contacted me after this review and sent a replacement/new ice maker. The new one has been great and we\u2019ve been operating it daily for 2 months.  The ice tastes normal and we love it! Thank you for the excellent customer service!<br /><br />This ice maker seemed to be fine the first few weeks we used it. Then suddenly the ice started to taste plastic. We tried c"
+    ],
+    "physical_breakage": [
+      "I bought this ice machine 2 years ago.  I find myself back on Amazon today weighing pros and cons to replace it as I have broken the basket loading mechanism while trying to clean the dang thing.<br /><br />Pros:<br />Standard rate of making ice<br />Relatively quiet<br />Relatively small amount of counter space<br /><br />Cons:<br />CLEANING! - I didn't even know this was supposed to be self clea",
+      "Had similar issues as noted in other reviews (sometimes noisy, sometimes ice catches at top and prevents new cubes).  For the most part those were tolerable issues for me.  However, this morning I noticed some dark colored flecks in the ice...slightly larger than rice grains.  On closer look they had a shiny metal side...its the metal coating on the freezing mechanism!  The device lasted 1.5 years",
+      "UPDATE: Customer Service gets 5 stars! They were very accommodating and sent a replacement out right away. We have used the new machine twice in the past few days and it seems to be working really well. We really do like this ice maker and are hoping it is still working in a few months.  ORIGINAL REVIEW: We did really like this icemaker: the size of cubes, the speed; however, a part malfunction oc"
+    ],
+    "motor_failure": [
+      "I wanted to love this ice maker, however the motor is fried after using this for only one week! The first week was great, and I loved how quickly this made ice, even though you have to constantly babysit the ice making progression, as there is no cooler in the basket where the ice stays, so it melts extremely fast unless you keep up with each basket made.<br />Now for the negitive:<br />This ice m",
+      "The motor stopped running in less than 1 month, but customer service contacted me and replaced item. I really love this product \ud83d\ude0d and will change my review to 4 stars \ud83c\udf1f",
+      "[[VIDEOID:f0fd5302edcf2c1cb9504287374e2ad0]] I brought this ice maker in January 2022. In March 2022, there were issues with the water pump and by April 2022, the ice maker was no longer working. Trying to get a hold of the company was a total issue. They wanted pictures and videos to prove it was broke, which I sent three times and every time they claimed they didn't receive it. The video showing"
+    ],
+    "rust_corrosion": [
+      "Worked well for 1.5 years , then it started to develop rust. Need to have stainless cube maker to prevent rust residue.",
+      "I purchased this countertop ice maker (model: IM-01) through Amazon in July of 2021 for $121.68.  I enjoyed the product immensely at first.  It looked well constructed and the reviews were mostly positive.  In August of 2022, I noticed the cooling elements were becoming rusty and cleaning them resulted in silver shavings, almost like paint chips, coming off.  This was concerning as I would think t"
+    ],
+    "wont_power_on": [
+      "This appliance was used while camping over a 2 week period.  It was wiped clean and dry and stored in its original box.  Got it out to use and now it doesn\u2019t work.  It is too late to return it.  I would not recommend this product to anyone.  In the past we have always had a fridgidaire.  I wish I would have just stuck with that.  It was 60 cheaper and worked for several years.",
+      "After a year the machine quit powering on?!? I followed the troubleshooting and still nothing, just think it should\u2019ve lasted longer?!??",
+      "We had this unit for about 6 weeks before it stopped working.  The power light just blinks green but the unit will not turn on."
+    ]
+  },
+  "published": true
+}

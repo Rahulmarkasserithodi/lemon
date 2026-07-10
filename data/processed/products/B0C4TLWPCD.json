@@ -1,0 +1,202 @@
+{
+  "parent_asin": "B0C4TLWPCD",
+  "title": "Antarctic Star 26 Bottle Wine Cooler/Cabinet Beverage Refrigerator Mini Wine Cellar Beer Soda Clear Glass Door Counter Top Bar Fridge Quiet Compressor Adjust Temp 130-Can Freestanding 3.2cu.ft Black",
+  "brand": "Antarctic Star",
+  "price": 169.99,
+  "average_rating": 4.3,
+  "n_reviews": 600,
+  "n_candidates": 49,
+  "n_obs": 41,
+  "n_events": 28,
+  "median_months": 4.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 509.97,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9512,
+      "lo": 0.8187,
+      "hi": 0.9876
+    },
+    {
+      "t": 0.1,
+      "s": 0.9262,
+      "lo": 0.7883,
+      "hi": 0.9756
+    },
+    {
+      "t": 0.25,
+      "s": 0.9012,
+      "lo": 0.7576,
+      "hi": 0.9617
+    },
+    {
+      "t": 0.33,
+      "s": 0.9012,
+      "lo": 0.7576,
+      "hi": 0.9617
+    },
+    {
+      "t": 0.5,
+      "s": 0.9012,
+      "lo": 0.7576,
+      "hi": 0.9617
+    },
+    {
+      "t": 0.75,
+      "s": 0.8721,
+      "lo": 0.7186,
+      "hi": 0.9449
+    },
+    {
+      "t": 1.0,
+      "s": 0.7267,
+      "lo": 0.5499,
+      "hi": 0.8434
+    },
+    {
+      "t": 1.06,
+      "s": 0.6965,
+      "lo": 0.5173,
+      "hi": 0.8199
+    },
+    {
+      "t": 1.5,
+      "s": 0.6662,
+      "lo": 0.4855,
+      "hi": 0.7958
+    },
+    {
+      "t": 2.0,
+      "s": 0.6056,
+      "lo": 0.4245,
+      "hi": 0.7456
+    },
+    {
+      "t": 3.0,
+      "s": 0.5451,
+      "lo": 0.3662,
+      "hi": 0.693
+    },
+    {
+      "t": 3.5,
+      "s": 0.5148,
+      "lo": 0.3381,
+      "hi": 0.6659
+    },
+    {
+      "t": 4.0,
+      "s": 0.4845,
+      "lo": 0.3106,
+      "hi": 0.6382
+    },
+    {
+      "t": 5.0,
+      "s": 0.4239,
+      "lo": 0.2575,
+      "hi": 0.5811
+    },
+    {
+      "t": 6.0,
+      "s": 0.3913,
+      "lo": 0.2292,
+      "hi": 0.5501
+    },
+    {
+      "t": 7.0,
+      "s": 0.3522,
+      "lo": 0.1942,
+      "hi": 0.5145
+    },
+    {
+      "t": 9.0,
+      "s": 0.3131,
+      "lo": 0.1613,
+      "hi": 0.4775
+    },
+    {
+      "t": 12.0,
+      "s": 0.1565,
+      "lo": 0.0517,
+      "hi": 0.3133
+    },
+    {
+      "t": 15.0,
+      "s": 0.1565,
+      "lo": 0.0517,
+      "hi": 0.3133
+    },
+    {
+      "t": 18.0,
+      "s": 0.0783,
+      "lo": 0.0079,
+      "hi": 0.2617
+    },
+    {
+      "t": 24.0,
+      "s": 0.0783,
+      "lo": 0.0079,
+      "hi": 0.2617
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 10
+    },
+    {
+      "mode": "cooling_failure",
+      "count": 10
+    },
+    {
+      "mode": "control_failure",
+      "count": 5
+    },
+    {
+      "mode": "leak",
+      "count": 2
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 1
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "stopped_working": [
+      "I originally had a bad rating for this because the first one died after 6 days, but the 2nd one lasted almost a year! Yeah, not impressed. Find better quality elsewhere.",
+      "High pitched whine when it runs, which is frequent. Wife wants it gone, but tore up the boxes and would be a hassle to return.  Regret buying it now<br /><br />Update:  Quit working, barely lasted a year.",
+      "Great while it worked, nice size and capacity. You can for sure hear the compressor run so not super quiet. Sadly broke down after 1 month of use, not sure what i can do about it."
+    ],
+    "control_failure": [
+      "We purchased this cooler for our RV and it worked fine for 5 months and now it will not maintain a set temperature. It keeps dropping the setting to 43 on the display and then freezes our wine. I've contacted the seller through Amazon because the cooler has a 1-year warranty, we'll see.  More to come.",
+      "Owned and in use for about 6 weeks. It's in my basement so I started noticing that it \"turns itself off\" every 48 hours. This is not a setting on the fridge, it's obviously a malfunction. So after I confirm that it's not our power, etc. I email customer service (\"CS\").  I get a response after 5 days. After a couple more back and forth it's clear the product is malfunctioning. The end result from C",
+      "Bought this for a spare. When I actually had to use it about 2 months later, the control panel did not work. And the temperature did not get down past 44 degrees. I am now stuck with a worthless fridge."
+    ],
+    "cooling_failure": [
+      "I purchased this refrigerator in September of 2020.  By June of 2021, it was dead. The temperature in the fridge is 72 degrees.  Save your money and buy something of higher quality if you can.  I have contacted to the seller to see if there is a 1 year warranty. If there is and they respond and replace the fridge, I will update the review accordingly.",
+      "This product is terrible, it was my<br />Husband bday wish, to upgrade his older \u201cbeer\u201d fridge for a nicer one, but let me tell you, this product is  not what it seem, it never gets cold and the door opens on its own, when ever it wants you, so I\u2019m a month and 2 days from my return date and nowI\u2019m stuck with this crappy Fridge?? Yayyy",
+      "Beautiful refrigerator.  Came in great exterior condition with no exterior damage or noticeable damage.  It worked great for 1 day then stopped cooling.  Had a burnt smell coming from it. Submitted for return via Amazon yesterday and I'm waiting on the seller to contact me about getting a replacement and how to send the failed unit back.  This is obviously a manufacture's defect.  Unfortunately, i"
+    ],
+    "leak": [
+      "Stopped working after a month... now all it does it leak",
+      "I have had this mini fridge for less than a month and it is already leaking all over the floor. It is on a level surface and I do not have it over filled with items. Also, this thing is extremely loud! Couldn\u2019t believe how much noise this little things puts out.<br /><br />VERY DISAPPOINTED I BOUGHT THIS!!!!<br /><br />Do not be fooled by the design and price."
+    ],
+    "physical_breakage": [
+      "After a month of use the door has fallen off. The implements that allow you to switch the doors was not the issue. The fittings within the unit have failed and fallen out."
+    ],
+    "wont_power_on": [
+      "Bought fridge for daughter. Did not work at all. Requested return right away, and was sent label, but took weeks to find a large enough box. Original box was torn apart to get fridge out. Was received back at seller on Aug 4th. A month later there is still no refund. $229.00 was paid and not returned.  No option to connect with any customer service. Only instructions that have already been followe"
+    ]
+  },
+  "published": true
+}

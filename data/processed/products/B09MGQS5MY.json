@@ -1,0 +1,108 @@
+{
+  "parent_asin": "B09MGQS5MY",
+  "title": "HomeCraft Black Stainless Steel Full-Size Kegerator Draft Beer Dispenser & Beer Cooler, Spring-Loaded Tap Dispenser, Holds 1/6, 1/4, 1/2 Barrels, 2.5-Pound CO2 Tank, Single Meter Regulator",
+  "brand": "Homecraft",
+  "price": 499.99,
+  "average_rating": 3.9,
+  "n_reviews": 111,
+  "n_candidates": 9,
+  "n_obs": 8,
+  "n_events": 8,
+  "median_months": 0.8,
+  "median_is_lower_bound": false,
+  "cost_per_year": 7499.85,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.75,
+      "lo": 0.3148,
+      "hi": 0.9309
+    },
+    {
+      "t": 0.09,
+      "s": 0.625,
+      "lo": 0.2293,
+      "hi": 0.8607
+    },
+    {
+      "t": 0.75,
+      "s": 0.5,
+      "lo": 0.152,
+      "hi": 0.7749
+    },
+    {
+      "t": 0.85,
+      "s": 0.375,
+      "lo": 0.087,
+      "hi": 0.6744
+    },
+    {
+      "t": 2.5,
+      "s": 0.25,
+      "lo": 0.0371,
+      "hi": 0.5581
+    },
+    {
+      "t": 6.0,
+      "s": 0.125,
+      "lo": 0.0066,
+      "hi": 0.4227
+    },
+    {
+      "t": 12.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "cooling_failure",
+      "count": 2
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 2
+    },
+    {
+      "mode": "leak",
+      "count": 2
+    },
+    {
+      "mode": "stopped_working",
+      "count": 2
+    },
+    {
+      "mode": "control_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "cooling_failure": [
+      "I was really liking the Kegerator, after using it with a variety of refillable growlers and gravity feed aluminum 5L kegs. Unfortunately 6 months into my ownership the cooling system has failed and will no longer keep my beverage below room temperature.",
+      "I received this 3 days ago and followed the instructions on chilling the beer keg for at least 10 hours, before placing it in the system. It\u2019s been over 2 days and the machine will not cool down past 58 degrees.<br />It says this is not eligible for return, but I bought the warranty, which I suppose is rendered useless ?"
+    ],
+    "control_failure": [
+      "I bought this as a gift for my wife who wanted to have her favorite beer on tap at home.  This is legitimately a gimmick.  Its impossible to setup and operate correctly.  It uses C02 cartridges that literally run out within a glass or two.  The flow is impossible to control, its hard to tell if you pressurized the kegurator, and the temp has trouble staying where its supposed to be.  It took us 6 "
+    ],
+    "physical_breakage": [
+      "On the 2nd use, the plastic dip tube got stuck (it's a rubber fitting to my keg), and in trying to pull it out, the plastic threads on the fitting have stripped and are not reusable. Replacement parts available? I doubt it. These parts really need to be made out of metal so they won't break. Delivered Aug 21st, this is Sept 16th. Less than a month. But Amazon will not take a return, because it inc",
+      "I am a homebrewer and I own one of these I purchased from HomeDepot. They're really great if you're a small-batch brewer (I was bring 3gal batches at the time which means two 1.2gal mini-kegs were perfect for my useable beer once separated from the trub), or if you have a source for regularly purchasing Heineken-style minikegs of ready made beer (by the way, Hofbrauhaus ships their Oktoberfestbier"
+    ],
+    "leak": [
+      "[[VIDEOID:d1629a029da8b8099849a699722762b5]] After one use the tap won't stop leaking.  It's leaking not only through the nozzle but around the outside as well.<br /><br />I've been brewing beer for a decade now.  I have a dual tap kegerator I built myself that works flawlessly.  I had hoped I could use this in my tiki bar as a portable mini kegerator but it's just not working.  At all.  The tap i",
+      "Everything seemed fine\u2026 into our third keg\u2026 figuring out good C02 combo for the perfect pour \u2026 and after having it for 2.5 months this black liquid starts leaking.  What\u2019s up with this? Still holding temp so far\u2026 but what is it? Motor oil? Is motor oil in the compressor?  Seriously less than three months ownership. Window of return was minimal\u2026 now what?"
+    ],
+    "stopped_working": [
+      "I had this product for a little under 3 weeks and it stoped working for no reason, i was looking forward to having it for the long weekend with some friends",
+      "poured a couple beers (less than a 6-pack).  Never worked again.<br /><br />Tried to fix by trying Growler method but by time I could procure another keg (they NOT easy to find), 30-day return up.<br /><br />Also, I ordered a new Growler at the additional costs of $50.... Having tried every potential ''trouble-shooting' method, I procured the replacement growler wondering/hoping there might be a s"
+    ]
+  },
+  "published": false
+}

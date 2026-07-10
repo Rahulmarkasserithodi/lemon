@@ -1,0 +1,231 @@
+{
+  "parent_asin": "B0B4YS19SH",
+  "title": "Midea MRC050S0AWW Chest Freezer, 5.0 Cubic Feet, White",
+  "brand": "Midea",
+  "price": 279.0,
+  "average_rating": 4.6,
+  "n_reviews": 1056,
+  "n_candidates": 78,
+  "n_obs": 63,
+  "n_events": 30,
+  "median_months": 13.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 257.54,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.06,
+      "s": 0.9683,
+      "lo": 0.879,
+      "hi": 0.992
+    },
+    {
+      "t": 0.09,
+      "s": 0.9354,
+      "lo": 0.837,
+      "hi": 0.9753
+    },
+    {
+      "t": 0.1,
+      "s": 0.9354,
+      "lo": 0.837,
+      "hi": 0.9753
+    },
+    {
+      "t": 0.12,
+      "s": 0.9187,
+      "lo": 0.8156,
+      "hi": 0.9654
+    },
+    {
+      "t": 0.25,
+      "s": 0.9187,
+      "lo": 0.8156,
+      "hi": 0.9654
+    },
+    {
+      "t": 0.5,
+      "s": 0.9,
+      "lo": 0.7903,
+      "hi": 0.9539
+    },
+    {
+      "t": 0.75,
+      "s": 0.9,
+      "lo": 0.7903,
+      "hi": 0.9539
+    },
+    {
+      "t": 1.0,
+      "s": 0.8591,
+      "lo": 0.7364,
+      "hi": 0.9274
+    },
+    {
+      "t": 1.25,
+      "s": 0.837,
+      "lo": 0.7081,
+      "hi": 0.9124
+    },
+    {
+      "t": 2.0,
+      "s": 0.815,
+      "lo": 0.6809,
+      "hi": 0.8969
+    },
+    {
+      "t": 3.0,
+      "s": 0.7924,
+      "lo": 0.6536,
+      "hi": 0.8804
+    },
+    {
+      "t": 4.0,
+      "s": 0.7676,
+      "lo": 0.6234,
+      "hi": 0.8624
+    },
+    {
+      "t": 6.0,
+      "s": 0.7429,
+      "lo": 0.5943,
+      "hi": 0.8438
+    },
+    {
+      "t": 8.0,
+      "s": 0.7172,
+      "lo": 0.5648,
+      "hi": 0.8242
+    },
+    {
+      "t": 9.0,
+      "s": 0.6916,
+      "lo": 0.5361,
+      "hi": 0.8041
+    },
+    {
+      "t": 10.0,
+      "s": 0.6916,
+      "lo": 0.5361,
+      "hi": 0.8041
+    },
+    {
+      "t": 11.99,
+      "s": 0.6363,
+      "lo": 0.4749,
+      "hi": 0.7599
+    },
+    {
+      "t": 12.0,
+      "s": 0.5256,
+      "lo": 0.3625,
+      "hi": 0.6652
+    },
+    {
+      "t": 13.0,
+      "s": 0.4906,
+      "lo": 0.326,
+      "hi": 0.6361
+    },
+    {
+      "t": 14.0,
+      "s": 0.4555,
+      "lo": 0.2912,
+      "hi": 0.6059
+    },
+    {
+      "t": 15.0,
+      "s": 0.4555,
+      "lo": 0.2912,
+      "hi": 0.6059
+    },
+    {
+      "t": 18.0,
+      "s": 0.3796,
+      "lo": 0.2191,
+      "hi": 0.539
+    },
+    {
+      "t": 20.0,
+      "s": 0.3417,
+      "lo": 0.186,
+      "hi": 0.5037
+    },
+    {
+      "t": 24.0,
+      "s": 0.1898,
+      "lo": 0.0727,
+      "hi": 0.3487
+    },
+    {
+      "t": 60.0,
+      "s": 0.1898,
+      "lo": 0.0727,
+      "hi": 0.3487
+    },
+    {
+      "t": 84.0,
+      "s": 0.1898,
+      "lo": 0.0727,
+      "hi": 0.3487
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 18
+    },
+    {
+      "mode": "cooling_failure",
+      "count": 6
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 4
+    },
+    {
+      "mode": "motor_failure",
+      "count": 1
+    },
+    {
+      "mode": "leak",
+      "count": 1
+    },
+    {
+      "mode": "heating_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "cooling_failure": [
+      "It has frosted up after one month.  I like the size, but disappointing that I have to deal with frosted sides.  I would return if I had a way.",
+      "Space was perfect for a single person.  Compressor quit after 18 months.  Also nearly impossible to replace the starter relay due to the way they put everything together.",
+      "My husband purchased this freezer so we could store my breastmilk. Worked great for 3 days then the cooling part stopped. I generally put milk in the freezer every 2 days and by the time I went to put more in almost all my milk was thawing out. Amazon was very easy to work with on doing a refund and because of the freon, it couldn't be sent back so now it's used to hold dog food since we have no o"
+    ],
+    "stopped_working": [
+      "Two years and it stopped working with no warning.",
+      "Don't know much about this item.  Stopped working in three days, just long enough for me to see that it worked and put groceries in.",
+      "I bought this in December and it worked fine for two months then stopped working suddenly. Lost $400 worth of meats. It's too late to return so I'm out $178 for the freezer and $400 for Costco meats. I will be buying a different brand."
+    ],
+    "motor_failure": [
+      "The freezer didn't last a year  Motor died.  Of course past return date.  Very disappointed.  Now I can't get a refund because the chest freezer that I ordered on Amazon is not what they shipped.  The Manufacturer says that paperwork doesn't match.  So the Customer pays the consequences.  The Manufacturer and Seller will not reimburse a freezer that didn't last a year, due to their negligence.  BU"
+    ],
+    "wont_power_on": [
+      "I am so angry right now!  I bought about $300 worth of beef from a friend who butchered a cow.  I bought this freezer specifically to hold it.  It was slightly damaged from shipping, but seemed to work fine, so I didn't return it.  I let it run for 3 weeks before I put meat in it to make sure it worked.  It worked fine for 3 months. Today I walk into my garage and find a blood trail on the floor (",
+      "This freezer turned on once and died a few hours later. It was in our cool basement with its own power plug, it had plenty of wattage. My fix everything friend couldn\u2019t figure out the problem. We had it two days, and returned it without issue. Amazon made the return super easy and UPS picked the freezer up from my house. These larger items I may buy closer to home in the future, because I really n",
+      "I spent two days trying to get this thing to work. The manual is written in broken english so if there\u2019s a problem with it, you\u2019re kind of on your own. Do not buy from this brand it\u2019s as cheaply made as you can get. Go splurge on a deep freezer that actually works!!!"
+    ],
+    "leak": [
+      "I've had my deep freezer for nearly two years, it was performing great in the garage. Then one day, this week, it suddenly started leaking. There is water all over the place. Unfortunately, I have to buy another unit, but I will NOT be repurchasing this brand. I am still baffled where the water is coming from. The unit has been emptied (now my indoor freezer is beyond capacity) but I am still need"
+    ],
+    "heating_failure": [
+      "DO NOT BUY!!! This died 2 weeks after the return window, taking over $300 of food with it. I tested it and ran it about half full for a couple weeks, and checked on it periodically since I had noticed some bad reviews . I thought after 3 weeks I should be okay. My kitchen is torn apart for a renovation but I had meal prepped three weeks of food and froze it all. 2 weeks worth went in this piece of"
+    ]
+  },
+  "published": true
+}

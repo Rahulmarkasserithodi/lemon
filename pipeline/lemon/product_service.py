@@ -157,3 +157,75 @@ def _persist(product: dict) -> None:
     index = [e for e in index if e.get("parent_asin") != asin] + [entry]
     index.sort(key=lambda x: -(x.get("n_events") or 0))
     index_path.write_text(json.dumps(index, indent=2))
+
+
+# ── warming CLI ───────────────────────────────────────────────────────────────
+# Build a corpus by extracting a curated set of products through the same
+# on-demand path the server uses. Every extraction is cached, so re-running is
+# free; results also land in data/processed/ for the offline demo + pairs.py.
+
+def warm_products(asins: list[str]) -> None:
+    import os
+
+    from google import genai
+
+    from .extract import open_cache
+    from .reviews_index import get_reviews, open_reviews_db
+
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        raise SystemExit("GEMINI_API_KEY not set (check the repo-root .env).")
+    if not config.CATALOG_FILE.exists():
+        raise SystemExit("catalog.json missing — run `python -m lemon.reviews_index all` first.")
+
+    catalog = json.loads(config.CATALOG_FILE.read_text())
+    by_asin = {c["parent_asin"]: c for c in catalog}
+    client = genai.Client(api_key=api_key)
+    reviews_db = open_reviews_db()
+    cache = open_cache()
+
+    print(f"Warming {len(asins)} product(s) …\n")
+    try:
+        for i, asin in enumerate(asins, 1):
+            meta_row = by_asin.get(asin)
+            if meta_row is None:
+                print(f"  [{i:>2}/{len(asins)}] {asin}  SKIP (not in catalog)")
+                continue
+            reviews = get_reviews(reviews_db, asin)
+            if not reviews:
+                print(f"  [{i:>2}/{len(asins)}] {asin}  SKIP (no reviews indexed)")
+                continue
+            p = build_product(asin, meta_row, reviews, client, cache)
+            flag = "PUB" if p["published"] else "   "
+            med = p["median_months"]
+            med_s = f"{med:>4.0f}mo" if med is not None else "  —  "
+            cpy = p["cost_per_year"]
+            cpy_s = f"${cpy:,.0f}/yr" if cpy is not None else "        "
+            print(
+                f"  [{i:>2}/{len(asins)}] {asin} {flag} "
+                f"cand={p['n_candidates']:>3} obs={p['n_obs']:>3} ev={p['n_events']:>3} "
+                f"{med_s} {cpy_s}  {p['title'][:44]}"
+            )
+    finally:
+        reviews_db.close()
+        cache.close()
+    print("\nDone. Results cached + written to data/processed/.")
+
+
+if __name__ == "__main__":
+    import argparse
+
+    ap = argparse.ArgumentParser(description="Warm a corpus of products on demand.")
+    g = ap.add_mutually_exclusive_group(required=True)
+    g.add_argument("--asins", help="comma-separated parent_asins to extract")
+    g.add_argument("--top", type=int, help="extract the top-N products by review count")
+    args = ap.parse_args()
+
+    if args.asins:
+        targets = [a.strip() for a in args.asins.split(",") if a.strip()]
+    else:
+        cat = json.loads(config.CATALOG_FILE.read_text())
+        cat.sort(key=lambda x: -(x.get("n_reviews") or 0))
+        targets = [c["parent_asin"] for c in cat[: args.top]]
+
+    warm_products(targets)

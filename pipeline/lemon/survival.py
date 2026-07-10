@@ -66,7 +66,7 @@ def fit_km(
     kmf.fit(durations, event_observed=events)
 
     median = kmf.median_survival_time_
-    median_unbounded = median == float("inf") or pd.isna(median)
+    median_unbounded = bool(median == float("inf") or pd.isna(median))
 
     ci = kmf.confidence_interval_survival_function_
     sf = kmf.survival_function_

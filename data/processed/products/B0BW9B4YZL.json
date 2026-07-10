@@ -1,0 +1,142 @@
+{
+  "parent_asin": "B0BW9B4YZL",
+  "title": "Broan-NuTone 414204 Non-Ducted Under-Cabinet Ductless Range Hood Insert, 42-Inch, Stainless Steel",
+  "brand": "Broan-NuTone",
+  "price": null,
+  "average_rating": 4.6,
+  "n_reviews": 3409,
+  "n_candidates": 118,
+  "n_obs": 27,
+  "n_events": 7,
+  "median_months": null,
+  "median_is_lower_bound": true,
+  "cost_per_year": null,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.5,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.75,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 1.0,
+      "s": 0.96,
+      "lo": 0.7484,
+      "hi": 0.9943
+    },
+    {
+      "t": 2.0,
+      "s": 0.96,
+      "lo": 0.7484,
+      "hi": 0.9943
+    },
+    {
+      "t": 3.0,
+      "s": 0.96,
+      "lo": 0.7484,
+      "hi": 0.9943
+    },
+    {
+      "t": 4.0,
+      "s": 0.96,
+      "lo": 0.7484,
+      "hi": 0.9943
+    },
+    {
+      "t": 6.0,
+      "s": 0.96,
+      "lo": 0.7484,
+      "hi": 0.9943
+    },
+    {
+      "t": 7.0,
+      "s": 0.896,
+      "lo": 0.6317,
+      "hi": 0.9741
+    },
+    {
+      "t": 11.0,
+      "s": 0.832,
+      "lo": 0.555,
+      "hi": 0.9442
+    },
+    {
+      "t": 12.0,
+      "s": 0.768,
+      "lo": 0.4861,
+      "hi": 0.9079
+    },
+    {
+      "t": 16.0,
+      "s": 0.6982,
+      "lo": 0.412,
+      "hi": 0.8645
+    },
+    {
+      "t": 24.0,
+      "s": 0.6284,
+      "lo": 0.3452,
+      "hi": 0.8163
+    },
+    {
+      "t": 36.0,
+      "s": 0.6284,
+      "lo": 0.3452,
+      "hi": 0.8163
+    },
+    {
+      "t": 120.0,
+      "s": 0.5236,
+      "lo": 0.2328,
+      "hi": 0.7504
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 3
+    },
+    {
+      "mode": "motor_failure",
+      "count": 2
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 1
+    },
+    {
+      "mode": "control_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "electrical_fault": [
+      "Purchased this less than a year ago. The light in the unit is blinking on and off and there is a burning smell. I have had to call an electrician to hopefully repair it or replace it. The unit I had before this worked fine for over 20 years. Would never buy this again. It\u2019s a piece of garbage."
+    ],
+    "stopped_working": [
+      "It quit working after one month. Don't waste your money. I paid to have it put up now I'm going to have to pay to have it taken down and still buy a new one. I'll buy local.",
+      "Finally, after 15 years, my range hood kicked the bucket. I never realized how much we used the light. Not so much the fan. For the week it was dead, we kept going to flick the light on, only to remember it was out for good.<br /><br />I went to Sears. They only had built in types. I checked Best Buy they had nothing.<br /><br />I came home and went to Amazon. Took me 5 minutes to find and purchas",
+      "After 24 months the fan died. Not sure if I can get a replacement. Warranty good for 12 months"
+    ],
+    "motor_failure": [
+      "Purchase this in Nov 2018 to avoid cutting up new cabinets for the old vented system. We don't use a range hood much (a handful of times a year) so we thought this would be a good option to the aforementioned issue. It's mostly for light purposes. However 2 nights ago when we turned it on the high speed it was barely running. On low speed it is so quiet I doubt it is working at all. Unfortunately ",
+      "I just got the replacement of my Range Hood, a very small box with a fan, and cables to replace the fan. I THOUGH I WAS GETTING A NEW RANGE HOOD,  THAT IS THE REPLACEMENT I AM GETTING FROM BROAN A FAN. PLEASE IF YOU ARE READING MY REVIEW DON'T BUY THIS RANGE HOOD, IS A PIECE OF SH...T. I AM GETTING A NEW ONE FROM ANOTHER BRAND.<br />I bought this Range 5/19/2017 last night when I turned on the fan"
+    ],
+    "control_failure": [
+      "I was happy to find this because the size was perfect and all others were too big.  When the lightbulb blew out, I replaced it but it didn't work.  Then I turned the fan on; it didn't work either.  I bought it December 2015.  It worked 16 months.  : (  Bummer."
+    ]
+  },
+  "published": false
+}

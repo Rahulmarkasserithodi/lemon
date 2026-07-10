@@ -1,0 +1,130 @@
+{
+  "parent_asin": "B0C6226Y9B",
+  "title": "Kalamera Mini Fridge 15\" Wine Cooler Refrigerator - 30 Bottle Wine Fridge with Stainless Steel Refrigerator& Double-Layer Tempered Glass Door and Temperature Memory Function Built-in or Freestanding",
+  "brand": "Kalamera",
+  "price": 629.0,
+  "average_rating": 4.4,
+  "n_reviews": 228,
+  "n_candidates": 24,
+  "n_obs": 16,
+  "n_events": 11,
+  "median_months": 11.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 686.18,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9375,
+      "lo": 0.6323,
+      "hi": 0.991
+    },
+    {
+      "t": 0.06,
+      "s": 0.875,
+      "lo": 0.586,
+      "hi": 0.9672
+    },
+    {
+      "t": 0.25,
+      "s": 0.8125,
+      "lo": 0.5246,
+      "hi": 0.9354
+    },
+    {
+      "t": 0.5,
+      "s": 0.7448,
+      "lo": 0.4537,
+      "hi": 0.896
+    },
+    {
+      "t": 1.0,
+      "s": 0.7448,
+      "lo": 0.4537,
+      "hi": 0.896
+    },
+    {
+      "t": 2.0,
+      "s": 0.7448,
+      "lo": 0.4537,
+      "hi": 0.896
+    },
+    {
+      "t": 3.0,
+      "s": 0.6384,
+      "lo": 0.3189,
+      "hi": 0.8384
+    },
+    {
+      "t": 5.0,
+      "s": 0.532,
+      "lo": 0.2205,
+      "hi": 0.7684
+    },
+    {
+      "t": 11.0,
+      "s": 0.4256,
+      "lo": 0.1425,
+      "hi": 0.6876
+    },
+    {
+      "t": 12.0,
+      "s": 0.2128,
+      "lo": 0.0342,
+      "hi": 0.4919
+    },
+    {
+      "t": 24.0,
+      "s": 0.1064,
+      "lo": 0.0062,
+      "hi": 0.3728
+    },
+    {
+      "t": 60.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "cooling_failure",
+      "count": 9
+    },
+    {
+      "mode": "stopped_working",
+      "count": 2
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 1
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "cooling_failure": [
+      "Had this for about 5 months and it just stopped working. Back and forth with Kalamera a number of times with them trying to diagnose the issue via email. Ultimately they decided it was the compressor and it couldn't be fixed. They are sending a new unit in about a week.  However....a refridgerator of any kind (wine or otherwise) should last more than 5 months. The dorm fridge I bought at Kmart whe",
+      "This a beautiful piece of garbage! Bought it at the beginning of the year and it stopped working about a months ago. We\u2019ve tried to contact the company, since it\u2019s still under warranty, but we\u2019ve heard nothing but crickets! Learn from us\u2026 Don\u2019t waste your money!!!!<br /><br />UPDATE: Changed rating from a one to a two as customer service did contact us finally and we did their troubleshooting step",
+      "I really want to like this wine cooler.<br /><br />Arrived well packed and no damage. I let it set the requisite 24 hours to let the freon settle and then plug it in. I noticed after a couple of days that it didn't seem to be cooling the bottles down to the same level as the thermostat setting. So I bought a inexpensive interior refrigerator thermometer. And I was right... It doesn't cool properly"
+    ],
+    "wont_power_on": [
+      "Compressor did not work.  Sent it back for refund not replacement.<br /><br />I get that you take some risk when you buy big items from Amazon.  The return processes wasn't a huge inconvenience but after a month and still waiting on the refund, I will stick to only everyday items from Amazon."
+    ],
+    "physical_breakage": [
+      "It's been only few days since I placed all my bottles inside the unit and the temperature setting is steady at 45 for the whites and 55 for the reds!  The noise level is very impressive with only a slight humming.  One minor complaint is that the black plastic tray holder broke off when I tried to remove one shelf to accommodate my magnum bottles."
+    ],
+    "stopped_working": [
+      "Terrible cooler terrible service. Called the service number I was given after this new cooler died (it was always off temp wise before it stopped working anyway!) They responded quickly asking for a pic of back of cooler nameplate and purchase history which was interesting request for a built in but we managed to pull cooler out and photo the serial and model numbers. Quick response again. This ti",
+      "Unit broke after 1 week.  Not a problem, right?  Good luck getting any type of customer service.....called multiple times and was told someone would contact me - never happened.  Should have bought from Costco in the first place, which I did after this disaster of an order."
+    ]
+  },
+  "published": false
+}

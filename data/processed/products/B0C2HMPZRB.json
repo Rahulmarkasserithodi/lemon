@@ -1,0 +1,220 @@
+{
+  "parent_asin": "B0C2HMPZRB",
+  "title": "COSTWAY Compact Laundry Dryer, 110V Electric Portable Clothes Dryer with Stainless Steel Tub, Control Panel Downside Easy Control for 4 Automatic Drying Mode, White",
+  "brand": "COSTWAY",
+  "price": 259.99,
+  "average_rating": 4.2,
+  "n_reviews": 671,
+  "n_candidates": 61,
+  "n_obs": 46,
+  "n_events": 34,
+  "median_months": 6.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 519.98,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.06,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.1,
+      "s": 0.9773,
+      "lo": 0.8494,
+      "hi": 0.9968
+    },
+    {
+      "t": 0.25,
+      "s": 0.9318,
+      "lo": 0.8033,
+      "hi": 0.9775
+    },
+    {
+      "t": 0.5,
+      "s": 0.9091,
+      "lo": 0.7757,
+      "hi": 0.9649
+    },
+    {
+      "t": 0.75,
+      "s": 0.8864,
+      "lo": 0.7483,
+      "hi": 0.9511
+    },
+    {
+      "t": 1.0,
+      "s": 0.7931,
+      "lo": 0.6399,
+      "hi": 0.8866
+    },
+    {
+      "t": 1.03,
+      "s": 0.769,
+      "lo": 0.613,
+      "hi": 0.8685
+    },
+    {
+      "t": 1.75,
+      "s": 0.745,
+      "lo": 0.5867,
+      "hi": 0.85
+    },
+    {
+      "t": 2.0,
+      "s": 0.6969,
+      "lo": 0.5355,
+      "hi": 0.8116
+    },
+    {
+      "t": 3.0,
+      "s": 0.5725,
+      "lo": 0.4094,
+      "hi": 0.7059
+    },
+    {
+      "t": 4.0,
+      "s": 0.5452,
+      "lo": 0.3823,
+      "hi": 0.6821
+    },
+    {
+      "t": 5.0,
+      "s": 0.518,
+      "lo": 0.3558,
+      "hi": 0.6578
+    },
+    {
+      "t": 6.0,
+      "s": 0.4604,
+      "lo": 0.301,
+      "hi": 0.6059
+    },
+    {
+      "t": 7.0,
+      "s": 0.4316,
+      "lo": 0.2746,
+      "hi": 0.5791
+    },
+    {
+      "t": 8.0,
+      "s": 0.4029,
+      "lo": 0.249,
+      "hi": 0.5518
+    },
+    {
+      "t": 11.0,
+      "s": 0.3741,
+      "lo": 0.224,
+      "hi": 0.524
+    },
+    {
+      "t": 11.9,
+      "s": 0.3453,
+      "lo": 0.1998,
+      "hi": 0.4956
+    },
+    {
+      "t": 11.99,
+      "s": 0.3165,
+      "lo": 0.1762,
+      "hi": 0.4666
+    },
+    {
+      "t": 12.0,
+      "s": 0.1439,
+      "lo": 0.0533,
+      "hi": 0.2775
+    },
+    {
+      "t": 24.0,
+      "s": 0.1439,
+      "lo": 0.0533,
+      "hi": 0.2775
+    },
+    {
+      "t": 36.0,
+      "s": 0.0719,
+      "lo": 0.0079,
+      "hi": 0.2387
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 14
+    },
+    {
+      "mode": "heating_failure",
+      "count": 7
+    },
+    {
+      "mode": "motor_failure",
+      "count": 4
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 3
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 3
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 2
+    },
+    {
+      "mode": "control_failure",
+      "count": 2
+    }
+  ],
+  "snippets": {
+    "heating_failure": [
+      "so stopped heating after 8 months. called Costway, they only have a 6 molnth warranty. Had bought a warranty with square trade and they will refund me the amount paid rather than send a tech out, and now its listed for more than I paid for it.  still tumbles, absolutely no heat",
+      "At first everything seemed fine but within 3 weeks the machine would not hear up. I called and requested a new machine. Instead they offered me $140 and suggested I call a repairman.<br />I called them back and explained this was not acceptable. That I would be charged to receive an estimate & would still be left with a lemon.<br />Waiting to hear back from them.<br />Will update.",
+      "I have had this item for about 8 months now. At first it worked great however about a month ago it stopped drying and now just tumbles the items. I loved it at first but for almost $400 lasting under a year is just unacceptable."
+    ],
+    "stopped_working": [
+      "Ok bought this and broke after one year use , pretty disappointed, really -all that money gor one year ,",
+      "I ordered this on December 30th 2018 and it didn't even last a full year. I am ordering another one on December 27th 2019 . The reason I'm ordering another another one is because it ran really well, and dryed clothes really well for the less then a year we had it. When it stopped working the filter can kept falling off and then it just stopped working all together. Maybe I will get lucky this time",
+      "I loved this product when I got it!  LOVED it! HOWEVER\u2026  it stopped working after only a month of use. It will turn on for 20 minutes then shut off. I have tried multiple times to contact the seller, so if they get back to me and fix it I will gladly give all the stars. Spend your money on a different brand."
+    ],
+    "motor_failure": [
+      "Unfortunately I had this dryer for about 3 months and the belt broke. Also when I received it the belt was not on the drum and I had to follow a video to attach it as requested by the company. It wasnt a postive experience but it did work well for a few weeks. I just wish the belt issue could have been better tackled.",
+      "Dryer stopped spinning after 31 days. Just long enough for the return period to expire. Do they plan it this way? Drum turning kind of key to success of a dryer. Don't waste your money. Positive reviews (Real? Paid? Who knows?) up front when you're purchasing but read the others, which I suspect they suppress.",
+      "I\u2019ve had this little dryer for a couple of weeks now and it has made my life so much easier. I live in a tiny one bedroom apartment and have next to no storage space. I was able to fit this on top of the shelving unit I have in my bathroom over my toilet. I used a couple of bungee cords to hold it in place just to be safe since it does cause the shelf to rattle a bit while it\u2019s running.<br /><br /"
+    ],
+    "noise_vibration": [
+      "[[VIDEOID:f832854730f5e9fb96e3c311eba0e0d8]] I have had this washer for three days. I was impressed by the size, look, weight and ease of use. Sadly, mine went from sounding like fingers strumming on a table to loud rattling, as if it is tumble drying a bunch of hard metal objects. It sounds this way even when empty. I was depending on this machine and it let me down when I really needed it. Will ",
+      "Was happy at first until a week shy of 2 months when it started making very loud scraping noises. Good thing I got insurance coverage but they only refunded my the price before taxes. I\u2019m extremely disappointed. Never buying this brand again.",
+      "Was happy at first until a week shy of 2 months when it started making very loud scraping noises. Good thing I got insurance coverage but they only refunded my the price before taxes. I\u2019m extremely disappointed. Never buying this brand again."
+    ],
+    "wont_power_on": [
+      "Bought this in September 2019 and today dec 2019 it went out i had it exactly 3 months and it was awesome. Now not sure what happened today i did 1 load and on the second dry it just wouldn't go, did nothing. Tried plugging it else where an still nothing.",
+      "I recently got this product 3 months ago and the dryer no longer works. It has a burning smell coming out of it and doesn't start anymore.",
+      "Bought Sep 16, 2019, worked amazing but officially died.<br /><br />I\u2019ve looked at it to try to fix it but it\u2019s a no go for some reason.<br />I just can\u2019t figure out what is actually wrong with it.<br />The only thing I can think it could be is the actual power cord.<br /><br />I\u2019ll miss this little machine because it was so perfect, made it so I could do one load of laundry a day instead of 10 lo"
+    ],
+    "physical_breakage": [
+      "I was really happy with this dryer and gave it a 5 star. I edited my review because less then 3 months in the knob popped off. I have messaged the company and will edit my review depending on outcome.",
+      "dryer makes loud clicking noise and metal behind the lint trap snapped and the lint trap itself falls off consistently after 1 year of use."
+    ],
+    "control_failure": [
+      "It looks good out of the box, but quickly I learned the drying time, no matter how small the load, no matter how short the exhaust nozzle, no matter how clean the lint filter was (and I cleaned it every load), was about twice as long as the knob indicated.<br /><br />And then worse happened, the knob stopped moving about 2 months in after 8 drying cycles (once a week laundry at 90 minutes a load).",
+      "[[VIDEOID:3a39247859ccd8ea428fe3e97444dadd]] I would like to say that this dryer worked good for maybe about 1 month only. After that It would turn off and on by itself (with or without  clothes in it) I contacted the seller and they were not much help. I expressed my concerns about it being a defective item. I don't believe it's fair to make the customer pay for the shipping cost to return the it"
+    ]
+  },
+  "published": true
+}
