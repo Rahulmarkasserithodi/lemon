@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import DemoMode from './components/DemoMode'
+import Landing from './components/Landing'
 import { INK, ON_INK, inkAlpha } from './theme'
 
 type Tab = 'demo' | 'about'
@@ -51,7 +51,7 @@ export default function App() {
 
         {/* Main content */}
         <main className="px-4 sm:px-10 py-10 max-w-[1440px] mx-auto">
-          {tab === 'demo' && <DemoMode />}
+          {tab === 'demo' && <Landing />}
 
           {tab === 'about' && (
             <div className="max-w-2xl space-y-5 text-[15px] leading-relaxed" style={{ color: inkAlpha(0.72) }}>

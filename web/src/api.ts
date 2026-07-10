@@ -1,5 +1,5 @@
 // Client for the local Lemon extraction server (proxied at /api by Vite).
-import type { CatalogEntry, ProductData } from './types'
+import type { CatalogEntry, ProductData, IndexEntry, HeroPair } from './types'
 
 export interface HealthStatus {
   gemini_key: boolean
@@ -48,4 +48,37 @@ export function looksLikeAmazonLink(text: string): boolean {
   const t = text.trim()
   if (/^[A-Z0-9]{10}$/i.test(t)) return true
   return /amazon\.[a-z.]+|amzn\.|\/dp\/|\/gp\/product\//i.test(t) && /[A-Z0-9]{10}/i.test(t)
+}
+
+// ── Static, committed data (served from data/processed/, works fully offline) ──
+
+/** The published corpus — products ready to compare, with summary stats. */
+export async function fetchIndex(): Promise<IndexEntry[]> {
+  const res = await fetch('/index.json')
+  if (!res.ok) throw new Error(`index: ${res.status}`)
+  return res.json()
+}
+
+/** Curated, pre-verified hero comparison pairs. */
+export async function fetchHeroPairs(): Promise<HeroPair[]> {
+  const res = await fetch('/hero_pairs.json')
+  if (!res.ok) throw new Error(`hero_pairs: ${res.status}`)
+  return res.json()
+}
+
+/** Load a committed product JSON directly (no server / LLM needed). */
+export async function fetchProductStatic(asin: string): Promise<ProductData> {
+  const res = await fetch(`/products/${asin}.json`)
+  if (!res.ok) throw new Error(`static ${asin}: ${res.status}`)
+  return res.json()
+}
+
+/** Load a product the cheapest way: committed static JSON first (instant,
+ *  offline), falling back to on-demand live extraction for anything else. */
+export async function loadProduct(asin: string): Promise<ProductData> {
+  try {
+    return await fetchProductStatic(asin)
+  } catch {
+    return await fetchProductLive(asin)
+  }
 }

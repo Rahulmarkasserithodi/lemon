@@ -144,6 +144,7 @@ def _persist(product: dict) -> None:
         "parent_asin": asin,
         "title": product["title"],
         "brand": product["brand"],
+        "image": product.get("image"),
         "subcategory": "",
         "price": product["price"],
         "average_rating": product["average_rating"],

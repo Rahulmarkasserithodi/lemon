@@ -48,6 +48,7 @@ export interface IndexEntry {
   parent_asin: string
   title: string
   brand: string
+  image?: string | null
   subcategory: string
   price: number | null
   average_rating: number | null
@@ -63,6 +64,14 @@ export interface HeroPair {
   right: string         // parent_asin of shorter-lived product
   note: string
   median_ratio: number
+}
+
+// A product chosen for comparison (from search, a pasted link, or the ready list).
+export interface SelItem {
+  asin: string
+  title: string
+  image?: string | null
+  preloaded?: ProductData   // present when already resolved (e.g. via a link)
 }
 // Merged data point for the overlaid chart
 export interface MergedPoint {

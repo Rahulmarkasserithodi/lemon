@@ -137,6 +137,7 @@ def export(skip_snippets: bool = False) -> None:
                 "parent_asin": asin,
                 "title": m.get("title", asin),
                 "brand": m.get("brand", ""),
+                "image": m.get("image"),
                 "subcategory": m.get("subcategory", ""),
                 "price": price,
                 "average_rating": m.get("average_rating"),
