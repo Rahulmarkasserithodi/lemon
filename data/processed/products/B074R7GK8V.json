@@ -1,0 +1,239 @@
+{
+  "parent_asin": "B074R7GK8V",
+  "title": "COSTWAY Portable Mini Washing Machine with Spin Dryer, Washing Capacity 5.5lbs, Electric Compact Machines Durable Design Energy Saving, Rotary Controller, Laundry Washer for Home Apartment RV, Blue",
+  "brand": "COSTWAY",
+  "price": 99.99,
+  "average_rating": 3.7,
+  "n_reviews": 890,
+  "n_candidates": 89,
+  "n_obs": 70,
+  "n_events": 53,
+  "median_months": 2.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 599.94,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9714,
+      "lo": 0.8906,
+      "hi": 0.9928
+    },
+    {
+      "t": 0.06,
+      "s": 0.9571,
+      "lo": 0.873,
+      "hi": 0.986
+    },
+    {
+      "t": 0.09,
+      "s": 0.9426,
+      "lo": 0.8543,
+      "hi": 0.9781
+    },
+    {
+      "t": 0.12,
+      "s": 0.9426,
+      "lo": 0.8543,
+      "hi": 0.9781
+    },
+    {
+      "t": 0.25,
+      "s": 0.8828,
+      "lo": 0.7791,
+      "hi": 0.9396
+    },
+    {
+      "t": 0.33,
+      "s": 0.8828,
+      "lo": 0.7791,
+      "hi": 0.9396
+    },
+    {
+      "t": 0.5,
+      "s": 0.8054,
+      "lo": 0.6882,
+      "hi": 0.8821
+    },
+    {
+      "t": 0.75,
+      "s": 0.7279,
+      "lo": 0.6031,
+      "hi": 0.8192
+    },
+    {
+      "t": 1.0,
+      "s": 0.5338,
+      "lo": 0.4044,
+      "hi": 0.6471
+    },
+    {
+      "t": 1.5,
+      "s": 0.5338,
+      "lo": 0.4044,
+      "hi": 0.6471
+    },
+    {
+      "t": 2.0,
+      "s": 0.4305,
+      "lo": 0.3056,
+      "hi": 0.5492
+    },
+    {
+      "t": 2.5,
+      "s": 0.3931,
+      "lo": 0.2707,
+      "hi": 0.5131
+    },
+    {
+      "t": 3.0,
+      "s": 0.3182,
+      "lo": 0.2038,
+      "hi": 0.4385
+    },
+    {
+      "t": 3.5,
+      "s": 0.2955,
+      "lo": 0.1832,
+      "hi": 0.4165
+    },
+    {
+      "t": 4.0,
+      "s": 0.2955,
+      "lo": 0.1832,
+      "hi": 0.4165
+    },
+    {
+      "t": 5.0,
+      "s": 0.2708,
+      "lo": 0.161,
+      "hi": 0.3929
+    },
+    {
+      "t": 6.0,
+      "s": 0.2216,
+      "lo": 0.1193,
+      "hi": 0.3437
+    },
+    {
+      "t": 8.0,
+      "s": 0.197,
+      "lo": 0.0998,
+      "hi": 0.3181
+    },
+    {
+      "t": 11.0,
+      "s": 0.1724,
+      "lo": 0.0813,
+      "hi": 0.2918
+    },
+    {
+      "t": 12.0,
+      "s": 0.1477,
+      "lo": 0.0639,
+      "hi": 0.2645
+    },
+    {
+      "t": 13.0,
+      "s": 0.0886,
+      "lo": 0.0258,
+      "hi": 0.2008
+    },
+    {
+      "t": 15.0,
+      "s": 0.0591,
+      "lo": 0.0117,
+      "hi": 0.1653
+    },
+    {
+      "t": 24.0,
+      "s": 0.0295,
+      "lo": 0.0024,
+      "hi": 0.1272
+    },
+    {
+      "t": 48.0,
+      "s": 0.0295,
+      "lo": 0.0024,
+      "hi": 0.1272
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 19
+    },
+    {
+      "mode": "motor_failure",
+      "count": 16
+    },
+    {
+      "mode": "leak",
+      "count": 11
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 3
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 2
+    },
+    {
+      "mode": "control_failure",
+      "count": 2
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 1
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "stopped_working": [
+      "So my parents (who are both over 65) live in Queens NY.<br />Total hotzone and to best protect them made sure they had NO reason to leave their apartment.<br /><br />So in a recent visit I noted my mom washing clothes by hand with a old washboard - the same one she used when she used to wash my clothes as a kid.<br /><br />Second challenge is this is an old building where the plumbing doesnt suppo",
+      "Worked for about a week then slowly began to stop working.  After the second wash you could hear the agitator start to slow down.  The last day is operated a piece of cloth stuck into the element and it stopped.  I removed the piece of clothing and restarted it and it worked fine another wash.  Next wash...just three pieces and it just stopped out of the blue and never worked again.  The seperate ",
+      "I have had this less than 11 months and it quit. I used it moderately. It's definitely cheaper than going to laundry mats but replacing less than 5 years each is ridiculous. I know it's less than expensive models but ive spent less on every other household items that have lasted 10 years....."
+    ],
+    "leak": [
+      "I messaged COSTway, the seller, about my problem.  Even though it was past the 30 day return window they worked with me to get a refund.  Their response was prompt and courteous.  They wanted a photo and good description of the issue, but I was happy to send.  I'm am glad they worked with me to resolve.<br /><br />I washed a load of a couple wash clothes and was pretty happy. Finally I can wash so",
+      "I was excited about this mini washer.  When I first bought it, it wouldn't come on.  I Contacted the manufacturer as per Amazon instruction.  So,  after 2 weeks a friend a friend did something to it and it worked.  But only for 3 washes. Then it stopped. Bow it's leaking water from the bottom and it won't wash or spin.  No word from manufacturer after sending emails.",
+      "I had two of these.  The first one broke after the first wash (motor died) and I got a replacement.  The replacement worked fine for 2 months with moderate usage.  However, some part in the bottom came lose and now water does not stay in the tub.  It just runs out all over the floor.  The return window JUST closed.  I would NOT recommend this product and would give it 0 stars if I could."
+    ],
+    "physical_breakage": [
+      "I really like this washer, but I had problems with the drain hose breaking two days after the time limit to return expired.  I did ask for a return and the company granted it.  While I was waiting for Costway the grant the return, I solved the problem myself.  There was about 3-4 inches left of the hose after it broke, which was just enough for me to clip on an extension hose I got from Amazon.  S",
+      "It washes very well but the spinner basket popsup when spinning.  I had to hold the lid to start the spinner.  Made a complaint to return the product and seller promptly refunded the money in two days.  Excellent customer service"
+    ],
+    "motor_failure": [
+      "I loved the washing machine at my cabin.  But after 15 washing it has started to leak and now, today, load number 16 it quit spinning.  Load number 17 it quit agitating.  I never did any heavy clothes nor did I overload!  I missed returning by four days!",
+      "I had the machine for 3 months and I was happy with it until the motor burnt-out and spinner stopped working. You get what you pay for.",
+      "[[VIDEOID:3193248f13df83a738d941e86c462791]] Arrived a few days earlier than expected.  Started using it right away,  with no problems.  The next day,  after 1 spin cycle it would not turn again.  I couldn't figure out what was wrong so I contacted customer service.  I received response fairly quickly.  And we reached a compromise.<br /><br />Besides that the washer worked well,  clothes were clea"
+    ],
+    "electrical_fault": [
+      "After only two/three months of use and following the instructions my washing machine caught fire. On the first use I couldn't get it to wash. It was plugged in and making noise but wasn't spinning or washing.. after about three days of trying to get it to work the motor finally started corporating.<br /><br />So, I kept the machine. However, after having the washer 2 or 3 months the machine once a",
+      "We\u2019ve used it for a month now, but it already has a bad burn smell from inside. Don\u2019t know what is it exactly, but I\u2019m a little scary that it\u2019s gonna explode one day. Can\u2019t return it, because I don\u2019t have a box of it",
+      "I wanted to wait a few months before writing a review.  I bought this washer for two reasons.  To save money and time going to the laundromat every weekend but also because I live on a walk up and carry the clothes was affecting my back. Living in a small apartment in the city w/ no elevators or laundry room, this washer was extremely convenient.  It only took viewing some videos on YouTube to fig"
+    ],
+    "control_failure": [
+      "I was so happy w the washing mashine for 2 months. The best thing I had.<br />Ooops today the mashine just died!!!<br />It dry out and works again just the timer doesnt work. I can just turn it ON and OFF. .... rotate in clock way.<br />I did contact seller and they need video which I send but they can not open it.<br />They did offer me refund!<br /><br />Couple days latter I got my refund!!<br /",
+      "I purchased in August 2021, the washer worked for only 6 months, the spinning , drying is working, the timer knob seem like it is defective also. It worked really well when I first got it,\u201d"
+    ],
+    "noise_vibration": [
+      "\u2728\u2728 Just now getting to review one year later. But this thing has been sitting in my bathroom used as an end table, collecting dust since the first day I got it & tried to use it.  It washed perfect, I loved it! But then I went to spin dry\u2026.. the machine bounced around so much it got so far away from the wall that it unplugged! I tried putting something heavy on top but the only thing that I could ",
+      "\u2728\u2728 Just now getting to review one year later. But this thing has been sitting in my bathroom used as an end table, collecting dust since the first day I got it & tried to use it.  It washed perfect, I loved it! But then I went to spin dry\u2026.. the machine bounced around so much it got so far away from the wall that it unplugged! I tried putting something heavy on top but the only thing that I could ",
+      "\u2728\u2728 Just now getting to review one year later. But this thing has been sitting in my bathroom used as an end table, collecting dust since the first day I got it & tried to use it.  It washed perfect, I loved it! But then I went to spin dry\u2026.. the machine bounced around so much it got so far away from the wall that it unplugged! I tried putting something heavy on top but the only thing that I could "
+    ],
+    "wont_power_on": [
+      "I loved how it worked when I first purchased it, which was February 2020. Washed clothes well, fit into my sink (I live in apartment, with two sinks), it was very quiet, short period for the wash time.<br />Now it is May 2021 and it has failed to start. Ihabve checked every possible reason, but nothing has worked. It was a good 1 year un time."
+    ]
+  },
+  "published": true
+}

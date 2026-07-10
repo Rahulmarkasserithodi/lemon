@@ -52,6 +52,19 @@
     "cost_per_year": 239.98
   },
   {
+    "parent_asin": "B0CFMQLYHG",
+    "title": "hOmeLabs Chill Pill Countertop Ice Maker - Perfect Ice in 8 to 10 Minutes - 26 Pounds Per Day Production To Keep You Iced Out Of Your Mind",
+    "brand": "hOmeLabs",
+    "subcategory": "",
+    "price": null,
+    "average_rating": 4.4,
+    "n_obs": 379,
+    "n_events": 303,
+    "median_months": 8.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": null
+  },
+  {
     "parent_asin": "B01ALBMIEI",
     "title": "Giantex Portable Mini Compact Twin Tub Washing Machine 20lbs Washer Spain Spinner Portable Washing Machine, Blue+ White",
     "brand": "Giantex",

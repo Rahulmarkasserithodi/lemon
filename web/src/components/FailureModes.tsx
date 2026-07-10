@@ -1,7 +1,10 @@
 import type { FailureMode } from '../types'
+import { inkAlpha } from '../theme'
 
 interface Props {
   modes: FailureMode[]
+  nEvents: number
+  scaleMax: number   // shared max share across both products, for comparable bar widths
   color: string
   onSelect: (mode: string) => void
 }
@@ -10,38 +13,36 @@ function label(mode: string) {
   return mode.replace(/_/g, ' ')
 }
 
-export default function FailureModes({ modes, color, onSelect }: Props) {
-  if (!modes.length) return <p className="text-[#555] text-xs">No failure data</p>
-
-  const max = Math.max(...modes.map((m) => m.count))
+export default function FailureModes({ modes, nEvents, scaleMax, color, onSelect }: Props) {
+  if (!modes.length) {
+    return <p className="text-[12px]" style={{ color: inkAlpha(0.4) }}>No failure data</p>
+  }
 
   return (
-    <div className="space-y-1.5">
-      {modes.map((m) => (
-        <button
-          key={m.mode}
-          onClick={() => onSelect(m.mode)}
-          className="w-full text-left group"
-          title="Click to see review snippets"
-        >
-          <div className="flex items-center justify-between text-xs mb-0.5">
-            <span className="text-[#aaa] group-hover:text-white transition-colors capitalize">
+    <div className="flex flex-col gap-2.5">
+      {modes.slice(0, 4).map((m) => {
+        const share = nEvents > 0 ? m.count / nEvents : 0
+        const pct = Math.round(share * 100)
+        const width = Math.min(100, scaleMax > 0 ? (share / scaleMax) * 100 : 0)
+        return (
+          <button
+            key={m.mode}
+            onClick={() => onSelect(m.mode)}
+            className="flex items-center gap-3 w-full text-left group"
+            title="Click to see review snippets"
+          >
+            <span className="w-[150px] text-[13px] capitalize leading-snug group-hover:underline">
               {label(m.mode)}
             </span>
-            <span className="text-[#555]">{m.count}</span>
-          </div>
-          <div className="h-1.5 rounded-full bg-[#1e1e1e] overflow-hidden">
-            <div
-              className="h-full rounded-full transition-all"
-              style={{
-                width: `${(m.count / max) * 100}%`,
-                background: color,
-                opacity: 0.7,
-              }}
-            />
-          </div>
-        </button>
-      ))}
+            <span className="flex-1 h-1" style={{ background: inkAlpha(0.1) }}>
+              <span className="block h-full" style={{ width: `${width}%`, background: color }} />
+            </span>
+            <span className="w-9 text-right font-mono text-[12.5px] font-semibold" style={{ color }}>
+              {pct}%
+            </span>
+          </button>
+        )
+      })}
     </div>
   )
 }

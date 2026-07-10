@@ -1,0 +1,459 @@
+{
+  "parent_asin": "B0CFMQLYHG",
+  "title": "hOmeLabs Chill Pill Countertop Ice Maker - Perfect Ice in 8 to 10 Minutes - 26 Pounds Per Day Production To Keep You Iced Out Of Your Mind",
+  "brand": "hOmeLabs",
+  "price": null,
+  "average_rating": 4.4,
+  "n_reviews": 2748,
+  "n_candidates": 446,
+  "n_obs": 379,
+  "n_events": 303,
+  "median_months": 8.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": null,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9974,
+      "lo": 0.9814,
+      "hi": 0.9996
+    },
+    {
+      "t": 0.05,
+      "s": 0.9947,
+      "lo": 0.979,
+      "hi": 0.9987
+    },
+    {
+      "t": 0.06,
+      "s": 0.9921,
+      "lo": 0.9756,
+      "hi": 0.9974
+    },
+    {
+      "t": 0.09,
+      "s": 0.9921,
+      "lo": 0.9756,
+      "hi": 0.9974
+    },
+    {
+      "t": 0.1,
+      "s": 0.9921,
+      "lo": 0.9756,
+      "hi": 0.9974
+    },
+    {
+      "t": 0.12,
+      "s": 0.9867,
+      "lo": 0.9683,
+      "hi": 0.9944
+    },
+    {
+      "t": 0.25,
+      "s": 0.9651,
+      "lo": 0.9407,
+      "hi": 0.9796
+    },
+    {
+      "t": 0.5,
+      "s": 0.9515,
+      "lo": 0.9241,
+      "hi": 0.9692
+    },
+    {
+      "t": 0.75,
+      "s": 0.9267,
+      "lo": 0.895,
+      "hi": 0.9492
+    },
+    {
+      "t": 0.93,
+      "s": 0.924,
+      "lo": 0.8917,
+      "hi": 0.9469
+    },
+    {
+      "t": 1.0,
+      "s": 0.8685,
+      "lo": 0.8293,
+      "hi": 0.8992
+    },
+    {
+      "t": 1.13,
+      "s": 0.8657,
+      "lo": 0.8262,
+      "hi": 0.8967
+    },
+    {
+      "t": 1.17,
+      "s": 0.8628,
+      "lo": 0.8231,
+      "hi": 0.8943
+    },
+    {
+      "t": 1.33,
+      "s": 0.86,
+      "lo": 0.82,
+      "hi": 0.8918
+    },
+    {
+      "t": 1.5,
+      "s": 0.8432,
+      "lo": 0.8015,
+      "hi": 0.8768
+    },
+    {
+      "t": 2.0,
+      "s": 0.798,
+      "lo": 0.7528,
+      "hi": 0.8359
+    },
+    {
+      "t": 2.5,
+      "s": 0.7952,
+      "lo": 0.7497,
+      "hi": 0.8333
+    },
+    {
+      "t": 3.0,
+      "s": 0.7229,
+      "lo": 0.6732,
+      "hi": 0.7663
+    },
+    {
+      "t": 3.33,
+      "s": 0.7199,
+      "lo": 0.6701,
+      "hi": 0.7636
+    },
+    {
+      "t": 3.75,
+      "s": 0.7169,
+      "lo": 0.667,
+      "hi": 0.7608
+    },
+    {
+      "t": 4.0,
+      "s": 0.6636,
+      "lo": 0.6116,
+      "hi": 0.7104
+    },
+    {
+      "t": 4.5,
+      "s": 0.6577,
+      "lo": 0.6054,
+      "hi": 0.7047
+    },
+    {
+      "t": 4.75,
+      "s": 0.6547,
+      "lo": 0.6024,
+      "hi": 0.7019
+    },
+    {
+      "t": 5.0,
+      "s": 0.6249,
+      "lo": 0.5718,
+      "hi": 0.6734
+    },
+    {
+      "t": 5.25,
+      "s": 0.6219,
+      "lo": 0.5688,
+      "hi": 0.6705
+    },
+    {
+      "t": 6.0,
+      "s": 0.5408,
+      "lo": 0.4866,
+      "hi": 0.5918
+    },
+    {
+      "t": 6.5,
+      "s": 0.5377,
+      "lo": 0.4835,
+      "hi": 0.5888
+    },
+    {
+      "t": 7.0,
+      "s": 0.5132,
+      "lo": 0.4589,
+      "hi": 0.5647
+    },
+    {
+      "t": 8.0,
+      "s": 0.4915,
+      "lo": 0.4374,
+      "hi": 0.5434
+    },
+    {
+      "t": 8.5,
+      "s": 0.4884,
+      "lo": 0.4342,
+      "hi": 0.5402
+    },
+    {
+      "t": 9.0,
+      "s": 0.4569,
+      "lo": 0.403,
+      "hi": 0.509
+    },
+    {
+      "t": 10.0,
+      "s": 0.4473,
+      "lo": 0.3936,
+      "hi": 0.4996
+    },
+    {
+      "t": 11.0,
+      "s": 0.4186,
+      "lo": 0.3653,
+      "hi": 0.4709
+    },
+    {
+      "t": 11.64,
+      "s": 0.4154,
+      "lo": 0.3622,
+      "hi": 0.4677
+    },
+    {
+      "t": 11.97,
+      "s": 0.4122,
+      "lo": 0.359,
+      "hi": 0.4645
+    },
+    {
+      "t": 12.0,
+      "s": 0.262,
+      "lo": 0.2153,
+      "hi": 0.3109
+    },
+    {
+      "t": 12.03,
+      "s": 0.258,
+      "lo": 0.2114,
+      "hi": 0.3068
+    },
+    {
+      "t": 12.25,
+      "s": 0.2499,
+      "lo": 0.2037,
+      "hi": 0.2987
+    },
+    {
+      "t": 12.5,
+      "s": 0.2459,
+      "lo": 0.1998,
+      "hi": 0.2946
+    },
+    {
+      "t": 13.0,
+      "s": 0.2419,
+      "lo": 0.196,
+      "hi": 0.2905
+    },
+    {
+      "t": 14.0,
+      "s": 0.2337,
+      "lo": 0.1882,
+      "hi": 0.2821
+    },
+    {
+      "t": 15.0,
+      "s": 0.2296,
+      "lo": 0.1843,
+      "hi": 0.2779
+    },
+    {
+      "t": 16.0,
+      "s": 0.2255,
+      "lo": 0.1804,
+      "hi": 0.2737
+    },
+    {
+      "t": 17.0,
+      "s": 0.2214,
+      "lo": 0.1765,
+      "hi": 0.2695
+    },
+    {
+      "t": 17.25,
+      "s": 0.2173,
+      "lo": 0.1727,
+      "hi": 0.2653
+    },
+    {
+      "t": 18.0,
+      "s": 0.1886,
+      "lo": 0.1459,
+      "hi": 0.2355
+    },
+    {
+      "t": 20.0,
+      "s": 0.1804,
+      "lo": 0.1384,
+      "hi": 0.2269
+    },
+    {
+      "t": 22.0,
+      "s": 0.1722,
+      "lo": 0.1309,
+      "hi": 0.2182
+    },
+    {
+      "t": 24.0,
+      "s": 0.0943,
+      "lo": 0.0628,
+      "hi": 0.1333
+    },
+    {
+      "t": 24.25,
+      "s": 0.0884,
+      "lo": 0.0575,
+      "hi": 0.1273
+    },
+    {
+      "t": 26.0,
+      "s": 0.0825,
+      "lo": 0.0523,
+      "hi": 0.1212
+    },
+    {
+      "t": 27.0,
+      "s": 0.0766,
+      "lo": 0.0473,
+      "hi": 0.115
+    },
+    {
+      "t": 30.0,
+      "s": 0.0648,
+      "lo": 0.0375,
+      "hi": 0.1023
+    },
+    {
+      "t": 36.0,
+      "s": 0.0295,
+      "lo": 0.0117,
+      "hi": 0.0611
+    },
+    {
+      "t": 43.0,
+      "s": 0.0196,
+      "lo": 0.0052,
+      "hi": 0.053
+    },
+    {
+      "t": 48.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 167
+    },
+    {
+      "mode": "cooling_failure",
+      "count": 52
+    },
+    {
+      "mode": "control_failure",
+      "count": 28
+    },
+    {
+      "mode": "leak",
+      "count": 19
+    },
+    {
+      "mode": "motor_failure",
+      "count": 13
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 13
+    },
+    {
+      "mode": "rust_corrosion",
+      "count": 9
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 5
+    },
+    {
+      "mode": "other",
+      "count": 3
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 2
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "stopped_working": [
+      "I was ready to give a 5 star review overall but today my portable ice maker quit and I haven't had it a year. I am so very upset and heart  broken.",
+      "Stopped working after about 6 months",
+      "We use this ice maker about 1x/week and perhaps 2x/week during the holidays of Thanksgiving and Christmas. Despite the light use, the machine stopped working after 10 months. So incredibly disappointing because I loved the shape and size of the cubes. I can't believe it didn't even last a year!!  How is that acceptable?"
+    ],
+    "wont_power_on": [
+      "this is the same product that I realize that I had over 6 months ago and after approximately three to five months it just quit working wouldn't Purdue size wouldn't do anything so when I bought this I did not realize that and all the sudden I did realize it and return the product",
+      "Don\u2019t waste your money!!! We bought this in March and they give you 30 days to return. We opened it for the first time June 17th and it doesn\u2019t work.  We plugged into 3 outlets and waited over an hour for 3 pieces of ice. Total rip off. Reviews cannot be real. Sad I spent so much and didn\u2019t use once."
+    ],
+    "motor_failure": [
+      "Purchased in 2018 for our RV.  We used for our road trip, and then brought it inside and used it every single day - all day for the next 2 years.<br /><br />Pro's - makes ice quickly, worked non-stop, 24/7 for 2 years.<br />Cons - ice bucket was so small, it held about 3 cups worth of ice in it (I like a lot of ice in my drinks, so I would easily empty it out when filling up my 30oz tumbler).  Noi",
+      "Once I took out the basket so the reservoir could fill with ice water it worked great. I could fill my 64 oz container of water daily and enough would be ready the next day.<br /><br />Sadly after a little over a year the motor on the container that makes ice is bad. After examining it it's a 2 direction motor that forgot how to go in 2 directions. So ether the controller board or the motor has fa",
+      "Update: Four months after purchase, this ice maker started acting up. It would make a 'revving' noise after the first load of cubes & then not make any more. We could shut if off & let it 'rest' & make one more load. It was awful, having to babysit this item. We tried cleaning it again, of course as well as unplugging it - in case it would 'reset' it, but to no avail. We weren't too worried, thoug"
+    ],
+    "control_failure": [
+      "Lasted about a year, same as our last one. Ice full sensor stopped working, just like our last one.  Will not buy this brand or a rebranded design like this again.  Crappy product.",
+      "I had this ice maker for about a year, year and a half. I loved the ice--perfect for chewing. My biggest issue, however, was that it was difficult to keep clean. I don't know if it was just my water, but a film would develop inside the machine relatively quickly. And eventually, if I waited to long, there were some parts I could not get completely clean.<br /><br />I did use it VERY heavily (runni",
+      "My GF uses a lot of ice but having to keep 8 ice trays that takes up room in the freezer is a bit of a hassle.<br />We've had this a few days now and it makes great ice. Just add some water, select the size and push the power button. Makes ice quick and has replaced 8 ice trays. We just dump the ice into an ice bucket and put in the freezer.<br />Only complaint would be, the ice is a little wet, s"
+    ],
+    "leak": [
+      "Used this icemaker different name but exactly the same one 24-7 for nearly a year until it began leaking water.  Took cover off to investigate.  Turns out an assembly defect or manufacturing defect.  They routed the water hose around the cooling fan for the hot coils.  Then the water hose rested on one of the copper hot coils which melted a hole through the tubing.  Bought an 1/8\" straight barb sp",
+      "Had it for 2 weeks and it\u2019s been doing it\u2019s job. Don\u2019t expect giant ice cubes out of it but when you got none in freezer it\u2019s nice to know this will make you some in a few minutes. Is a little noisy but nothing crazy kids, tv, and dog drown out any sounds it makes. UPDATE: Almost 3 months in this thing is trash. The bucket that holds the water keeps dumping it even when machine is off. Won\u2019t make ",
+      "Already leaking.  Bought this in March and just at the 3 month timeframe it started leaking water from the bottom.  I\u2019m going to have to just toss this in the trash.  Very frustrating."
+    ],
+    "cooling_failure": [
+      "[[VIDEOID:bfd5ad97b8e88afe7edaff63157c3fd9]] UPDATE: This thing is a piece of trash.  It completely stopped working after it started making all kinds of weird loud noises. The coils just stopped getting cold.  Why isn't there a a no star option.<br /><br />I\u2019ve had it for 6 months now and it\u2019s getting worse by the day. It no longer senses that the water is low or out so the light doesn\u2019t alert you",
+      "I bought this as a gift for my ice loving husband. Though he did use it frequently it has completely stopped working. I've tried everything to help it start freezing cubes again it's just not working. Pretty expensive ice maker for just over 6 months use.",
+      "Followed instructions... allow to settle on countertop for a day before use.  Compressor stopped working after just 2 baskets of ice."
+    ],
+    "rust_corrosion": [
+      "This is our 2nd portable ice machine, we purchased it for home use in June 2018. We have used the machine maybe a dozen times, inside, each time cleaning and drying it completely. When cleaning it to get it ready for summer use, i noticed the bars that \"punch\" holes in the ice are rusted- the rust will not come off. Important to note our first ice machine which we keep at camp, is now five years o",
+      "This ice machine was great in the beginning. We've had it a little of a year now. We have had to stop using it because there is a part inside the machine that is rusting.",
+      "After only 2 years the metal parts inside are rusting. I followed the care instructions and still had this result. I\u2019d like a replacement but the \u201cwindow for customer service\u201d has closed so I can\u2019t even contact the seller anymore. Lame."
+    ],
+    "noise_vibration": [
+      "much better than the igloo brand, six months after receipt of this ice maker it started making extremely loud noises, was drowning out TV in the family room. Contacted company and they have a great customer service, sent me a replacement and problem solved.",
+      "Ice tasted wonderful. Shipping was super fast. No complaint there. That's the only reason I gave 2 stars.<br /><br />Updated review (want to be sure you read this):<br />After only 6 months, this unit suddenly made an AWFUL, super LOUD, buzzing sound that scared the heck outta me. Not sure what it could have been but I didn't want to take any chances so I immediately unplugged the unit and it now ",
+      "I've had my ice maker for about 4 months now, I purchased it for my wife as a mothers day give. Within this time, the device started making an extremely loud noise. I recently saw many other users had this same issue. I contacted the company directly, and even though i bought this from Amazon they are telling me it is not from an authorized dealer. Weather the dealer is Amazon or a 3rd party, this"
+    ],
+    "physical_breakage": [
+      "Very useful and saved me money. Our ice maker on our fridge went out and when I looked into fixing it, the price for parts alone was almost $300. My wife puts ice in everything she drinks, so she absolutely loves it.<br /><br />UPDATE: So I've downgraded this from 5 stars to 4. This icemaker lasted us just over a year, before the cheap little scooper mechanism broke. It still makes ice, but no lon",
+      "My icemaker is 4 years old and i like it!  But the water stopper broke off when i moved it just now and they wont even sell me a replacement part!  They replace that part free if under warranty but will not sell them. \ud83e\udd28 I will jimmyrig it somehow but it made me mad!!!  Cant have it leaking!!!!  It\u2019s of no use if i cant make a good plug for it!!",
+      "This thing arrived smelling of plastic, with a lot of particulate in it, presumably from the manufacturing/assembly process. There\u2019s no good or easy way to clean it, but after a thorough attempt, got it up and running. On the small setting, which is recommended in the manual, the teeny tiny ice cubes melt nearly immediately, and it ain\u2019t fast at making them.<br /><br />Decided to return it, after "
+    ],
+    "other": [
+      "The longevity on this machine for 24/7/365 day use isn\u2019t long. Our first one lasted used about 14-15 months. We had it replaced through the excellent 2 year manufacturer warranty. The replacement lasted about 9 months and it is being replaced as well about 2 weeks before our original warranty ends. We use this in place of our fridges ice maker that broke. It has been a less expensive option compar",
+      "On my third machine each one broke after a year",
+      "Worked perfectly from July to January. Now it doesn\u2019t make ice. Has two year warranty. I\u2019d like a new one that works."
+    ],
+    "electrical_fault": [
+      "I bought this ice maker to replace one we had for nearly two years, mostly because it was rated a top seller. I don't expect these machines to last a lifetime, but this one lasted less than six months. We did use the product heavily, but had to turn it off and unplug forever when it filled our house with a burning electrical smell. This model also needed frequent cleaning."
+    ]
+  },
+  "published": true
+}

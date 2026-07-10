@@ -1,3 +1,5 @@
+import { INK, PANEL, RUST, TEAL, inkAlpha } from '../theme'
+
 interface Props {
   mode: string
   snippetsLeft: string[]
@@ -7,7 +9,10 @@ interface Props {
 
 function Snippet({ text }: { text: string }) {
   return (
-    <blockquote className="border-l-2 border-[#333] pl-3 text-[#aaa] text-sm leading-relaxed italic">
+    <blockquote
+      className="pl-3 text-[13px] leading-relaxed italic"
+      style={{ borderLeft: `2px solid ${inkAlpha(0.25)}`, color: inkAlpha(0.7) }}
+    >
       "{text}"
     </blockquote>
   )
@@ -18,13 +23,17 @@ export default function SnippetDrawer({ mode, snippetsLeft, snippetsRight, onClo
   const hasAny = snippetsLeft.length > 0 || snippetsRight.length > 0
 
   return (
-    <div className="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-end sm:items-center justify-center p-4">
-      <div className="bg-[#111] border border-[#222] rounded-2xl w-full max-w-2xl max-h-[80vh] overflow-y-auto p-6 space-y-5">
+    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-4" style={{ background: 'rgba(0,0,0,0.65)' }}>
+      <div
+        className="w-full max-w-2xl max-h-[80vh] overflow-y-auto p-6 space-y-5"
+        style={{ background: PANEL, border: `1.5px solid ${INK}` }}
+      >
         <div className="flex items-center justify-between">
-          <h3 className="text-white font-semibold capitalize">"{label}" — review excerpts</h3>
+          <h3 className="font-serif font-semibold text-[17px] capitalize">"{label}" — review excerpts</h3>
           <button
             onClick={onClose}
-            className="text-[#555] hover:text-white text-xl leading-none"
+            className="text-2xl leading-none transition-colors"
+            style={{ color: inkAlpha(0.5) }}
             aria-label="Close"
           >
             ×
@@ -32,12 +41,12 @@ export default function SnippetDrawer({ mode, snippetsLeft, snippetsRight, onClo
         </div>
 
         {!hasAny && (
-          <p className="text-[#555] text-sm">No snippets collected for this failure mode.</p>
+          <p className="text-[13px]" style={{ color: inkAlpha(0.45) }}>No snippets collected for this failure mode.</p>
         )}
 
         {snippetsLeft.length > 0 && (
           <section>
-            <div className="text-[10px] uppercase tracking-widest text-[#60a5fa] mb-2">
+            <div className="font-mono text-[10px] uppercase tracking-[0.1em] mb-2" style={{ color: TEAL }}>
               Longer-lived product
             </div>
             <div className="space-y-3">
@@ -48,7 +57,7 @@ export default function SnippetDrawer({ mode, snippetsLeft, snippetsRight, onClo
 
         {snippetsRight.length > 0 && (
           <section>
-            <div className="text-[10px] uppercase tracking-widest text-[#fb923c] mb-2">
+            <div className="font-mono text-[10px] uppercase tracking-[0.1em] mb-2" style={{ color: RUST }}>
               Shorter-lived product
             </div>
             <div className="space-y-3">
@@ -57,7 +66,7 @@ export default function SnippetDrawer({ mode, snippetsLeft, snippetsRight, onClo
           </section>
         )}
 
-        <p className="text-[10px] text-[#444]">
+        <p className="font-mono text-[10px]" style={{ color: inkAlpha(0.4) }}>
           Excerpts from verified Amazon reviews · reviewer identifiers not exported
         </p>
       </div>

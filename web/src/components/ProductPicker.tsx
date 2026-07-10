@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import type { CatalogEntry, ProductData } from '../types'
 import { fetchCatalog, fetchProductLive } from '../api'
+import { INK, ON_INK, RUST, TEAL, inkAlpha } from '../theme'
 
 interface Props {
   onSelectPair: (left: ProductData, right: ProductData) => void
@@ -22,19 +23,22 @@ function EntryRow({
     <button
       onClick={onToggle}
       disabled={disabled}
-      className={`w-full text-left px-3 py-2.5 rounded-lg border transition-colors text-sm ${
+      className="w-full text-left px-3 py-2.5 border transition-colors text-[13px]"
+      style={
         selected
-          ? 'border-[#f5e642] bg-[#f5e64210]'
+          ? { borderColor: INK, background: inkAlpha(0.08) }
           : disabled
-          ? 'border-[#1e1e1e] text-[#444] cursor-not-allowed'
-          : 'border-[#222] hover:border-[#333] hover:bg-[#141414]'
-      }`}
+          ? { borderColor: inkAlpha(0.12), color: inkAlpha(0.3), cursor: 'not-allowed' }
+          : { borderColor: inkAlpha(0.22) }
+      }
     >
       <div className="flex items-start justify-between gap-2">
-        <span className="text-[#d0d0d0] leading-snug flex-1">{entry.title}</span>
-        <span className="shrink-0 text-[#555] text-xs">{entry.n_reviews} reviews</span>
+        <span className="leading-snug flex-1">{entry.title}</span>
+        <span className="shrink-0 font-mono text-[11px]" style={{ color: inkAlpha(0.42) }}>
+          {entry.n_reviews.toLocaleString()} rev.
+        </span>
       </div>
-      <div className="flex gap-3 mt-1 text-[10px] text-[#555]">
+      <div className="flex gap-3 mt-1 font-mono text-[10.5px]" style={{ color: inkAlpha(0.45) }}>
         {entry.brand && <span>{entry.brand}</span>}
         {entry.price != null && <span>${entry.price.toFixed(0)}</span>}
         {entry.average_rating != null && <span>★ {entry.average_rating.toFixed(1)}</span>}
@@ -96,40 +100,44 @@ export default function ProductPicker({ onSelectPair }: Props) {
     }
   }
 
-  if (loading) return <p className="text-[#555] text-sm">Loading catalog from the server …</p>
+  if (loading) {
+    return <p className="font-mono text-[12px]" style={{ color: inkAlpha(0.5) }}>Loading catalog from the server …</p>
+  }
 
   return (
     <div className="space-y-4">
       <div className="flex gap-2 items-center">
         <input
           type="search"
-          placeholder="Search products …"
+          placeholder="Search products — kettle, printer, earbuds…"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="flex-1 bg-[#111] border border-[#222] rounded-lg px-3 py-2 text-sm text-[#e0e0e0] placeholder-[#444] focus:outline-none focus:border-[#444]"
+          className="flex-1 bg-transparent px-3 py-2 text-[13px] text-[#e8e6df] focus:outline-none"
+          style={{ border: `1px solid ${inkAlpha(0.28)}` }}
         />
         <button
           onClick={compare}
           disabled={selected.length < 2 || comparing}
-          className="px-4 py-2 text-sm font-medium rounded-lg transition-colors bg-[#f5e642] text-black disabled:opacity-30 disabled:cursor-not-allowed hover:bg-[#ffe600]"
+          className="px-4 py-2 font-mono text-[11px] font-semibold uppercase tracking-[0.08em] transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+          style={{ background: INK, color: ON_INK }}
         >
           {comparing ? 'Extracting …' : 'Compare'}
         </button>
       </div>
 
       {error && (
-        <p className="text-xs text-[#ef4444]">
+        <p className="text-[12px]" style={{ color: RUST }}>
           {error}{' '}
           {error.includes('Failed to fetch') && (
-            <span className="text-[#666]">
-              — is the server running? <code>python -m lemon.server</code>
+            <span style={{ color: inkAlpha(0.5) }}>
+              — is the server running? <code className="font-mono">python -m lemon.server</code>
             </span>
           )}
         </p>
       )}
-      {status && <p className="text-xs text-[#f5e642]">{status}</p>}
+      {status && <p className="text-[12px]" style={{ color: TEAL }}>{status}</p>}
       {!error && !status && selected.length > 0 && (
-        <p className="text-xs text-[#555]">
+        <p className="font-mono text-[11px]" style={{ color: inkAlpha(0.5) }}>
           {selected.length === 1
             ? 'Select one more product to compare'
             : 'Ready — click Compare'}
@@ -147,7 +155,7 @@ export default function ProductPicker({ onSelectPair }: Props) {
           />
         ))}
         {catalog.length === 0 && (
-          <p className="text-[#555] text-sm text-center py-8">No results for "{query}"</p>
+          <p className="text-[13px] text-center py-8" style={{ color: inkAlpha(0.45) }}>No results for "{query}"</p>
         )}
       </div>
     </div>

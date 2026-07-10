@@ -4,96 +4,154 @@ import SurvivalChart from './SurvivalChart'
 import FailureModes from './FailureModes'
 import SnippetDrawer from './SnippetDrawer'
 import HonestyPanel from './HonestyPanel'
+import { INK, RUST, TEAL, inkAlpha } from '../theme'
 
 interface Props {
-  left: ProductData   // longer-lived
-  right: ProductData  // shorter-lived
+  left: ProductData   // longer-lived  (better → teal, right column)
+  right: ProductData  // shorter-lived (worse  → rust, left column)
 }
 
-function Stars({ rating }: { rating: number | null }) {
-  if (rating == null) return <span className="text-[#555]">n/a</span>
-  const full = Math.floor(rating)
-  const half = rating - full >= 0.5
-  return (
-    <span className="text-[#f5c518] tracking-wide text-sm">
-      {'★'.repeat(full)}
-      {half ? '½' : ''}
-      {'☆'.repeat(5 - full - (half ? 1 : 0))}
-      <span className="text-[#666] ml-1 text-xs">{rating.toFixed(1)}</span>
-    </span>
-  )
+// ── formatting helpers ──────────────────────────────────────────────
+function medianText(p: ProductData) {
+  if (p.median_months == null) return 'n/a'
+  return p.median_is_lower_bound
+    ? `>${p.median_months.toFixed(0)} mo`
+    : `${p.median_months.toFixed(0)} mo`
 }
 
-function MoneyMetric({ label, value, highlight }: { label: string; value: string; highlight?: boolean }) {
+function priceText(p: ProductData) {
+  return p.price != null ? `$${p.price.toFixed(0)}` : '—'
+}
+
+function ratingText(p: ProductData) {
+  if (p.average_rating == null) return '—'
+  const n = p.n_reviews ?? p.n_obs
+  return `${p.average_rating.toFixed(1)} / ${n.toLocaleString()}`
+}
+
+function costPerMo(p: ProductData) {
+  return p.cost_per_year != null ? `$${(p.cost_per_year / 12).toFixed(2)}` : '—'
+}
+
+function label(mode: string) {
+  return mode.replace(/_/g, ' ')
+}
+
+// Amazon titles are long; keep section headers to the brand + first few words.
+function shortTitle(p: ProductData) {
+  const t = p.brand && p.title.startsWith(p.brand) ? p.title : `${p.brand} ${p.title}`.trim()
+  const words = t.split(/\s+/).slice(0, 5).join(' ')
+  return words.replace(/[,:–—-]+$/, '')
+}
+
+function topFailureText(p: ProductData) {
+  const m = p.failure_modes[0]
+  if (!m) return '—'
+  const pct = p.n_events > 0 ? Math.round((m.count / p.n_events) * 100) : null
+  const name = label(m.mode)
+  const short = name.charAt(0).toUpperCase() + name.slice(1)
+  return pct != null ? `${short}, ${pct}%` : short
+}
+
+function tagText(p: ProductData, other: ProductData, worse: boolean) {
+  const parts: string[] = []
+  if (p.price != null && other.price != null && p.price !== other.price) {
+    parts.push(p.price < other.price ? 'CHEAPER' : 'PRICIER')
+  }
+  parts.push(worse ? 'LESS DURABLE' : 'MORE DURABLE')
+  return parts.join(' · ')
+}
+
+// ── product column ──────────────────────────────────────────────────
+function StatRow({ label, value, last }: { label: string; value: string; last?: boolean }) {
   return (
-    <div className={`text-center ${highlight ? 'text-[#ef4444]' : 'text-[#22c55e]'}`}>
-      <div className="text-3xl font-bold tracking-tight">{value}</div>
-      <div className="text-xs text-[#666] mt-0.5 uppercase tracking-widest">{label}</div>
+    <div
+      className="flex justify-between items-baseline py-[7px]"
+      style={last ? undefined : { borderBottom: `1px dashed ${inkAlpha(0.25)}` }}
+    >
+      <span className="text-[12px]" style={{ color: inkAlpha(0.55) }}>{label}</span>
+      <span className="font-mono text-[13px] font-semibold text-right ml-3">{value}</span>
     </div>
   )
 }
 
-function ProductCard({
+function ProductColumn({
   product,
+  other,
   color,
-  side,
+  worse,
+  align,
 }: {
   product: ProductData
+  other: ProductData
   color: string
-  side: 'left' | 'right'
+  worse: boolean
+  align: 'left' | 'right'
 }) {
-  const medianDisplay =
-    product.median_months == null
-      ? 'n/a'
-      : product.median_is_lower_bound
-      ? `>${product.median_months}mo`
-      : `${product.median_months.toFixed(0)}mo`
-
-  const cpyDisplay =
-    product.cost_per_year != null
-      ? `$${product.cost_per_year.toFixed(0)}/yr`
-      : 'n/a'
-
-  const isWorse = side === 'right'
-
   return (
-    <div
-      className="flex-1 min-w-0 rounded-xl p-5 border"
-      style={{ borderColor: color + '44', background: color + '08' }}
-    >
-      <div className="text-[10px] uppercase tracking-widest mb-1" style={{ color }}>
-        {side === 'left' ? 'Longer-lived' : 'Shorter-lived'}
-      </div>
-      <h3 className="text-sm font-semibold leading-snug text-[#e0e0e0] mb-3">
-        {product.title}
-      </h3>
-
-      <div className="flex justify-between text-sm mb-4">
-        <span className="text-[#aaa]">
-          {product.price != null ? `$${product.price.toFixed(0)}` : 'price n/a'}
+    <div className="flex flex-col pt-1.5">
+      {/* photo placeholder */}
+      <div
+        className={`w-[72px] h-[72px] flex items-center justify-center mb-[18px] ${align === 'right' ? 'self-end' : ''}`}
+        style={{
+          border: `1px solid ${color}4d`,
+          backgroundColor: `${color}0d`,
+          backgroundImage: `repeating-linear-gradient(135deg, ${color}29 0 2px, transparent 2px 9px)`,
+        }}
+      >
+        <span className="font-mono text-[8.5px] leading-tight tracking-wide" style={{ color: `${color}a6` }}>
+          PHOTO
         </span>
-        <Stars rating={product.average_rating} />
       </div>
 
-      <div className="grid grid-cols-2 gap-3 mb-4">
-        <div className="bg-[#0d0d0d] rounded-lg p-3 text-center">
-          <div className="text-2xl font-bold text-[#f0f0f0]">{medianDisplay}</div>
-          <div className="text-[10px] text-[#555] uppercase tracking-widest mt-0.5">median lifespan</div>
-        </div>
-        <div className="bg-[#0d0d0d] rounded-lg p-3 text-center">
-          <div className={`text-2xl font-bold ${isWorse ? 'text-[#ef4444]' : 'text-[#22c55e]'}`}>
-            {cpyDisplay}
-          </div>
-          <div className="text-[10px] text-[#555] uppercase tracking-widest mt-0.5">cost / year</div>
-        </div>
+      <div className="font-serif font-semibold text-[17px] leading-snug mb-0.5">{product.title}</div>
+      <div className="font-mono text-[12px] mb-4" style={{ color: inkAlpha(0.5) }}>
+        {tagText(product, other, worse)}
       </div>
 
-      <div className="text-[10px] text-[#555]">
-        n={product.n_obs} · {product.n_events} failure events
-        {product.median_is_lower_bound && (
-          <span className="ml-1 text-[#f5c518]">(lifespan lower-bound)</span>
-        )}
+      <StatRow label="Price" value={priceText(product)} />
+      <StatRow label="Rating" value={ratingText(product)} />
+      <StatRow label="Median life" value={medianText(product)} />
+      <StatRow label="Top failure" value={topFailureText(product)} last />
+
+      {/* cost-to-own box */}
+      <div className="mt-4" style={{ border: `1px solid ${INK}`, padding: '14px 16px' }}>
+        <div
+          className="font-mono text-[9.5px] font-semibold uppercase tracking-[0.08em] mb-2"
+          style={{ color: inkAlpha(0.45) }}
+        >
+          Cost to own
+        </div>
+        <div className="flex items-baseline gap-1.5">
+          <span className="font-mono text-[44px] leading-none font-bold" style={{ color }}>
+            {costPerMo(product)}
+          </span>
+          <span className="text-[12px]" style={{ color: inkAlpha(0.5) }}>/mo</span>
+        </div>
+        <div
+          className="font-mono text-[10.5px] leading-snug mt-2.5 pt-2"
+          style={{ borderTop: `1px solid ${inkAlpha(0.18)}`, color: inkAlpha(0.45) }}
+        >
+          {product.cost_per_year != null ? `$${product.cost_per_year.toFixed(2)}/YR · ` : ''}
+          N={product.n_obs.toLocaleString()} · 95% CI
+        </div>
       </div>
+    </div>
+  )
+}
+
+// ── legend table under the chart ────────────────────────────────────
+function LegendRow({ product, color }: { product: ProductData; color: string }) {
+  return (
+    <div className="flex justify-between items-center text-[12.5px]">
+      <span className="flex items-center gap-2">
+        <span className="inline-block w-3 h-0.5" style={{ background: color }} />
+        <span className="truncate max-w-[280px]">{product.title}</span>
+      </span>
+      <span className="flex gap-7 font-mono shrink-0">
+        <span>{medianText(product)}</span>
+        <span style={{ color }}>{costPerMo(product)}</span>
+      </span>
     </div>
   )
 }
@@ -101,82 +159,94 @@ function ProductCard({
 export default function CompareView({ left, right }: Props) {
   const [activeMode, setActiveMode] = useState<string | null>(null)
 
+  const better = left    // longer-lived → teal, right column
+  const worse = right    // shorter-lived → rust, left column
+
+  const failureMax = Math.max(
+    1,
+    ...worse.failure_modes.map((m) => (worse.n_events > 0 ? m.count / worse.n_events : 0)),
+    ...better.failure_modes.map((m) => (better.n_events > 0 ? m.count / better.n_events : 0)),
+  )
+
   return (
-    <div className="space-y-8">
-      {/* Hero tagline */}
-      <div className="text-center">
-        <p className="text-[#555] text-sm uppercase tracking-widest mb-2">same category · similar price · similar stars</p>
-        <h2 className="text-4xl font-bold tracking-tight text-white">
-          Different fate.
-        </h2>
+    <div className="space-y-0">
+      {/* category strip */}
+      <div
+        className="font-mono text-[10px] font-semibold uppercase tracking-[0.08em] mb-5"
+        style={{ color: inkAlpha(0.42) }}
+      >
+        Comparison — cost per year of life
       </div>
 
-      {/* KM chart */}
-      <SurvivalChart left={left} right={right} />
+      {/* hero: worse | divider | chart | divider | better */}
+      <div
+        className="grid gap-8 lg:gap-10 items-stretch grid-cols-1 lg:[grid-template-columns:264px_1px_minmax(0,1fr)_1px_264px]"
+      >
+        <ProductColumn product={worse} other={better} color={RUST} worse align="left" />
+        <div className="hidden lg:block" style={{ background: inkAlpha(0.18) }} />
 
-      {/* Product cards */}
-      <div className="flex gap-4 flex-col sm:flex-row">
-        <ProductCard product={left} color="#60a5fa" side="left" />
-        <div className="flex items-center justify-center text-[#444] font-bold text-xl shrink-0 py-2">
-          vs
+        {/* center: chart + legend */}
+        <div className="flex flex-col items-center gap-3.5 pt-1.5 order-first lg:order-none">
+          <SurvivalChart left={better} right={worse} />
+          <div
+            className="w-full max-w-[540px] pt-2.5 flex flex-col gap-1.5"
+            style={{ borderTop: `1px solid ${inkAlpha(0.2)}` }}
+          >
+            <div
+              className="flex justify-between font-mono text-[9.5px] font-semibold uppercase tracking-[0.06em]"
+              style={{ color: inkAlpha(0.4) }}
+            >
+              <span>Product</span>
+              <span className="flex gap-7"><span>Median</span><span>Cost / mo</span></span>
+            </div>
+            <LegendRow product={worse} color={RUST} />
+            <LegendRow product={better} color={TEAL} />
+          </div>
         </div>
-        <ProductCard product={right} color="#fb923c" side="right" />
+
+        <div className="hidden lg:block" style={{ background: inkAlpha(0.18) }} />
+        <ProductColumn product={better} other={worse} color={TEAL} worse={false} align="right" />
       </div>
 
-      {/* Cost-per-year callout */}
-      {left.cost_per_year != null && right.cost_per_year != null && (
-        <div className="bg-[#111] border border-[#222] rounded-xl p-6 text-center">
-          <p className="text-[#666] text-xs uppercase tracking-widest mb-4">
-            Cost per year of service life
-          </p>
-          <div className="flex items-center justify-center gap-8">
-            <MoneyMetric label={left.brand || 'Product A'} value={`$${left.cost_per_year.toFixed(0)}/yr`} />
-            <div className="text-[#333] text-2xl font-light">vs</div>
-            <MoneyMetric
-              label={right.brand || 'Product B'}
-              value={`$${right.cost_per_year.toFixed(0)}/yr`}
-              highlight
-            />
+      {/* failure modes */}
+      <div
+        className="grid gap-8 lg:gap-10 grid-cols-1 sm:grid-cols-2 mt-8 pt-8"
+        style={{ borderTop: `1.5px solid ${INK}` }}
+      >
+        <div className="flex flex-col gap-2.5">
+          <div
+            className="font-mono text-[9.5px] font-semibold uppercase tracking-[0.08em] mb-1"
+            style={{ color: inkAlpha(0.42) }}
+          >
+            Failure modes — {shortTitle(worse)}
           </div>
-          {right.cost_per_year > left.cost_per_year && (
-            <p className="text-[#555] text-xs mt-4">
-              The cheaper product costs{' '}
-              <span className="text-[#fb923c] font-semibold">
-                {((right.cost_per_year / left.cost_per_year - 1) * 100).toFixed(0)}% more per year
-              </span>{' '}
-              to own.
-            </p>
-          )}
+          <FailureModes modes={worse.failure_modes} nEvents={worse.n_events} scaleMax={failureMax} color={RUST} onSelect={setActiveMode} />
         </div>
-      )}
-
-      {/* Failure modes */}
-      <div>
-        <h3 className="text-xs uppercase tracking-widest text-[#555] mb-3">Failure modes</h3>
-        <div className="grid gap-4 sm:grid-cols-2">
-          <div>
-            <div className="text-xs text-[#60a5fa] mb-2">{left.title.split(' ').slice(0, 4).join(' ')}</div>
-            <FailureModes modes={left.failure_modes} color="#60a5fa" onSelect={setActiveMode} />
+        <div className="flex flex-col gap-2.5">
+          <div
+            className="font-mono text-[9.5px] font-semibold uppercase tracking-[0.08em] mb-1"
+            style={{ color: inkAlpha(0.42) }}
+          >
+            Failure modes — {shortTitle(better)}
           </div>
-          <div>
-            <div className="text-xs text-[#fb923c] mb-2">{right.title.split(' ').slice(0, 4).join(' ')}</div>
-            <FailureModes modes={right.failure_modes} color="#fb923c" onSelect={setActiveMode} />
-          </div>
+          <FailureModes modes={better.failure_modes} nEvents={better.n_events} scaleMax={failureMax} color={TEAL} onSelect={setActiveMode} />
         </div>
       </div>
 
-      {/* Snippet drawer */}
+      {/* snippet drawer */}
       {activeMode && (
         <SnippetDrawer
           mode={activeMode}
-          snippetsLeft={left.snippets[activeMode] ?? []}
-          snippetsRight={right.snippets[activeMode] ?? []}
+          snippetsLeft={better.snippets[activeMode] ?? []}
+          snippetsRight={worse.snippets[activeMode] ?? []}
           onClose={() => setActiveMode(null)}
         />
       )}
 
-      {/* Honesty panel */}
-      <HonestyPanel left={left} right={right} />
+      {/* honesty panel */}
+      <div className="mt-8">
+        <HonestyPanel left={better} right={worse} />
+      </div>
     </div>
   )
 }
