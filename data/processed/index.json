@@ -39,6 +39,19 @@
     "cost_per_year": 99.98
   },
   {
+    "parent_asin": "B09LM1H5N9",
+    "title": "CROWNFUL Ice Maker Machine for Countertop, 9 Bullet Ice Cubes S/L Ready in 7 Minutes, 26lbs/24H, Auto self-Cleaning, Portable Small Ice Maker with Scoop and Basket, Silver",
+    "brand": "CROWNFUL",
+    "subcategory": "",
+    "price": 99.99,
+    "average_rating": 4.4,
+    "n_obs": 338,
+    "n_events": 306,
+    "median_months": 5.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 239.98
+  },
+  {
     "parent_asin": "B01ALBMIEI",
     "title": "Giantex Portable Mini Compact Twin Tub Washing Machine 20lbs Washer Spain Spinner Portable Washing Machine, Blue+ White",
     "brand": "Giantex",
@@ -260,19 +273,6 @@
     "cost_per_year": 308.0
   },
   {
-    "parent_asin": "B07BR6G8T7",
-    "title": "EdgeStar DWP62BL 6 Place Setting Energy Star Rated Portable Countertop Dishwasher - Black",
-    "brand": "EdgeStar",
-    "subcategory": "",
-    "price": 329.0,
-    "average_rating": 4.4,
-    "n_obs": 44,
-    "n_events": 17,
-    "median_months": 11.0,
-    "median_is_lower_bound": false,
-    "cost_per_year": 358.91
-  },
-  {
     "parent_asin": "B0B81HGSSB",
     "title": "EdgeStar KC2000 Full Size Kegerator and Keg Beer Cooler",
     "brand": "EdgeStar",
@@ -284,6 +284,19 @@
     "median_months": 9.0,
     "median_is_lower_bound": false,
     "cost_per_year": 692.27
+  },
+  {
+    "parent_asin": "B07BR6G8T7",
+    "title": "EdgeStar DWP62BL 6 Place Setting Energy Star Rated Portable Countertop Dishwasher - Black",
+    "brand": "EdgeStar",
+    "subcategory": "",
+    "price": 329.0,
+    "average_rating": 4.4,
+    "n_obs": 44,
+    "n_events": 17,
+    "median_months": 11.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 358.91
   },
   {
     "parent_asin": "B0C6226Y9B",

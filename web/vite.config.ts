@@ -19,9 +19,10 @@ export default defineConfig({
       allow: ['..'],
     },
     // Proxy API calls to the local FastAPI extraction server.
+    // Override the target with LEMON_API_TARGET (e.g. when port 8000 is taken).
     proxy: {
       '/api': {
-        target: 'http://127.0.0.1:8000',
+        target: process.env.LEMON_API_TARGET || 'http://127.0.0.1:8000',
         changeOrigin: true,
       },
     },

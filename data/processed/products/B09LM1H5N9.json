@@ -1,0 +1,410 @@
+{
+  "parent_asin": "B09LM1H5N9",
+  "title": "CROWNFUL Ice Maker Machine for Countertop, 9 Bullet Ice Cubes S/L Ready in 7 Minutes, 26lbs/24H, Auto self-Cleaning, Portable Small Ice Maker with Scoop and Basket, Silver",
+  "brand": "CROWNFUL",
+  "price": 99.99,
+  "average_rating": 4.4,
+  "n_reviews": 2367,
+  "n_candidates": 380,
+  "n_obs": 338,
+  "n_events": 306,
+  "median_months": 5.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 239.98,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.06,
+      "s": 0.9911,
+      "lo": 0.9727,
+      "hi": 0.9971
+    },
+    {
+      "t": 0.09,
+      "s": 0.9911,
+      "lo": 0.9727,
+      "hi": 0.9971
+    },
+    {
+      "t": 0.1,
+      "s": 0.9911,
+      "lo": 0.9727,
+      "hi": 0.9971
+    },
+    {
+      "t": 0.13,
+      "s": 0.9911,
+      "lo": 0.9727,
+      "hi": 0.9971
+    },
+    {
+      "t": 0.15,
+      "s": 0.9911,
+      "lo": 0.9727,
+      "hi": 0.9971
+    },
+    {
+      "t": 0.25,
+      "s": 0.97,
+      "lo": 0.945,
+      "hi": 0.9838
+    },
+    {
+      "t": 0.5,
+      "s": 0.9277,
+      "lo": 0.8941,
+      "hi": 0.951
+    },
+    {
+      "t": 0.75,
+      "s": 0.9125,
+      "lo": 0.8765,
+      "hi": 0.9384
+    },
+    {
+      "t": 0.9,
+      "s": 0.9094,
+      "lo": 0.873,
+      "hi": 0.9358
+    },
+    {
+      "t": 1.0,
+      "s": 0.82,
+      "lo": 0.7739,
+      "hi": 0.8576
+    },
+    {
+      "t": 1.06,
+      "s": 0.8169,
+      "lo": 0.7706,
+      "hi": 0.8548
+    },
+    {
+      "t": 1.25,
+      "s": 0.8107,
+      "lo": 0.7639,
+      "hi": 0.8492
+    },
+    {
+      "t": 1.5,
+      "s": 0.8014,
+      "lo": 0.7539,
+      "hi": 0.8408
+    },
+    {
+      "t": 1.75,
+      "s": 0.7983,
+      "lo": 0.7506,
+      "hi": 0.8379
+    },
+    {
+      "t": 2.0,
+      "s": 0.7048,
+      "lo": 0.6519,
+      "hi": 0.7512
+    },
+    {
+      "t": 2.5,
+      "s": 0.7016,
+      "lo": 0.6486,
+      "hi": 0.7482
+    },
+    {
+      "t": 3.0,
+      "s": 0.5915,
+      "lo": 0.5357,
+      "hi": 0.6429
+    },
+    {
+      "t": 3.5,
+      "s": 0.585,
+      "lo": 0.5291,
+      "hi": 0.6367
+    },
+    {
+      "t": 4.0,
+      "s": 0.5366,
+      "lo": 0.4803,
+      "hi": 0.5895
+    },
+    {
+      "t": 4.5,
+      "s": 0.5269,
+      "lo": 0.4706,
+      "hi": 0.58
+    },
+    {
+      "t": 5.0,
+      "s": 0.4881,
+      "lo": 0.432,
+      "hi": 0.5417
+    },
+    {
+      "t": 5.5,
+      "s": 0.4848,
+      "lo": 0.4288,
+      "hi": 0.5385
+    },
+    {
+      "t": 6.0,
+      "s": 0.3782,
+      "lo": 0.3247,
+      "hi": 0.4315
+    },
+    {
+      "t": 6.5,
+      "s": 0.3749,
+      "lo": 0.3215,
+      "hi": 0.4281
+    },
+    {
+      "t": 7.0,
+      "s": 0.355,
+      "lo": 0.3023,
+      "hi": 0.4079
+    },
+    {
+      "t": 8.0,
+      "s": 0.3351,
+      "lo": 0.2832,
+      "hi": 0.3876
+    },
+    {
+      "t": 8.2,
+      "s": 0.3317,
+      "lo": 0.2801,
+      "hi": 0.3842
+    },
+    {
+      "t": 9.0,
+      "s": 0.3052,
+      "lo": 0.2549,
+      "hi": 0.3569
+    },
+    {
+      "t": 10.0,
+      "s": 0.2787,
+      "lo": 0.2299,
+      "hi": 0.3294
+    },
+    {
+      "t": 11.0,
+      "s": 0.2422,
+      "lo": 0.1959,
+      "hi": 0.2912
+    },
+    {
+      "t": 11.75,
+      "s": 0.2355,
+      "lo": 0.1898,
+      "hi": 0.2842
+    },
+    {
+      "t": 11.97,
+      "s": 0.2322,
+      "lo": 0.1867,
+      "hi": 0.2807
+    },
+    {
+      "t": 11.99,
+      "s": 0.2123,
+      "lo": 0.1685,
+      "hi": 0.2596
+    },
+    {
+      "t": 12.0,
+      "s": 0.1128,
+      "lo": 0.0803,
+      "hi": 0.1513
+    },
+    {
+      "t": 12.25,
+      "s": 0.1019,
+      "lo": 0.071,
+      "hi": 0.1392
+    },
+    {
+      "t": 13.0,
+      "s": 0.0982,
+      "lo": 0.0679,
+      "hi": 0.1351
+    },
+    {
+      "t": 13.33,
+      "s": 0.0946,
+      "lo": 0.0648,
+      "hi": 0.1311
+    },
+    {
+      "t": 14.0,
+      "s": 0.091,
+      "lo": 0.0617,
+      "hi": 0.127
+    },
+    {
+      "t": 14.25,
+      "s": 0.0873,
+      "lo": 0.0587,
+      "hi": 0.1229
+    },
+    {
+      "t": 15.0,
+      "s": 0.0837,
+      "lo": 0.0557,
+      "hi": 0.1188
+    },
+    {
+      "t": 16.0,
+      "s": 0.0691,
+      "lo": 0.0438,
+      "hi": 0.1021
+    },
+    {
+      "t": 18.0,
+      "s": 0.0619,
+      "lo": 0.038,
+      "hi": 0.0936
+    },
+    {
+      "t": 23.0,
+      "s": 0.0582,
+      "lo": 0.0352,
+      "hi": 0.0893
+    },
+    {
+      "t": 24.0,
+      "s": 0.0218,
+      "lo": 0.0091,
+      "hi": 0.0444
+    },
+    {
+      "t": 24.5,
+      "s": 0.0164,
+      "lo": 0.0055,
+      "hi": 0.0388
+    },
+    {
+      "t": 25.0,
+      "s": 0.0109,
+      "lo": 0.0026,
+      "hi": 0.0327
+    },
+    {
+      "t": 35.0,
+      "s": 0.0055,
+      "lo": 0.0006,
+      "hi": 0.0263
+    },
+    {
+      "t": 48.0,
+      "s": 0.0055,
+      "lo": 0.0006,
+      "hi": 0.0263
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 209
+    },
+    {
+      "mode": "control_failure",
+      "count": 38
+    },
+    {
+      "mode": "motor_failure",
+      "count": 19
+    },
+    {
+      "mode": "cooling_failure",
+      "count": 15
+    },
+    {
+      "mode": "leak",
+      "count": 14
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 5
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 5
+    },
+    {
+      "mode": "other",
+      "count": 4
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 3
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 2
+    }
+  ],
+  "snippets": {
+    "motor_failure": [
+      "Loved this ice machine, bought it for my camper as a portable option.  But 6 months later the water pump was shot on it.  Customer service was amazing, offered a great solution to the product.",
+      "[[VIDEOID:5bc2ec20addeff078e066c434f0ad806]] Fan motor stopped working 4 months after I bought it. Couldn\u2019t get ahold of anyone from Crownful. I don\u2019t believe the company exists anymore. Amazon did replace it for free.<br /><br />Update: Second one lasted about one year. That\u2019s all you\u2019re going to get out of these Chinese made items. If you\u2019re gonna buy one spend the money and get a better quality",
+      "I loved this ice maker but it stopped working less than one year old. The pump quit working. Loved it while it worked!"
+    ],
+    "leak": [
+      "I am editing my review and changing from 1 star to 4 stars because they did stand by their product and quickly rectified it. They reached out to me and sent a brand new one in its place. I really appreciate a company that stands by its product.<br /><br />I purchased this ice maker a little over a year ago and it just quit working. It won\u2019t suck water up to turn into ice and it leaks all over the ",
+      "This machine started leaking after 8 months. I unplugged it for a couple weeks and then back in. It again started leaking.  Very disappointing!! Here\u2019s an update. I reached out to Crownful customer service and they were awesome!! They replied quickly and sent me a new machine within a couple days. Hassle free.  Great customer service and I offered to return the leaking machine but they declined.",
+      "***UPDATE***<br />After a few weeks I received an email from the manufacture asking to send me another machine, even though I returned it to Amazon. I agreed, and to my surprise, a machine arrived a week later. I haven't used this one yet, but I did unbox it to check if was leaking and it wasn't. When I do set it up I will see how it performs against the one I bought to replace the original damage"
+    ],
+    "control_failure": [
+      "Update: This machine lasted exactly 1 year and one week. I do not advise getting it. The last one lasted a year and a half although that brand is no longer available.<br /><br />I received this machine on June 24, 2020. I let it sit for 48 hours upright to let any freon go wherever it needed to be. To begin with, it was a good machine. It does have a tendency to cry like a baby when the water rese",
+      "At first it worked perfectly fine and after a month it stopped working. Constantly saying Ice is full with nothing at all inside the ice basket. We tried troubleshooting with an agent and cleaned the sensors and it worked for one set of ice and then stopped working again.",
+      "worked great for two months and then stuck on \"Add Water.\"<br />Update 3/30/21: After a few emails with their support I mailed back and received a replacement today.  Will update after I try for a few days."
+    ],
+    "stopped_working": [
+      "It's perfect! In use constantly. It was perfect for the first 3 months! No longer works consistantly! Need to RETURN or REPLACE!!! Window to return ended way too soon.....",
+      "It stopped making full ice cubes after only two months. Don't recommend.",
+      "I bought this ice machine a year ago and loved it however it only lasted a year and stopped working. I contacted the company they were amazing to deal with. They sent a replacement. I did not find it noisy."
+    ],
+    "other": [
+      "Great idea for decent price. Unfortunately after a week of filling and emptying several times a day it was still adding a chemical/plastic flavor to the ice making water undrinkable once I added ice. Had to return it as it was unusable.<br />To make sure it wasn't my water I used filtered water from my Brita filter (which I also used to fill the ice maker) and added ice made from my ice cube trays",
+      "I had another  ice maker and I made noise and broke down after a few weeks after the warranty this ice maker you will not even know you have it it\u2019s so quite. Now after a few weeks, this ice maker too is giving me problems",
+      "Update:<br />Crownful finally reached out to me after posting this negative review. They didn't reach out when I contacted them for help, but they did finally contact me. I had already returned the ice maker through Amazon, who would only refund part of what I paid. So to Crownful's credit, they sent me a new ice maker free of charge. I just received it the other day and now have it set up. I'll u"
+    ],
+    "cooling_failure": [
+      "UPDATE 12/21.  Unfortunately, our unit stopped making ice in less than 3 months. Based on my previous review, we read and followed the manufacturer's directions, along with other user's feedback.  We used the ice machine less than 3x and since then, it was properly stored on a level surface in our pantry.  Just yesterday, we needed ice and took the unit out of its hibernation.  The unit tries to m",
+      "I purchased this item in March 2020.  Loved it!  Now, four months later (July) the ice cubes are smaller and thinner.  I know this isn't expensive in the big picture, but it should have lasted longer than 4 months.  Ice cubes used to be white when they were frozen in the freezer.  Now they stay clear because they are so thin.  While a counter top ice maker is a good thing, I wouldn't recommend thi",
+      "Update!!!<br /><br />After reaching out on their website and registered for a 1 year warranty for free, customer service ran through all the diagnostic and determined I had a faulty product so they sent me a replacement with no other questions askes.<br /><br />No customer service. After 10 months it runs and sound like normal but will not freeze to make ice. You can hear the water flowing but jus"
+    ],
+    "noise_vibration": [
+      "[[VIDEOID:3bceb7eeacdd0bc5cad7a14c33e66402]] I absolutely loved this ice maker..  it makes ice really quickly, and was so much nicer than the typical refrigerator ice maker..<br /><br />After about 45 days, out of nowhere it is now really noisy whenever it's reloading the trays..  I'll probably deal with the noise for now, but if I do replace it, it's not going to be with a crownful brand ice make",
+      "[[VIDEOID:ee163e11e0b3c89607e1d097d783ed26]] *edit*<br />Crownful reached out to me after they saw my review and offered me a free replacement or a full refund for my order since It's still under 1 year warranty. I would've felt bad taking a refund tbh, and I didn't want another one because I'm already using a different brand in my room now. I was going to ignore them but they emailed me like 4 ti",
+      "[[VIDEOID:dd4e7d47c62ef35051ef83a44c20bf36]] Update: Crownful\u2019s customer service is great. Changed my review from one star to 4 just because their customer service is amazing. They offered a full refund and are sending me a replacement for the defective one. I hope the replacement works. *crossing fingers. Thank you Crownful for having such great customer care.<br /><br />I don\u2019t know what happene"
+    ],
+    "physical_breakage": [
+      "Only lasted 6 months.  Woke up this morning and a piece of plastic from inside broke off and was laying on top.  Won't freeze or produce ice.",
+      "[[VIDEOID:254be4d2b5c27dfb05489dad621828d0]] EDIT:<br />After reaching out to the manufacturer and sending in a video they replaced it. Great customer service.<br /><br />ORIGINAL REVIEW:<br /><br />Worked great for about 7 months, but now the internal mechanism on the machine is stuck.<br /><br />It looks like the plastic dispensing mechanism inside the machine is either stuck or broken on the li",
+      "If you buy this do NOT expect it to last longer than a year. The internals are all cheap plastic that wear out quickly. If you do buy it, get the warranty."
+    ],
+    "wont_power_on": [
+      "Ice machine lost power after 6 months contacted customer service they honored warranty and sent a brand new working machine out with a week good customer service",
+      "Do not buy this product! Crownful Icemaker was purchased for use in summer months. Sensor for ice never worker properly to indicate when ice was removed. Ice full light always on so had to turn off and on to restart. After a few months of use machine is completely dead. AGAIN, DON\u2019T BUY CROWNFULl Ice maker!",
+      "It worked great for 7 months and it won't turn on."
+    ],
+    "electrical_fault": [
+      "I purchased this ice maker back in April and loved it! I would use it to make batches of ice for the week that I\u2019d then store in the freezer. However, while it was running the other night, I noticed a plastic burning smell. I believe the fan or some component broke. I\u2019m disappointed as I\u2019ve only had the ice maker for less than six months!",
+      "Ice maker started out working great!!  Easy to use, quiet, taste was not an issue but....it was purchased in Sept 2020 and now 5 months later it is no longer working.  It is not producing ice and smells hot when left plugged in.  I do not recommend purchasing this ice maker if you are looking for a long term appliance. As of 4/26/21 I can say that the company reached out to me and has sent us a re"
+    ]
+  },
+  "published": true
+}
