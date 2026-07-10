@@ -84,7 +84,7 @@ def _deepest_category(categories) -> str:
 def load_meta(path: Path | None = None) -> pd.DataFrame:
     path = path or config.META_FILE
     rows = []
-    with open(path, "r", encoding="utf-8") as f:
+    with gzip.open(path, "rt", encoding="utf-8") as f:
         for line in f:
             rec = json.loads(line)
             parent_asin = rec.get("parent_asin") or rec.get("asin")

@@ -63,7 +63,7 @@ def _collect_snippets(
 ) -> dict[str, dict[str, list[str]]]:
     """Stream reviews, return {asin: {mode: [snippet, ...]}} for published products."""
     snippets: dict[str, dict[str, list[str]]] = defaultdict(lambda: defaultdict(list))
-    with open(reviews_path, "r", encoding="utf-8") as f:
+    with gzip.open(reviews_path, "rt", encoding="utf-8") as f:
         for line in f:
             r = json.loads(line)
             asin = r.get("parent_asin") or r.get("asin")

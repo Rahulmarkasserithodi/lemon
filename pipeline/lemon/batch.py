@@ -85,7 +85,7 @@ def cmd_build(_client) -> None:
     total = candidates = written = 0
 
     with (
-        open(config.REVIEWS_FILE, "r", encoding="utf-8") as rf,
+        gzip.open(config.REVIEWS_FILE, "rt", encoding="utf-8") as rf,
         open(_REQUESTS_FILE, "w", encoding="utf-8") as wf,
     ):
         for line in rf:
@@ -185,7 +185,7 @@ def cmd_merge(client: genai.Client) -> None:
     # Build key → parent_asin index from the reviews file (needed for cache_put)
     print("Building review-key → parent_asin index …")
     key_to_asin: dict[str, str] = {}
-    with open(config.REVIEWS_FILE, "r", encoding="utf-8") as f:
+    with gzip.open(config.REVIEWS_FILE, "rt", encoding="utf-8") as f:
         for line in f:
             r = json.loads(line)
             key_to_asin[review_key(r)] = r.get("parent_asin") or r.get("asin") or ""

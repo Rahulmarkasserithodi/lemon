@@ -8,10 +8,12 @@ CACHE = ROOT / "data" / "cache"
 PROCESSED = ROOT / "data" / "processed"
 
 CATEGORY = "Appliances"
-REVIEWS_FILE = RAW / f"{CATEGORY}.jsonl"
-META_FILE = RAW / f"meta_{CATEGORY}.jsonl"
+REVIEWS_FILE = RAW / f"{CATEGORY}.jsonl.gz"
+META_FILE = RAW / f"meta_{CATEGORY}.jsonl.gz"
 
-GEMINI_MODEL = "gemini-2.5-flash-lite"
+# gemini-2.5-flash-lite is retired for new API keys; 3.1-flash-lite is the
+# pinned successor (deterministic across the hackathon). Verified working.
+GEMINI_MODEL = "gemini-3.1-flash-lite"
 EXTRACTION_CACHE_DB = CACHE / "extractions.sqlite"
 
 # Survival-model publication thresholds (honesty: never show curves built on air)

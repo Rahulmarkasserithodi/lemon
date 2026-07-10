@@ -5,16 +5,24 @@ in SQLite so reruns are free and deterministic. This module provides the
 synchronous path used for validation; batch submission lives in batch.py.
 """
 
+import enum
 import hashlib
 import json
 import sqlite3
+import time
 from typing import Optional
 
 from google import genai
+from google.genai import errors as genai_errors
 from google.genai import types
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 
 from . import config
+
+# Dynamic Enum from the config vocabulary so the model is constrained to it.
+# An Optional[Enum] field yields a nullable-enum schema the SDK accepts —
+# unlike putting None inside a JSON-schema enum list, which it rejects.
+FailureMode = enum.Enum("FailureMode", {m: m for m in config.FAILURE_MODES})
 
 PROMPT = """\
 You extract product-lifetime facts from an Amazon appliance review.
@@ -39,9 +47,7 @@ class Extraction(BaseModel):
     failed: bool
     time_to_failure_months: Optional[float] = None
     last_known_good_months: Optional[float] = None
-    failure_mode: Optional[str] = Field(
-        default=None, description="One of the allowed failure modes, or null."
-    )
+    failure_mode: Optional[FailureMode] = None
     confidence: float
 
 
@@ -82,13 +88,62 @@ def build_prompt(review: dict) -> str:
 
 
 def gen_config() -> types.GenerateContentConfig:
-    schema = Extraction.model_json_schema()
-    schema["properties"]["failure_mode"]["enum"] = config.FAILURE_MODES + [None]
     return types.GenerateContentConfig(
         response_mime_type="application/json",
-        response_schema=schema,
+        response_schema=Extraction,
         temperature=0.0,
     )
+
+
+def parse_extraction(raw_json: str) -> dict:
+    """Normalise a raw JSON string into the cache dict shape (enum -> str)."""
+    obj = Extraction.model_validate_json(raw_json)
+    d = obj.model_dump()
+    if d.get("failure_mode") is not None:
+        d["failure_mode"] = d["failure_mode"].value
+    return d
+
+
+def _generate_with_backoff(
+    client: genai.Client, review: dict, max_retries: int = 6
+) -> str:
+    """Call the model, retrying on 429/503 with exponential backoff.
+
+    The free tier caps requests-per-minute; without this a bulk run dies on the
+    first burst of 429s. Honors the server's RetryInfo delay when present.
+    """
+    delay = 5.0
+    for attempt in range(max_retries):
+        try:
+            resp = client.models.generate_content(
+                model=config.GEMINI_MODEL,
+                contents=build_prompt(review),
+                config=gen_config(),
+            )
+            return resp.text
+        except genai_errors.ClientError as exc:
+            if exc.code != 429 or attempt == max_retries - 1:
+                raise
+            time.sleep(_retry_delay(exc, delay))
+            delay = min(delay * 2, 60)
+        except genai_errors.ServerError:
+            if attempt == max_retries - 1:
+                raise
+            time.sleep(delay)
+            delay = min(delay * 2, 60)
+    raise RuntimeError("unreachable")
+
+
+def _retry_delay(exc: Exception, fallback: float) -> float:
+    """Pull the server-suggested retry delay (seconds) from a 429, else fallback."""
+    try:
+        for d in exc.details.get("error", {}).get("details", []):  # type: ignore[attr-defined]
+            if d.get("@type", "").endswith("RetryInfo"):
+                secs = d.get("retryDelay", "").rstrip("s")
+                return max(float(secs), fallback)
+    except (AttributeError, ValueError, TypeError):
+        pass
+    return fallback
 
 
 def extract_sync(client: genai.Client, review: dict, db: sqlite3.Connection) -> dict:
@@ -97,12 +152,8 @@ def extract_sync(client: genai.Client, review: dict, db: sqlite3.Connection) -> 
     cached = cache_get(db, key)
     if cached is not None:
         return cached
-    resp = client.models.generate_content(
-        model=config.GEMINI_MODEL,
-        contents=build_prompt(review),
-        config=gen_config(),
-    )
-    result = json.loads(resp.text)
+    raw = _generate_with_backoff(client, review)
+    result = parse_extraction(raw)
     cache_put(db, key, review.get("parent_asin", ""), result)
     db.commit()
     return result

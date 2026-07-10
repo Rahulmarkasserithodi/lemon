@@ -32,7 +32,7 @@ def run(scan: int, use_llm: bool, do_export: bool) -> None:
     reviews: list[dict] = []
     candidates: list[dict] = []
 
-    with open(config.REVIEWS_FILE, "r", encoding="utf-8") as f:
+    with gzip.open(config.REVIEWS_FILE, "rt", encoding="utf-8") as f:
         for i, line in enumerate(f):
             if i >= scan:
                 break

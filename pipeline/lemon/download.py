@@ -1,50 +1,41 @@
-"""Download raw Appliances review and meta files from HuggingFace (McAuley-Lab/Amazon-Reviews-2023).
+"""Download raw Appliances review + meta files (McAuley Lab, Amazon Reviews 2023).
 
-Files are saved to data/raw/. Existing files are skipped unless --force is passed.
+Uses the direct UCSD mirror, which serves gzipped .jsonl.gz — matching the
+paths in config (REVIEWS_FILE / META_FILE) and the streaming readers in load.py.
+Files are saved to data/raw/; existing files are skipped unless --force.
 
 Run:
     python -m lemon.download
-    python -m lemon.download --force   # re-download even if files exist
+    python -m lemon.download --force
 """
 
 import sys
+import urllib.request
 from pathlib import Path
-
-from huggingface_hub import hf_hub_download
 
 from . import config
 
-_REPO = "McAuley-Lab/Amazon-Reviews-2023"
-_HF_PATHS: dict[Path, str] = {
-    config.REVIEWS_FILE: f"raw/review_categories/{config.CATEGORY}.jsonl",
-    config.META_FILE:    f"raw/meta_categories/meta_{config.CATEGORY}.jsonl",
+_BASE = "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw"
+_URLS: dict[Path, str] = {
+    config.REVIEWS_FILE: f"{_BASE}/review_categories/{config.CATEGORY}.jsonl.gz",
+    config.META_FILE: f"{_BASE}/meta_categories/meta_{config.CATEGORY}.jsonl.gz",
 }
 
 
-def download_file(dest: Path, repo_path: str, force: bool = False) -> None:
+def download_file(dest: Path, url: str, force: bool = False) -> None:
     dest.parent.mkdir(parents=True, exist_ok=True)
     if dest.exists() and not force:
-        size = dest.stat().st_size
-        print(f"  skip  {dest.name}  ({size:,} bytes already present; pass --force to re-download)")
+        print(f"  skip  {dest.name}  ({dest.stat().st_size:,} bytes present; --force to re-download)")
         return
-    print(f"  {dest.name}  ← huggingface:{repo_path}", flush=True)
-    tmp = hf_hub_download(
-        repo_id=_REPO,
-        filename=repo_path,
-        repo_type="dataset",
-        local_dir=dest.parent,
-        local_dir_use_symlinks=False,
-    )
-    # hf_hub_download saves to a nested path; move to our expected location
-    src = Path(tmp)
-    if src.resolve() != dest.resolve():
-        dest.unlink(missing_ok=True)
-        src.rename(dest)
+    print(f"  {dest.name}  ← {url}", flush=True)
+    tmp = dest.with_suffix(dest.suffix + ".part")
+    urllib.request.urlretrieve(url, tmp)
+    tmp.rename(dest)
     print(f"  saved {dest.name}  ({dest.stat().st_size:,} bytes)")
 
 
 if __name__ == "__main__":
     force = "--force" in sys.argv
-    for dest, repo_path in _HF_PATHS.items():
-        download_file(dest, repo_path, force=force)
+    for dest, url in _URLS.items():
+        download_file(dest, url, force=force)
     print("\nAll files ready.")
