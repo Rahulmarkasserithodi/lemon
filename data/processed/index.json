@@ -130,6 +130,19 @@
     "cost_per_year": 362.17
   },
   {
+    "parent_asin": "B09QYZ18YD",
+    "title": "FRIGIDAIRE EFIC101-BLACK Portable Compact Maker, 26 lb per Day, Black & Silonn Ice Makers Countertop, 9 Cubes Ready in 6 Mins, 26lbs in 24Hrs, Self-Cleaning Ice Machine with Ice Scoop and Basket",
+    "brand": "FRIGIDAIRE",
+    "subcategory": "",
+    "price": 198.72,
+    "average_rating": 4.5,
+    "n_obs": 66,
+    "n_events": 54,
+    "median_months": 5.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 476.93
+  },
+  {
     "parent_asin": "B074R7GK8V",
     "title": "COSTWAY Portable Mini Washing Machine with Spin Dryer, Washing Capacity 5.5lbs, Electric Compact Machines Durable Design Energy Saving, Rotary Controller, Laundry Washer for Home Apartment RV, Blue",
     "brand": "COSTWAY",
@@ -156,19 +169,6 @@
     "cost_per_year": 249.99
   },
   {
-    "parent_asin": "B0BVMJ6NSZ",
-    "title": "Whynter BR-130SB Beverage Refrigerator with Internal Fan \u2013 Stainless Steel 120-Can Capacity",
-    "brand": "Whynter",
-    "subcategory": "",
-    "price": 300.48,
-    "average_rating": 4.2,
-    "n_obs": 78,
-    "n_events": 49,
-    "median_months": 10.0,
-    "median_is_lower_bound": false,
-    "cost_per_year": 360.58
-  },
-  {
     "parent_asin": "B0BP4W4TN1",
     "title": "Galanz GLR10TWEEFR True Top Freezer Retro Refrigerator Frost Free Dual Door Fridge, Adjustable Electrical Thermostat Control, 10.0 Cu Ft, White",
     "brand": "Galanz",
@@ -180,6 +180,19 @@
     "median_months": 6.0,
     "median_is_lower_bound": false,
     "cost_per_year": 1229.88
+  },
+  {
+    "parent_asin": "B0BVMJ6NSZ",
+    "title": "Whynter BR-130SB Beverage Refrigerator with Internal Fan \u2013 Stainless Steel 120-Can Capacity",
+    "brand": "Whynter",
+    "subcategory": "",
+    "price": 300.48,
+    "average_rating": 4.2,
+    "n_obs": 78,
+    "n_events": 49,
+    "median_months": 10.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 360.58
   },
   {
     "parent_asin": "B0BX9GK3PB",
@@ -312,19 +325,6 @@
     "cost_per_year": 308.0
   },
   {
-    "parent_asin": "B0B81HGSSB",
-    "title": "EdgeStar KC2000 Full Size Kegerator and Keg Beer Cooler",
-    "brand": "EdgeStar",
-    "subcategory": "",
-    "price": 519.2,
-    "average_rating": 4.6,
-    "n_obs": 27,
-    "n_events": 17,
-    "median_months": 9.0,
-    "median_is_lower_bound": false,
-    "cost_per_year": 692.27
-  },
-  {
     "parent_asin": "B07BR6G8T7",
     "title": "EdgeStar DWP62BL 6 Place Setting Energy Star Rated Portable Countertop Dishwasher - Black",
     "brand": "EdgeStar",
@@ -336,6 +336,19 @@
     "median_months": 11.0,
     "median_is_lower_bound": false,
     "cost_per_year": 358.91
+  },
+  {
+    "parent_asin": "B0B81HGSSB",
+    "title": "EdgeStar KC2000 Full Size Kegerator and Keg Beer Cooler",
+    "brand": "EdgeStar",
+    "subcategory": "",
+    "price": 519.2,
+    "average_rating": 4.6,
+    "n_obs": 27,
+    "n_events": 17,
+    "median_months": 9.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 692.27
   },
   {
     "parent_asin": "B0C6226Y9B",

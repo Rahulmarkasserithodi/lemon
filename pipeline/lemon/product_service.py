@@ -13,7 +13,7 @@ from collections import defaultdict
 from typing import Optional
 
 from . import config
-from .extract import extract_sync, review_key
+from .extract import extract_many, review_key
 from .prefilter import is_candidate
 from .survival import cost_per_year, fit_km, to_observation
 
@@ -73,10 +73,8 @@ def build_product(
     """
     candidates = [r for r in reviews if is_candidate(r.get("text") or "")]
 
-    results_by_key: dict[str, dict] = {}
-    for r in candidates:
-        res = extract_sync(client, r, db)
-        results_by_key[review_key(r)] = res
+    # Extract all uncached candidates concurrently (cached ones are free).
+    results_by_key = extract_many(client, candidates, db)
 
     results = list(results_by_key.values())
     observations = [o for res in results if (o := to_observation(res)) is not None]
@@ -88,6 +86,7 @@ def build_product(
         "parent_asin": asin,
         "title": meta_row.get("title", asin),
         "brand": meta_row.get("brand", ""),
+        "image": meta_row.get("image"),
         "price": price,
         "average_rating": meta_row.get("average_rating"),
         "n_reviews": len(reviews),

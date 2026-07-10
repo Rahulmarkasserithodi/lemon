@@ -16,6 +16,7 @@ export interface ProductData {
   parent_asin: string
   title: string
   brand: string
+  image?: string | null       // primary product photo URL (from Amazon meta)
   price: number | null
   average_rating: number | null
   n_obs: number
@@ -40,6 +41,7 @@ export interface CatalogEntry {
   price: number | null
   average_rating: number | null
   n_reviews: number
+  image?: string | null
 }
 
 export interface IndexEntry {

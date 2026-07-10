@@ -60,6 +60,10 @@ def review_key(review: dict) -> str:
 def open_cache() -> sqlite3.Connection:
     config.CACHE.mkdir(parents=True, exist_ok=True)
     db = sqlite3.connect(config.EXTRACTION_CACHE_DB)
+    # WAL + a busy timeout let concurrent product requests (each with its own
+    # connection) read/write the cache without "database is locked" errors.
+    db.execute("PRAGMA journal_mode=WAL")
+    db.execute("PRAGMA busy_timeout=10000")
     db.execute(
         "CREATE TABLE IF NOT EXISTS extractions ("
         " key TEXT PRIMARY KEY, parent_asin TEXT, result TEXT)"
@@ -157,3 +161,52 @@ def extract_sync(client: genai.Client, review: dict, db: sqlite3.Connection) -> 
     cache_put(db, key, review.get("parent_asin", ""), result)
     db.commit()
     return result
+
+
+def extract_many(
+    client: genai.Client,
+    reviews: list[dict],
+    db: sqlite3.Connection,
+    max_workers: int | None = None,
+) -> dict[str, dict]:
+    """Extract many reviews, returning {review_key: result}.
+
+    Cache reads/writes stay on the caller's thread (SQLite connections have
+    thread affinity); only the independent network calls are parallelised. A
+    single review that fails after retries is skipped rather than failing the
+    whole product.
+    """
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    results: dict[str, dict] = {}
+    todo: list[tuple[str, dict]] = []
+    for r in reviews:
+        key = review_key(r)
+        cached = cache_get(db, key)
+        if cached is not None:
+            results[key] = cached
+        else:
+            todo.append((key, r))
+
+    if not todo:
+        return results
+
+    workers = max_workers or config.EXTRACTION_CONCURRENCY
+    workers = max(1, min(workers, len(todo)))
+
+    def _call(item: tuple[str, dict]) -> tuple[str, dict, dict]:
+        key, review = item
+        return key, review, parse_extraction(_generate_with_backoff(client, review))
+
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = [pool.submit(_call, item) for item in todo]
+        for fut in as_completed(futures):
+            try:
+                key, review, result = fut.result()
+            except Exception:
+                continue  # skip a review that never extracted cleanly
+            results[key] = result
+            cache_put(db, key, review.get("parent_asin", ""), result)
+
+    db.commit()
+    return results

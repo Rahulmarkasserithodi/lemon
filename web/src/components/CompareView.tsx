@@ -62,6 +62,48 @@ function tagText(p: ProductData, other: ProductData, worse: boolean) {
   return parts.join(' · ')
 }
 
+// ── product photo (real image, hatched placeholder as fallback) ─────
+function ProductPhoto({
+  product,
+  color,
+  align,
+}: {
+  product: ProductData
+  color: string
+  align: 'left' | 'right'
+}) {
+  const [errored, setErrored] = useState(false)
+  const cls = `w-[72px] h-[72px] flex items-center justify-center mb-[18px] ${align === 'right' ? 'self-end' : ''}`
+
+  if (product.image && !errored) {
+    return (
+      <img
+        src={product.image}
+        alt={product.title}
+        loading="lazy"
+        onError={() => setErrored(true)}
+        className={`${cls} object-contain bg-white`}
+        style={{ border: `1px solid ${color}4d` }}
+      />
+    )
+  }
+
+  return (
+    <div
+      className={cls}
+      style={{
+        border: `1px solid ${color}4d`,
+        backgroundColor: `${color}0d`,
+        backgroundImage: `repeating-linear-gradient(135deg, ${color}29 0 2px, transparent 2px 9px)`,
+      }}
+    >
+      <span className="font-mono text-[8.5px] leading-tight tracking-wide" style={{ color: `${color}a6` }}>
+        PHOTO
+      </span>
+    </div>
+  )
+}
+
 // ── product column ──────────────────────────────────────────────────
 function StatRow({ label, value, last }: { label: string; value: string; last?: boolean }) {
   return (
@@ -90,19 +132,7 @@ function ProductColumn({
 }) {
   return (
     <div className="flex flex-col pt-1.5">
-      {/* photo placeholder */}
-      <div
-        className={`w-[72px] h-[72px] flex items-center justify-center mb-[18px] ${align === 'right' ? 'self-end' : ''}`}
-        style={{
-          border: `1px solid ${color}4d`,
-          backgroundColor: `${color}0d`,
-          backgroundImage: `repeating-linear-gradient(135deg, ${color}29 0 2px, transparent 2px 9px)`,
-        }}
-      >
-        <span className="font-mono text-[8.5px] leading-tight tracking-wide" style={{ color: `${color}a6` }}>
-          PHOTO
-        </span>
-      </div>
+      <ProductPhoto product={product} color={color} align={align} />
 
       <div className="font-serif font-semibold text-[17px] leading-snug mb-0.5">{product.title}</div>
       <div className="font-mono text-[12px] mb-4" style={{ color: inkAlpha(0.5) }}>

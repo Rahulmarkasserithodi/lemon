@@ -1,0 +1,265 @@
+{
+  "parent_asin": "B09QYZ18YD",
+  "title": "FRIGIDAIRE EFIC101-BLACK Portable Compact Maker, 26 lb per Day, Black & Silonn Ice Makers Countertop, 9 Cubes Ready in 6 Mins, 26lbs in 24Hrs, Self-Cleaning Ice Machine with Ice Scoop and Basket",
+  "brand": "FRIGIDAIRE",
+  "image": "https://m.media-amazon.com/images/I/41qjKwTSv8L.jpg",
+  "price": 198.72,
+  "average_rating": 4.5,
+  "n_reviews": 546,
+  "n_candidates": 79,
+  "n_obs": 66,
+  "n_events": 54,
+  "median_months": 5.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 476.93,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.06,
+      "s": 0.9848,
+      "lo": 0.8973,
+      "hi": 0.9979
+    },
+    {
+      "t": 0.25,
+      "s": 0.9848,
+      "lo": 0.8973,
+      "hi": 0.9979
+    },
+    {
+      "t": 0.5,
+      "s": 0.9848,
+      "lo": 0.8973,
+      "hi": 0.9979
+    },
+    {
+      "t": 0.75,
+      "s": 0.9531,
+      "lo": 0.8615,
+      "hi": 0.9846
+    },
+    {
+      "t": 1.0,
+      "s": 0.9213,
+      "lo": 0.8212,
+      "hi": 0.9665
+    },
+    {
+      "t": 1.03,
+      "s": 0.9051,
+      "lo": 0.8009,
+      "hi": 0.9563
+    },
+    {
+      "t": 1.25,
+      "s": 0.8728,
+      "lo": 0.7616,
+      "hi": 0.9343
+    },
+    {
+      "t": 1.75,
+      "s": 0.8567,
+      "lo": 0.7425,
+      "hi": 0.9227
+    },
+    {
+      "t": 2.0,
+      "s": 0.792,
+      "lo": 0.6688,
+      "hi": 0.8736
+    },
+    {
+      "t": 2.25,
+      "s": 0.7752,
+      "lo": 0.6499,
+      "hi": 0.8603
+    },
+    {
+      "t": 3.0,
+      "s": 0.6066,
+      "lo": 0.4724,
+      "hi": 0.7167
+    },
+    {
+      "t": 3.5,
+      "s": 0.6066,
+      "lo": 0.4724,
+      "hi": 0.7167
+    },
+    {
+      "t": 4.0,
+      "s": 0.5331,
+      "lo": 0.3985,
+      "hi": 0.6505
+    },
+    {
+      "t": 4.37,
+      "s": 0.5141,
+      "lo": 0.3798,
+      "hi": 0.633
+    },
+    {
+      "t": 5.0,
+      "s": 0.4379,
+      "lo": 0.3072,
+      "hi": 0.5612
+    },
+    {
+      "t": 6.0,
+      "s": 0.3808,
+      "lo": 0.2552,
+      "hi": 0.5053
+    },
+    {
+      "t": 7.0,
+      "s": 0.3596,
+      "lo": 0.2359,
+      "hi": 0.4848
+    },
+    {
+      "t": 8.0,
+      "s": 0.3173,
+      "lo": 0.1985,
+      "hi": 0.4427
+    },
+    {
+      "t": 9.0,
+      "s": 0.2962,
+      "lo": 0.1804,
+      "hi": 0.4213
+    },
+    {
+      "t": 12.0,
+      "s": 0.1904,
+      "lo": 0.0964,
+      "hi": 0.3085
+    },
+    {
+      "t": 13.0,
+      "s": 0.1692,
+      "lo": 0.0811,
+      "hi": 0.2847
+    },
+    {
+      "t": 16.0,
+      "s": 0.1481,
+      "lo": 0.0665,
+      "hi": 0.2604
+    },
+    {
+      "t": 18.0,
+      "s": 0.1269,
+      "lo": 0.0526,
+      "hi": 0.2354
+    },
+    {
+      "t": 22.0,
+      "s": 0.1058,
+      "lo": 0.0395,
+      "hi": 0.2098
+    },
+    {
+      "t": 24.0,
+      "s": 0.0212,
+      "lo": 0.0017,
+      "hi": 0.0968
+    },
+    {
+      "t": 36.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 36
+    },
+    {
+      "mode": "cooling_failure",
+      "count": 5
+    },
+    {
+      "mode": "leak",
+      "count": 4
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 3
+    },
+    {
+      "mode": "control_failure",
+      "count": 2
+    },
+    {
+      "mode": "rust_corrosion",
+      "count": 2
+    },
+    {
+      "mode": "motor_failure",
+      "count": 2
+    },
+    {
+      "mode": "heating_failure",
+      "count": 1
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 1
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "stopped_working": [
+      "Quit working after a couple of days use. Called support, it is outsourced and all they could do was send an email to support. No human contact available. Said I had to contact support through email. Sent it back and bought another brand.",
+      "This is the exact same icemaker as the Magic Chef one. I bought it to replace my Magic Chef ice maker that died. I ran it 24/7 for 2 years and then it died. I assume this one will do the same. I was hoping it was a \u201cFrigidaire\u201d appliance and maybe last longer. It is not quiet, if that is important to you. It makes a lot of ice. I\u2019m happy with it.",
+      "It was awesome for about 5 months of use.  Suddenly and without any warning, it quit working.  I will not be replacing this.  We used only filtered water and did all required maintenece.  What a disappointment"
+    ],
+    "cooling_failure": [
+      "I ordered this ice marker March 1st 2020 for our apartment. With moderate use (running roughly 6 hours about 5 days a week) the machine's compressor stopped working today, July 12, 2020. Hoping that the manufacturer reaches out to replace the unit because, while it did run, it was great. Made ice quickly, very user friendly controls, and did not leave any weird taste. Ice cubes were also thoroughl",
+      "Update: I received this ice maker on March 30th it's May 23rd and 2days ago it just stopped making ice the water goes in the tray and just sits there the this aren't getting cold enough to make ice and it's only been not even 2 months but on the upside Amazon is amazing I expected what's happening and how it's not making any ice and they said ok here's your options great customer service I will al",
+      "We loved it at first but within the first couple months it stopped working as well.  Eventually it stopped making ice.  It's less then 5 months old and it barely works.  Reading reviews, this is a common problem and the internet has some suggestions and that has allowed it to work periodically but it stops working again."
+    ],
+    "leak": [
+      "I ordered in June 2019 but didn't receive this rebuilt ice maker until September, best as memory serves. OK. I agreed. When I plugged it in and started using the next day - you have to wait for the gases inside to settle - I noticed it was loud, squeaky when inner mechanics were churning, but I had already waited several months and was dying for my chewy ice. I keep myself hydrated all day by chew",
+      "It started leaking coolant after 5 weeks of purchase",
+      "We loved this machine until it started leaking constantly when we used it - half the water ends up on the counter. We had to get rid of it after having it for only a year."
+    ],
+    "noise_vibration": [
+      "Works great, probably not intended to be in a moving vehicle all the time, but does the job regardless !!<br />Only lasted about 3 months, not detracting a star because it MAY not be intended for use in a vehicle(?)<br />Vibration seems to do something real bad to these TYPES of ice makers...not just this brand !!",
+      "Worked great, as described and ice quality was great. 5 months later started making a terrible sound when plugged in and no longer makes ice. Sad, because this was a great idea when it worked now I'm out $112.",
+      "I had this ice maker for less than 3 months and it broke. Just stopped making ice and made a loud noise. Threw that piece of junk in the trash. Warning, Don\u2019t Buy!!!"
+    ],
+    "control_failure": [
+      "While it worked, it was great. Not too noisy as others have been. Relatively quick, although of a smaller capacity than prior products, it was sufficient for non-party needs. Small footprint, 9&#34; W, 13&#34; L, 13&#34; H. Uses an optical ice full sensor which was more dependable than prior products thermal sensor. Two stars because it died quickly.<br /><br />This is my third ice maker &#34;bran",
+      "We bought this four months ago, use it constantly, and have liked it.  This morning when I went to use it, the refill red light was on even though it was full of water.  I drained it and refilled it, but no luck; red light still on.  I checked with Amazon and they are no help because we've had it too long.  I checked with the manufacturer's warranty and it is covered, but I have to pay shipping bo"
+    ],
+    "heating_failure": [
+      "The heating element got stuck on (normally used to separate ice cubes from the fingers they form on), so it no longer makes ice and heats up the water instead, tried to put in for a warranty request and have received no response after 2 weeks."
+    ],
+    "physical_breakage": [
+      "I use this product every day and am really disturbed that after a little over a month the lid doesn\u2019t work properly and neither does the water level indicator. I expected way more from a Frigidaire ice machine. I did much better with the offbrand it lasted way over a year. Don\u2019t buy it you\u2019ll regret it"
+    ],
+    "rust_corrosion": [
+      "This was a gift for my daughter who does not have an ice maker in her apartment. I bought it in March 2022 and there is rust and mildew that won't come off. I can't find any warranty information on this item.. she's a 20 yr old kid, she doesn't have the paperwork that came with it. It's a waste of money.",
+      "[[VIDEOID:bef86b8980cc30a75162d056fdf30024]] This item has been great except it is starting to rust within the water chamber. How come all the parts exposed to water aren't stainless?  I'm disappointed that it has lasted less than 3 years."
+    ],
+    "motor_failure": [
+      "Worked great for exactly 30 days!  Then nothing...smells like the motor died.",
+      "Engine burned out after 3 months and I never over used it. Only two people in my family. Total waste of money. Run fast from this one"
+    ],
+    "wont_power_on": [
+      "We used it for a week, shut it off, went to use it again two months later and it won\u2019t work! Now we are out $"
+    ]
+  },
+  "published": true
+}

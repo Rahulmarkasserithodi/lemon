@@ -26,6 +26,7 @@ _BATCH = 20_000
 def open_reviews_db() -> sqlite3.Connection:
     config.CACHE.mkdir(parents=True, exist_ok=True)
     db = sqlite3.connect(config.REVIEWS_DB)
+    db.execute("PRAGMA busy_timeout=10000")  # tolerate concurrent readers
     db.execute(
         "CREATE TABLE IF NOT EXISTS reviews ("
         " parent_asin TEXT, user_id TEXT, timestamp INTEGER,"
@@ -129,6 +130,7 @@ def build_catalog(force: bool = False, min_reviews: int = 15) -> None:
                 "average_rating": None if row.average_rating != row.average_rating else row.average_rating,
                 "subcategory": row.subcategory,
                 "n_reviews": n,
+                "image": row.image if isinstance(row.image, str) else None,
             }
         )
     catalog.sort(key=lambda c: -c["n_reviews"])
@@ -136,9 +138,39 @@ def build_catalog(force: bool = False, min_reviews: int = 15) -> None:
     print(f"  wrote {len(catalog):,} products (≥{min_reviews} reviews) to {config.CATALOG_FILE}")
 
 
+def build_asin_map(force: bool = False) -> None:
+    """Map every child ASIN → its parent_asin, for catalog products only.
+
+    A pasted Amazon `/dp/{asin}` link is usually a child (variant) ASIN, while
+    the catalog and exports are keyed by parent_asin. Reviews carry both, so we
+    scan the raw reviews once and keep the mapping for parents we actually have.
+    """
+    if config.ASIN_MAP_FILE.exists() and not force:
+        print("  asin_to_parent.json already built (pass --force to rebuild)")
+        return
+    if not config.REVIEWS_FILE.exists():
+        sys.exit(f"ERROR: reviews file not found at {config.REVIEWS_FILE}")
+    if not config.CATALOG_FILE.exists():
+        sys.exit("ERROR: build catalog.json first (python -m lemon.reviews_index catalog)")
+
+    catalog_parents = {c["parent_asin"] for c in json.loads(config.CATALOG_FILE.read_text())}
+    print(f"Scanning reviews for child→parent mappings ({len(catalog_parents):,} catalog parents) …")
+    mapping: dict[str, str] = {}
+    with gzip.open(config.REVIEWS_FILE, "rt", encoding="utf-8") as f:
+        for line in f:
+            r = json.loads(line)
+            parent = r.get("parent_asin") or r.get("asin")
+            if parent not in catalog_parents:
+                continue
+            child = r.get("asin") or parent
+            mapping[child] = parent
+    config.ASIN_MAP_FILE.write_text(json.dumps(mapping))
+    print(f"  wrote {len(mapping):,} ASIN→parent mappings to {config.ASIN_MAP_FILE}")
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Build review index + catalog")
-    ap.add_argument("command", choices=["build", "catalog", "all"])
+    ap.add_argument("command", choices=["build", "catalog", "asin-map", "all"])
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--min-reviews", type=int, default=15)
     args = ap.parse_args()
@@ -147,3 +179,5 @@ if __name__ == "__main__":
         build_index(force=args.force)
     if args.command in ("catalog", "all"):
         build_catalog(force=args.force, min_reviews=args.min_reviews)
+    if args.command in ("asin-map", "all"):
+        build_asin_map(force=args.force)

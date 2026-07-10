@@ -25,6 +25,13 @@ CATALOG_FILE = CACHE / "catalog.json"
 GEMINI_MODEL = "gemini-3.1-flash-lite"
 EXTRACTION_CACHE_DB = CACHE / "extractions.sqlite"
 
+# Per-product extraction fans its uncached candidate reviews out concurrently
+# (each is an independent network call). Bounded so we stay under rate limits.
+EXTRACTION_CONCURRENCY = 8
+
+# child_asin → parent_asin map (for resolving pasted Amazon product links).
+ASIN_MAP_FILE = CACHE / "asin_to_parent.json"
+
 # Survival-model publication thresholds (honesty: never show curves built on air)
 MIN_OBSERVATIONS = 25
 MIN_EVENTS = 10

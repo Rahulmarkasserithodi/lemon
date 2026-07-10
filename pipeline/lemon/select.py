@@ -81,6 +81,24 @@ def _deepest_category(categories) -> str:
     return str(last)
 
 
+def _main_image(images) -> str | None:
+    """Pick the product's primary photo URL from the meta `images` list.
+
+    Each entry looks like {"thumb", "large", "variant", "hi_res"}. Prefer the
+    MAIN variant and the `large` (~500px) size — crisp at the small sizes the UI
+    renders, without pulling a 1500px hi-res for a thumbnail.
+    """
+    if not isinstance(images, list) or not images:
+        return None
+    main = next(
+        (im for im in images if isinstance(im, dict) and im.get("variant") == "MAIN"),
+        images[0],
+    )
+    if not isinstance(main, dict):
+        return None
+    return main.get("large") or main.get("hi_res") or main.get("thumb")
+
+
 def load_meta(path: Path | None = None) -> pd.DataFrame:
     path = path or config.META_FILE
     rows = []
@@ -104,6 +122,7 @@ def load_meta(path: Path | None = None) -> pd.DataFrame:
                     "rating_number": rec.get("rating_number") or 0,
                     "main_category": rec.get("main_category") or config.CATEGORY,
                     "subcategory": _deepest_category(categories),
+                    "image": _main_image(rec.get("images")),
                 }
             )
     return pd.DataFrame(rows).drop_duplicates(subset=["parent_asin"])

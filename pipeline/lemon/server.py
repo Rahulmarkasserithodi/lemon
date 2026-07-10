@@ -14,7 +14,9 @@ later request is served from the SQLite cache instantly. Run with:
 
 import json
 import os
+import re
 import threading
+from collections import defaultdict
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -35,31 +37,65 @@ app.add_middleware(
 
 # ── Lazily-initialised shared state ───────────────────────────────────────────
 _state: dict = {}
-_lock = threading.Lock()  # serialise extraction; SQLite conns aren't thread-safe
+
+# Per-parent_asin locks so two *different* products extract concurrently while a
+# duplicate request for the *same* product waits (and then hits the cache).
+# WAL mode on the SQLite caches makes the concurrent connections safe.
+_init_lock = threading.Lock()
+_asin_locks: dict[str, threading.Lock] = defaultdict(threading.Lock)
+
+# Amazon product URLs embed a 10-char ASIN, e.g. …/dp/B0XXXXXXXX/…
+_ASIN_RE = re.compile(r"(?:/dp/|/gp/product/|/d/|[?&]asin=|^)([A-Z0-9]{10})(?:[/?&]|$)", re.I)
+
+
+def parse_asin(raw: str) -> str | None:
+    """Pull an ASIN out of a pasted Amazon URL, or accept a bare ASIN."""
+    raw = (raw or "").strip()
+    m = _ASIN_RE.search(raw)
+    if m:
+        return m.group(1).upper()
+    if re.fullmatch(r"[A-Z0-9]{10}", raw, re.I):
+        return raw.upper()
+    return None
 
 
 def _init() -> dict:
     if _state:
         return _state
-    from google import genai
+    with _init_lock:
+        if _state:
+            return _state
+        from google import genai
 
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        raise RuntimeError("GEMINI_API_KEY not set (check the repo-root .env).")
-    if not config.CATALOG_FILE.exists():
-        raise RuntimeError(
-            "catalog.json missing — run `python -m lemon.reviews_index all` first."
+        api_key = os.environ.get("GEMINI_API_KEY")
+        if not api_key:
+            raise RuntimeError("GEMINI_API_KEY not set (check the repo-root .env).")
+        if not config.CATALOG_FILE.exists():
+            raise RuntimeError(
+                "catalog.json missing — run `python -m lemon.reviews_index all` first."
+            )
+
+        catalog = json.loads(config.CATALOG_FILE.read_text())
+        asin_map = (
+            json.loads(config.ASIN_MAP_FILE.read_text())
+            if config.ASIN_MAP_FILE.exists()
+            else {}
         )
-
-    catalog = json.loads(config.CATALOG_FILE.read_text())
-    _state.update(
-        client=genai.Client(api_key=api_key),
-        cache=None,  # opened per-request under lock (thread affinity)
-        reviews_db=None,
-        catalog=catalog,
-        catalog_by_asin={c["parent_asin"]: c for c in catalog},
-    )
+        _state.update(
+            client=genai.Client(api_key=api_key),
+            catalog=catalog,
+            catalog_by_asin={c["parent_asin"]: c for c in catalog},
+            asin_to_parent=asin_map,
+        )
     return _state
+
+
+def _resolve_parent(st: dict, asin: str) -> str | None:
+    """Map any (parent or child) ASIN to a parent_asin present in the catalog."""
+    if asin in st["catalog_by_asin"]:
+        return asin
+    parent = st["asin_to_parent"].get(asin)
+    return parent if parent in st["catalog_by_asin"] else None
 
 
 @app.get("/api/health")
@@ -88,29 +124,54 @@ def catalog(q: str = "", limit: int = 200) -> list[dict]:
     return items[: max(1, min(limit, 500))]
 
 
-@app.get("/api/product/{asin}")
-def product(asin: str) -> dict:
-    st = _init()
-    meta_row = st["catalog_by_asin"].get(asin)
-    if meta_row is None:
-        raise HTTPException(status_code=404, detail=f"Unknown product {asin}")
-
-    with _lock:
-        # SQLite connections have thread affinity; open under the lock.
+def _build(st: dict, parent_asin: str) -> dict:
+    """Extract (or cache-load) one catalog product, serialised per-asin."""
+    meta_row = st["catalog_by_asin"][parent_asin]
+    with _asin_locks[parent_asin]:
+        # SQLite connections have thread affinity; open fresh per request.
         from .extract import open_cache
 
         reviews_db = open_reviews_db()
         cache = open_cache()
         try:
-            reviews = get_reviews(reviews_db, asin)
+            reviews = get_reviews(reviews_db, parent_asin)
             if not reviews:
                 raise HTTPException(status_code=404, detail="No reviews indexed for product")
             return product_service.build_product(
-                asin, meta_row, reviews, st["client"], cache
+                parent_asin, meta_row, reviews, st["client"], cache
             )
         finally:
             reviews_db.close()
             cache.close()
+
+
+@app.get("/api/product/{asin}")
+def product(asin: str) -> dict:
+    st = _init()
+    parent = _resolve_parent(st, asin)
+    if parent is None:
+        raise HTTPException(status_code=404, detail=f"Unknown product {asin}")
+    return _build(st, parent)
+
+
+@app.get("/api/resolve")
+def resolve(url: str = "") -> dict:
+    """Resolve a pasted Amazon URL (or bare ASIN) to a product survival curve.
+
+    404s with a clear reason when the ASIN can't be parsed, or the product
+    isn't in our review corpus — we never scrape Amazon live.
+    """
+    st = _init()
+    asin = parse_asin(url)
+    if not asin:
+        raise HTTPException(status_code=400, detail="Couldn't find an ASIN in that link.")
+    parent = _resolve_parent(st, asin)
+    if parent is None:
+        raise HTTPException(
+            status_code=404,
+            detail=f"{asin} isn't in our Appliances review corpus.",
+        )
+    return _build(st, parent)
 
 
 if __name__ == "__main__":
