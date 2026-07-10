@@ -21,7 +21,7 @@ def describe(path: Path, n: int = SAMPLE_LINES) -> None:
     types: dict[str, Counter] = defaultdict(Counter)
     examples: dict[str, object] = {}
     rows = 0
-    with gzip.open(path, "rt") as f:
+    with open(path, "r", encoding="utf-8") as f:
         for line in f:
             rows += 1
             if rows > n:
@@ -48,7 +48,7 @@ def review_stats(path: Path, n: int = 20000) -> None:
     lengths = []
     ts_min, ts_max = None, None
     rows = 0
-    with gzip.open(path, "rt") as f:
+    with open(path, "r", encoding="utf-8") as f:
         for line in f:
             rows += 1
             if rows > n:
@@ -70,6 +70,6 @@ def review_stats(path: Path, n: int = 20000) -> None:
 
 if __name__ == "__main__":
     random.seed(0)
-    describe(RAW / "meta_Appliances.jsonl.gz")
-    describe(RAW / "Appliances.jsonl.gz")
-    review_stats(RAW / "Appliances.jsonl.gz")
+    describe(RAW / "meta_Appliances.jsonl")
+    describe(RAW / "Appliances.jsonl")
+    review_stats(RAW / "Appliances.jsonl")

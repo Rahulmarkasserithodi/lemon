@@ -1,0 +1,7 @@
+datasets>=2.19
+huggingface_hub>=0.23
+pandas>=2.2
+lifelines>=0.29
+google-genai>=1.10
+pydantic>=2.7
+tqdm>=4.66

@@ -8,8 +8,8 @@ CACHE = ROOT / "data" / "cache"
 PROCESSED = ROOT / "data" / "processed"
 
 CATEGORY = "Appliances"
-REVIEWS_FILE = RAW / f"{CATEGORY}.jsonl.gz"
-META_FILE = RAW / f"meta_{CATEGORY}.jsonl.gz"
+REVIEWS_FILE = RAW / f"{CATEGORY}.jsonl"
+META_FILE = RAW / f"meta_{CATEGORY}.jsonl"
 
 GEMINI_MODEL = "gemini-2.5-flash-lite"
 EXTRACTION_CACHE_DB = CACHE / "extractions.sqlite"
