@@ -4,6 +4,12 @@ import type { CatalogEntry, ProductData, IndexEntry, HeroPair } from './types'
 // Use Render backend in production, local proxy in dev
 const API_BASE = import.meta.env.VITE_API_URL || '/api'
 
+// Debug: log what API URL is being used
+if (typeof window !== 'undefined') {
+  console.log('API_BASE:', API_BASE)
+  console.log('VITE_API_URL env:', import.meta.env.VITE_API_URL)
+}
+
 export interface HealthStatus {
   gemini_key: boolean
   reviews_db: boolean
