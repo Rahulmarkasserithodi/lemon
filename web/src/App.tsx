@@ -30,15 +30,15 @@ export default function App() {
   const [tab, setTab] = useState<Tab>('demo')
 
   return (
-    <div className="min-h-screen bg-[#121415] text-[#e8e6df]">
+    <div className="min-h-screen bg-[#f3f4f3] text-[#1c1f21]">
       <div className="w-full">
         {/* Header */}
         <header
-          className="flex items-center justify-between px-6 sm:px-10 py-5 sticky top-0 z-40 bg-[#121415]"
+          className="flex items-center justify-between px-6 sm:px-10 py-5 sticky top-0 z-40 bg-[#f3f4f3]"
           style={{ borderBottom: `1.5px solid ${INK}` }}
         >
           <div className="flex items-baseline gap-2.5">
-            <span className="font-serif font-semibold text-[21px] text-[#e8e6df]">Lemon</span>
+            <span className="font-serif font-semibold text-[21px] text-[#1c1f21]">Lemon</span>
             <span
               className="hidden sm:inline font-mono text-[9.5px] font-semibold uppercase tracking-[0.1em]"
               style={{ color: inkAlpha(0.42) }}
@@ -55,14 +55,14 @@ export default function App() {
 
           {tab === 'about' && (
             <div className="max-w-2xl space-y-5 text-[15px] leading-relaxed" style={{ color: inkAlpha(0.72) }}>
-              <h1 className="font-serif text-[30px] font-bold text-[#e8e6df]">About Lemon</h1>
+              <h1 className="font-serif text-[30px] font-bold text-[#1c1f21]">About Lemon</h1>
               <p>
                 Star ratings tell you if people liked a product. They don't tell you how long it
-                lasts. <strong className="text-[#e8e6df]">Lemon</strong> mines time-to-failure signals from
+                lasts. <strong className="text-[#1c1f21]">Lemon</strong> mines time-to-failure signals from
                 Amazon review text, runs real Kaplan-Meier survival analysis (with right-censoring),
                 and shows you the metric that actually matters for appliances: cost per year of life.
               </p>
-              <h2 className="font-serif text-xl font-semibold text-[#e8e6df]">How it works</h2>
+              <h2 className="font-serif text-xl font-semibold text-[#1c1f21]">How it works</h2>
               <ol className="list-decimal list-inside space-y-2">
                 <li>
                   Reviews matching time expressions (<em>"died after 14 months"</em>,{' '}
@@ -81,14 +81,14 @@ export default function App() {
                   Cost per year = price ÷ median lifespan in years.
                 </li>
               </ol>
-              <h2 className="font-serif text-xl font-semibold text-[#e8e6df]">Limitations</h2>
+              <h2 className="font-serif text-xl font-semibold text-[#1c1f21]">Limitations</h2>
               <ul className="list-disc list-inside space-y-1">
                 <li>Self-reported durations are noisy; relative comparisons are more reliable than absolute numbers.</li>
                 <li>Survivorship bias may be present — owners of failed products may be less likely to review.</li>
                 <li>Sample sizes vary; always check n and n_events before drawing conclusions.</li>
                 <li>Only products with ≥25 observations and ≥10 failure events are published.</li>
               </ul>
-              <h2 className="font-serif text-xl font-semibold text-[#e8e6df]">Data & reproducibility</h2>
+              <h2 className="font-serif text-xl font-semibold text-[#1c1f21]">Data & reproducibility</h2>
               <p>
                 Source: McAuley Lab Amazon Reviews 2023 — Appliances category (2.1M reviews, 94K products).
                 All pipeline code is open source. See the{' '}

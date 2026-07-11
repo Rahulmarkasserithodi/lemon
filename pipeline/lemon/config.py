@@ -39,8 +39,9 @@ MAX_DURATION_MONTHS = 120  # clip; longer self-reported durations are noise
 MIN_CONFIDENCE = 0.5
 
 # Normalised failure-mode vocabulary. The LLM must pick from these (or null).
-# Initial guess for Appliances — revisited after the 100-review validation.
-FAILURE_MODES = [
+# A union across the product domains we cover so one enum serves every product;
+# irrelevant modes simply never get picked for a given category.
+_APPLIANCE_MODES = [
     "stopped_working",      # complete death, cause unstated
     "wont_power_on",
     "cooling_failure",      # fridges, ice makers, AC
@@ -52,5 +53,15 @@ FAILURE_MODES = [
     "control_failure",      # buttons, display, thermostat, board
     "noise_vibration",
     "rust_corrosion",
-    "other",
 ]
+_LAPTOP_MODES = [
+    "battery_failure",      # battery won't hold charge / swelling
+    "screen_failure",       # dead pixels, backlight, cracked/black display
+    "keyboard_failure",     # keys stop working, trackpad dead
+    "hinge_failure",        # cracked/loose hinge, lid separation
+    "storage_failure",      # SSD/HDD failure, boot drive died
+    "overheating",          # thermal throttling, shuts off from heat, fan
+    "wont_boot",            # powers on but won't boot / stuck
+    "charging_port_failure",# charging port / power jack, won't charge
+]
+FAILURE_MODES = [*_APPLIANCE_MODES, *_LAPTOP_MODES, "other"]

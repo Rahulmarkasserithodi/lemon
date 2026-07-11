@@ -1,0 +1,302 @@
+{
+  "parent_asin": "B019JD7790",
+  "title": "Whirlpool Self Cleaning, Hot and Cold, Stainless Bottom Load Water Cooler with LED Indicators",
+  "brand": "Whirlpool",
+  "image": "https://m.media-amazon.com/images/I/31NBnpTBLiL._AC_.jpg",
+  "price": null,
+  "average_rating": 3.8,
+  "n_reviews": 481,
+  "n_candidates": 120,
+  "n_obs": 98,
+  "n_events": 67,
+  "median_months": 12.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": null,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.06,
+      "s": 0.9897,
+      "lo": 0.9291,
+      "hi": 0.9985
+    },
+    {
+      "t": 0.25,
+      "s": 0.9794,
+      "lo": 0.9201,
+      "hi": 0.9948
+    },
+    {
+      "t": 0.45,
+      "s": 0.9794,
+      "lo": 0.9201,
+      "hi": 0.9948
+    },
+    {
+      "t": 0.75,
+      "s": 0.9794,
+      "lo": 0.9201,
+      "hi": 0.9948
+    },
+    {
+      "t": 1.0,
+      "s": 0.9681,
+      "lo": 0.9043,
+      "hi": 0.9896
+    },
+    {
+      "t": 1.5,
+      "s": 0.9681,
+      "lo": 0.9043,
+      "hi": 0.9896
+    },
+    {
+      "t": 2.0,
+      "s": 0.9318,
+      "lo": 0.8541,
+      "hi": 0.9689
+    },
+    {
+      "t": 2.25,
+      "s": 0.9189,
+      "lo": 0.8368,
+      "hi": 0.9606
+    },
+    {
+      "t": 3.0,
+      "s": 0.9059,
+      "lo": 0.8201,
+      "hi": 0.952
+    },
+    {
+      "t": 4.0,
+      "s": 0.8648,
+      "lo": 0.7681,
+      "hi": 0.9231
+    },
+    {
+      "t": 5.0,
+      "s": 0.851,
+      "lo": 0.7515,
+      "hi": 0.9129
+    },
+    {
+      "t": 5.75,
+      "s": 0.8368,
+      "lo": 0.7345,
+      "hi": 0.9023
+    },
+    {
+      "t": 6.0,
+      "s": 0.7943,
+      "lo": 0.685,
+      "hi": 0.8692
+    },
+    {
+      "t": 7.0,
+      "s": 0.7799,
+      "lo": 0.6686,
+      "hi": 0.8577
+    },
+    {
+      "t": 8.0,
+      "s": 0.7365,
+      "lo": 0.6204,
+      "hi": 0.8221
+    },
+    {
+      "t": 9.0,
+      "s": 0.6932,
+      "lo": 0.5737,
+      "hi": 0.7853
+    },
+    {
+      "t": 11.0,
+      "s": 0.6785,
+      "lo": 0.5581,
+      "hi": 0.7726
+    },
+    {
+      "t": 11.99,
+      "s": 0.6637,
+      "lo": 0.5425,
+      "hi": 0.7597
+    },
+    {
+      "t": 12.0,
+      "s": 0.4572,
+      "lo": 0.3378,
+      "hi": 0.5687
+    },
+    {
+      "t": 13.0,
+      "s": 0.413,
+      "lo": 0.2968,
+      "hi": 0.5252
+    },
+    {
+      "t": 14.0,
+      "s": 0.3392,
+      "lo": 0.2308,
+      "hi": 0.4506
+    },
+    {
+      "t": 15.0,
+      "s": 0.3245,
+      "lo": 0.2179,
+      "hi": 0.4354
+    },
+    {
+      "t": 18.0,
+      "s": 0.2507,
+      "lo": 0.1557,
+      "hi": 0.3573
+    },
+    {
+      "t": 20.0,
+      "s": 0.236,
+      "lo": 0.1437,
+      "hi": 0.3413
+    },
+    {
+      "t": 21.0,
+      "s": 0.2065,
+      "lo": 0.1203,
+      "hi": 0.3088
+    },
+    {
+      "t": 24.0,
+      "s": 0.1475,
+      "lo": 0.0759,
+      "hi": 0.2416
+    },
+    {
+      "t": 25.0,
+      "s": 0.1311,
+      "lo": 0.0639,
+      "hi": 0.223
+    },
+    {
+      "t": 30.0,
+      "s": 0.1147,
+      "lo": 0.0524,
+      "hi": 0.204
+    },
+    {
+      "t": 36.0,
+      "s": 0.0983,
+      "lo": 0.0415,
+      "hi": 0.1845
+    },
+    {
+      "t": 42.0,
+      "s": 0.0819,
+      "lo": 0.0312,
+      "hi": 0.1645
+    },
+    {
+      "t": 48.0,
+      "s": 0.0656,
+      "lo": 0.0217,
+      "hi": 0.1438
+    },
+    {
+      "t": 68.0,
+      "s": 0.0328,
+      "lo": 0.0038,
+      "hi": 0.1226
+    },
+    {
+      "t": 84.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "cooling_failure",
+      "count": 40
+    },
+    {
+      "mode": "leak",
+      "count": 13
+    },
+    {
+      "mode": "stopped_working",
+      "count": 9
+    },
+    {
+      "mode": "control_failure",
+      "count": 2
+    },
+    {
+      "mode": "rust_corrosion",
+      "count": 1
+    },
+    {
+      "mode": "heating_failure",
+      "count": 1
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 1
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 1
+    },
+    {
+      "mode": "other",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "leak": [
+      "Less than a month after we purchased this unit and installed it the top pump began leaking water everywhere, now the metal plate is corroded and the whole unit is a mess.",
+      "We purchased this water cooler less than a year ago. At first, it was the best thing ever. But in less than a year, it started to leak. We thought it was from our jug, but noticed it leaking from the unit. Upon closer inspection, we definitely noticed rust, specifically coming from the hot water side. We took it apart, and were pretty shocked of how bad it was (see photos). Rust in the hoses, rust",
+      "I have had two of these water coolers over the last 2.5 years.  Now I will say the cooler works well as far as dispensing cold fresh water - I had no problems with the performance as far as the taste/quality of the water dispensed (I did not use the hot water dispenser).  However the durability of the equipment is extremely disappointing.  The first unit developed an electrical short and kept flip"
+    ],
+    "cooling_failure": [
+      "I bought this water dispenser in May of 2018 , by October of 2018 I had to have it replaced ! The people I dealt with at Reil\u2019s were very helpful and after a short discussion gave me instructions on what to do for replacement. I got my new cooler in a few days and I thought I would be happy ever after ! Fast forward to last Friday when I noticed the water was room temperature! I called today and n",
+      "This machine is great.  The cold water is cold, the hot water is hot.  Easy to load, pump works great.  But the question is how long would you like your machine to last.  The first one I received I purchased September of 2018.  I can't remember exactly how long it lasted, but no more than 2 months and then the cold water compressor went out.  It was delivered on its side, so that may have been the",
+      "Sweet and simple. It was a great water cooler with a convenient hot water feature as well. My family loved it right up until the compressor died after only three years. I have a 20 year-old refrigerator whose compressor is still going strong but this cheap stuff is not built to last."
+    ],
+    "rust_corrosion": [
+      "Have been using this water dispenser with Arrowhead 5-gallon bottles delivered by ReadyRefresh for the past couple of years. Recently we noticed the water looks rusty when emptying bottles before returning them. It happens to every 5-gallon bottle when I empty it by pouring the remaining water into a clean cup. See picture attached. First I thought there is something in the Arrowhead bottles, then"
+    ],
+    "stopped_working": [
+      "It broke down in less than a year.",
+      "I've had this machine for about 2 years. Suddenly, it does not pump water into the reservoirs. I called customer service (apparently in Ontario somewhere). The person on the phone told me \"good news\" that the problem is the pump which could be replaced for about $10. She promised me that someone from their parts division would call me back to take my order. No one ever called me back. I called the",
+      "Broke after 8 months. Impossible to reach customer support, which FYI is NOT Whirlpool!"
+    ],
+    "heating_failure": [
+      "We bought this item back in March and have loved it very much.  Somehow after 3 months, the heating mechanism was not functioning correctly resulting in water boiling all night till the heat switch popped out distorted by itself.  We contacted the company and the customer service has been a breeze. They instructed us to cut the cord and send them a photo showing the serial number with the cord cut"
+    ],
+    "electrical_fault": [
+      "Have had this for a week. Good delivery. Easy set up. Pretty quiet. Good looks. Cold water is cold and hot is hot. I like it. Beat plastic bottles all over.<br />UPDATE: lasted a little over 2 years. Started to trip the circuitbreaker. Must have a short or something. Tried for days to get through to the support number. Asked them if there were any service centers. They said No. Advised it would be"
+    ],
+    "control_failure": [
+      "I purchased this water cooler back in June 2017, it lasted exactly 1 year on the dot.  They were nice enough to replace it for me.  However the 2nd machine lasted 1 year and 1 month only????  Funny how they give a 1 yr warranty and thats exactly how long this machine lasts. The 1st machine (the hose broke)--- no idea how as the machine was  standing in one spot only.  The 2nd one (the replacement)",
+      "First one started leaking about 6 months in. Real Machines was great at replacing, but now the second one says my water jug is \u201cempty\u201d and stops dispensing with still 1/6th of the jug left. Has become more hassle then benefit. Trying to sell and simply cut my losses and get a Brita."
+    ],
+    "physical_breakage": [
+      "He have had our water cooler for 6 months ans love it. Looks and works great. A month ago I noticed that the inside upper corner of the door frame had cracked. It is plastic at that spot and there is a screw there that holds a cable that prevents the door opening too far. Apparently the door had gotten swung open to forcefully at some point and broke the plastic. Not the best design. But I emailed"
+    ],
+    "other": [
+      "I recently bought this unit and the water never tasted right.  After two 5 gallons went through the machine the water started to taste like chemicals. This water was refrigerated.  I had a few sips trying to figure out what the taste was.  Within a few minutes I started to feel uneasy in my stomach.  There is something really wrong, hopefully it's just my machine.  I have requested a refund from R"
+    ]
+  },
+  "published": true
+}

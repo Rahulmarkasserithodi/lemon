@@ -25,7 +25,7 @@ from . import config
 FailureMode = enum.Enum("FailureMode", {m: m for m in config.FAILURE_MODES})
 
 PROMPT = """\
-You extract product-lifetime facts from an Amazon appliance review.
+You extract product-lifetime facts from an Amazon product review.
 
 Rules:
 - "failed" is true only if the reviewer says THIS product broke/stopped working.

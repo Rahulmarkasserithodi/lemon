@@ -1,25 +1,39 @@
-"""Download raw Appliances review + meta files (McAuley Lab, Amazon Reviews 2023).
+"""Download raw review + meta files (McAuley Lab, Amazon Reviews 2023).
 
 Uses the direct UCSD mirror, which serves gzipped .jsonl.gz — matching the
-paths in config (REVIEWS_FILE / META_FILE) and the streaming readers in load.py.
-Files are saved to data/raw/; existing files are skipped unless --force.
+paths in config (REVIEWS_FILE / META_FILE) and the streaming readers. Files are
+saved to data/raw/; existing files are skipped unless --force.
 
 Run:
-    python -m lemon.download
+    python -m lemon.download                       # the configured category
+    python -m lemon.download --category Electronics # a different category (e.g. laptops source)
     python -m lemon.download --force
 """
 
-import sys
+import argparse
+import ssl
 import urllib.request
 from pathlib import Path
 
 from . import config
 
+# macOS framework Python ships without the system root CAs; use certifi's bundle
+# so HTTPS verification succeeds (falls back to the default context if absent).
+try:
+    import certifi
+
+    _SSL_CTX: ssl.SSLContext | None = ssl.create_default_context(cafile=certifi.where())
+except Exception:  # pragma: no cover
+    _SSL_CTX = None
+
 _BASE = "https://mcauleylab.ucsd.edu/public_datasets/data/amazon_2023/raw"
-_URLS: dict[Path, str] = {
-    config.REVIEWS_FILE: f"{_BASE}/review_categories/{config.CATEGORY}.jsonl.gz",
-    config.META_FILE: f"{_BASE}/meta_categories/meta_{config.CATEGORY}.jsonl.gz",
-}
+
+
+def urls_for(category: str) -> dict[Path, str]:
+    return {
+        config.RAW / f"{category}.jsonl.gz": f"{_BASE}/review_categories/{category}.jsonl.gz",
+        config.RAW / f"meta_{category}.jsonl.gz": f"{_BASE}/meta_categories/meta_{category}.jsonl.gz",
+    }
 
 
 def download_file(dest: Path, url: str, force: bool = False) -> None:
@@ -29,13 +43,19 @@ def download_file(dest: Path, url: str, force: bool = False) -> None:
         return
     print(f"  {dest.name}  ← {url}", flush=True)
     tmp = dest.with_suffix(dest.suffix + ".part")
-    urllib.request.urlretrieve(url, tmp)
+    with urllib.request.urlopen(url, context=_SSL_CTX) as resp, open(tmp, "wb") as out:
+        while chunk := resp.read(1 << 20):  # 1 MiB chunks
+            out.write(chunk)
     tmp.rename(dest)
-    print(f"  saved {dest.name}  ({dest.stat().st_size:,} bytes)")
+    print(f"  saved {dest.name}  ({dest.stat().st_size:,} bytes)", flush=True)
 
 
 if __name__ == "__main__":
-    force = "--force" in sys.argv
-    for dest, url in _URLS.items():
-        download_file(dest, url, force=force)
+    ap = argparse.ArgumentParser(description="Download Amazon Reviews 2023 category files")
+    ap.add_argument("--category", default=config.CATEGORY, help="category name (default: configured)")
+    ap.add_argument("--force", action="store_true")
+    args = ap.parse_args()
+
+    for dest, url in urls_for(args.category).items():
+        download_file(dest, url, force=args.force)
     print("\nAll files ready.")

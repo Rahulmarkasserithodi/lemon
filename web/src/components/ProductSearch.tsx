@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import type { CatalogEntry, SelItem } from '../types'
 import { fetchCatalog, resolveProduct, looksLikeAmazonLink } from '../api'
-import { INK, PANEL, TEAL, RUST, inkAlpha } from '../theme'
+import { INK, ON_INK, PANEL, TEAL, RUST, inkAlpha } from '../theme'
 
 interface Props {
   onPick: (item: SelItem) => void
@@ -82,31 +82,44 @@ export default function ProductSearch({ onPick, selectedAsins }: Props) {
     }
   }
 
+  const onSubmit = () => {
+    if (isLink) return addFromLink()
+    if (results.length) pickCatalog(results[0])
+  }
+
   return (
     <div className="relative" ref={boxRef}>
-      <input
-        type="search"
-        placeholder="Search a product, or paste an Amazon link…"
-        value={query}
-        onChange={(e) => {
-          setQuery(e.target.value)
-          setOpen(true)
-        }}
-        onKeyDown={(e) => {
-          if (e.key === 'Enter' && isLink) {
-            e.preventDefault()
-            addFromLink()
-          }
-        }}
-        onFocus={() => query.trim() && setOpen(true)}
-        className="w-full bg-transparent px-3 py-2 text-[13px] text-[#e8e6df] focus:outline-none"
-        style={{ border: `1px solid ${inkAlpha(0.28)}` }}
-      />
+      <div className="flex bg-white" style={{ border: `1.5px solid ${INK}` }}>
+        <input
+          type="search"
+          placeholder="Search a product — e.g. kettle, printer, earbuds"
+          value={query}
+          onChange={(e) => {
+            setQuery(e.target.value)
+            setOpen(true)
+          }}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') {
+              e.preventDefault()
+              onSubmit()
+            }
+          }}
+          onFocus={() => query.trim() && setOpen(true)}
+          className="flex-1 min-w-0 bg-transparent px-[18px] py-4 text-[15px] text-[#1c1f21] focus:outline-none"
+        />
+        <button
+          onClick={onSubmit}
+          className="px-[22px] font-mono text-[11px] font-semibold uppercase tracking-[0.08em] transition-colors"
+          style={{ borderLeft: `1.5px solid ${INK}`, background: INK, color: ON_INK }}
+        >
+          Search
+        </button>
+      </div>
 
       {open && query.trim() && (
         <div
-          className="absolute left-0 right-0 top-[calc(100%+4px)] z-50 max-h-[340px] overflow-y-auto"
-          style={{ background: PANEL, border: `1px solid ${INK}` }}
+          className="absolute left-0 right-0 top-[calc(100%+6px)] z-50 max-h-[340px] overflow-y-auto"
+          style={{ background: PANEL, border: `1px solid ${inkAlpha(0.3)}`, boxShadow: '0 4px 16px rgba(0,0,0,.08)' }}
         >
           {/* pasted Amazon link → resolve action */}
           {isLink && (

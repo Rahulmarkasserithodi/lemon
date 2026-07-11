@@ -9,6 +9,7 @@ Run:
 """
 
 import gzip
+import io
 import json
 import re
 import sys
@@ -17,6 +18,13 @@ from pathlib import Path
 import pandas as pd
 
 from . import config
+
+
+def open_text(path: Path) -> io.TextIOBase:
+    """Open a .jsonl or .jsonl.gz file as UTF-8 text (source-agnostic)."""
+    if str(path).endswith(".gz"):
+        return gzip.open(path, "rt", encoding="utf-8")
+    return open(path, "rt", encoding="utf-8")
 
 # Title / category tokens that flag a product as a non-device
 _EXCL = re.compile(
@@ -62,13 +70,57 @@ def _parse_price(raw) -> float | None:
     return None
 
 
-def _is_device(title: str | None, categories) -> bool:
-    cats_flat = ""
+def _cats_flat(categories) -> str:
+    out = ""
     if isinstance(categories, list):
         for c in categories:
-            cats_flat += " " + (c if isinstance(c, str) else " ".join(c if isinstance(c, list) else []))
-    text = (title or "") + cats_flat
+            out += " " + (c if isinstance(c, str) else " ".join(c if isinstance(c, list) else []))
+    return out
+
+
+def _is_device(title: str | None, categories) -> bool:
+    text = (title or "") + _cats_flat(categories)
     return not bool(_EXCL.search(text))
+
+
+# ── laptop selection (Electronics category) ───────────────────────────────────
+# A real laptop: a laptop/notebook in the title or category, minus the huge long
+# tail of laptop *accessories* and *parts* (cases, chargers, RAM, screens, …).
+_LAPTOP_INCL = re.compile(
+    r"\b(laptop|notebook|chromebook|macbook|ultrabook|thinkpad|ideapad|"
+    r"chrome\s*book|note\s*book)\b",
+    re.IGNORECASE,
+)
+_LAPTOP_EXCL = re.compile(
+    r"""\b(
+        case|sleeve|bag|backpack|briefcase|
+        charger|adapter|power\s+cord|power\s+supply|ac\s+adapter|
+        battery|batteries|
+        screen\s+protector|privacy\s+(screen|filter)|screen\s+film|
+        skin|decal|sticker|cover|shell|
+        stand|riser|mount|cooling\s+pad|cooler|lap\s+desk|tray|
+        dock|docking|hub|port\s+replicator|
+        keyboard|keypad|mouse|mice|
+        ram|memory\s+module|so-?dimm|
+        ssd|hard\s+drive|hdd|nvme|storage\s+drive|
+        cable|cord|dongle|
+        replacement|repair|
+        screen|display\s+panel|lcd|led\s+panel|digitizer|
+        hinge|palmrest|bezel|housing|
+        fan|heatsink|motherboard|logic\s+board|
+        feet|rubber\s+foot|
+        for\s+(macbook|laptop|notebook|chromebook|hp|dell|lenovo|asus|acer)
+    )\b""",
+    re.IGNORECASE | re.VERBOSE,
+)
+
+
+def _is_laptop(title: str | None, categories) -> bool:
+    text = (title or "") + _cats_flat(categories)
+    if not _LAPTOP_INCL.search(text):
+        return False
+    # Exclusions checked mainly on the title (categories can be broad).
+    return not bool(_LAPTOP_EXCL.search(title or ""))
 
 
 def _deepest_category(categories) -> str:
@@ -99,10 +151,16 @@ def _main_image(images) -> str | None:
     return main.get("large") or main.get("hi_res") or main.get("thumb")
 
 
-def load_meta(path: Path | None = None) -> pd.DataFrame:
+def load_meta(path: Path | None = None, keep=None) -> pd.DataFrame:
+    """Load product meta, keeping only rows for which `keep(title, categories)`.
+
+    Defaults to the appliance device filter; pass `_is_laptop` for the laptop
+    corpus. Any category's meta file works via `path`.
+    """
     path = path or config.META_FILE
+    keep = keep or _is_device
     rows = []
-    with gzip.open(path, "rt", encoding="utf-8") as f:
+    with open_text(path) as f:
         for line in f:
             rec = json.loads(line)
             parent_asin = rec.get("parent_asin") or rec.get("asin")
@@ -110,7 +168,7 @@ def load_meta(path: Path | None = None) -> pd.DataFrame:
                 continue
             title = rec.get("title") or ""
             categories = rec.get("categories") or []
-            if not _is_device(title, categories):
+            if not keep(title, categories):
                 continue
             rows.append(
                 {

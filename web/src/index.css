@@ -4,19 +4,19 @@
 
 @layer base {
   html {
-    background-color: #121415;
-    color: #e8e6df;
+    background-color: #f3f4f3;
+    color: #1c1f21;
     font-family: 'Inter', system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
   }
 
   ::selection {
-    background: rgba(87, 172, 149, 0.28);
+    background: rgba(28, 31, 33, 0.15);
   }
 
   /* Custom scrollbar */
   ::-webkit-scrollbar { width: 8px; height: 8px; }
   ::-webkit-scrollbar-track { background: transparent; }
-  ::-webkit-scrollbar-thumb { background: rgba(232, 230, 223, 0.18); border-radius: 4px; }
-  ::-webkit-scrollbar-thumb:hover { background: rgba(232, 230, 223, 0.32); }
+  ::-webkit-scrollbar-thumb { background: rgba(28, 31, 33, 0.2); border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(28, 31, 33, 0.35); }
 }
