@@ -1,11 +1,19 @@
-# 🍋 Lemon — cost per year of life
+<p align="center">
+  <img src="assets/tenure-logo.svg" alt="Tenure — Durability Ledger" width="400">
+</p>
 
-Star ratings tell you if people *liked* a product, not how long it *lasts*. Lemon mines
+<h3 align="center">Cost per year of life, not sticker price</h3>
+
+Star ratings tell you if people *liked* a product, not how long it *lasts*. **Tenure** mines
 time-to-failure signals from Amazon review text, runs real Kaplan–Meier survival analysis
-(with right-censoring), and surfaces the metric that actually matters for appliances:
-**cost per year of life**, not sticker price.
+(with right-censoring), and surfaces the metric that actually matters: **cost per year of
+life** — across appliances and laptops.
 
 See [PLAN.md](PLAN.md) for the full design, data sources, and methodology.
+
+> The Python package is still named `lemon` (`pipeline/lemon/`, `python -m lemon.…`) — the
+> project's original name. Only the product/brand was renamed to Tenure; renaming the module
+> would break every command below, so it's intentionally left as-is.
 
 ## Two ways to run
 

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="96" viewBox="0 0 420 96" fill="none" role="img" aria-label="Tenure — Durability Ledger">
+  <!-- ledger card background (keeps the mark legible on light & dark READMEs) -->
+  <rect x="1" y="1" width="418" height="94" fill="#f3f4f3" stroke="#1c1f21" stroke-width="1.5"/>
+
+  <!-- 1a "Curve Persistent" mark: a survival curve that dips once and holds -->
+  <g transform="translate(28,25) scale(0.46)">
+    <path d="M14,36 L36,36 Q50,36 54,50 Q58,64 74,66 L88,66"
+          fill="none" stroke="#a34e33" stroke-width="9"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="14" cy="36" r="6" fill="#a34e33"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="88" y="59" font-family="Georgia, 'Source Serif 4', 'Times New Roman', serif"
+        font-size="34" font-weight="600" letter-spacing="-0.4" fill="#1c1f21">Tenure</text>
+
+  <!-- durability-ledger tag -->
+  <text x="242" y="56" font-family="ui-monospace, 'IBM Plex Mono', Menlo, monospace"
+        font-size="10" font-weight="600" letter-spacing="1.6" fill="#1c1f21" fill-opacity="0.42">DURABILITY LEDGER</text>
+</svg>
