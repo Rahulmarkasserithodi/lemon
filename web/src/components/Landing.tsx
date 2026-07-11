@@ -3,6 +3,7 @@ import type { ProductData, HeroPair, SelItem } from '../types'
 import { fetchHeroPairs, fetchIndex, loadProduct } from '../api'
 import CompareView from './CompareView'
 import ProductSearch from './ProductSearch'
+import LedgerBackdrop from './LedgerBackdrop'
 import { INK, ON_INK, RUST, TEAL, inkAlpha } from '../theme'
 
 const SLOT_COLOR = [RUST, TEAL]
@@ -141,7 +142,9 @@ export default function Landing() {
 
   // ── landing ─────────────────────────────────────────────────────────
   return (
-    <div className="max-w-[720px] mx-auto pt-[clamp(24px,6vw,64px)] pb-24">
+    <>
+      <LedgerBackdrop />
+      <div className="relative z-[1] max-w-[720px] mx-auto pt-[clamp(24px,6vw,64px)] pb-24">
       {/* hero */}
       <div className="text-center">
         <div
@@ -154,7 +157,7 @@ export default function Landing() {
           How long does a product<br />actually last?
         </h1>
         <p className="mx-auto mt-5 max-w-[480px] text-[15px] leading-[1.6]" style={{ color: inkAlpha(0.6) }}>
-          Lemon converts purchase reviews into a survival curve for each product — so
+          Tenure converts purchase reviews into a survival curve for each product — so
           cost-per-year of ownership, not sticker price, tells you what's worth buying.
         </p>
       </div>
@@ -258,6 +261,7 @@ export default function Landing() {
           </div>
         </div>
       )}
-    </div>
+      </div>
+    </>
   )
 }
