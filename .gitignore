@@ -1,5 +1,8 @@
 data/raw/
 data/cache/reviews.db
+data/cache/reviews_deploy.db
+data/cache/*.part
+data/cache/*.src
 data/cache/asin_to_parent.json
 data/cache/batch_requests.jsonl
 data/cache/batch_jobs.json

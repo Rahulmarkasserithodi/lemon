@@ -170,9 +170,56 @@ def build_asin_map(force: bool = False) -> None:
     print(f"  wrote {len(mapping):,} ASIN→parent mappings to {config.ASIN_MAP_FILE}")
 
 
+def build_deploy_db(force: bool = False) -> None:
+    """Write a slim reviews.db holding only the catalog products' reviews — the
+    deploy artifact uploaded to REVIEWS_DB_URL.
+
+    The server only ever queries reviews for catalog products, so this is far
+    smaller than the full index (~4x) and is guaranteed consistent with
+    catalog.json (every catalog product has its reviews). Exact-duplicate rows
+    (from repeated ingest appends) are dropped.
+    """
+    out = config.CACHE / "reviews_deploy.db"
+    if out.exists() and not force:
+        print(f"  {out.name} already built (pass --force to rebuild)")
+        return
+    if not config.REVIEWS_DB.exists():
+        sys.exit("ERROR: reviews.db missing (python -m lemon.reviews_index build)")
+    if not config.CATALOG_FILE.exists():
+        sys.exit("ERROR: catalog.json missing (python -m lemon.reviews_index catalog)")
+
+    parents = [c["parent_asin"] for c in json.loads(config.CATALOG_FILE.read_text())]
+    out.unlink(missing_ok=True)
+    db = sqlite3.connect(out)
+    db.execute(
+        "CREATE TABLE reviews ("
+        " parent_asin TEXT, user_id TEXT, timestamp INTEGER,"
+        " rating REAL, title TEXT, text TEXT)"
+    )
+    db.execute("CREATE TEMP TABLE cat(pa TEXT PRIMARY KEY)")
+    db.executemany("INSERT OR IGNORE INTO cat VALUES(?)", [(p,) for p in parents])
+    db.execute("ATTACH DATABASE ? AS src", (str(config.REVIEWS_DB),))
+    print(f"Copying reviews for {len(parents):,} catalog products …", flush=True)
+    db.execute(
+        "INSERT INTO reviews "
+        " SELECT DISTINCT r.parent_asin, r.user_id, r.timestamp, r.rating, r.title, r.text"
+        " FROM src.reviews r JOIN cat c ON r.parent_asin = c.pa"
+    )
+    n = db.execute("SELECT COUNT(*) FROM reviews").fetchone()[0]
+    db.execute("CREATE INDEX idx_reviews_asin ON reviews(parent_asin)")
+    db.commit()
+    print("  compacting (VACUUM) …", flush=True)
+    db.execute("VACUUM")
+    db.close()
+    mb = out.stat().st_size / 1e6
+    print(f"  wrote {n:,} reviews to {out}  ({mb:.0f} MB)")
+    print("  → upload this file to your host and point REVIEWS_DB_URL at it")
+    print("    (it deploys as reviews.db; the filename at the host doesn't matter).")
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Build review index + catalog")
-    ap.add_argument("command", choices=["build", "catalog", "asin-map", "all"])
+    ap.add_argument("command", choices=["build", "catalog", "asin-map", "deploy-db", "all"])
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--min-reviews", type=int, default=15)
     args = ap.parse_args()
@@ -183,3 +230,5 @@ if __name__ == "__main__":
         build_catalog(force=args.force, min_reviews=args.min_reviews)
     if args.command in ("asin-map", "all"):
         build_asin_map(force=args.force)
+    if args.command == "deploy-db":
+        build_deploy_db(force=args.force)
