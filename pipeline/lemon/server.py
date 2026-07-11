@@ -77,12 +77,26 @@ def _init() -> dict:
             return _state
         from google import genai
 
+        # Populate the data root (e.g. Render's persistent disk) on first boot:
+        # copies committed files and downloads reviews.db / asin_to_parent.json.
+        from .bootstrap_data import ensure_data
+
+        ensure_data()
+
         api_key = os.environ.get("GEMINI_API_KEY")
         if not api_key:
             raise RuntimeError("GEMINI_API_KEY not set (check the repo-root .env).")
         if not config.CATALOG_FILE.exists():
             raise RuntimeError(
                 "catalog.json missing — run `python -m lemon.reviews_index all` first."
+            )
+        # A missing reviews.db is the #1 deploy foot-gun: open_reviews_db() would
+        # silently create an empty one, so every /product call 404s with a
+        # misleading "No reviews indexed". Fail loudly with the real cause.
+        if not config.REVIEWS_DB.exists():
+            raise RuntimeError(
+                f"reviews.db missing at {config.REVIEWS_DB} — set REVIEWS_DB_URL "
+                "so it downloads on boot, or upload it to the data disk."
             )
 
         catalog = json.loads(config.CATALOG_FILE.read_text())
@@ -110,10 +124,28 @@ def _resolve_parent(st: dict, asin: str) -> str | None:
 
 @app.get("/api/health")
 def health() -> dict:
+    # Report the actual review row count, not just file existence — an empty
+    # auto-created reviews.db "exists" but serves nothing, which is the exact
+    # failure we keep hitting. n_reviews == 0 means the DB never got populated.
+    n_reviews = None
+    if config.REVIEWS_DB.exists():
+        try:
+            import sqlite3
+
+            con = sqlite3.connect(f"file:{config.REVIEWS_DB}?mode=ro", uri=True)
+            try:
+                n_reviews = con.execute("SELECT COUNT(*) FROM reviews").fetchone()[0]
+            finally:
+                con.close()
+        except Exception:
+            n_reviews = -1  # table missing / unreadable
     return {
         "gemini_key": bool(os.environ.get("GEMINI_API_KEY")),
         "reviews_db": config.REVIEWS_DB.exists(),
+        "reviews_db_path": str(config.REVIEWS_DB),
+        "n_reviews": n_reviews,
         "catalog": config.CATALOG_FILE.exists(),
+        "data_root": str(config.CACHE.parent),
         "model": config.GEMINI_MODEL,
     }
 
