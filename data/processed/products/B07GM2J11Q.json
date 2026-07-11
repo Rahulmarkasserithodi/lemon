@@ -1,0 +1,376 @@
+{
+  "parent_asin": "B07GM2J11Q",
+  "title": "Lenovo Chromebook C330 2-in-1 Convertible Laptop, 11.6\" HD Display, MediaTek MT8173C, 4GB RAM, 64GB Storage, Chrome OS, Blizzard White",
+  "brand": "Lenovo",
+  "image": "https://m.media-amazon.com/images/I/414+v7ieaXL._AC_.jpg",
+  "price": 274.0,
+  "average_rating": 4.5,
+  "n_reviews": 1854,
+  "n_candidates": 250,
+  "n_obs": 202,
+  "n_events": 159,
+  "median_months": 6.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 548.0,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9851,
+      "lo": 0.9547,
+      "hi": 0.9952
+    },
+    {
+      "t": 0.06,
+      "s": 0.9851,
+      "lo": 0.9547,
+      "hi": 0.9952
+    },
+    {
+      "t": 0.09,
+      "s": 0.9751,
+      "lo": 0.9413,
+      "hi": 0.9896
+    },
+    {
+      "t": 0.1,
+      "s": 0.9701,
+      "lo": 0.9348,
+      "hi": 0.9865
+    },
+    {
+      "t": 0.12,
+      "s": 0.9651,
+      "lo": 0.9282,
+      "hi": 0.9832
+    },
+    {
+      "t": 0.25,
+      "s": 0.955,
+      "lo": 0.9153,
+      "hi": 0.9763
+    },
+    {
+      "t": 0.33,
+      "s": 0.9499,
+      "lo": 0.9088,
+      "hi": 0.9727
+    },
+    {
+      "t": 0.5,
+      "s": 0.924,
+      "lo": 0.8771,
+      "hi": 0.9535
+    },
+    {
+      "t": 0.75,
+      "s": 0.9083,
+      "lo": 0.8583,
+      "hi": 0.9412
+    },
+    {
+      "t": 0.93,
+      "s": 0.903,
+      "lo": 0.8521,
+      "hi": 0.937
+    },
+    {
+      "t": 1.0,
+      "s": 0.8499,
+      "lo": 0.7911,
+      "hi": 0.8932
+    },
+    {
+      "t": 1.03,
+      "s": 0.8444,
+      "lo": 0.785,
+      "hi": 0.8886
+    },
+    {
+      "t": 1.2,
+      "s": 0.839,
+      "lo": 0.7789,
+      "hi": 0.884
+    },
+    {
+      "t": 1.25,
+      "s": 0.8281,
+      "lo": 0.7668,
+      "hi": 0.8747
+    },
+    {
+      "t": 1.33,
+      "s": 0.8227,
+      "lo": 0.7607,
+      "hi": 0.87
+    },
+    {
+      "t": 1.4,
+      "s": 0.8172,
+      "lo": 0.7547,
+      "hi": 0.8653
+    },
+    {
+      "t": 1.5,
+      "s": 0.79,
+      "lo": 0.7248,
+      "hi": 0.8414
+    },
+    {
+      "t": 2.0,
+      "s": 0.7355,
+      "lo": 0.6663,
+      "hi": 0.7927
+    },
+    {
+      "t": 2.25,
+      "s": 0.73,
+      "lo": 0.6604,
+      "hi": 0.7876
+    },
+    {
+      "t": 3.0,
+      "s": 0.5973,
+      "lo": 0.5228,
+      "hi": 0.6639
+    },
+    {
+      "t": 4.0,
+      "s": 0.5563,
+      "lo": 0.4811,
+      "hi": 0.6249
+    },
+    {
+      "t": 5.0,
+      "s": 0.5444,
+      "lo": 0.4692,
+      "hi": 0.6135
+    },
+    {
+      "t": 6.0,
+      "s": 0.4207,
+      "lo": 0.3466,
+      "hi": 0.4928
+    },
+    {
+      "t": 7.0,
+      "s": 0.4016,
+      "lo": 0.3281,
+      "hi": 0.4738
+    },
+    {
+      "t": 8.0,
+      "s": 0.3761,
+      "lo": 0.3036,
+      "hi": 0.4483
+    },
+    {
+      "t": 9.0,
+      "s": 0.3437,
+      "lo": 0.2728,
+      "hi": 0.4155
+    },
+    {
+      "t": 10.0,
+      "s": 0.3372,
+      "lo": 0.2667,
+      "hi": 0.4089
+    },
+    {
+      "t": 11.0,
+      "s": 0.2983,
+      "lo": 0.2304,
+      "hi": 0.369
+    },
+    {
+      "t": 11.75,
+      "s": 0.2918,
+      "lo": 0.2244,
+      "hi": 0.3622
+    },
+    {
+      "t": 11.97,
+      "s": 0.2853,
+      "lo": 0.2185,
+      "hi": 0.3555
+    },
+    {
+      "t": 12.0,
+      "s": 0.201,
+      "lo": 0.1431,
+      "hi": 0.2661
+    },
+    {
+      "t": 13.0,
+      "s": 0.1861,
+      "lo": 0.1298,
+      "hi": 0.2504
+    },
+    {
+      "t": 14.0,
+      "s": 0.1712,
+      "lo": 0.1168,
+      "hi": 0.2345
+    },
+    {
+      "t": 15.0,
+      "s": 0.1638,
+      "lo": 0.1104,
+      "hi": 0.2265
+    },
+    {
+      "t": 16.0,
+      "s": 0.1563,
+      "lo": 0.104,
+      "hi": 0.2184
+    },
+    {
+      "t": 17.0,
+      "s": 0.1489,
+      "lo": 0.0977,
+      "hi": 0.2103
+    },
+    {
+      "t": 18.0,
+      "s": 0.1117,
+      "lo": 0.0672,
+      "hi": 0.1687
+    },
+    {
+      "t": 24.0,
+      "s": 0.0399,
+      "lo": 0.0153,
+      "hi": 0.0834
+    },
+    {
+      "t": 36.0,
+      "s": 0.0399,
+      "lo": 0.0153,
+      "hi": 0.0834
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "keyboard_failure",
+      "count": 40
+    },
+    {
+      "mode": "control_failure",
+      "count": 28
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 27
+    },
+    {
+      "mode": "stopped_working",
+      "count": 19
+    },
+    {
+      "mode": "screen_failure",
+      "count": 17
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 10
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 8
+    },
+    {
+      "mode": "wont_boot",
+      "count": 7
+    },
+    {
+      "mode": "battery_failure",
+      "count": 5
+    },
+    {
+      "mode": "hinge_failure",
+      "count": 3
+    },
+    {
+      "mode": "other",
+      "count": 3
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 2
+    },
+    {
+      "mode": "storage_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "charging_port_failure": [
+      "I have never hated an inanimate object so much in my entire life. Everything crashes. All. the. time. Even with only simple browsing and a messenger app. The settings randomly change all the time with no purpose and no reasoning. Today, the time/settings that show up in the shelf disappeared.... for seemingly no reason and randomly. It was impossible to determine how to add it back to the shelf. O",
+      "stopped charging after 3 months (purchased in Feb). replaced the charger and that didn\u2019t fix the problem. called lenovo support and was left on hold until the call dropped. awful",
+      "stopped charging after 3 months (purchased in Feb). replaced the charger and that didn\u2019t fix the problem. called lenovo support and was left on hold until the call dropped. awful"
+    ],
+    "keyboard_failure": [
+      "I had nothing but great experiences with this computer, it was my first Chromebook and the price was phenomenal. However, several months in the shift keys stopped working, not the actual keys but the computer doesn't acknowledge them being pressed, it's internal for sure. I've researched and many other people have had this problem. Regardless I kept using it, I plugged an external usb-powered keyb",
+      "The keyboard starting going wacky about 6 months.  I couldn't type anything - so I tried to use a on-screen keyboard.  Then the touchscreen wouldn't work. It just did not respond/correspond to touch. Run-around about warranty - finally - told to send it back.  Sent it back for WARRANTY repair.  And down The Rabbit Hole it went.  Awful, awful, awful customer service.  Absolute run around.  I unders",
+      "This was slow from the moment I turned it on. About a month after I got it 6 keys on the keyboard stopped working. After that, I was only able to use it with touch screen but that is very unintuitive so I stopped using it. It was a complete waste of money."
+    ],
+    "physical_breakage": [
+      "I got this as a gift for Christmas for my son. Upon opening it and getting it charged up and needing to make him a Gmail acct the screen was cracked. The touch screen didn't work at all, which I assume is because of the crack. I messaged them about a replacement.  It's been 2 weeks with no reply back at all. Pretty disappointed with the amount of money I spent on it.",
+      "I have been using this for 5 months so I can give it an accurate review. Pages freeze all the time. Pages do not format properly. Videos won't play most of the time. A real source of frustration. It is a pain to delete things from any android based app. Not user friendly. Lid begins to crack on both sides after only a few months of use.",
+      "This Chromebook is a moderate performer, but is plenty good enough for what I do. My problem is that a 2\" crack has recently appeared in the case top (behind the screen) and it is just out of warranty: 1 year + 1 month old.<br />The case has a certain amount of flexing when being opened or closed, so I suppose that's what did it. Thing is, I have never forced it or handled it roughly in any way, j"
+    ],
+    "control_failure": [
+      "I don't know what kind of lifespan I'm supposed to expect on these things, but I'd like to think they should work at least some years before they can't be anymore. Well, this Chromebook was pretty good, basic but good while it lasted, but approximately 1.5 year from purchase, just won't connect to any wifi or bluetooth or network anymore. We did all of the things (have a tech savvy partner) and no",
+      "I was quite excited on receiving this chromebook. It looked great, seemed to work well. Within about a month and a half, the chromebook started freezing regularly. I have used it about once a week to the point where it has barely been touched. Now, it freezes every time I use it. Sometimes repeatedly (>3 times in 5 minutes) to the point where it is nearly unusable. Definitely would not recommend a",
+      "I am so frustrated with this computer. We knew that the screen quality would be low due to the reviews. It wasn't a necessary feature for us. Just a simple computer to go online and get a few things done. Problem is: it freezes and shuts downs after 2 minutes of use. We contacted Amazon to return but were out of the window by a week. Terrible product and awful service. This shouldn't even be sold."
+    ],
+    "wont_boot": [
+      "There is no way to print from this chromebook. It also didn't last long at all. It stopped working about 2 years to the date. Got something like ISO error and then it never started again.",
+      "I enjoyed this computer while it worked.<br />After 6 months it shut down with the error that the operating system failed. It wants me to reinstall the OS operating system. I've tried using the directions from support but there is an error every time I try to reinstall the OS.<br /><br />Zoom quality is poor, my videos froze often. My daughter's Ipad is more reliable. Wish I would have got somethi",
+      "Completely stopped working after a month. \u201cChromeOS either missing or broken\u201d upon startup; huh??? Had charging issues from day 1 and would only charge with the screen closed. Ridiculous."
+    ],
+    "battery_failure": [
+      "Extremely disappointed<br />Since purchasing the laptop in March 2020 due to my daughter being homeschooled because of the pandemic, we have had multiple issues with the laptop.<br />The touchscreen wouldnt work at times resulting in shutting down the laptop and restarting to see if it would work.<br />The bluetooth refused to connect to anything, I had to contact Lenovo about that a few times<br ",
+      "I love this computer. Two downsides: I can't get Zoom audio to work correctly so I have to switch to another computer for any Zoom calls. We have four computers in the house and two are just like this, and we can't use them for Zoom calls.<br /><br />Secondly, for several months the battery has been failing. At first it would only turn on if it was fully charged, or plugged in. For months it's onl",
+      "Device quit working in 5 weeks and battery wouldn't charge Had to return and Amazon does not stock this item so couldn't gate rapid replacement. Maybe all Chrome books are junk?"
+    ],
+    "stopped_working": [
+      "Lasted less than 2 years",
+      "This is the 3rd grade computer. never buy  this brand. again. after 28 days all got wrong. I need to be refunded and will stop city card payment. also amazone is responsible for supporting such a  bad brand.  either seller not responding i will go to small claim court. . i need answser  immidiately from seller with their address and phone no.<br />Manjula Patel<br />I RECOMEND ALL NOT TO BUY THIS ",
+      "This product stopped working after 3 weeks!!! it's total crap! How can I return it??"
+    ],
+    "screen_failure": [
+      "This computer malfunctioned after 6 weeks. After a few minutes the screen goes black. Right now I am trying to make contact to see what i need to do now. This was a gift for a family member. Very disappointed.",
+      "I got 2 of these for my kids last year. Within 3 months touch screen stopped working and Amazon does not support it. You will have to call Lenovo. They suggested some centers and I had to take it for repair. I had to take both of them 3 times in this one year and now they both are out of warranty. They changed the motherboard and also the screen. I can understand if it happens to one device that i",
+      "After a month of use the computer display the black screen of death and could not be saved. Of course it\u2019s outside the return window for 30 days so I can\u2019t return it and it doesn\u2019t work :-("
+    ],
+    "wont_power_on": [
+      "Worked great for a year, did what I needed it to do, no complaints!! Then just after the warranty expired the WiFi stopped working. It refuses to turn on no matter what tricks I try. I took it to Best Buy and they connected it to Ethernet to power wash it and install the latest updates. No luck. They said it was probably a hardware issue that could only be fixed under the just-expired warranty. No",
+      "No power after less than 6 months. No support and purchased additional warranty from Amazon.",
+      "I have had my Chromebook for 1 year and 1 month (bought June 2019) and the battery pack or charging port are already dead.  I now can\u2019t turn my Chromebook on."
+    ],
+    "hinge_failure": [
+      "This is almost a perfect device.  2 flaws.  The first flaw is in it's hinge ability -- going back and forth from laptop to tablet mode wears out the cable, making it so when you return to laptop mode, the keyboard doesn't engage unless you shut the cover completely, causing you to have to sign in again, which is a drag.  Eventually, even closing the lid won't restart the keyboard connection, and i",
+      "Screen readjustment (turning from laptop to reader) stopped working in the first 9 months!",
+      "After less than a year the center piece holding the screen to the keyboard is cracked and I can't close the laptop anymore"
+    ],
+    "other": [
+      "I purchase this computer for my girlfriend back in Sept of 2019. Overall the computer has worked fine, but a few days ago the camera stopped working. We have been doing a lot of Zoom video chats and without a camera, well you can imagine.",
+      "Too bad, my daughter loved this Chromebook, while it worked... After 3 months, the mic stopped working ! :(",
+      "HDMI port stopped working 4 months after purchase. Overall, as a chromebook it works fairly well.  Sometimes crashes with mutliple tabs open or with zoom. Although my prior 10+ yr old chromebook didnt do that.  Touch screen and resolution is decent.  But for $300, a rarely used HDMI port shouldnt fail that soon."
+    ],
+    "storage_failure": [
+      "This product had a faulty drive...and after three months it went back for repairs! Eight months later...after several phone calls and emails....I still have NO computer! AND.....after 1.75 hours on a chat line today.....all they can say to me is \u201cWe are escalating this to Level 2!\u201d What does that mean.....who is actually accountable to ME....the customer?! Steer clear of Lenovo products.....Amazon"
+    ],
+    "electrical_fault": [
+      "I owned this for about 2 years before I ran into issues, it was used a lot for movies, travel, office documents, the flexible screen is awesome. Eventually it cracked but we continued to use it for a long time until finally one day when I went to charge it, it started smoking! Now I'm at a loss trying to figure out what new Chromebook to order. This one was definitely used heavily and abused and i",
+      "POSSIBLE FIRE HAZARD<br />Had been a fairly good unit for the kids to game on but suddenly died when an electrical circuit burnt out at about 15 months after purchase.  Because of the nature of it being a laptop, of course we let our children use on their laps and lay it on their bed or whatever, but this unit actually had a small flame shoot out of the corner (see picture of soot in hinge area) t"
+    ]
+  },
+  "published": true
+}

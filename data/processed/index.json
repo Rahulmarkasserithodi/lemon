@@ -110,6 +110,20 @@
     "cost_per_year": 359.96
   },
   {
+    "parent_asin": "B07GM2J11Q",
+    "title": "Lenovo Chromebook C330 2-in-1 Convertible Laptop, 11.6\" HD Display, MediaTek MT8173C, 4GB RAM, 64GB Storage, Chrome OS, Blizzard White",
+    "brand": "Lenovo",
+    "image": "https://m.media-amazon.com/images/I/414+v7ieaXL._AC_.jpg",
+    "subcategory": "",
+    "price": 274.0,
+    "average_rating": 4.5,
+    "n_obs": 202,
+    "n_events": 159,
+    "median_months": 6.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 548.0
+  },
+  {
     "parent_asin": "B00FFJ0HUE",
     "title": "ASUS T100 10-Inch Laptop [2014],(gray)",
     "brand": "ASUS",
