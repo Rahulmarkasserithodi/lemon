@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { INK, ON_INK, PANEL, TEAL, RUST, inkAlpha } from '../theme'
 import EwasteMap from './EwasteMap'
 
@@ -16,46 +16,65 @@ const CATEGORIES: Category[] = [
   {
     id: 'large_appliances',
     label: 'Large appliances',
-    osmTags: ['electrical_appliances', 'large_electrical_appliances', 'white_goods'],
+    osmTags: ['electrical_appliances', 'large_electrical_appliances', 'white_goods', 'electronic_devices', 'electrical_items'],
     tip: 'Fridges, washers & ACs may need refrigerant recovery — most councils offer free bulky-waste pickup for these.',
   },
   {
     id: 'small_appliances',
     label: 'Small appliances',
-    osmTags: ['small_electrical_appliances', 'electrical_appliances', 'small_appliances'],
+    osmTags: ['small_electrical_appliances', 'electrical_appliances', 'small_appliances', 'electronic_devices', 'electrical_items'],
     tip: 'Kettles, toasters, microwaves. Remove any batteries first and drop the appliance in the e-waste bin.',
   },
   {
     id: 'computers',
     label: 'Computers & laptops',
-    osmTags: ['computers', 'electrical_appliances'],
+    osmTags: ['computers', 'electrical_appliances', 'electronic_devices', 'electrical_items'],
     tip: 'Back up, then wipe your drive (factory reset or secure erase) before recycling to protect your data.',
   },
   {
     id: 'phones',
     label: 'Phones & tablets',
-    osmTags: ['mobile_phones', 'electrical_appliances', 'computers'],
+    osmTags: ['mobile_phones', 'computers', 'electronic_devices', 'electrical_items'],
     tip: 'Sign out of all accounts, remove SIM/SD cards, and factory-reset before handing it over.',
   },
   {
     id: 'batteries',
     label: 'Batteries',
-    osmTags: ['batteries', 'car_batteries'],
+    osmTags: ['batteries', 'car_batteries', 'rechargeable_batteries'],
     tip: 'Tape over the terminals of lithium & button cells to prevent fires — never bin loose batteries.',
   },
   {
     id: 'cables',
     label: 'Cables & chargers',
-    osmTags: ['cables', 'electrical_appliances', 'scrap_metal'],
+    osmTags: ['cables', 'scrap_metal', 'electrical_items'],
     tip: 'Bundle cables together; they contain recoverable copper and count as e-waste.',
   },
   {
     id: 'lamps',
     label: 'Bulbs & lamps',
-    osmTags: ['light_bulbs', 'fluorescent_tubes', 'electrical_appliances'],
+    osmTags: ['light_bulbs', 'fluorescent_tubes', 'lamps', 'light_tubes'],
     tip: 'Fluorescent tubes & CFLs contain mercury — keep them intact and use a dedicated bulb bin.',
   },
 ]
+
+// Documented national retailer take-back programs. These stores accept e-waste
+// even though OpenStreetMap rarely tags them with `recycling:*`, so we match them
+// by brand and attribute the accepted item categories from each public program.
+interface TakeBack {
+  program: string      // shown to the user as the drop-off scheme
+  accepts: string[]    // Category ids the program takes back
+}
+
+const TAKEBACK_BRANDS: Record<string, TakeBack> = {
+  Officeworks: {
+    program: 'Officeworks ‘Bring IT Back’',
+    accepts: ['computers', 'phones', 'cables', 'batteries'],
+  },
+  'Bunnings Warehouse': {
+    program: 'Bunnings drop-off',
+    accepts: ['batteries', 'phones', 'lamps'],
+  },
+}
 
 interface Site {
   id: number
@@ -66,9 +85,14 @@ interface Site {
   accepts: string[]     // human-readable list of matched item types
   operator?: string
   openingHours?: string
+  program?: string      // retailer take-back scheme, when applicable
 }
 
 type Coords = { lat: number; lon: number }
+
+// Slider bounds (km) and the most results we ever render at once.
+const MAX_RADIUS_KM = 60
+const DISPLAY_LIMIT = 20
 
 // Haversine great-circle distance in kilometres.
 function haversineKm(a: Coords, b: Coords): number {
@@ -82,18 +106,25 @@ function haversineKm(a: Coords, b: Coords): number {
   return 2 * R * Math.asin(Math.sqrt(h))
 }
 
-function tagToLabel(tag: string): string {
-  return tag.replace(/_/g, ' ')
-}
+// Query the public Overpass (OpenStreetMap) API for drop-off options near a
+// coordinate: council/community recycling points, waste facilities, and known
+// retailer take-back stores that accept at least one of the selected item types.
+async function fetchSites(origin: Coords, picked: Set<string>, radiusM: number): Promise<Site[]> {
+  const chosen = CATEGORIES.filter((c) => picked.has(c.id))
+  // Map each OSM `recycling:<tag>` to the category it satisfies (first wins).
+  const tagToCategory = new Map<string, Category>()
+  for (const c of chosen) for (const t of c.osmTags) if (!tagToCategory.has(t)) tagToCategory.set(t, c)
 
-// Query the public Overpass (OpenStreetMap) API for recycling points near a
-// coordinate that accept at least one of the selected item types.
-async function findSites(origin: Coords, wantedTags: Set<string>, radiusM: number): Promise<Site[]> {
+  const A = `${radiusM},${origin.lat},${origin.lon}`
+  const brandQueries = Object.keys(TAKEBACK_BRANDS)
+    .map((b) => `      nwr["brand"="${b}"](around:${A});`)
+    .join('\n')
   const q = `
     [out:json][timeout:25];
     (
-      node["amenity"="recycling"](around:${radiusM},${origin.lat},${origin.lon});
-      way["amenity"="recycling"](around:${radiusM},${origin.lat},${origin.lon});
+      nwr["amenity"="recycling"](around:${A});
+      nwr["amenity"="waste_transfer_station"](around:${A});
+${brandQueries}
     );
     out center tags;`
 
@@ -106,33 +137,50 @@ async function findSites(origin: Coords, wantedTags: Set<string>, radiusM: numbe
   const data = await res.json()
 
   const sites: Site[] = []
+  const seen = new Set<string>()
   for (const el of data.elements ?? []) {
     const tags = el.tags ?? {}
     const lat = el.lat ?? el.center?.lat
     const lon = el.lon ?? el.center?.lon
     if (lat == null || lon == null) continue
 
-    // Which of the user's wanted item types does this site accept?
-    const accepts: string[] = []
-    for (const t of wantedTags) {
-      if (tags[`recycling:${t}`] === 'yes') accepts.push(tagToLabel(t))
+    const accepts = new Set<string>()
+    let program: string | undefined
+
+    const takeBack = tags.brand ? TAKEBACK_BRANDS[tags.brand] : undefined
+    if (takeBack) {
+      // A retailer take-back store: accept the program items the user selected.
+      program = takeBack.program
+      for (const catId of takeBack.accepts) {
+        if (picked.has(catId)) accepts.add(CATEGORIES.find((c) => c.id === catId)!.label)
+      }
+    } else {
+      // A recycling / waste facility: match its `recycling:<tag>=yes` flags.
+      for (const [t, cat] of tagToCategory) {
+        if (tags[`recycling:${t}`] === 'yes') accepts.add(cat.label)
+      }
     }
-    // Skip generic sites that don't accept any electronic item the user chose.
-    if (accepts.length === 0) continue
+    if (accepts.size === 0) continue
+
+    // De-duplicate stacked points (e.g. a node + its building) by rounded coords.
+    const key = `${lat.toFixed(4)},${lon.toFixed(4)}`
+    if (seen.has(key)) continue
+    seen.add(key)
 
     sites.push({
       id: el.id,
-      name: tags.name || tags.operator || 'Recycling point',
+      name: tags.name || tags.brand || tags.operator || 'Recycling point',
       lat,
       lon,
       distanceKm: haversineKm(origin, { lat, lon }),
-      accepts: Array.from(new Set(accepts)),
+      accepts: Array.from(accepts),
       operator: tags.operator,
       openingHours: tags.opening_hours,
+      program,
     })
   }
   sites.sort((a, b) => a.distanceKm - b.distanceKm)
-  return sites.slice(0, 12)
+  return sites
 }
 
 function directionsUrl(s: Site): string {
@@ -149,33 +197,59 @@ export default function EwasteFinder() {
   const [radiusKm, setRadiusKm] = useState(15)
   const [activeId, setActiveId] = useState<number | null>(null)
 
-  const toggle = (id: string) => {
-    setPicked((prev) => {
-      const next = new Set(prev)
-      next.has(id) ? next.delete(id) : next.add(id)
-      return next
-    })
-    setSites(null)
-  }
+  // ── Search cache ──────────────────────────────────────────────────────────
+  // We over-fetch a buffer beyond the requested radius and remember every point
+  // returned, keyed by location + item selection. Shrinking the radius (or a
+  // small expansion still inside the buffer) is then answered instantly from
+  // memory with zero network calls; only a bigger radius or a changed
+  // location/selection triggers a fresh Overpass request.
+  const cacheRef = useRef<{ key: string; fetchedKm: number; all: Site[] } | null>(null)
+  const reqId = useRef(0)
 
-  const wantedTags = (): Set<string> => {
-    const tags = new Set<string>()
-    for (const c of CATEGORIES) if (picked.has(c.id)) c.osmTags.forEach((t) => tags.add(t))
-    return tags
-  }
+  const keyFor = (o: Coords, sel: Set<string>) =>
+    `${o.lat.toFixed(3)},${o.lon.toFixed(3)}|${Array.from(sel).sort().join(',')}`
 
-  const search = async (origin: Coords) => {
+  const render = (all: Site[], km: number) =>
+    setSites(all.filter((s) => s.distanceKm <= km).slice(0, DISPLAY_LIMIT))
+
+  // Serve the given radius from cache when possible; otherwise fetch (with a
+  // buffer) and cache the result. Returns nothing — it drives state directly.
+  const applyRadius = async (origin: Coords, km: number, sel: Set<string>) => {
+    if (sel.size === 0) {
+      setSites(null)
+      cacheRef.current = null
+      return
+    }
+    const key = keyFor(origin, sel)
+    const cache = cacheRef.current
+    if (cache && cache.key === key && cache.fetchedKm >= km) {
+      render(cache.all, km) // instant — no network
+      return
+    }
+    // Over-fetch 50% (min +5km) beyond the request so nearby tweaks stay local.
+    const fetchKm = Math.min(MAX_RADIUS_KM, Math.max(km + 5, Math.ceil(km * 1.5)))
+    const id = ++reqId.current
     setLoading(true)
     setError('')
-    setSites(null)
     try {
-      const found = await findSites(origin, wantedTags(), radiusKm * 1000)
-      setSites(found)
+      const all = await fetchSites(origin, sel, fetchKm * 1000)
+      if (id !== reqId.current) return // a newer request superseded this one
+      cacheRef.current = { key, fetchedKm: fetchKm, all }
+      render(all, km)
     } catch (e: any) {
-      setError(e.message || 'Search failed.')
+      if (id === reqId.current) setError(e.message || 'Search failed.')
     } finally {
-      setLoading(false)
+      if (id === reqId.current) setLoading(false)
     }
+  }
+
+  const toggle = (id: string) => {
+    const next = new Set(picked)
+    next.has(id) ? next.delete(id) : next.add(id)
+    setPicked(next)
+    cacheRef.current = null // selection changed → previous results no longer valid
+    if (coords) applyRadius(coords, radiusKm, next)
+    else setSites(null)
   }
 
   const useMyLocation = () => {
@@ -190,7 +264,7 @@ export default function EwasteFinder() {
         const c = { lat: pos.coords.latitude, lon: pos.coords.longitude }
         setCoords(c)
         setLocating(false)
-        search(c)
+        applyRadius(c, radiusKm, picked)
       },
       (err) => {
         setLocating(false)
@@ -202,6 +276,20 @@ export default function EwasteFinder() {
       },
       { enableHighAccuracy: true, timeout: 10000, maximumAge: 60000 },
     )
+  }
+
+  // While dragging: update the label and, if the cache already covers the new
+  // radius, re-filter instantly with no network call.
+  const onRadiusInput = (km: number) => {
+    setRadiusKm(km)
+    if (!coords) return
+    const c = cacheRef.current
+    if (c && c.key === keyFor(coords, picked) && c.fetchedKm >= km) render(c.all, km)
+  }
+
+  // On release: fetch only if the cache can't already satisfy this radius.
+  const commitRadius = () => {
+    if (coords) applyRadius(coords, radiusKm, picked)
   }
 
   const hasSelection = picked.size > 0
@@ -266,27 +354,26 @@ export default function EwasteFinder() {
             className="font-mono text-[11px] font-semibold uppercase tracking-[0.08em] px-4 py-2 border transition-colors disabled:opacity-40"
             style={{ background: INK, color: ON_INK, borderColor: INK }}
           >
-            {locating ? 'Locating…' : 'Use my location'}
+            {locating ? 'Locating…' : coords ? 'Update location' : 'Use my location'}
           </button>
 
-          <label className="flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.08em]" style={{ color: inkAlpha(0.55) }}>
-            Radius
-            <select
+          <div className="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.08em]" style={{ color: inkAlpha(0.55) }}>
+            <span>Radius</span>
+            <input
+              type="range"
+              min={2}
+              max={MAX_RADIUS_KM}
+              step={1}
               value={radiusKm}
-              onChange={(e) => {
-                setRadiusKm(Number(e.target.value))
-                setSites(null)
-              }}
-              className="border px-2 py-1 bg-transparent text-[#1c1f21]"
-              style={{ borderColor: inkAlpha(0.28) }}
-            >
-              {[5, 15, 30, 50].map((r) => (
-                <option key={r} value={r}>
-                  {r} km
-                </option>
-              ))}
-            </select>
-          </label>
+              onChange={(e) => onRadiusInput(Number(e.target.value))}
+              onMouseUp={commitRadius}
+              onTouchEnd={commitRadius}
+              onKeyUp={commitRadius}
+              className="w-40 cursor-pointer"
+              style={{ accentColor: INK }}
+            />
+            <span className="w-12 text-[#1c1f21]">{radiusKm} km</span>
+          </div>
 
           {coords && (
             <span className="font-mono text-[11px]" style={{ color: inkAlpha(0.42) }}>
@@ -312,10 +399,13 @@ export default function EwasteFinder() {
         </div>
       )}
 
-      {/* Step 3 — results */}
-      {(loading || sites) && (
+      {/* Step 3 — map + results. Once we have a location the map stays mounted
+          for the rest of the session (only a full reload closes it). */}
+      {coords && (
         <section className="space-y-4">
           <StepHeading n={3} title="Nearest drop-off points" />
+
+          <EwasteMap origin={coords} sites={sites ?? []} activeId={activeId} />
 
           {loading && (
             <p className="font-mono text-[12px] uppercase tracking-[0.08em]" style={{ color: inkAlpha(0.5) }}>
@@ -323,15 +413,11 @@ export default function EwasteFinder() {
             </p>
           )}
 
-          {sites && sites.length === 0 && (
+          {sites && sites.length === 0 && !loading && (
             <p className="text-[14px]" style={{ color: inkAlpha(0.6) }}>
               No matching e-waste points found within {radiusKm} km. Try widening the radius, or contact
               your local council — many run periodic e-waste collection days.
             </p>
-          )}
-
-          {sites && sites.length > 0 && coords && (
-            <EwasteMap origin={coords} sites={sites} activeId={activeId} />
           )}
 
           {sites && sites.length > 0 && (
@@ -359,6 +445,11 @@ export default function EwasteFinder() {
                         </span>
                       )}
                     </div>
+                    {s.program && (
+                      <p className="font-mono text-[10.5px] uppercase tracking-[0.06em]" style={{ color: inkAlpha(0.5) }}>
+                        via {s.program}
+                      </p>
+                    )}
                     <div className="flex flex-wrap gap-1.5">
                       {s.accepts.map((a) => (
                         <span
@@ -401,8 +492,9 @@ export default function EwasteFinder() {
       )}
 
       <p className="text-[11.5px] pt-2" style={{ color: inkAlpha(0.4) }}>
-        Drop-off data from OpenStreetMap contributors. Coverage varies by region — always confirm
-        accepted items and hours before travelling.
+        Drop-off points from OpenStreetMap contributors, plus documented national retailer take-back
+        programs (Officeworks, Bunnings). Coverage varies by region — always confirm accepted items and
+        hours before travelling.
       </p>
     </div>
   )
