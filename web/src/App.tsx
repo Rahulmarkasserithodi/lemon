@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import Landing from './components/Landing'
+import EwasteFinder from './components/EwasteFinder'
 import { INK, ON_INK, inkAlpha } from './theme'
 
-type Tab = 'demo' | 'about'
+type Tab = 'demo' | 'ewaste' | 'about'
 
 function Nav({ tab, setTab }: { tab: Tab; setTab: (t: Tab) => void }) {
   const btn = (id: Tab, label: string) => (
@@ -21,6 +22,7 @@ function Nav({ tab, setTab }: { tab: Tab; setTab: (t: Tab) => void }) {
   return (
     <nav className="flex items-center gap-2">
       {btn('demo', 'Compare')}
+      {btn('ewaste', 'E-Waste')}
       {btn('about', 'About')}
     </nav>
   )
@@ -52,6 +54,8 @@ export default function App() {
         {/* Main content */}
         <main className="px-4 sm:px-10 py-10 max-w-[1440px] mx-auto">
           {tab === 'demo' && <Landing />}
+
+          {tab === 'ewaste' && <EwasteFinder />}
 
           {tab === 'about' && (
             <div className="max-w-2xl space-y-5 text-[15px] leading-relaxed" style={{ color: inkAlpha(0.72) }}>
