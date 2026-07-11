@@ -738,20 +738,6 @@
     "cost_per_year": 768.0
   },
   {
-    "parent_asin": "B00W4AMWCI",
-    "title": "Lenovo Thinkpad T420 - Intel Core i5 2520M 8GB 320GB Windows 10 Professional (Renewed)",
-    "brand": "Amazon Renewed",
-    "image": "https://m.media-amazon.com/images/I/31a9zhTJP0L._AC_.jpg",
-    "subcategory": "Traditional Laptops",
-    "price": 175.0,
-    "average_rating": 4.1,
-    "n_obs": 15,
-    "n_events": 9,
-    "median_months": 3.0,
-    "median_is_lower_bound": false,
-    "cost_per_year": 700.0
-  },
-  {
     "parent_asin": "B015SJIUZY",
     "title": "Apple MacBook Pro MF841LL/A 13.3-Inch Laptop with Retina Display (512 GB) Newest Version",
     "brand": "Apple",
@@ -764,6 +750,20 @@
     "median_months": 18.0,
     "median_is_lower_bound": false,
     "cost_per_year": 138.93
+  },
+  {
+    "parent_asin": "B00W4AMWCI",
+    "title": "Lenovo Thinkpad T420 - Intel Core i5 2520M 8GB 320GB Windows 10 Professional (Renewed)",
+    "brand": "Amazon Renewed",
+    "image": "https://m.media-amazon.com/images/I/31a9zhTJP0L._AC_.jpg",
+    "subcategory": "",
+    "price": 175.0,
+    "average_rating": 4.1,
+    "n_obs": 15,
+    "n_events": 9,
+    "median_months": 3.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 700.0
   },
   {
     "parent_asin": "B09MGQS5MY",

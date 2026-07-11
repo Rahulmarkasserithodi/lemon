@@ -109,6 +109,23 @@ def _init() -> dict:
             if config.ASIN_MAP_FILE.exists()
             else {}
         )
+
+        # Only serve products we actually have reviews for. Guards against a
+        # catalog.json that's ahead of the deployed reviews.db (e.g. after a
+        # rebuild), which would otherwise surface products in search that 404
+        # with "No reviews indexed" the moment they're clicked.
+        available = _reviewed_parents()
+        if available:
+            before = len(catalog)
+            catalog = [c for c in catalog if c["parent_asin"] in available]
+            dropped = before - len(catalog)
+            if dropped:
+                print(
+                    f"[catalog] {dropped}/{before} products absent from reviews.db "
+                    "— hidden from search (re-sync reviews.db to restore).",
+                    flush=True,
+                )
+
         _state.update(
             client=genai.Client(api_key=api_key),
             catalog=catalog,
@@ -117,6 +134,22 @@ def _init() -> dict:
             rank=_build_rank(catalog),
         )
     return _state
+
+
+def _reviewed_parents() -> set[str]:
+    """Distinct parent_asins present in reviews.db (empty set on any error)."""
+    import sqlite3
+
+    if not config.REVIEWS_DB.exists():
+        return set()
+    try:
+        con = sqlite3.connect(f"file:{config.REVIEWS_DB}?mode=ro", uri=True)
+        try:
+            return {a for (a,) in con.execute("SELECT DISTINCT parent_asin FROM reviews")}
+        finally:
+            con.close()
+    except Exception:
+        return set()
 
 
 def _build_rank(catalog: list[dict]) -> dict[str, float]:

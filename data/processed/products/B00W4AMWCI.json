@@ -5,8 +5,8 @@
   "image": "https://m.media-amazon.com/images/I/31a9zhTJP0L._AC_.jpg",
   "price": 175.0,
   "average_rating": 4.1,
-  "n_reviews": 342,
-  "n_candidates": 22,
+  "n_reviews": 684,
+  "n_candidates": 44,
   "n_obs": 15,
   "n_events": 9,
   "median_months": 3.0,
@@ -90,18 +90,19 @@
       "count": 1
     },
     {
-      "mode": "screen_failure",
+      "mode": "stopped_working",
       "count": 1
     },
     {
-      "mode": "stopped_working",
+      "mode": "screen_failure",
       "count": 1
     }
   ],
   "snippets": {
     "wont_boot": [
       "Won't boot up at all, quit working less than 3 months after I got it. Touch pad never worked and battery wouldn't hold charge.",
-      "This refurbished laptop should have been returned from the jump. The battery would not hold a charge, so it would die a couple minutes after being unplugged. It would have system errors and disk errors from day 1 and crash often. About 2 months after arrival it crashed for good and will not load at all."
+      "This refurbished laptop should have been returned from the jump. The battery would not hold a charge, so it would die a couple minutes after being unplugged. It would have system errors and disk errors from day 1 and crash often. About 2 months after arrival it crashed for good and will not load at all.",
+      "Won't boot up at all, quit working less than 3 months after I got it. Touch pad never worked and battery wouldn't hold charge."
     ],
     "storage_failure": [
       "I purchased this laptop for business purposes and it met my expectations; however, sometime roughly a month later the hard drive was not seen by the laptop early in the booting process and I needed to return it for exchange or repair but I was past the return window policy by Amazon. I'm currently attempting to contact the vendor because, according to the details, it is within the 90-day warranty ",
@@ -110,18 +111,23 @@
     ],
     "control_failure": [
       "Very unhappy with it.  It had a constant flickering in the screen.  And it seemed to have a mind of its own... Resetting / rebooting itself while I was working on it.  Very unreliable.  I even had a technician check it out.  He recommended that I send it back.  Returned it after 10 days.  Disappointed.  I won't buy a refurbished computer again.  Learned my lesson the hard way...you get what you pa",
-      "Very difficult time getting this computer going correctly.  It has some deep driver conflicts. tried changing to<br />win 10; still working on it.  Gave up; returned computer.  Bought another T420 from same refurbisher: it also did not work: this time it is missing or corrupt files.  they are nice about it and will replace it, but I would like to get a computer in less time than a month or so."
+      "Very difficult time getting this computer going correctly.  It has some deep driver conflicts. tried changing to<br />win 10; still working on it.  Gave up; returned computer.  Bought another T420 from same refurbisher: it also did not work: this time it is missing or corrupt files.  they are nice about it and will replace it, but I would like to get a computer in less time than a month or so.",
+      "Very unhappy with it.  It had a constant flickering in the screen.  And it seemed to have a mind of its own... Resetting / rebooting itself while I was working on it.  Very unreliable.  I even had a technician check it out.  He recommended that I send it back.  Returned it after 10 days.  Disappointed.  I won't buy a refurbished computer again.  Learned my lesson the hard way...you get what you pa"
     ],
     "wont_power_on": [
+      "Lasted less than 2 years. Motherboard couldn't power on. HDD overheated and crashed. Also I ended up paying for recovery of data. Both motherboard and hDD were installed in 2012 atleast 5 years before the purchase date. The average lifetime of motherboard and hDD is 5 years. So, I don't know how the seller certified this refurbished if the parts are already near the end of life at the point of sal",
       "Lasted less than 2 years. Motherboard couldn't power on. HDD overheated and crashed. Also I ended up paying for recovery of data. Both motherboard and hDD were installed in 2012 atleast 5 years before the purchase date. The average lifetime of motherboard and hDD is 5 years. So, I don't know how the seller certified this refurbished if the parts are already near the end of life at the point of sal"
     ],
     "battery_failure": [
+      "I love the brand and laptop. After a couple of days, the battery became defective. I contacted the seller. After a few days, I didn't receive a response so I refund it.",
       "I love the brand and laptop. After a couple of days, the battery became defective. I contacted the seller. After a few days, I didn't receive a response so I refund it."
     ],
     "stopped_working": [
+      "I purchased this a few months ago and have had nothing but problems.  Just spent  $122 on repairs and the sound went completely out, it can't even be fixed.  Piece of junk!!",
       "I purchased this a few months ago and have had nothing but problems.  Just spent  $122 on repairs and the sound went completely out, it can't even be fixed.  Piece of junk!!"
     ],
     "screen_failure": [
+      "Recieved my t420 from klamp electronics fulfilled by Amazon, it didn't take me more than 10 seconds after it booted for me to figure out there were multiple tiny black spots on the screen indicating dead pixels. On top of that, anytime I scrolled down a webpage or had any kind of video playing, a certain section of the screen would continually flicker. Those are major problems for me considering I",
       "Recieved my t420 from klamp electronics fulfilled by Amazon, it didn't take me more than 10 seconds after it booted for me to figure out there were multiple tiny black spots on the screen indicating dead pixels. On top of that, anytime I scrolled down a webpage or had any kind of video playing, a certain section of the screen would continually flicker. Those are major problems for me considering I"
     ]
   },
