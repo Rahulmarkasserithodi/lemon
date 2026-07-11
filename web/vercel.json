@@ -1,7 +1,7 @@
 {
   "framework": null,
   "installCommand": "npm install",
-  "buildCommand": "npm run build",
+  "buildCommand": "mkdir -p public && cp -r ../data/processed/. public/ && npm run build",
   "outputDirectory": "dist",
   "rewrites": [
     {

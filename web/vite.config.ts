@@ -2,12 +2,15 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path'
 
-// The pipeline writes to ../data/processed/
-// Serving that directory as publicDir means the frontend fetches
-// /index.json, /products/{asin}.json etc. with no extra build step.
+// In dev the pipeline's ../data/processed is served directly via fs.allow.
+// For production builds (Vercel) the build command pre-copies processed/ into
+// public/ (inside web/) so Vite can always find it regardless of sandbox limits.
+const isVercel = !!process.env.VERCEL
 export default defineConfig({
   plugins: [react()],
-  publicDir: path.resolve(__dirname, '../data/processed'),
+  publicDir: isVercel
+    ? path.resolve(__dirname, 'public')
+    : path.resolve(__dirname, '../data/processed'),
   build: {
     outDir: 'dist',
     // Include the processed JSON in the build output for fully-offline demo
