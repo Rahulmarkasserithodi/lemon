@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Landing from './components/Landing'
+import TenureMark from './components/TenureMark'
 import { INK, ON_INK, inkAlpha } from './theme'
 
 type Tab = 'demo' | 'about'
@@ -37,10 +38,11 @@ export default function App() {
           className="flex items-center justify-between px-6 sm:px-10 py-5 sticky top-0 z-40 bg-[#f3f4f3]"
           style={{ borderBottom: `1.5px solid ${INK}` }}
         >
-          <div className="flex items-baseline gap-2.5">
-            <span className="font-serif font-semibold text-[21px] text-[#1c1f21]">Lemon</span>
+          <div className="flex items-center gap-2.5">
+            <TenureMark size={26} />
+            <span className="font-serif font-semibold text-[21px] text-[#1c1f21] tracking-[-0.01em]">Tenure</span>
             <span
-              className="hidden sm:inline font-mono text-[9.5px] font-semibold uppercase tracking-[0.1em]"
+              className="hidden sm:inline font-mono text-[9.5px] font-semibold uppercase tracking-[0.1em] ml-1 self-center"
               style={{ color: inkAlpha(0.42) }}
             >
               Durability Ledger
@@ -55,10 +57,10 @@ export default function App() {
 
           {tab === 'about' && (
             <div className="max-w-2xl space-y-5 text-[15px] leading-relaxed" style={{ color: inkAlpha(0.72) }}>
-              <h1 className="font-serif text-[30px] font-bold text-[#1c1f21]">About Lemon</h1>
+              <h1 className="font-serif text-[30px] font-bold text-[#1c1f21]">About Tenure</h1>
               <p>
                 Star ratings tell you if people liked a product. They don't tell you how long it
-                lasts. <strong className="text-[#1c1f21]">Lemon</strong> mines time-to-failure signals from
+                lasts. <strong className="text-[#1c1f21]">Tenure</strong> mines time-to-failure signals from
                 Amazon review text, runs real Kaplan-Meier survival analysis (with right-censoring),
                 and shows you the metric that actually matters for appliances: cost per year of life.
               </p>
