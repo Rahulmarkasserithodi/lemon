@@ -1,5 +1,8 @@
-// Client for the local Lemon extraction server (proxied at /api by Vite).
+// Client for the Lemon extraction server
 import type { CatalogEntry, ProductData, IndexEntry, HeroPair } from './types'
+
+// Use Render backend in production, local proxy in dev
+const API_BASE = import.meta.env.VITE_API_URL || '/api'
 
 export interface HealthStatus {
   gemini_key: boolean
@@ -9,14 +12,14 @@ export interface HealthStatus {
 }
 
 export async function fetchHealth(): Promise<HealthStatus> {
-  const res = await fetch('/api/health')
+  const res = await fetch(`${API_BASE}/health`)
   if (!res.ok) throw new Error(`health: ${res.status}`)
   return res.json()
 }
 
 export async function fetchCatalog(q = '', limit = 200): Promise<CatalogEntry[]> {
   const params = new URLSearchParams({ q, limit: String(limit) })
-  const res = await fetch(`/api/catalog?${params}`)
+  const res = await fetch(`${API_BASE}/catalog?${params}`)
   if (!res.ok) throw new Error(`catalog: ${res.status}`)
   return res.json()
 }
@@ -24,7 +27,7 @@ export async function fetchCatalog(q = '', limit = 200): Promise<CatalogEntry[]>
 /** Extract (or load from cache) one product's survival curve. May take a few
  *  seconds on first call while the LLM reads the reviews. */
 export async function fetchProductLive(asin: string): Promise<ProductData> {
-  const res = await fetch(`/api/product/${asin}`)
+  const res = await fetch(`${API_BASE}/product/${asin}`)
   if (!res.ok) {
     const detail = await res.json().catch(() => ({}))
     throw new Error(detail?.detail || `product ${asin}: ${res.status}`)
@@ -35,7 +38,7 @@ export async function fetchProductLive(asin: string): Promise<ProductData> {
 /** Resolve a pasted Amazon product URL (or bare ASIN) to a product. Throws a
  *  human-readable message when the ASIN isn't in our review corpus. */
 export async function resolveProduct(url: string): Promise<ProductData> {
-  const res = await fetch(`/api/resolve?url=${encodeURIComponent(url)}`)
+  const res = await fetch(`${API_BASE}/resolve?url=${encodeURIComponent(url)}`)
   if (!res.ok) {
     const detail = await res.json().catch(() => ({}))
     throw new Error(detail?.detail || `resolve failed: ${res.status}`)
