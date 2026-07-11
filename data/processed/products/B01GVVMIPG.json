@@ -1,0 +1,154 @@
+{
+  "parent_asin": "B01GVVMIPG",
+  "title": "HP EliteBook 8460P 14-inch Notebook PC - Intel Core i5-2520M 2.5GHz 8GB 250GB Windows 10 Professional (Renewed)",
+  "brand": "Amazon Renewed",
+  "image": "https://m.media-amazon.com/images/I/41UoSy0HyyL._AC_.jpg",
+  "price": 184.69,
+  "average_rating": 3.5,
+  "n_reviews": 350,
+  "n_candidates": 31,
+  "n_obs": 24,
+  "n_events": 11,
+  "median_months": 12.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 184.69,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9583,
+      "lo": 0.7392,
+      "hi": 0.994
+    },
+    {
+      "t": 0.12,
+      "s": 0.9583,
+      "lo": 0.7392,
+      "hi": 0.994
+    },
+    {
+      "t": 0.25,
+      "s": 0.9104,
+      "lo": 0.6855,
+      "hi": 0.9769
+    },
+    {
+      "t": 0.5,
+      "s": 0.8625,
+      "lo": 0.6305,
+      "hi": 0.9537
+    },
+    {
+      "t": 1.0,
+      "s": 0.7547,
+      "lo": 0.5043,
+      "hi": 0.8907
+    },
+    {
+      "t": 1.33,
+      "s": 0.6918,
+      "lo": 0.4325,
+      "hi": 0.8505
+    },
+    {
+      "t": 2.0,
+      "s": 0.6289,
+      "lo": 0.3683,
+      "hi": 0.8063
+    },
+    {
+      "t": 3.0,
+      "s": 0.559,
+      "lo": 0.2993,
+      "hi": 0.7555
+    },
+    {
+      "t": 6.0,
+      "s": 0.559,
+      "lo": 0.2993,
+      "hi": 0.7555
+    },
+    {
+      "t": 12.0,
+      "s": 0.3993,
+      "lo": 0.1608,
+      "hi": 0.6306
+    },
+    {
+      "t": 24.0,
+      "s": 0.1997,
+      "lo": 0.0158,
+      "hi": 0.5347
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "wont_power_on",
+      "count": 4
+    },
+    {
+      "mode": "storage_failure",
+      "count": 2
+    },
+    {
+      "mode": "stopped_working",
+      "count": 2
+    },
+    {
+      "mode": "control_failure",
+      "count": 1
+    },
+    {
+      "mode": "other",
+      "count": 1
+    },
+    {
+      "mode": "wont_boot",
+      "count": 1
+    },
+    {
+      "mode": "screen_failure",
+      "count": 1
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "control_failure": [
+      "Terrible computer.  Errors constantly, lame keyboard light doesn't shut and stays on all the time, now my Sound doesn't work anymore.<br /><br />Only had for 2 months.<br /><br />Just discovered the components inside were salvaged from another computer and of much lower spec than advertised."
+    ],
+    "other": [
+      "It came with Windows 7 setup instructions instead of Windows 10.  And, after a few days of use, the power cord stopped working.  The seller rectified these issue but they consumed time.<br /><br />Now, just past the point where I can return the laptop, the DVD drive has gone bad.<br /><br />So much for certified refurbished.  I will never bother with one again."
+    ],
+    "storage_failure": [
+      "A solid 3 star experience. Based on the other reviews I went in knowing this purchase could be a gamble. The computer showed up within a week and everything seemed fine. Then I ran the hard drive diagnostic and it came back as failed. Contacted the seller and they agreed to send a replacement laptop. Instead they sent just a new hard drive. That was fine for me but might be a problem for someone t",
+      "The hard drive failed. Replacing it with SSD now but wow these guys did a terrible job of \u201crefurbishing\u201d. It had multiple issues before finally dying. And I take good care of my laptops- the last one I had before this lasted for ~5 years. wish there was someway for me to get a refund on this horrible computer."
+    ],
+    "wont_power_on": [
+      "Broke within two weeks. Won't turn on. Won't buy refurbished anything ever again. Seller was great about the return.",
+      "This is a followup.  Have had my laptop for a day and this evening while the laptop was plugged in I watched the battery drain.  As of right now it is dead.  No power from power cord no battery power.  Will be returning machine",
+      "Worked for about a month then shut down and won't turn back on"
+    ],
+    "wont_boot": [
+      "I just got this and I can't even get pass this screen. Says it didn't power on correctly.  I try turning it off and back on and it just won't work.  I am returning this headache. I waited a week to be disappointed!"
+    ],
+    "screen_failure": [
+      "Superfast however the battery life was virtually non-existent and the shift lock key crapped out. Screen died after two years. Cheap to replace.<br /><br />The reseller adjusted price for battery.<br /><br />I think this computer is an extremely good value for the price. It has no issue with most applications although is a bit slow with Photoshop."
+    ],
+    "electrical_fault": [
+      "Within two weeks system crashed. Was sent a recovery disk and it fixed the issue but the computer remained buggy. This laptop wasn\u2019t used often as it was dedicated to one particular small business. Almost one year to the day the motherboard died. Tried to contact seller but no reply. Learned a lesson, stay away from refurb and buy new."
+    ],
+    "stopped_working": [
+      "DO NOT WASTE YOUR MONEY!  I bought this computer in July 2017 for online schooling purposes.  August 2017, the computer stopped working, I shipped it back to the company they did send me another computer the process for returning and receiving another computer took 3 weeks.  1 month later the laptop began producing an error code, they shipped a circuit board that my husband and I replaced.  Now ag",
+      "It was shipped cracked and after three months it don't work."
+    ]
+  },
+  "published": false
+}

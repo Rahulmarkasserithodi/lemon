@@ -1,0 +1,302 @@
+{
+  "parent_asin": "B01J42JPJG",
+  "title": "Acer Chromebook R 11 Convertible, 11.6-Inch HD Touch, Intel Celeron N3150, 4GB DDR3L, 32GB, CB5-132T-C1LK, Denim White",
+  "brand": "Acer",
+  "image": "https://m.media-amazon.com/images/I/41z-OvZA98L._AC_.jpg",
+  "price": 428.32,
+  "average_rating": 4.5,
+  "n_reviews": 1164,
+  "n_candidates": 156,
+  "n_obs": 112,
+  "n_events": 76,
+  "median_months": 11.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 467.26,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9821,
+      "lo": 0.9305,
+      "hi": 0.9955
+    },
+    {
+      "t": 0.06,
+      "s": 0.9464,
+      "lo": 0.8846,
+      "hi": 0.9756
+    },
+    {
+      "t": 0.09,
+      "s": 0.9375,
+      "lo": 0.8734,
+      "hi": 0.9697
+    },
+    {
+      "t": 0.1,
+      "s": 0.9375,
+      "lo": 0.8734,
+      "hi": 0.9697
+    },
+    {
+      "t": 0.25,
+      "s": 0.8824,
+      "lo": 0.806,
+      "hi": 0.9299
+    },
+    {
+      "t": 0.5,
+      "s": 0.8448,
+      "lo": 0.7622,
+      "hi": 0.9006
+    },
+    {
+      "t": 0.75,
+      "s": 0.8448,
+      "lo": 0.7622,
+      "hi": 0.9006
+    },
+    {
+      "t": 1.0,
+      "s": 0.7532,
+      "lo": 0.6585,
+      "hi": 0.8251
+    },
+    {
+      "t": 1.5,
+      "s": 0.7532,
+      "lo": 0.6585,
+      "hi": 0.8251
+    },
+    {
+      "t": 1.75,
+      "s": 0.7532,
+      "lo": 0.6585,
+      "hi": 0.8251
+    },
+    {
+      "t": 2.0,
+      "s": 0.7209,
+      "lo": 0.6231,
+      "hi": 0.7974
+    },
+    {
+      "t": 3.0,
+      "s": 0.6882,
+      "lo": 0.5877,
+      "hi": 0.7689
+    },
+    {
+      "t": 3.13,
+      "s": 0.6772,
+      "lo": 0.5761,
+      "hi": 0.7592
+    },
+    {
+      "t": 4.0,
+      "s": 0.6226,
+      "lo": 0.519,
+      "hi": 0.7101
+    },
+    {
+      "t": 5.0,
+      "s": 0.6008,
+      "lo": 0.4966,
+      "hi": 0.6901
+    },
+    {
+      "t": 6.0,
+      "s": 0.5462,
+      "lo": 0.4416,
+      "hi": 0.6392
+    },
+    {
+      "t": 7.0,
+      "s": 0.535,
+      "lo": 0.4305,
+      "hi": 0.6287
+    },
+    {
+      "t": 8.0,
+      "s": 0.5127,
+      "lo": 0.4085,
+      "hi": 0.6075
+    },
+    {
+      "t": 9.0,
+      "s": 0.5016,
+      "lo": 0.3975,
+      "hi": 0.5968
+    },
+    {
+      "t": 10.0,
+      "s": 0.5016,
+      "lo": 0.3975,
+      "hi": 0.5968
+    },
+    {
+      "t": 11.0,
+      "s": 0.4782,
+      "lo": 0.3746,
+      "hi": 0.5745
+    },
+    {
+      "t": 12.0,
+      "s": 0.3383,
+      "lo": 0.243,
+      "hi": 0.4358
+    },
+    {
+      "t": 12.6,
+      "s": 0.3214,
+      "lo": 0.2263,
+      "hi": 0.4201
+    },
+    {
+      "t": 13.0,
+      "s": 0.3044,
+      "lo": 0.2099,
+      "hi": 0.4041
+    },
+    {
+      "t": 15.0,
+      "s": 0.2875,
+      "lo": 0.1939,
+      "hi": 0.3879
+    },
+    {
+      "t": 16.0,
+      "s": 0.2706,
+      "lo": 0.1782,
+      "hi": 0.3713
+    },
+    {
+      "t": 18.0,
+      "s": 0.2199,
+      "lo": 0.1334,
+      "hi": 0.3202
+    },
+    {
+      "t": 24.0,
+      "s": 0.1691,
+      "lo": 0.0919,
+      "hi": 0.2664
+    },
+    {
+      "t": 36.0,
+      "s": 0.1128,
+      "lo": 0.0447,
+      "hi": 0.216
+    },
+    {
+      "t": 48.0,
+      "s": 0.0564,
+      "lo": 0.0068,
+      "hi": 0.1908
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "control_failure",
+      "count": 17
+    },
+    {
+      "mode": "screen_failure",
+      "count": 12
+    },
+    {
+      "mode": "battery_failure",
+      "count": 12
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 11
+    },
+    {
+      "mode": "stopped_working",
+      "count": 10
+    },
+    {
+      "mode": "wont_boot",
+      "count": 7
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 6
+    },
+    {
+      "mode": "other",
+      "count": 2
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 2
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 2
+    },
+    {
+      "mode": "hinge_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "battery_failure": [
+      "I have had it for a year and the battery failed!!! Will not keep a full charge. ACER does not help you and I WILL NEVER BUY ANY ACER PRODUCT AGAIN EVER! It is a decent design with a flawed battery and NO support from Acer. I have had a Samsung in the past and it was great. DO NOT RECOMMEND YOU BUY THIS ONE!",
+      "I bought this several months ago, and it was great for a while.  But then, it stopped charging to full.  I could not get it to go above 64% for a while.  Now it is not charging above 51%.  It seems like it may be a faulty battery, which wouldn't be such a bad thing if I could easily replace the battery.  But the batteries are not accessible on these machines.  You must unscrew the whole thing and ",
+      "Bought this in March. Unfortunately, the battery only holds up for 3 hours now. I expected more out of ACER and am very disappointed. Battery drain should NOT be happening after only 6 months. Cannot find any information on how to return and I am not willing to spend 100.+ to have the battery replaced at a repair shop. I wish I would have noticed previous reviews posted on battery drain."
+    ],
+    "screen_failure": [
+      "The touchscreen stopped working about 8 months ago, and the keyboard stops working sometimes. And recently the battery life has been not lasting long at all.",
+      "Screen will not come on after 94 days. I should of known better than to buy ACER again, IThis is my second (1st one keyboard keys came off) now this, jeeeez! And ACER wont replace or fix",
+      "I purchased this for my daughter. She is studying for her RN and needed a laptop. After she had been using it for about two weeks she had a slim blue line going through the screen. Just as has been my experience in the past; Amazon customer service was helpful, understanding and just plain AWESOME !! Sent her a NEW (the original was new also) Acer Chromebook immediately and a return (FREE) shippin"
+    ],
+    "wont_power_on": [
+      "Stopped turning on after a month and unfortunately, it took me about 3 months to get it fixed. This is my 3rd time trying to write this review without getting it deleted.",
+      "We purchased this Chromebook in January 2018 for my 12 year old to use for homework. When it is working, it is a nice product. The problem is that it stopped turning on and taking a charge twice in less than one year under light use. Each time this happens I have had to pack it up and ship it back to Acer and be without it for several weeks. In addition this time they are requiring that I pay for ",
+      "My daughter is at college and it has frozen and locked up and struggles getting a Wi-Fi connection. Now it won\u2019t even turn on! If you want to computer for your child that last less than a year, this is the product for you. But if they are in college and it\u2019s necessary to do work then do not buy this product! I am so upset that I wasted money on this!!! Now I have to drive to her college and buy a "
+    ],
+    "wont_boot": [
+      "Update 5/6/19  I've been using the Acer R11 convertible tablet for over 6 mos now after receiving it back from Acer Service in Texas.  They had to uninstall/reinstall Chrome OS and run a bunch of diagnostics.  The result is that it works fine now.  I'm almost over the shoe-drop feeling that it's going to fail again, and I try not to have too many tabs open at once.  Don't want to push my luck.  An",
+      "We had this for less than 3 days and had to return it due to freezing up. It couldn't do simple tasks it should be able to perform. Tasks that my inexpensive tablet and phone do with ease....like shopping. It actually froze up and the screen went black. I was not able to get the screen back on even after holding the power button down and connecting the charger. It was already fully charged. This t",
+      "1.75 years later my 1st one of this device type died.  My OS was not launching and after following Google's instructions I gave up when I got this message \"The security module on this device is not working...\"  I paid $270 so I guess 2 years of heavy use by my high schooler is OK.  I will replace but I wont replace at the current $400 price point. I will find something in the $200 range to feel ev"
+    ],
+    "other": [
+      "I've been a happy Chromebook User for over 3 years -- in fact we have 3 Acer Chromebooks in our family now<br /><br />After ordering and replacing the Acer R11 -- 3 times by Amazon - I have to say Acer should be ashamed of the poor quality product they put out.<br /><br />First Unit arrived with defective memory or component -- would not load OS properly and after several failed attempts by Acer a",
+      "I bought this laptop back in 2017, intending to use it for my senior year of high school, but not thinking it would last very long past that. However, this little chrome book really put in the extra work, and has gotten me through almost 4 years.<br /><br />The \u201cdeath\u201d of the poor thing was my fault (spilled ink) so it probably would\u2019ve gone even longer. Only hiccup I ever had was that it needed a"
+    ],
+    "control_failure": [
+      "I ordered one, the touch pad failed to work consistently. Two replacements had the same problem  all in 4 weeks. Great warranty from Prime!",
+      "I ordered one, the touch pad failed to work consistently. Two replacements had the same problem  all in 4 weeks. Great warranty from Prime!",
+      "Good looking laptop but hardware has several major problems:<br />1. Microphone is not really working (you have to basically yell while alsmost touching it with you lips in order for someone else to hear you).<br />2. When switching between tablet and laptop mode quickly the screen will blink and turnoff for an extended period of time before turning back on.<br />3. Wi-FI slows down to crowl and s"
+    ],
+    "stopped_working": [
+      "No longer working after 12 months",
+      "Had it for 2 weeks and it no longer works.  Will need to return.  Also found that the Chromebook could not access some sites.  One was a rebate site.  Had to use another computer to compete the rebate",
+      "Feels cheaply constructed. Failed after a week. Returned it and got a Samsung Chromebook 3 instead."
+    ],
+    "charging_port_failure": [
+      "Bought this last year on July.<br />Pro: light, reasonable price, fast,<br /><br />Cont:<br />Keyboard key fragile.<br />after 6 months my eyboard key is not function very well. I only use the chormebook for surving the internet, checking my email, and watch hulu or netflix. I rarely use the keyboard.<br />this is something to reconsidered  if one to buy the chromebook for doing homework and a lot",
+      "I fell in love with this laptop immediately. Threw away the packaging, showed it off to my friends, was so happy. Then it stopped charging 7 days after I bought it brand new. Apparently it\u2019s common for the connections inside the motherboard to become loose, making the user have to unscrew and mess with the wires inside every month or so. No thanks. I am so happy to be an Amazon prime member so I c",
+      "The item was fine at first. Light weight, flexible. Can be useless if you are not familiar with android platform. What I wanted it for it didn\u2019t meet my needs.<br /><br />After a year of moderate use, it stopped charging. Ordered a replacement charger and it just won\u2019t charge. Disappointed."
+    ],
+    "physical_breakage": [
+      "Works well, flimsy build.  I had my last Chromebook 4 years with multiple drops and slides and clunks and it took them in stride.  The first time this one slid off the end table, it's all done.  KA-put.  Will cost more to repair than to replace.  The build is definitely not as good as the Samsung I had. NOT FOR TEENS.If you want it, spend the money on the optional &#34;repair me&#34; insurance, yo",
+      "For a year it worked well for school and home, then beginning of this year the screen fell of, breaking all inside parts AND my touchscreen and mouse stopped working on it."
+    ],
+    "keyboard_failure": [
+      "Works great. BUT...7 months into purchase, some of the keys on the keyboard stopped functioning. I got the machine repaired by Acer under the 1 year warranty. No issues there, but I did have to pay to ship it to them.",
+      "UPDATE: Changing to 3 stars as after two years the mousepad has stopped working.<br /><br />I'm not super in to computers so I didn't need this for gaming, etc. I just needed something to get me through my last year of college since my last laptop died. It's great! It's basically using your Gmail account in a laptop version and everything is saved to your Google drive. Something that is still taki"
+    ],
+    "hinge_failure": [
+      "I babied this laptop and the cable connecting the screen to the computer proper broke in under two weeks. This chromebook's abysmal quality regarding it's hinge design flaw isn't documented enough. I set it down gently on a hard surface and it stopped working. I'm trying an Asus chromebook next and I advise everyone buy from them and not Acer."
+    ]
+  },
+  "published": true
+}

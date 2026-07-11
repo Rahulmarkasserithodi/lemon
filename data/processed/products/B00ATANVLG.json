@@ -1,0 +1,260 @@
+{
+  "parent_asin": "B00ATANVLG",
+  "title": "Lenovo IdeaPad Yoga 13 13.3-Inch Convertible 2 in 1 Touchscreen Ultrabook (Gray) 2013 Model",
+  "brand": "Lenovo",
+  "image": "https://m.media-amazon.com/images/I/41y2M0dgLlL._AC_.jpg",
+  "price": 384.53,
+  "average_rating": 3.9,
+  "n_reviews": 259,
+  "n_candidates": 68,
+  "n_obs": 53,
+  "n_events": 36,
+  "median_months": 11.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 419.49,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9623,
+      "lo": 0.8574,
+      "hi": 0.9904
+    },
+    {
+      "t": 0.09,
+      "s": 0.9434,
+      "lo": 0.8347,
+      "hi": 0.9814
+    },
+    {
+      "t": 0.25,
+      "s": 0.9057,
+      "lo": 0.7881,
+      "hi": 0.9596
+    },
+    {
+      "t": 0.75,
+      "s": 0.8864,
+      "lo": 0.7644,
+      "hi": 0.9473
+    },
+    {
+      "t": 1.0,
+      "s": 0.8864,
+      "lo": 0.7644,
+      "hi": 0.9473
+    },
+    {
+      "t": 1.5,
+      "s": 0.8658,
+      "lo": 0.7387,
+      "hi": 0.9337
+    },
+    {
+      "t": 2.0,
+      "s": 0.7421,
+      "lo": 0.597,
+      "hi": 0.8416
+    },
+    {
+      "t": 3.0,
+      "s": 0.6984,
+      "lo": 0.5494,
+      "hi": 0.8065
+    },
+    {
+      "t": 4.0,
+      "s": 0.6503,
+      "lo": 0.4971,
+      "hi": 0.7672
+    },
+    {
+      "t": 5.0,
+      "s": 0.6262,
+      "lo": 0.4718,
+      "hi": 0.747
+    },
+    {
+      "t": 6.0,
+      "s": 0.6011,
+      "lo": 0.4456,
+      "hi": 0.7258
+    },
+    {
+      "t": 8.0,
+      "s": 0.5489,
+      "lo": 0.392,
+      "hi": 0.6809
+    },
+    {
+      "t": 10.0,
+      "s": 0.5227,
+      "lo": 0.3662,
+      "hi": 0.6578
+    },
+    {
+      "t": 11.0,
+      "s": 0.4443,
+      "lo": 0.292,
+      "hi": 0.5859
+    },
+    {
+      "t": 12.0,
+      "s": 0.3659,
+      "lo": 0.2227,
+      "hi": 0.5102
+    },
+    {
+      "t": 13.0,
+      "s": 0.3049,
+      "lo": 0.1697,
+      "hi": 0.4514
+    },
+    {
+      "t": 14.0,
+      "s": 0.2744,
+      "lo": 0.1449,
+      "hi": 0.4209
+    },
+    {
+      "t": 18.0,
+      "s": 0.183,
+      "lo": 0.0775,
+      "hi": 0.3236
+    },
+    {
+      "t": 21.0,
+      "s": 0.1464,
+      "lo": 0.0525,
+      "hi": 0.2856
+    },
+    {
+      "t": 24.0,
+      "s": 0.1098,
+      "lo": 0.0311,
+      "hi": 0.245
+    },
+    {
+      "t": 36.0,
+      "s": 0.1098,
+      "lo": 0.0311,
+      "hi": 0.245
+    },
+    {
+      "t": 84.0,
+      "s": 0.1098,
+      "lo": 0.0311,
+      "hi": 0.245
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "hinge_failure",
+      "count": 6
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 5
+    },
+    {
+      "mode": "screen_failure",
+      "count": 5
+    },
+    {
+      "mode": "wont_boot",
+      "count": 5
+    },
+    {
+      "mode": "control_failure",
+      "count": 4
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 4
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 3
+    },
+    {
+      "mode": "storage_failure",
+      "count": 2
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 2
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 1
+    },
+    {
+      "mode": "battery_failure",
+      "count": 1
+    },
+    {
+      "mode": "overheating",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "charging_port_failure": [
+      "The port where the charger plugs in broke on me only 6 weeks after getting the computer!!!! Steer clear! This is an expensive piece of junk! Update. So lenovo is trying to blame me for the plastic piece that broke off my charger... I find this odd because all I did was disconnect it from a table it was sitting on and when I pulled it out, out came a small plastic piece. I am planning to take them ",
+      "I bought this from an Amazon seller as a factory refurbished unit a few months ago.  It was in a &#34;like new&#34; condition when I received the unit. I have really enjoyed this 2-N-1 laptop.  I am sorry to say that I dropped my Yoga a few weeks ago and broke the charging port.  I have ordered some parts and am trying to repair.  I think Lenovo has a solid hit the Yoga models.  If I can't get min",
+      "Loved this laptop for the first six months. The hinges worked great and the cross-functionality between tablet and laptop was fantastic. However, after about six months of use I began to notice that the power cord and DC power jack were poorly constructed. The prongs in the jack stick out and completely broke off from the laptop during regular use. Needless to say, I was extremely disappointed.<br"
+    ],
+    "keyboard_failure": [
+      "I've had the Lenovo Yoga 13 for 1.5 yrs. I really like the form factor, display, performance, and weight. However, just a couple days ago some of the keys stopped working. I spoke with Lenovo and they said I need to pay a couple hundred dollars to repair this (since it's out of warranty). If I try to repair this myself I can order a keyboard for $50 and swap it. I'll probably go for the latter, bu",
+      "I've had my Yoga for almost two months. It is by far the best notebook/laptop I have ever owned. I especially enjoy the keyboard. I find myself picking up my Yoga rather than setting in front of my desktop when I need to prepare a long document.<br />The performance is excellent and the form factor is really comfortable.<br />My only complaint is that the battery life has been much less than what ",
+      "I bought this about 18 months ago and loved it immediately it came out of the box. What I loved was the look rather than what I had bought. Windows 8 was horrible and the laptop from the start was never as fast as I was expecting. The keyboard is poor, after a couple of months the keys 9 & 0 stopped working. Looking on line found a fix that said if you turned off sleep control that would solve the"
+    ],
+    "hinge_failure": [
+      "I bought this in February 14th 2013 and the monitor no longer works.  I bought the top of the line product from them I-7 processor and a Solid State Hard Drive.  I paid over 1500 for this laptop thinking I would be well taken care and I would have had this laptop at least the next 3 to 4 years.  30 Days out of warranty the computer has lost its ability to transmit the information to the monitor.  ",
+      "I had this Lenovo Yoga for one day before a screen hinge broke.  They are not designed well at all.  I am very bummed because I really liked everything else about it.",
+      "My title says it all. The right hinge broke after 4 months and since I read the reviews about broken hinges I was very careful using them. The worst problem is the wireless reception. When I use this computer with an older Linksys router I get instant reception every time.  However, when I use this computer with a newer Arris router the computer can take 10-15 minutes to find the signal only after"
+    ],
+    "control_failure": [
+      "I saw this laptop at Microsoft Store and ordered it online (not through Amazon). I bought it in February 2013 so now the warranty has long expired. However, I\u2019ve had several issues with it.<br /><br />There are numerous threads on Lenovo forums regarding the lock-up, freezes, reboot, and black screen issues. I\u2019ve been in the IT industry for several years and work with servers so I\u2019m fairly technic",
+      "Warranty and repair trouble. I've had this for 1.5 years. Bought the 3 year accidental damage warranty. The computer is great, I've liked it, no problems other than those caused by Windows 8 updates which don't relate to the computer, except lately the touchpad is sticking on both right and left click. So I need to get it repaired. Almost all my friends bought this computer, if they weren't buying",
+      "Bought this computer 4 months ago and have had frequent issues like over heating, touchy touch pad and screen freezing. The construction is also subpar in that if you rest your hands on the rest area on either side of the touch pad the computer flexes and causes the touch pad to have issues. Now the touch pad is out totally and the touch screen is acting up. This is my work computer so I can't aff"
+    ],
+    "physical_breakage": [
+      "ok so overall I like this product very much. I have a i5 128gb hard drive crimson version. I like the quality feel and look of the product and I get a lot of compliments on it. So here is a list of my pros and cons<br /><br />Pros<br /><br />I purchased this with 4gb of ram, I upgraded that to 8gb for $80 and it's way better. Its easy to replace so don't be scared<br />I love the touch screen and "
+    ],
+    "screen_failure": [
+      "Asus has been my choice the last time I purchased a laptop about 4 years ago, and about a year ago I also purchased an Asus tablet.  Both the laptop and tablet has worked great without any issues.  But due to a recent house fire, I lost both and was in the market again for a new laptop.  After evaluating my computer usage, I decided to get a hybrid laptop since my tablet didn't get a whole lot of ",
+      "We bought 2 Lenovo Yoga computers for our twins last Christmas.  In February my son closed his computer and his thin retractable mouse cord was caught inside cracking the screen on the very right side edge.  It spidered across the screen and the screen no longer worked.  It was disappointing that it cracked so easily with a thin piece of plastic (we saw him close it--he did not slam it shut).  We ",
+      "Below is my original review from before my laptop broke. Pretty much 2 months after I wrote this review, the screen died - strange vertical color bars. Plugging in an HDMI external monitor worked, so the computer itself was fine. But this was unacceptable. I searched online and found others with the same problem, which made me pretty unhappy (known issue). Luckily, it was still under warranty (jus"
+    ],
+    "battery_failure": [
+      "The reviews scared me, but I have to say that this is the best laptop I've ever owned. I've been through HP's, Mac, Acer's and an ASUS. My favorite part is the mouse pad. It's smooth and very responsive which is very important to me. The touch screen works perfectly and have not had any glitches in the year and a half that I've had this thing. My only 'complaint' which really isn't, is that there "
+    ],
+    "storage_failure": [
+      "bought it for my 13 year old daughter for school.<br />Lasted 8 months then the hard drive crashed.<br />Very disappointing. Would not recommend.",
+      "Decent computer but hard drive crashed after 3 months of limited use.<br /><br />I spent a little bit of time on the lenovo website today looking for warranty claim information -- not immediately clear. Also, in reading other reviews, and from personal experiences with lenovo warranty claims at my office, I am not looking forward to the warranty process (i.e., I understand it will takes weeks for "
+    ],
+    "electrical_fault": [
+      "I did not buy this Lenovo G580 computer from Amazon, but I'd like everyone to see this before they buy one.<br /><br />I bought this laptop from local Fry's store, picked it up mainly because of the price. It seemed offered good value. But after one year of usage, I know I was wrong. Here is why.<br /><br />1. It is made of cheap parts. Well, it is cheap, but still works, right?<br />2. It is heav",
+      "This whole experience has been horrible.  60 days after I get it the power supply goes out.  I ask Amazon for help and they tell me to send it in for warranty...it's out of their hands.  I send it in and the warranty policy is to send you a new machine if they can't repair within 7 business days.  14 go by and I ask for a replacement.  \"Oh we're sorry sir, your part is coming in next week and we'l",
+      "Motherboard failed after 13 months!  1 month after Warranty expired!  Dead as a door nail. $1000 down the tubes!<br /><br /> Also, I don't like touchscreen.  Your screen gets smeared and it's no more efficient than a touch pad.  Rarely used the Yoga as a tablet, never as a tent.  13-inch screen way too small!!!!  Good riddance!!!!<br /><br />Get an ASUS.  Don't bother with a Warranty.  ASUS are so"
+    ],
+    "wont_power_on": [
+      "I was very happy with this laptop when I first got it. It is beautiful. Feels solid. The performance was good but not stellar.  The fan is quite loud compares to my 2009 Asus UL30A as others have stated. The yoga hinge touch screen ended up being more gimmic than useful. I rarely used the other modes and I rarely used the touch screen. The screen often had a problem figuring out which way it shoul",
+      "Here's the story of how my Lenovo Ideapad Yoga 13 died after 10 months of light use.<br />I bought my Yoga in late Jan 2013. I liked it so much and everyone saw it was impressed by its design and performance. Up to that moment in Nov 2013 when I was out of the country for extended period when the tip of the weird looking DC socket in the yoga (The yellow plastic thing inside) came out with the cha"
+    ],
+    "wont_boot": [
+      "Froze several times, I would have to reboot it - finally after 1 week of having it, it froze permanently.  I returned",
+      "The laptop is super fast and also light (well, still a little bit heavy for one handed use, but it can pull through the same). I also liked the folding mode and the laptop was responsive.<br /><br />Now, the issue started when the battery drained. Recharging it even past 20 percent would still give issues with the laptop failing to boot for hours and even days. This happened thrice, with the last ",
+      "When I first got this computer, I really liked it. Besides a few minor glitches with the touch pad and the touch screen, it worked really well. After about a year and a half of owning it the screen started blacking out randomly and it just would not come back on one day. I sent it to be repaired and the estimate for REPLACING THE MOTHERBOARD was over $800! WHAT!? This computer is only a year and a"
+    ],
+    "overheating": [
+      "Machine died after 14 months, yes, two months out of warranty.  Sent in for repair and it was an &#34;oaverheating&#34; issue that fried both the mother board and the harddrive.  Not only do we loose all our data but the repair cost 800 dollars. Almost as much as we paid for the machine.....  While it's a great laptop one would expect it to be better built.  We checked the fan area and all vents w"
+    ]
+  },
+  "published": true
+}

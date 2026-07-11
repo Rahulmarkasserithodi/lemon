@@ -1,0 +1,302 @@
+{
+  "parent_asin": "B08CSHM6L3",
+  "title": "HP Chromebook 14-inch Laptop with 180-Degree Swivel, AMD Dual-Core A4-9120 Processor, 4 GB SDRAM, 32 GB eMMC Storage, Chrome OS (14-db0020nr, Chalkboard Gray)",
+  "brand": "HP",
+  "image": "https://m.media-amazon.com/images/I/41aJI7f6DlL._AC_.jpg",
+  "price": 179.83,
+  "average_rating": 4.4,
+  "n_reviews": 721,
+  "n_candidates": 92,
+  "n_obs": 80,
+  "n_events": 71,
+  "median_months": 4.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 539.49,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.0,
+      "s": 0.9875,
+      "lo": 0.9146,
+      "hi": 0.9982
+    },
+    {
+      "t": 0.0,
+      "s": 0.9875,
+      "lo": 0.9146,
+      "hi": 0.9982
+    },
+    {
+      "t": 0.03,
+      "s": 0.9748,
+      "lo": 0.9031,
+      "hi": 0.9936
+    },
+    {
+      "t": 0.06,
+      "s": 0.9622,
+      "lo": 0.8873,
+      "hi": 0.9876
+    },
+    {
+      "t": 0.25,
+      "s": 0.9362,
+      "lo": 0.8534,
+      "hi": 0.9729
+    },
+    {
+      "t": 0.5,
+      "s": 0.8966,
+      "lo": 0.8038,
+      "hi": 0.9469
+    },
+    {
+      "t": 0.66,
+      "s": 0.8834,
+      "lo": 0.7879,
+      "hi": 0.9376
+    },
+    {
+      "t": 0.75,
+      "s": 0.8834,
+      "lo": 0.7879,
+      "hi": 0.9376
+    },
+    {
+      "t": 0.87,
+      "s": 0.87,
+      "lo": 0.7718,
+      "hi": 0.9279
+    },
+    {
+      "t": 1.0,
+      "s": 0.7897,
+      "lo": 0.6797,
+      "hi": 0.8656
+    },
+    {
+      "t": 1.5,
+      "s": 0.7763,
+      "lo": 0.665,
+      "hi": 0.8547
+    },
+    {
+      "t": 2.0,
+      "s": 0.7362,
+      "lo": 0.6213,
+      "hi": 0.8211
+    },
+    {
+      "t": 3.0,
+      "s": 0.5086,
+      "lo": 0.3909,
+      "hi": 0.6148
+    },
+    {
+      "t": 4.0,
+      "s": 0.4551,
+      "lo": 0.3402,
+      "hi": 0.5629
+    },
+    {
+      "t": 6.0,
+      "s": 0.3882,
+      "lo": 0.2786,
+      "hi": 0.4962
+    },
+    {
+      "t": 7.0,
+      "s": 0.3614,
+      "lo": 0.2546,
+      "hi": 0.469
+    },
+    {
+      "t": 8.0,
+      "s": 0.348,
+      "lo": 0.2427,
+      "hi": 0.4553
+    },
+    {
+      "t": 9.0,
+      "s": 0.3212,
+      "lo": 0.2192,
+      "hi": 0.4275
+    },
+    {
+      "t": 10.0,
+      "s": 0.2945,
+      "lo": 0.1962,
+      "hi": 0.3994
+    },
+    {
+      "t": 11.0,
+      "s": 0.2142,
+      "lo": 0.1297,
+      "hi": 0.3126
+    },
+    {
+      "t": 11.75,
+      "s": 0.2008,
+      "lo": 0.1191,
+      "hi": 0.2978
+    },
+    {
+      "t": 12.0,
+      "s": 0.1606,
+      "lo": 0.0882,
+      "hi": 0.2522
+    },
+    {
+      "t": 13.0,
+      "s": 0.146,
+      "lo": 0.0772,
+      "hi": 0.2357
+    },
+    {
+      "t": 15.0,
+      "s": 0.1314,
+      "lo": 0.0664,
+      "hi": 0.219
+    },
+    {
+      "t": 18.0,
+      "s": 0.1022,
+      "lo": 0.046,
+      "hi": 0.1846
+    },
+    {
+      "t": 24.0,
+      "s": 0.073,
+      "lo": 0.0275,
+      "hi": 0.1486
+    },
+    {
+      "t": 37.0,
+      "s": 0.0487,
+      "lo": 0.012,
+      "hi": 0.1269
+    },
+    {
+      "t": 48.0,
+      "s": 0.0487,
+      "lo": 0.012,
+      "hi": 0.1269
+    },
+    {
+      "t": 56.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 22
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 15
+    },
+    {
+      "mode": "control_failure",
+      "count": 9
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 7
+    },
+    {
+      "mode": "screen_failure",
+      "count": 7
+    },
+    {
+      "mode": "wont_boot",
+      "count": 4
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 3
+    },
+    {
+      "mode": "battery_failure",
+      "count": 2
+    },
+    {
+      "mode": "overheating",
+      "count": 2
+    },
+    {
+      "mode": "other",
+      "count": 1
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 1
+    },
+    {
+      "mode": "storage_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "wont_boot": [
+      "Update 9/24/2020 - died today - system freezes after one minute and goes to black screen. HP product support unable to help, I tried their online chat and they are unable to help. I put in my serial# and product code to no avail. super depressed - this plus covid plus wildfires - HP you really let me down.<br /><br />Arrived today (1/8/2020) I ordered it after much research and perusal of reviews.",
+      "Had this for about a day and it seemed to be working, then I noticed it would slow down trying to move to a new page, would stall and then shut down.  I would restart and recover my work but on the 2nd day it shut down and would not restart.  Called Amazon tech trouble shooting, tried their steps to restart and still nothing worked.  Contacting seller to replace.  DISAPPOINTED to say the least",
+      "I have not had a chance to use my new Chromebook but in the last two weeks I started when I came home from work tonight I had unplugged the charger so it could die and I could recharge it well it\u2019s been four hours and it will not come on, I always buy the warranty but I am in the process of moving and I can\u2019t remember if I did or not I can\u2019t find my paperwork I have no idea what\u2019s wrong with it"
+    ],
+    "stopped_working": [
+      "Stopped working 4 months after buying customer service is a pain",
+      "Just stopped working not even a year later. Brought it to a computer guy and he said it was junk",
+      "stopped working after a few months - total waste"
+    ],
+    "wont_power_on": [
+      "Quit working after 3 months. Won't power on and no damage occurred. Tech support says tomdo a hard reset. It didn't work.",
+      "This Chromebook is just the right size for reading & writing docs, email... without glasses.  It is an update to an older smaller Chromebook which is still going strong. I think it is great for the price and especially good for students, seniors and people who don't need lots and lots of extras. Its approx 13x9 , lightweight, fast and easy to use.  After 6 months I reevaluate to say there are prob",
+      "When I bought this laptop a few months to a year ago, everything was fine (including the function, lightweight, friendly interphase, videos played smoothly).<br /><br />The malfunctions started happening about a month ago when I had to send the chromebook to HP to get it fixed because it wouldn't even turn on OR charge. After they fixed THAT issue, now I have to deal with ANOTHER issue: the cursor"
+    ],
+    "charging_port_failure": [
+      "Charger malfunction after a short time but Hewlett-Packard sent a whole new computer in one day and stood by there product",
+      "It broke less than 3 months after I bought it. It won't take a charge anymore.",
+      "I bought this for my 8 year old for Christmas.  She was so happy! While it worked it worked great!  It lasted all of a month before it would not charge anymore.  She had it on the charger and tripped over the cord and the charger fell out of the port, after that it never worked again or would charge.  Very disheartening."
+    ],
+    "screen_failure": [
+      "My high school freshman used his Chromebook for 4 months (Aug - Dec). System seemed to bog down and run slow. Connectivity was an issue (staying connected to the wifi). Then the screen failed as his first semester ended.<br /><br />Unfortunately, I did not buy the extended warranty. Disappointing product. Replaced it with a Samsung, which is working much better with very few issues.",
+      "After 18 months of light use, the screen display started to blink off.  Of course it was six months out of factory warranty.  My local computer shop found that the display cable was factory installed in a way that caused pinching of the cable at the hinge.  He ordered the cable and was told this by his supplier that this is a common problem.  The repair cost me $111.00, almost half the price of th",
+      "My 11 year old daughter had this for 7 months when the screen stopped working and the arm bar that allows it to fold broke.  Not worth saving the money on this computer.  Worked great for e first 5 months."
+    ],
+    "battery_failure": [
+      "Battery lasted 3 months.",
+      "The worst laptop in my life. In three month stopped works battery and then stopped works adapter. I can't download any apps and many other things. I highly not recommended to buy this junk."
+    ],
+    "overheating": [
+      "HP cromebook gets very hot.  I have had mine a year and a half and it burnt up.  Now Looking for a replacement.  I will never by another HP cromebook.",
+      "Well, almost burned my house down so... Not the best product in my opinion. Called hp support and it's apparently out of warranty (bought less than a year ago). On here looking for a new one now lol 0/10. Everytime I turn it on it almost catches on fire/overheats and shuts off. Battery is internal. No way to fix by myself."
+    ],
+    "control_failure": [
+      "This chrome book worked GREAT for me as I did grad school work for about 10 months. Then... the touchpad stopped working well. It would glitch and randomly close out all browser tabs. I couldn\u2019t get anything done and had to splurge and go back to the Mac",
+      "Initially the chromebook worked fine the first few weeks, all she's using it for is Zoom and emails. She noticed after about a month it started slowing down a bit when running opening emails and searching amazon, and other sites - but she figured it was probably just our router causing issues. Of course this is now after the return window. Uninstalled all the \"shovelware\" that my mother-in-law was",
+      "We had this chromebook for less than a year when the touchpad began malfunctioning, rendering it unusable. After exhausting all the possible fixes we could do on our own, I attempted to contact HP, as the next recommended step was to contact the manufacturer. First problem: HP stated that our one year warranty began before we purchased the product and ended prior to our one year anniversary of pur"
+    ],
+    "keyboard_failure": [
+      "Although this chromebook is a handy device. The touch screen is great to have but the glare is terrible!<br />Its microphone is really bad; zoom calls have constant feedback and garbled sound for everyone on the call until I mute it.<br /> I have used it intermittenly with another pc for less than 11 months and already the enter key and pad are sticking along with a few other keys from time to tim",
+      "The keypad on this computer completely failed in less than one year, rendering this device useless for our family.  How frustrating. . . .",
+      "Coming out the box it had scuff marks that would not come off, after 2 weeks aloft having it the touchpad stopped working I had to buy a portable mouse just to use it. I needed it for school so I didn\u2019t have time to send it back. I would not recommend!"
+    ],
+    "other": [
+      "Have had this chromebook for a few months. It's nothing fancy, but does the trick for quick surfing and zoom meetings. The screen is really dark and often can't see shows that are in low lighting even with full brightness turned on. The big bummer is that my mic went out-- people tell me I sound like I'm in a hurricane."
+    ],
+    "electrical_fault": [
+      "Omg please don\u2019t ever buy first I bought this for my 11 year old as soon as it was turn on not even 2 mins in it started smoking on her legs like wth she started screaming I recommend not buying this please then when I asked Amazon for a refund they said it would take a week now my baby sad she was so excited but got a default labtop and no help from Amazon"
+    ],
+    "storage_failure": [
+      "quit after 3 months took it to computor store and they said hard drive has a problem its still under warrany so have to figure out how to make the warany work to get a new one"
+    ]
+  },
+  "published": true
+}

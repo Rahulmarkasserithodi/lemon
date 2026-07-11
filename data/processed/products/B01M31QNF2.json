@@ -1,0 +1,188 @@
+{
+  "parent_asin": "B01M31QNF2",
+  "title": "Dell Latitude E6430 Laptop WEBCAM - HDMI - Intel Core i5 2.6ghz - 8GB DDR3 - 500GB - DVD - Windows 10 Pro 64bit - (Renewed)",
+  "brand": "Amazon Renewed",
+  "image": "https://m.media-amazon.com/images/I/41bbvZ26ukL._AC_.jpg",
+  "price": 194.02,
+  "average_rating": 4.0,
+  "n_reviews": 294,
+  "n_candidates": 36,
+  "n_obs": 26,
+  "n_events": 16,
+  "median_months": 12.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 194.02,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9615,
+      "lo": 0.7569,
+      "hi": 0.9945
+    },
+    {
+      "t": 0.25,
+      "s": 0.9231,
+      "lo": 0.726,
+      "hi": 0.9802
+    },
+    {
+      "t": 0.5,
+      "s": 0.8829,
+      "lo": 0.6793,
+      "hi": 0.9607
+    },
+    {
+      "t": 0.75,
+      "s": 0.8428,
+      "lo": 0.6334,
+      "hi": 0.938
+    },
+    {
+      "t": 1.0,
+      "s": 0.7625,
+      "lo": 0.5458,
+      "hi": 0.8857
+    },
+    {
+      "t": 1.75,
+      "s": 0.7625,
+      "lo": 0.5458,
+      "hi": 0.8857
+    },
+    {
+      "t": 2.0,
+      "s": 0.6728,
+      "lo": 0.4492,
+      "hi": 0.8219
+    },
+    {
+      "t": 3.0,
+      "s": 0.628,
+      "lo": 0.4045,
+      "hi": 0.7873
+    },
+    {
+      "t": 4.33,
+      "s": 0.5831,
+      "lo": 0.3617,
+      "hi": 0.7512
+    },
+    {
+      "t": 6.0,
+      "s": 0.5831,
+      "lo": 0.3617,
+      "hi": 0.7512
+    },
+    {
+      "t": 9.0,
+      "s": 0.5831,
+      "lo": 0.3617,
+      "hi": 0.7512
+    },
+    {
+      "t": 12.0,
+      "s": 0.3711,
+      "lo": 0.174,
+      "hi": 0.5701
+    },
+    {
+      "t": 18.0,
+      "s": 0.3092,
+      "lo": 0.126,
+      "hi": 0.5143
+    },
+    {
+      "t": 24.0,
+      "s": 0.2474,
+      "lo": 0.0843,
+      "hi": 0.4543
+    },
+    {
+      "t": 84.0,
+      "s": 0.2474,
+      "lo": 0.0843,
+      "hi": 0.4543
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "storage_failure",
+      "count": 4
+    },
+    {
+      "mode": "stopped_working",
+      "count": 4
+    },
+    {
+      "mode": "control_failure",
+      "count": 3
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 2
+    },
+    {
+      "mode": "other",
+      "count": 1
+    },
+    {
+      "mode": "wont_boot",
+      "count": 1
+    },
+    {
+      "mode": "battery_failure",
+      "count": 1
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 1
+    },
+    {
+      "mode": "screen_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "other": [
+      "I Purchased 2 Dell Latitude Laptops in the last few weeks. One did not work. I ordered another one, same model Laptop and it was damaged from another seller. I contacted Bob at Tek Refurb and explained the damage. I sent the old one back and a much better Laptop was sent to me. It works fine and looks good too. My advise is use a seller with High 90s ratings or better. Bob at Tek Refurb was very h"
+    ],
+    "control_failure": [
+      "Unfortunately we did not use enough before the warranty was up to return it. It has never worked quite right. At first it was the network connection that would go in and out, whether we had it hardwired to the network or tried wireless. Now, 1 year later, it freezes and needs to be shut down on a regular basis. Our IT person, who has been working for us for over 5 years, has tried multiple times t",
+      "I got this about a year and a half ago, and one day, BOOM it stopped connecting to the internet. I bought an extended 4 year warranty for this product, but the seller tells me it's past 1 year so he can't help me. So we go to Amazon customer service, they tell me that the extended warranty is only good for something accidental. So they tell me to go to DELL customer care, who tell me it's been ove",
+      "I purchased three of these Dell laptops from Blazing Prices to show PowerPoint on TVs. After setup these up and spending hours updating/installing software, all three laptops have software/hardware problems with the HDMI out and will not work TVs. I contacted Blazing Prices requesting to return/refund but they told me to contact the manufacturer!!! This is unacceptable, horrible products and \u201ccust"
+    ],
+    "wont_boot": [
+      "I have had my laptop for less than a year! In December 2020, before I got a chance to back- up my files because my beloved Aunt passed away from COVID-19, while I was in class, I saved everything to my Hard Drive. On December 26, 2020, I went to start my computer and it would not Boot or Load. All the icons were on the screen but nothing happened! Tekrefurbs sent me some things to try but it didn'"
+    ],
+    "storage_failure": [
+      "I bought this laptop because my presentation laptop turned up its toes, and I had a number of conventions to get through this summer. I purchased it in July of 2018.  I had an immediate issue with the battery - but the seller quickly refunded me enough $$ to purchase a new battery. Check. The laptop made it through my presentations this summer, and it continued to work well right up until...tonigh",
+      "About a week after I got this computer I started having problems. I contacted Olive Computers but they did not get back to me.<br /><br />A couple of weeks later, the hard drive quit working. I contacted Olive Computers again. They said they wouldn't or couldn't help me. I contacted Amazon and immediately started a return.<br /><br />I didn't hear anything for a week so I chatted with Amazon custo",
+      "The computer hard drive died less a year of receiving it. I suppose at this price, you can say it was a throw away piece. But the fact that I also wasted money buying Microsoft Office for this thing makes me a bit mad."
+    ],
+    "wont_power_on": [
+      "Battery died within 6 months but I used as a desktop until now. Less than 2 years in and no longer will turn on. Booooooo",
+      "I contacted the seller and they replaced the power supply and it has been working great.<br />  Had for 1 week and already stopped working"
+    ],
+    "battery_failure": [
+      "I use this laptop for online gaming. I have had no problems with the laptop itself, but the battery has given me a few things to complain about.<br />The charger that was originally given to me stopped working one day after using it. The seller quickly replaced it.<br />The laptop battery just doesn't want to hold a charge, though. It has to be plugged in to be used because I can't get more than 3"
+    ],
+    "charging_port_failure": [
+      "I would not even give a one star for this!<br /><br />The laptop I received has several cosmetic flaws including dents, chipped paint, scratches, and a stripped screw. It does NOT look &#34;like new&#34;. I will put a follow-up review on the working of this laptop....<br /><br />Follow-up: The charging cord which came with the laptop stopped working within a less than 2 months."
+    ],
+    "stopped_working": [
+      "Update...assurion is refunding me for the $214 but not the $42.99<br /><br />Mouse pad was acting strange from day one, stopped working within a couple weeks. Exterior mouse worked for a bit, now nothing works. Assurion says it should be under manufacturers warranty, I called manufacturer who looked into it and said I bought a 7 year old computer and I got scammed.  Awesome.  Paid $214 for laptop ",
+      "After a year this computer stopped working.",
+      "Completely died after less than 3 months. Piece of junk and not worth the money at all."
+    ],
+    "screen_failure": [
+      "Bought it for my wife after a month it got stuck on home screen. Don\u2019t buy piece of junk."
+    ]
+  },
+  "published": true
+}

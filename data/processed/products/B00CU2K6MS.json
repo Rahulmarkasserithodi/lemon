@@ -1,0 +1,200 @@
+{
+  "parent_asin": "B00CU2K6MS",
+  "title": "Acer Aspire V5-131-2629 11.6\" Laptop (Black)",
+  "brand": "acer",
+  "image": "https://m.media-amazon.com/images/I/412RLkUwNxL._AC_.jpg",
+  "price": 399.99,
+  "average_rating": 3.9,
+  "n_reviews": 357,
+  "n_candidates": 57,
+  "n_obs": 39,
+  "n_events": 18,
+  "median_months": 10.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 479.99,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9487,
+      "lo": 0.8102,
+      "hi": 0.9869
+    },
+    {
+      "t": 0.1,
+      "s": 0.9487,
+      "lo": 0.8102,
+      "hi": 0.9869
+    },
+    {
+      "t": 0.25,
+      "s": 0.9224,
+      "lo": 0.7782,
+      "hi": 0.9743
+    },
+    {
+      "t": 0.33,
+      "s": 0.8944,
+      "lo": 0.7423,
+      "hi": 0.9591
+    },
+    {
+      "t": 1.0,
+      "s": 0.8665,
+      "lo": 0.708,
+      "hi": 0.9422
+    },
+    {
+      "t": 1.5,
+      "s": 0.8344,
+      "lo": 0.6664,
+      "hi": 0.9224
+    },
+    {
+      "t": 2.0,
+      "s": 0.8023,
+      "lo": 0.6274,
+      "hi": 0.9011
+    },
+    {
+      "t": 3.0,
+      "s": 0.6739,
+      "lo": 0.4863,
+      "hi": 0.8057
+    },
+    {
+      "t": 4.0,
+      "s": 0.599,
+      "lo": 0.4067,
+      "hi": 0.7469
+    },
+    {
+      "t": 6.0,
+      "s": 0.5591,
+      "lo": 0.3658,
+      "hi": 0.7145
+    },
+    {
+      "t": 7.0,
+      "s": 0.5125,
+      "lo": 0.3173,
+      "hi": 0.6775
+    },
+    {
+      "t": 8.0,
+      "s": 0.5125,
+      "lo": 0.3173,
+      "hi": 0.6775
+    },
+    {
+      "t": 10.0,
+      "s": 0.4613,
+      "lo": 0.2658,
+      "hi": 0.6365
+    },
+    {
+      "t": 12.0,
+      "s": 0.41,
+      "lo": 0.2185,
+      "hi": 0.5929
+    },
+    {
+      "t": 18.0,
+      "s": 0.41,
+      "lo": 0.2185,
+      "hi": 0.5929
+    },
+    {
+      "t": 42.0,
+      "s": 0.3075,
+      "lo": 0.11,
+      "hi": 0.5326
+    },
+    {
+      "t": 48.0,
+      "s": 0.3075,
+      "lo": 0.11,
+      "hi": 0.5326
+    },
+    {
+      "t": 60.0,
+      "s": 0.3075,
+      "lo": 0.11,
+      "hi": 0.5326
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "control_failure",
+      "count": 7
+    },
+    {
+      "mode": "storage_failure",
+      "count": 3
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 2
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 2
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 2
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 2
+    },
+    {
+      "mode": "stopped_working",
+      "count": 1
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "charging_port_failure": [
+      "It lasted less than a semester. It had some minor issues with the space bar from the beginning but nothing too serious. The problem now, only 3 months after I bought it, is that there's an issue with the battery or the charger... whatever it is, it's not charging. I tries to charge for a few seconds and then it stops and all the lights start blinking...",
+      "I bought this laptop for my sister for $600+tax (on sale) for back to school back in August 2013. I read mixed reviews but thought that I should give them a chance. I was wrong. After a month use, the WIFI on her laptop kept dropping and after a few weeks her laptop would no longer charge and that was a huge inconvenience for her as a student.<br />I went back to forums and many people cited those"
+    ],
+    "physical_breakage": [
+      "It's working as expected, a cooling fan is an absolute necessity though.<br /><br />EDIT: After a few months the screen cracked from picking it up by the corner. Whoops, thought it was light enough for that to not happen",
+      "Do not buy this laptop. I purchased this laptop in December and the casing that covers the keyboard has already started to crack in two places from normal, light use.  I inquired with warranty service about getting it fixed and was first told that it was not covered.  After talking with a supervisor, they informed me that my only option was to ship my laptop to Texas for two weeks to have them loo"
+    ],
+    "control_failure": [
+      "STAY AWAY. Worthless after 10 months, maybe earlier.  It started with the touchpad. I used a mouse almost all the time so when I did use the touchpad, it was totally disconnected from what was happening on the screen.  OK, I can live with that. Then, it was the almost daily blue screens.  Since it was still under the one year warranty, I sent it in and it started having the blue screens again.<br ",
+      "After less than a month of use, the touchpad went out. I had to pay to ship it to the Acer repair center. All they did was return the unit to its factory settings which somehow took several weeks. They did this even though I had already taken all the steps to resolve any software issues and explicitly told them and demonstrated that it was a hardware issue. When I got it back, it worked for about ",
+      "After about 2 months, touchpad gave out on me without any hope of being fixed. My husband is a computer technologist and cannot get this one figured out. I guess I wasted my money. I am truly upset. Don't make the mistake I did. Pay a few dollars more and get something better."
+    ],
+    "wont_power_on": [
+      "This laptop died after only 4 months. One day it just suddenly wouldn't turn on. I would not recommend this. I have purchased many Acer laptops over the years, and they're usually very good. This one is the exception.",
+      "Purchased this computer and, due to illness, was unable to try using it until now, 7 month later, and it doesn't work!!!  Got it to turn on, which took forever and then it would not turn back on.  We had given it a full charge before trying to use it so know it did not lack power.  The next day my husband got it to turn on and he took our McAfee and installed Norton, which I have on other 2 comput"
+    ],
+    "stopped_working": [
+      "I bought this 4 years ago for under 400 and it performed in outstanding fashion until about 6 months ago when it finally gave out on me. Im very satisfied it lasted as long as it did considering the punishment I put it through."
+    ],
+    "electrical_fault": [
+      "Ok for three months then developed a electrical short that turns it off when it is picked up and hard drive developed bad sectors resulting in software unable to load.  Sent it in for service.  More when it returns.<br /><br />Its back after Fed Ex ground service.  Short appears to be fixed (&#34;Replace back plate&#34; was the notation) and replaced the harddrive.  So give it a few months. The wa"
+    ],
+    "storage_failure": [
+      "I bought this computer in March 2014 and about a month later the audio stopped working. It took a while for me to get it to my technician. He now tells me that the entire hard drive needs replacing because it is faulty. I checked a while ago and realized that I cannot return it. The repair will cost me $600 TT- Trinidad and Tobago currency!!!",
+      "I've had good experiences with other netbooks. For around $300 you don't really need great longevity to justify the cost. If you get more than 2 years out of it then you've won. This little turd only lasted 4 months. Was only used for school purposes. Added, MS office, google chrome, windows media codec updates to watch distance learning lectures. By no means was the computer asked to do strenuous",
+      "I bought this laptop for my boyfriends birthday which was 2 days ago. I bought it towards the end of February since I wanted to be for sure that it arrived on time. I am so pissed off. We turned it on and it showed Windows starting up, then flashed to  a blue screen, then a black screen and said &#34;Windows cannot repair this computer.&#34; I tried reinstalling Windows, no luck. I think the hard "
+    ],
+    "keyboard_failure": [
+      "I bought this computer two years ago and within a year the &#34;T&#34; button on the keyboard went bad. I had no way of replacing it so I had to buy a whole new key kit to replace the one button. Within six months of replacement, three other keys had the same problem---including the first key that had the issue!!! It is so annoying trying to type with it. Now I have to attach a wireless keyboard i",
+      "I just received this today, and everything seemed great -- but I soon discovered that three of the keys just don't work ( the 5, 7, and 9).  I'm obviously going to have to return it, which is a major pain. I guess I'll ask for a replacement; I hope that happens quickly, since I really need a laptop within the next two weeks. I'll update this review with the outcome of the return."
+    ]
+  },
+  "published": true
+}

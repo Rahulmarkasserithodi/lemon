@@ -1,0 +1,279 @@
+{
+  "parent_asin": "B07N6S4SY1",
+  "title": "ASUS VivoBook L203MA Ultra-Thin Laptop, Intel Celeron N4000 Processor, 4GB LPDDR4, 64GB eMMC, 11.6\u201d HD, USB-C, Windows 10 in S Mode (Switchable to Pro), L203MA-DS04, One Year of Microsoft Office 365",
+  "brand": "ASUS",
+  "image": "https://m.media-amazon.com/images/I/51svyK3ruYL._AC_.jpg",
+  "price": 189.95,
+  "average_rating": 4.2,
+  "n_reviews": 642,
+  "n_candidates": 88,
+  "n_obs": 73,
+  "n_events": 60,
+  "median_months": 3.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 759.8,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9589,
+      "lo": 0.878,
+      "hi": 0.9866
+    },
+    {
+      "t": 0.06,
+      "s": 0.9452,
+      "lo": 0.8606,
+      "hi": 0.9791
+    },
+    {
+      "t": 0.1,
+      "s": 0.9452,
+      "lo": 0.8606,
+      "hi": 0.9791
+    },
+    {
+      "t": 0.12,
+      "s": 0.9313,
+      "lo": 0.8428,
+      "hi": 0.9708
+    },
+    {
+      "t": 0.25,
+      "s": 0.9035,
+      "lo": 0.8082,
+      "hi": 0.9528
+    },
+    {
+      "t": 0.33,
+      "s": 0.8894,
+      "lo": 0.7909,
+      "hi": 0.9431
+    },
+    {
+      "t": 0.5,
+      "s": 0.8753,
+      "lo": 0.7739,
+      "hi": 0.9331
+    },
+    {
+      "t": 0.75,
+      "s": 0.8322,
+      "lo": 0.7234,
+      "hi": 0.9011
+    },
+    {
+      "t": 0.83,
+      "s": 0.8176,
+      "lo": 0.7066,
+      "hi": 0.8898
+    },
+    {
+      "t": 1.0,
+      "s": 0.7154,
+      "lo": 0.5941,
+      "hi": 0.8062
+    },
+    {
+      "t": 1.17,
+      "s": 0.6999,
+      "lo": 0.5773,
+      "hi": 0.7931
+    },
+    {
+      "t": 2.0,
+      "s": 0.5599,
+      "lo": 0.4333,
+      "hi": 0.6688
+    },
+    {
+      "t": 2.03,
+      "s": 0.5443,
+      "lo": 0.418,
+      "hi": 0.6544
+    },
+    {
+      "t": 2.13,
+      "s": 0.5288,
+      "lo": 0.4028,
+      "hi": 0.6399
+    },
+    {
+      "t": 3.0,
+      "s": 0.4199,
+      "lo": 0.3001,
+      "hi": 0.535
+    },
+    {
+      "t": 4.0,
+      "s": 0.4044,
+      "lo": 0.2859,
+      "hi": 0.5195
+    },
+    {
+      "t": 5.0,
+      "s": 0.3422,
+      "lo": 0.2306,
+      "hi": 0.4566
+    },
+    {
+      "t": 6.0,
+      "s": 0.2799,
+      "lo": 0.1775,
+      "hi": 0.3916
+    },
+    {
+      "t": 6.5,
+      "s": 0.2625,
+      "lo": 0.1625,
+      "hi": 0.3735
+    },
+    {
+      "t": 7.0,
+      "s": 0.2275,
+      "lo": 0.1335,
+      "hi": 0.3366
+    },
+    {
+      "t": 8.0,
+      "s": 0.21,
+      "lo": 0.1195,
+      "hi": 0.3177
+    },
+    {
+      "t": 9.0,
+      "s": 0.1925,
+      "lo": 0.1058,
+      "hi": 0.2986
+    },
+    {
+      "t": 11.0,
+      "s": 0.1732,
+      "lo": 0.0907,
+      "hi": 0.2779
+    },
+    {
+      "t": 12.0,
+      "s": 0.1347,
+      "lo": 0.0623,
+      "hi": 0.2351
+    },
+    {
+      "t": 13.0,
+      "s": 0.1078,
+      "lo": 0.042,
+      "hi": 0.209
+    },
+    {
+      "t": 18.0,
+      "s": 0.0808,
+      "lo": 0.0248,
+      "hi": 0.1806
+    },
+    {
+      "t": 24.0,
+      "s": 0.0404,
+      "lo": 0.0044,
+      "hi": 0.1504
+    },
+    {
+      "t": 36.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "wont_power_on",
+      "count": 34
+    },
+    {
+      "mode": "stopped_working",
+      "count": 8
+    },
+    {
+      "mode": "wont_boot",
+      "count": 5
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 4
+    },
+    {
+      "mode": "battery_failure",
+      "count": 4
+    },
+    {
+      "mode": "control_failure",
+      "count": 4
+    },
+    {
+      "mode": "screen_failure",
+      "count": 2
+    },
+    {
+      "mode": "overheating",
+      "count": 1
+    },
+    {
+      "mode": "storage_failure",
+      "count": 1
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "wont_power_on": [
+      "Worst purchase ever and experience ever, less than a month after I purchased this PC for my son the power supply died and ASUS refused to replace it.  They said I had to send them back the $5.00 power supply before they would replace it.  I Had to buy another power supply just to get the PC up and running. After I sent the power supply back they claimed that they never got it. Now mind you the def",
+      "Bought this computer and within 3 weeks it went dead. Made a couple of attempts to rectify through the ASUS website but their site doesn't recognize the serial number and won't let you lodge a complaint without it. This is the second ASUS like this that I've wasted money on. HP - Dell are way better options and much better support. This ASUS is junk. don't waste your money. If you could get decent",
+      "What computer two months ago five days after return date will not turn on asking for help from Amazon or seller spent a little over $200 and looking for help or guidance this computer just is not working I will change my review based on helping me or figuring out what the problem is but this is bad business to spend money for a computer does not work please call me at 781"
+    ],
+    "charging_port_failure": [
+      "after 2 months of use only for virtual classes of child in second grade, the charger stopped charging, does not work, I contacted the seller and never answered.  I do not recommend this product and much less for the lack of attention of the manufacturer who is supposed to give me a 3-month warranty.  I do not recommend this product no matter how cheap you see it or at least this seller",
+      "Cheap computer that does enough for my 10 year old. This was a last minute christmas gift for my son. Wanted something cheap enough that if it broke (dropped,etc) we weren't out hundreds of dollars but something he could play Minecraft, Roblox, etc on and do occasional school work on.  This computer has gotten a great deal more use this year (thanks a lot 2020) and has been doing full time remote ",
+      "Worked fine for my child for 5 months, then it stopped charging. Warranty requests through Asus have been ignored for more than 2 weeks at this point so I am unable to recommend this product."
+    ],
+    "battery_failure": [
+      "I bought the laptop specifically so I wouldn't have to be stuck at my desk, on my desktop, when I wanted to work on things. Started out just fine, too. I was able to carry it anywhere I needed, because the design leaves it VERY lightweight, and the battery life was pretty decent.<br />Or, rather, the battery life used to be decent. About a month or so in, the battery stopped charging. At least, th",
+      "I had to return this computer because the battery couldn\u2019t stay charged for a day.  I\u2019ve owned other laptops and the battery stay charged for at least three days before charging it again.  OS is fine and it wasn\u2019t a touch screen.  Seemed to flimsy to carry.  It felt like toy which could break.  Don\u2019t recommend this unless it\u2019s only at a desk and stays plugged the whole time.  Then what\u2019s the point",
+      "Had this product 5 months and the battery died waste of money don't buy this product"
+    ],
+    "stopped_working": [
+      "It\u2019s good but quite small does not have touch screen but it is portable but it stopped working after 11 days do not get scammed by this",
+      "Product stopped working after 3 months. Woot has been a pain to deal with. Do not recommend.",
+      "Do not buy. I Bought it 3 months ago and it's not working anymore.  Customer service is nonexistent.  Now I have a piece of junk and ASUS doesn't help. They are not answering phones, neither chat their website don't give customer service options."
+    ],
+    "overheating": [
+      "This device lasted only two months before it died. two months!!!<br />Don't buy one. they overheat and then there's no support!!<br />service center isn't answering phones.... chat isn't answering... and then there's an automated<br />product return for service ... to somewhere overseas!!!<br /><br />Tossed it in the trash and bought something else.. definitely never an Asus !"
+    ],
+    "control_failure": [
+      "I initially liked everything about this computer. Unfortunately, just a few months in and I am having problems. First, the security icon in my task bar indicated a \"quick scan\" was due. When I clicked the button to scan, nothing happened after several minutes of the little blue dots going across the screen indicating the computer was working. This happened after several attempts to scan the comput",
+      "I bought this laptop for my daughter on her birthday. Its a good laptop but the audio just stopped working one day. I've tried fixing it but doesnt get fixed.",
+      "I was able to return it and get a full refund which is great, but I would not recommend this. I don't game or anything, just normal internet browsing etc.<br />After a few weeks this computer wouldn't even play a show on Netflix without constantly buffering."
+    ],
+    "wont_boot": [
+      "Great when it works and was the ideal little laptop to take on business trips.  BUT.....  The computer DIED after 35 days and was temperamental before then (grey screen, flickering screen, apps closing unexpectedly).  NOT impressed with ASUS.  Thankfully I have a MAC as 'backup'.  Going through the warranty process now.....",
+      "I bought this laptop just over 3 months ago.  Today it failed and will not boot.  Error messages and shuts down seconds after turning it on.  Of course the window to return it closed two weeks ago.  Total trash computer.  Never again ASUS.  Nor will I buy a computer again through Amazon.",
+      "UPDATED FOR LOWER SCORE: So while I think if it works, it's decent for the price, the issue is that over the past few months, I've had unfortunate issues with the laptop just out of the blue not wanting to boot, nor will it charge, or even display the battery light. Literally dead as a brick.<br /><br />However if you let it sit for ~24-36 hours, *then* plug it in, suddenly it will work just fine "
+    ],
+    "screen_failure": [
+      "Trash absolute trash. Touch screen didnt work and the whole thing stopped working not even a month after purchasing.",
+      "We\u2019ve had this for four weeks and it just quit working. Screen went black, can\u2019t turn it off or on, nothing. We have antivirus software on it and it hasn\u2019t suffered any damage. Very disappointed."
+    ],
+    "storage_failure": [
+      "Because I can multitask at work, I bought this laptop for my personal use at work: \"listening to YT\", trading stocks, handling some personal things.  With a hotspot, I can do things at work that can only be done on a phone.  I use the same computer for the same purpose after I am home.  Therefore, it is on almost 16 hours everyday.  After two years I left it at home for a week because I could use "
+    ],
+    "keyboard_failure": [
+      "I love the size of the device.  It worked great until a few months ago.  First, the shift key on the right side stopped working.  Then, the next day, the Enter key failed to work.  Since it\u2019s too late to return it, I figured out a work around.  Then last month the Shift key on the left side fails to work to capitalize letters. I have to use the CAP lock key.  This weekend, in certain apps the typi"
+    ]
+  },
+  "published": true
+}

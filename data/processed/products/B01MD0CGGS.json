@@ -1,0 +1,188 @@
+{
+  "parent_asin": "B01MD0CGGS",
+  "title": "Apple MacBook Pro MLW82LL/A 15.4-inch Laptop with Touch Bar, 2.7GHz quad-core Intel Core i7, 512GB, Retina Display, Silver (Discontinued by Manufacturer)",
+  "brand": "Apple",
+  "image": "https://m.media-amazon.com/images/I/41i2yZD9EnL._AC_.jpg",
+  "price": 915.56,
+  "average_rating": 4.3,
+  "n_reviews": 323,
+  "n_candidates": 52,
+  "n_obs": 31,
+  "n_events": 18,
+  "median_months": 11.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 998.79,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.01,
+      "s": 0.9677,
+      "lo": 0.7923,
+      "hi": 0.9954
+    },
+    {
+      "t": 0.03,
+      "s": 0.9355,
+      "lo": 0.7659,
+      "hi": 0.9835
+    },
+    {
+      "t": 0.12,
+      "s": 0.9355,
+      "lo": 0.7659,
+      "hi": 0.9835
+    },
+    {
+      "t": 0.13,
+      "s": 0.9355,
+      "lo": 0.7659,
+      "hi": 0.9835
+    },
+    {
+      "t": 0.15,
+      "s": 0.9355,
+      "lo": 0.7659,
+      "hi": 0.9835
+    },
+    {
+      "t": 0.25,
+      "s": 0.8981,
+      "lo": 0.7152,
+      "hi": 0.9661
+    },
+    {
+      "t": 0.75,
+      "s": 0.8125,
+      "lo": 0.6029,
+      "hi": 0.9184
+    },
+    {
+      "t": 1.0,
+      "s": 0.8125,
+      "lo": 0.6029,
+      "hi": 0.9184
+    },
+    {
+      "t": 2.0,
+      "s": 0.6602,
+      "lo": 0.4258,
+      "hi": 0.8171
+    },
+    {
+      "t": 3.0,
+      "s": 0.6002,
+      "lo": 0.3609,
+      "hi": 0.7743
+    },
+    {
+      "t": 6.0,
+      "s": 0.5402,
+      "lo": 0.3023,
+      "hi": 0.7283
+    },
+    {
+      "t": 11.0,
+      "s": 0.4801,
+      "lo": 0.2487,
+      "hi": 0.6792
+    },
+    {
+      "t": 12.0,
+      "s": 0.3001,
+      "lo": 0.1134,
+      "hi": 0.514
+    },
+    {
+      "t": 12.5,
+      "s": 0.2401,
+      "lo": 0.0769,
+      "hi": 0.4522
+    },
+    {
+      "t": 14.0,
+      "s": 0.1801,
+      "lo": 0.0455,
+      "hi": 0.3863
+    },
+    {
+      "t": 24.0,
+      "s": 0.06,
+      "lo": 0.004,
+      "hi": 0.238
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "screen_failure",
+      "count": 6
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 5
+    },
+    {
+      "mode": "control_failure",
+      "count": 3
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 2
+    },
+    {
+      "mode": "stopped_working",
+      "count": 2
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 1
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 1
+    },
+    {
+      "mode": "storage_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "screen_failure": [
+      "The screen cracked within 3 months",
+      "Screen stopped working after a little over a year of light use.  Too expensive to repair.",
+      "I received the computer and began to set it up. After about an hour I was trying to edit a photograph and immediately noticed the colors were &#34;off&#34; on the screen. The reds were nearly black and skin tones looked sickly - like everything was triple &#34;HDRed&#34;. I've used MBPs for many many years. Thinking it was just a screen setting I researched online and found no answers. I called Ap"
+    ],
+    "wont_power_on": [
+      "hardly used- crashed- crashed- crashed  -crashed-<br />then wouldn't turn on- apple store- gee, golly, it won't turn on- they threatened a repair bill if I damaged the machine- I did not- they suggested they might give me a refurb- for a machine less than six months old - I spent decades wanting the best of the best- then, well, it sucks and I am headed back to windows- shame on apple- shame on th"
+    ],
+    "charging_port_failure": [
+      "I've been a fan of the MacBook Pro line for almost a decade now, but after purchasing the latest MBP with touchscreen I may (reluctantly) jump back to Windows.  It just feels to me like Apple is slipping . Stuff that never would have gotten by when Jobs ran the company is slowly seeping into their product line, pulling a company world renowned for their superior hardware designs back to mediocrity",
+      "I have been an Apple loyalist for well over 20 years and always excited to upgrade to their newest innovations. On my last upgrade sweep, I purchased a loaded MacBook Pro 13 with a 1 TB SSD drive and 16GB of RAM, along with the OLED control strip. Within 60 days of ownership, one of the USB-C ports failed. It stopped functioning and wouldn't hold a charge cable or mount a drive. I had purchased th"
+    ],
+    "keyboard_failure": [
+      "My 13&#34; 2016 MacBook Pro worked great for about three weeks, then it started having keyboard issues when warm; keys got stuck or unresponsive. The only way to temporarily fix the issue was to do a hard shutdown (hold the power button for six seconds), wait till the laptop cooled down, then turn it back on. Hardly an optimal solution when this is supposed to be your main computer, especially whe",
+      "If you're buying a MacBook, the best thing you can do is buy it directly from Apple, refurbished or new. Then, you know you're getting a genuine product that has met Apple's standards. Plus, there's no shenanigans with the warranty.<br /><br />I purchased my first MacBook Pro about 5 years ago. I was using it for recording, and it did the job. Over the next few years, the technology surpassed my M",
+      "This is a HORRIBLE laptop and the last<br />MacBook Pro I will ever own. I\u2019ve owned MBP since 2011 so this is the third MBP and the reliability of this latest is extremely bad. I purchased it new Feb 2018 and it has been in for repair for the touchbar (failed) and then the USB ports went out, and most recently the keyboard has started failing because the keys get stuck. Each time it goes in for re"
+    ],
+    "control_failure": [
+      "Quick list of problems off the top of my head:<br />- Flickering screen, artifacts, screen tearing and other graphical issues. On the retina screen itself and on my thunderbolt display (yes using genuine apple adapter). Gets worse with any type of graphic intensive program or activity (sketch, photoshop, illustrator, or even youtube). Apple supposedly released an update to fix it but it still occu",
+      "The sad story about the new MacBook pro<br /><br />In 11.18.16 I was very happy to buy a new MacBook pro (13 inch, 2016) at the Apple store in Minneapolis, Minnesota. After five years of using another MacBook I was sure that I will have this as a working computer for a long period of time. Two days later, the computer and I left the USA, and traveled home to Israel.<br /><br />12.11.16 could be a ",
+      "Had less than one year and logic board failed. $1100 repair on a $2,000 device."
+    ],
+    "stopped_working": [
+      "Don\u2019t buy from this company.  Computer only lasted 14 months - it was a MacBook Pro.  Will cost $475 to get repaired.",
+      "The laptop worked fine for a full year; but exactly 2 weeks after the warranty ended it died unexpectedly. And the only apple service provider (500km away). quoted me 1100 USD to fix it. And apple support has been unhelpful.<br /><br />I bought 3 of these; two 2016 model; and a 2017 one, all of them seem to have a problem one way or another and having no support makes it a risky move to buy any of"
+    ],
+    "physical_breakage": [
+      "Most expensive and worst apple product I have ever bought. Back in November I bough the new Macbook Pro thinking that for the cost that it should be a reliable computer but it isn't. Since the New Year, I have had to ship it into apple twice, first because it randomly decided not to log on and apple had it for over a week and they couldn't find anything wrong with it. Second is that the bottom sec"
+    ],
+    "storage_failure": [
+      "Apple has either become to greedy or stupid......<br /><br />Bought this computer on jan 2017, hated the fact that it didn't have Usb connectors, sd card reader since the computer was nice and compact.<br /><br />Yesterday my mac died (the question mark symbol) and found the SSD is dead! since one year has passed the warranty is over (what a bad product, even the cheapest PCs last longer).<br /><b"
+    ]
+  },
+  "published": true
+}

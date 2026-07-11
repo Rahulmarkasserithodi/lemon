@@ -1,0 +1,249 @@
+{
+  "parent_asin": "B01LZ6XKS6",
+  "title": "Samsung Chromebook Plus Convertible Touch Laptop (XE513C24-K01US)",
+  "brand": "SAMSUNG",
+  "image": "https://m.media-amazon.com/images/I/410zHat-XHL._AC_.jpg",
+  "price": 179.99,
+  "average_rating": 4.1,
+  "n_reviews": 632,
+  "n_candidates": 100,
+  "n_obs": 70,
+  "n_events": 42,
+  "median_months": 3.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 719.96,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9714,
+      "lo": 0.8906,
+      "hi": 0.9928
+    },
+    {
+      "t": 0.06,
+      "s": 0.9714,
+      "lo": 0.8906,
+      "hi": 0.9928
+    },
+    {
+      "t": 0.09,
+      "s": 0.9565,
+      "lo": 0.8711,
+      "hi": 0.9858
+    },
+    {
+      "t": 0.12,
+      "s": 0.9413,
+      "lo": 0.851,
+      "hi": 0.9776
+    },
+    {
+      "t": 0.15,
+      "s": 0.9413,
+      "lo": 0.851,
+      "hi": 0.9776
+    },
+    {
+      "t": 0.25,
+      "s": 0.895,
+      "lo": 0.7921,
+      "hi": 0.9486
+    },
+    {
+      "t": 0.5,
+      "s": 0.8606,
+      "lo": 0.7485,
+      "hi": 0.9251
+    },
+    {
+      "t": 0.75,
+      "s": 0.8232,
+      "lo": 0.702,
+      "hi": 0.8985
+    },
+    {
+      "t": 1.0,
+      "s": 0.7109,
+      "lo": 0.5747,
+      "hi": 0.8104
+    },
+    {
+      "t": 1.25,
+      "s": 0.6714,
+      "lo": 0.532,
+      "hi": 0.7777
+    },
+    {
+      "t": 1.5,
+      "s": 0.6517,
+      "lo": 0.5111,
+      "hi": 0.7609
+    },
+    {
+      "t": 1.75,
+      "s": 0.6319,
+      "lo": 0.4906,
+      "hi": 0.7439
+    },
+    {
+      "t": 2.0,
+      "s": 0.5332,
+      "lo": 0.3918,
+      "hi": 0.6557
+    },
+    {
+      "t": 3.0,
+      "s": 0.4221,
+      "lo": 0.2848,
+      "hi": 0.553
+    },
+    {
+      "t": 4.0,
+      "s": 0.3693,
+      "lo": 0.2348,
+      "hi": 0.5042
+    },
+    {
+      "t": 6.0,
+      "s": 0.2841,
+      "lo": 0.159,
+      "hi": 0.4227
+    },
+    {
+      "t": 6.25,
+      "s": 0.2557,
+      "lo": 0.1357,
+      "hi": 0.3941
+    },
+    {
+      "t": 7.0,
+      "s": 0.2273,
+      "lo": 0.1135,
+      "hi": 0.3646
+    },
+    {
+      "t": 11.0,
+      "s": 0.1989,
+      "lo": 0.0925,
+      "hi": 0.3343
+    },
+    {
+      "t": 12.0,
+      "s": 0.1705,
+      "lo": 0.0727,
+      "hi": 0.303
+    },
+    {
+      "t": 12.25,
+      "s": 0.1705,
+      "lo": 0.0727,
+      "hi": 0.303
+    },
+    {
+      "t": 15.0,
+      "s": 0.0852,
+      "lo": 0.0098,
+      "hi": 0.2694
+    },
+    {
+      "t": 36.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "screen_failure",
+      "count": 25
+    },
+    {
+      "mode": "control_failure",
+      "count": 5
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 5
+    },
+    {
+      "mode": "stopped_working",
+      "count": 4
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 3
+    },
+    {
+      "mode": "wont_boot",
+      "count": 2
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 2
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 2
+    },
+    {
+      "mode": "other",
+      "count": 1
+    },
+    {
+      "mode": "battery_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "other": [
+      "Like others have stated I immediately had trouble with the speakers . The device ran very smooth and looks great just couldn't see spending so much money on something that was broken on day 1 so I returned it."
+    ],
+    "control_failure": [
+      "Very bad built quality.  Track pad died after a few days' use. Touch screen feels like plastic film detached from screen.  Basically feels like a budget low quality laptop.",
+      "I love the Chromebook as a whole. The keyboard is decent, the screen is great. Being able to flip in tablet mode is awesome. All that was great until....... Wifi connection started dropping. In the beginning, I could reset the wifi, and it would work fine. Then it turned into restart the device, and finally, it just wouldn't connect at all. So, I sent it off for repair from Samsung (they do have p",
+      "Could possibly be returning it.  I'm sure the product itself is great but it arrived in an extremely damaged and oversized box so the device had clearly been slamming around in there the whole way to my house and I think that directly relates to the fact that at least 5 times per day since I got it(which was less than 7 days ago) it has frozen to the point where not even the power button works and"
+    ],
+    "screen_failure": [
+      "Same issues other are having touchscreen just stops working via touch.  Still works with stylist.  Machine is 3 months old unacceptable.",
+      "I love this Chromebook, but it will move and right click on its own. Frequently.  It is annoying and keeps coming back as an issue no matter how many times you reset.<br />Update:  After three years with this chromebook, the phantom touches and flickering screen just keep getting worse.  The charger doesn't stay tight and I've had to buy three different chargers as they stop working quickly.<br />",
+      "(ANOTHER UPDATE:  Touchscreen has died after approximately a month.  Beginning the repair/exchange process.  Boo.)<br /><br />(UPDATE to UPDATE:  Powerwashing solved the disappearing mic problem.  Adding the fourth star back.)<br /><br />(UPDATE:  Unfortunately, a very annoying problem has popped up.  Long/short, the mic dies when the device is slept/woken.  I.e., the mic ONLY works upon initial p"
+    ],
+    "wont_boot": [
+      "The quality of this Chromebook feels good. Nice weight for the most part. I thought I could be happy with it. But turned out to be a lemon<br /><br />What I did not like:<br />1) the touch pad seemed quirky.<br />2) outside scratches way too easily.<br />3) stopped working after three days.<br /><br />The thing stopped taking a charge and would not boot up.",
+      "Garbage.  Just like cheap chinese crap but at a premium price.  Started developing a random reboot problem after only 6 months.  It didn't get bad enough to address until just after my 1 year warranty was up.  Even now it probably only happens every 15 minutes or so, enough to make the laptop useless, but not enough for customer service to be able to reproduce the problem.<br /><br />I'm not buyin"
+    ],
+    "physical_breakage": [
+      "My daughter was so looking forward to this Chromebook as it has a lot of great features. She really liked the touchscreen, the integrated stylus, and the convertible screen that can turn it into more of a tablet. We did learn that the OS is quite different than what we're used to but we figured it out okay. The downside: in less than two weeks she managed to crack the screen, which is glass. Didn'",
+      "I bought this about 3 months ago, the pen broke within one months use, I replaced it thinking it was no big deal. Not even a month later the computer starts falling apart, the corner of the screen started to come off, then the part that connects the screen to the keyboard broke off. its in pieces and I haven't even had it 4 months yet!! I've only used it a hand full of times, and its already worth"
+    ],
+    "stopped_working": [
+      "This was a nice tablet sized laptop. I will say that the stylus was almost unusable. I couldn't use it to take notes/write without the screen moving on the chromebook. It's like it wasn't registering the stylus. Whic Is the main reason I purchased this. The chromebook also stopped working after about 7 months. Not worth it in the end, in my opinion.",
+      "Item was not functional. Still have not received  refund after sending in return a week ago. Buyer beware.",
+      "Stopped working after one month. Now I'm out $400 and i can't  return it!"
+    ],
+    "keyboard_failure": [
+      "Purchased five of these for a project here and had to send two of them back to Samsung for failing keyboards after less than a week.",
+      "My son uses this for school and it is less than 2 years old.<br /><br />The hinges no longer hold the screen up (arguably due to design, the screen is heavy and can't hold up under the weight after moderate use).<br /><br />The D and F keys no longer work, I've tried to factory reset... I've done a hardware reset... I've cleaned under the keys for debris - nothing has worked to restore that functi"
+    ],
+    "wont_power_on": [
+      "Dead within 3 months, wont charge, wont turn on and now Im stuck with a limited warranty and might get screwed by samsung support, buyer beware",
+      "I see this has happened to at least one other person here as well. Purchased in February and used it all of 4 times and I take excellent care of my devices. Barely 3 months later, I took it out to prepare for a presentation and it won't take a charge or power from the AC cord. Totally screwed me over and I had to ship it off to get repaired. Mind you I live in the city where their flagship store i",
+      "Purchased this about 1.5 years ago, randomly stopped turning on after about 15 mos of light use.  Just outside of warranty and I am getting repair quotes that are almost the same cost as a brand new top end chromebook.  Avoid this at all costs and be suspect of all Samsung Chromebooks in my opinion."
+    ],
+    "charging_port_failure": [
+      "I bought this Chromebook for Christmas last year (2017) for my daughter. We both love it! It does pretty much everything a standard windows laptop does. I actually want to get one for myself. I'm only giving it 4 stars because just recently the charger stopped working. I contacted Samsung regarding the warranty and they stated that for all the accessories its only covered for 3 months... are you k",
+      "Never buying another Samsung product. I purchased this shortly after it was released from Best Buy.  A section of the screen goes dim occasionally (opening/closing adjusting angle) and the right USB-C port stopped working. Customer support is terrible and looks like I'm going to be without a computer for a few weeks until it's repaired.",
+      "I bought this computer less then a year ago and the charger is not working. The computer stopped to charge and has constant glitches. Very upset. Please contact me in regards to the computer stopping to charge randomly"
+    ],
+    "battery_failure": [
+      "Update: Have received two Chromebooks that within 30 days stopped turning on and when charging the battery flight would flicker between blue, red, and purple. I found a hack online to fix:<br /><br />Plug in your chromebook.<br />Hold down the Esc, Refresh, and Power buttons until the charge light turns to solid red.<br />Leave it charging for at least 4 hours. Charge light will turn green.<br />N"
+    ]
+  },
+  "published": true
+}

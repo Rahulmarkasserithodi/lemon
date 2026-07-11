@@ -110,6 +110,20 @@
     "cost_per_year": 499.98
   },
   {
+    "parent_asin": "B01CVOLVPA",
+    "title": "Acer Chromebook 14, Aluminum, 14-inch Full HD, Intel Celeron N3160, 4GB LPDDR3, 32GB, Chrome, CB3-431-C5FM",
+    "brand": "Acer",
+    "image": "https://m.media-amazon.com/images/I/41810iOekqL._AC_.jpg",
+    "subcategory": "Traditional Laptops",
+    "price": 298.0,
+    "average_rating": 4.2,
+    "n_obs": 113,
+    "n_events": 79,
+    "median_months": 6.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 596.0
+  },
+  {
     "parent_asin": "B09W5PMK5X",
     "title": "COMFEE\u2019 Washing Machine 2.4 Cu.ft LED Portable Washing Machine and Washer Lavadora Port\u00e1til Compact Laundry, 8 Models, Environmentally Friendly, Child Lock for RV, Dorm, Apartment Ivory White",
     "brand": "COMFEE'",
@@ -124,6 +138,34 @@
     "cost_per_year": 399.0
   },
   {
+    "parent_asin": "B01J42JPJG",
+    "title": "Acer Chromebook R 11 Convertible, 11.6-Inch HD Touch, Intel Celeron N3150, 4GB DDR3L, 32GB, CB5-132T-C1LK, Denim White",
+    "brand": "Acer",
+    "image": "https://m.media-amazon.com/images/I/41z-OvZA98L._AC_.jpg",
+    "subcategory": "2 in 1 Laptops",
+    "price": 428.32,
+    "average_rating": 4.5,
+    "n_obs": 112,
+    "n_events": 76,
+    "median_months": 11.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 467.26
+  },
+  {
+    "parent_asin": "B08CSHM6L3",
+    "title": "HP Chromebook 14-inch Laptop with 180-Degree Swivel, AMD Dual-Core A4-9120 Processor, 4 GB SDRAM, 32 GB eMMC Storage, Chrome OS (14-db0020nr, Chalkboard Gray)",
+    "brand": "HP",
+    "image": "https://m.media-amazon.com/images/I/41aJI7f6DlL._AC_.jpg",
+    "subcategory": "",
+    "price": 179.83,
+    "average_rating": 4.4,
+    "n_obs": 80,
+    "n_events": 71,
+    "median_months": 4.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 539.49
+  },
+  {
     "parent_asin": "B019JD7790",
     "title": "Whirlpool Self Cleaning, Hot and Cold, Stainless Bottom Load Water Cooler with LED Indicators",
     "brand": "Whirlpool",
@@ -135,6 +177,20 @@
     "median_months": 12.0,
     "median_is_lower_bound": false,
     "cost_per_year": null
+  },
+  {
+    "parent_asin": "B07N6S4SY1",
+    "title": "ASUS VivoBook L203MA Ultra-Thin Laptop, Intel Celeron N4000 Processor, 4GB LPDDR4, 64GB eMMC, 11.6\u201d HD, USB-C, Windows 10 in S Mode (Switchable to Pro), L203MA-DS04, One Year of Microsoft Office 365",
+    "brand": "ASUS",
+    "image": "https://m.media-amazon.com/images/I/51svyK3ruYL._AC_.jpg",
+    "subcategory": "Traditional Laptops",
+    "price": 189.95,
+    "average_rating": 4.2,
+    "n_obs": 73,
+    "n_events": 60,
+    "median_months": 3.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 759.8
   },
   {
     "parent_asin": "B0BT8TKBY8",
@@ -221,6 +277,20 @@
     "cost_per_year": 360.58
   },
   {
+    "parent_asin": "B00PVOY9T8",
+    "title": "Dell Inspiron 13 7000 Series i7347 13-Inch Convertible Touchscreen Laptop, Intel Core i3 Processor",
+    "brand": "Dell",
+    "image": "https://m.media-amazon.com/images/I/41JPeLep8wL._AC_.jpg",
+    "subcategory": "2 in 1 Laptops",
+    "price": 299.98,
+    "average_rating": 3.8,
+    "n_obs": 53,
+    "n_events": 44,
+    "median_months": 2.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 1799.88
+  },
+  {
     "parent_asin": "B0BX9GK3PB",
     "title": "Midea MRU05M2AWW Upright Freezer, 5.3 Cu.ft, white",
     "brand": "Midea",
@@ -249,6 +319,48 @@
     "cost_per_year": 419.99
   },
   {
+    "parent_asin": "B01LZ6XKS6",
+    "title": "Samsung Chromebook Plus Convertible Touch Laptop (XE513C24-K01US)",
+    "brand": "SAMSUNG",
+    "image": "https://m.media-amazon.com/images/I/410zHat-XHL._AC_.jpg",
+    "subcategory": "2 in 1 Laptops",
+    "price": 179.99,
+    "average_rating": 4.1,
+    "n_obs": 70,
+    "n_events": 42,
+    "median_months": 3.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 719.96
+  },
+  {
+    "parent_asin": "B00IQEA8UE",
+    "title": "Lenovo Yoga 2 11.6\" Touchscreen 2-in-1 Laptop PC - Intel Pentium N3520 / 4GB DDR3L / 500GB HD / HD Webcam / WLAN 802.11b/g/n / Bluetooth 4.0 / Windows 8.1 64-bit",
+    "brand": "Lenovo",
+    "image": "https://m.media-amazon.com/images/I/51zFDSAGWHL._AC_.jpg",
+    "subcategory": "2 in 1 Laptops",
+    "price": 260.39,
+    "average_rating": 3.7,
+    "n_obs": 50,
+    "n_events": 40,
+    "median_months": 6.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 520.78
+  },
+  {
+    "parent_asin": "B00WU37B2K",
+    "title": "ASUS T100 10-Inch Laptop [OLD VERSION]",
+    "brand": "ASUS",
+    "image": "https://m.media-amazon.com/images/I/51g5FYfhamL._AC_.jpg",
+    "subcategory": "Traditional Laptops",
+    "price": 219.95,
+    "average_rating": 3.8,
+    "n_obs": 58,
+    "n_events": 38,
+    "median_months": 6.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 439.9
+  },
+  {
     "parent_asin": "B09QC9947J",
     "title": "COMFEE' Countertop Dishwasher, Portable Dishwasher with 6L Built-in Water Tank, Mini Dishwasher with More Space Inside, 7 Programs, UV Hygiene& Auto Door Open, for Apartments, Dorms& RVs",
     "brand": "COMFEE'",
@@ -261,6 +373,20 @@
     "median_months": 4.0,
     "median_is_lower_bound": false,
     "cost_per_year": 1049.85
+  },
+  {
+    "parent_asin": "B00ATANVLG",
+    "title": "Lenovo IdeaPad Yoga 13 13.3-Inch Convertible 2 in 1 Touchscreen Ultrabook (Gray) 2013 Model",
+    "brand": "Lenovo",
+    "image": "https://m.media-amazon.com/images/I/41y2M0dgLlL._AC_.jpg",
+    "subcategory": "2 in 1 Laptops",
+    "price": 384.53,
+    "average_rating": 3.9,
+    "n_obs": 53,
+    "n_events": 36,
+    "median_months": 11.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 419.49
   },
   {
     "parent_asin": "B09KV17R2Y",
@@ -305,6 +431,20 @@
     "cost_per_year": 339.32
   },
   {
+    "parent_asin": "B09ZTB6D86",
+    "title": "HP 15-dy1036nr 10th Gen Intel Core i5-1035G1, 15.6-Inch FHD Laptop, Natural Silver",
+    "brand": "HP",
+    "image": "https://m.media-amazon.com/images/I/41p5adYQCyS._AC_.jpg",
+    "subcategory": "Traditional Laptops",
+    "price": 458.0,
+    "average_rating": 4.5,
+    "n_obs": 37,
+    "n_events": 33,
+    "median_months": 3.3,
+    "median_is_lower_bound": false,
+    "cost_per_year": 1665.45
+  },
+  {
     "parent_asin": "B0B4YS19SH",
     "title": "Midea MRC050S0AWW Chest Freezer, 5.0 Cubic Feet, White",
     "brand": "Midea",
@@ -331,6 +471,20 @@
     "median_months": 4.0,
     "median_is_lower_bound": false,
     "cost_per_year": 509.97
+  },
+  {
+    "parent_asin": "B07FPB9SB1",
+    "title": "Acer Chromebook R 13 Convertible, 13.3-inch Full HD Touch, MediaTek MT8173C, 4GB LPDDR3, 32GB, Chrome, CB5-312T-K5X4",
+    "brand": "Acer",
+    "image": "https://m.media-amazon.com/images/I/51XYSe+hfTL._AC_.jpg",
+    "subcategory": "2 in 1 Laptops",
+    "price": 279.99,
+    "average_rating": 4.4,
+    "n_obs": 41,
+    "n_events": 27,
+    "median_months": 6.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 559.98
   },
   {
     "parent_asin": "B0B7BJZ4LX",
@@ -361,6 +515,62 @@
     "cost_per_year": 308.0
   },
   {
+    "parent_asin": "B00CU2K6MS",
+    "title": "Acer Aspire V5-131-2629 11.6\" Laptop (Black)",
+    "brand": "acer",
+    "image": "https://m.media-amazon.com/images/I/412RLkUwNxL._AC_.jpg",
+    "subcategory": "Traditional Laptops",
+    "price": 399.99,
+    "average_rating": 3.9,
+    "n_obs": 39,
+    "n_events": 18,
+    "median_months": 10.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 479.99
+  },
+  {
+    "parent_asin": "B01J42JMQ2",
+    "title": "Acer Chromebook 14, Aluminum, 14-inch Full HD, Intel Celeron N3160, 4GB LPDDR3, 32GB, Chrome, Gold, CB3-431-C0AK",
+    "brand": "acer",
+    "image": "https://m.media-amazon.com/images/I/41lb2W+xO3L._AC_.jpg",
+    "subcategory": "Traditional Laptops",
+    "price": 289.16,
+    "average_rating": 4.3,
+    "n_obs": 27,
+    "n_events": 18,
+    "median_months": 11.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 315.45
+  },
+  {
+    "parent_asin": "B009F1JL5A",
+    "title": "ASUS S400CA-DH51 14-Inch TouchScreen Laptop",
+    "brand": "ASUS",
+    "image": "https://m.media-amazon.com/images/I/41mtNeVlYnL._AC_.jpg",
+    "subcategory": "Traditional Laptops",
+    "price": 499.95,
+    "average_rating": 3.6,
+    "n_obs": 42,
+    "n_events": 18,
+    "median_months": 12.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 499.95
+  },
+  {
+    "parent_asin": "B01MD0CGGS",
+    "title": "Apple MacBook Pro MLW82LL/A 15.4-inch Laptop with Touch Bar, 2.7GHz quad-core Intel Core i7, 512GB, Retina Display, Silver (Discontinued by Manufacturer)",
+    "brand": "Apple",
+    "image": "https://m.media-amazon.com/images/I/41i2yZD9EnL._AC_.jpg",
+    "subcategory": "",
+    "price": 915.56,
+    "average_rating": 4.3,
+    "n_obs": 31,
+    "n_events": 18,
+    "median_months": 11.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 998.79
+  },
+  {
     "parent_asin": "B07BR6G8T7",
     "title": "EdgeStar DWP62BL 6 Place Setting Energy Star Rated Portable Countertop Dishwasher - Black",
     "brand": "EdgeStar",
@@ -389,6 +599,76 @@
     "cost_per_year": 692.27
   },
   {
+    "parent_asin": "B0167W1VAM",
+    "title": "Lenovo - IdeaPad 100s 11.6\" Laptop/Intel Atom Z3735F/ 2GB Memory / 32GB eMMC Flash Memory/Webcam/Windows 10- Red",
+    "brand": "Lenovo",
+    "image": "https://m.media-amazon.com/images/I/31XGyapToqL._AC_.jpg",
+    "subcategory": "Traditional Laptops",
+    "price": 475.0,
+    "average_rating": 3.6,
+    "n_obs": 26,
+    "n_events": 17,
+    "median_months": 7.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 814.29
+  },
+  {
+    "parent_asin": "B01FWKBZP6",
+    "title": "Dell Latitude E6420 Laptop - HDMI - i5 2.5ghz - 4GB DDR3 - 320GB - DVD - Windows 10 64bit - (Renewed)",
+    "brand": "Amazon Renewed",
+    "image": "https://m.media-amazon.com/images/I/41GOQvsRuzS._AC_.jpg",
+    "subcategory": "Traditional Laptops",
+    "price": 169.0,
+    "average_rating": 3.7,
+    "n_obs": 20,
+    "n_events": 16,
+    "median_months": 2.5,
+    "median_is_lower_bound": false,
+    "cost_per_year": 811.2
+  },
+  {
+    "parent_asin": "B01M31QNF2",
+    "title": "Dell Latitude E6430 Laptop WEBCAM - HDMI - Intel Core i5 2.6ghz - 8GB DDR3 - 500GB - DVD - Windows 10 Pro 64bit - (Renewed)",
+    "brand": "Amazon Renewed",
+    "image": "https://m.media-amazon.com/images/I/41bbvZ26ukL._AC_.jpg",
+    "subcategory": "Traditional Laptops",
+    "price": 194.02,
+    "average_rating": 4.0,
+    "n_obs": 26,
+    "n_events": 16,
+    "median_months": 12.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 194.02
+  },
+  {
+    "parent_asin": "B08CSHM6K1",
+    "title": "HP Stream 14-inch Laptop, AMD Dual-Core A4-9120E Processor, 4 GB SDRAM, 64 GB eMMC, Windows 10 Home in S Mode with Office 365 Personal for One Year (14-ds0150nr, Diamond White)",
+    "brand": "HP",
+    "image": "https://m.media-amazon.com/images/I/41cwnrge11L._AC_.jpg",
+    "subcategory": "Traditional Laptops",
+    "price": 399.0,
+    "average_rating": 4.3,
+    "n_obs": 16,
+    "n_events": 14,
+    "median_months": 3.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 1596.0
+  },
+  {
+    "parent_asin": "B002JM2CB2",
+    "title": "Dell Latitude D610 Laptop CD-RW/ DVD Wireless Computer",
+    "brand": "Dell",
+    "image": "https://m.media-amazon.com/images/I/41SGQG-0EqL._AC_.jpg",
+    "subcategory": "Traditional Laptops",
+    "price": 249.95,
+    "average_rating": 3.9,
+    "n_obs": 17,
+    "n_events": 12,
+    "median_months": 3.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 999.8
+  },
+  {
     "parent_asin": "B0C6226Y9B",
     "title": "Kalamera Mini Fridge 15\" Wine Cooler Refrigerator - 30 Bottle Wine Fridge with Stainless Steel Refrigerator& Double-Layer Tempered Glass Door and Temperature Memory Function Built-in or Freestanding",
     "brand": "Kalamera",
@@ -400,6 +680,62 @@
     "median_months": 11.0,
     "median_is_lower_bound": false,
     "cost_per_year": 686.18
+  },
+  {
+    "parent_asin": "B01GVVMIPG",
+    "title": "HP EliteBook 8460P 14-inch Notebook PC - Intel Core i5-2520M 2.5GHz 8GB 250GB Windows 10 Professional (Renewed)",
+    "brand": "Amazon Renewed",
+    "image": "https://m.media-amazon.com/images/I/41UoSy0HyyL._AC_.jpg",
+    "subcategory": "Traditional Laptops",
+    "price": 184.69,
+    "average_rating": 3.5,
+    "n_obs": 24,
+    "n_events": 11,
+    "median_months": 12.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 184.69
+  },
+  {
+    "parent_asin": "B0BL44GJ5Y",
+    "title": "Lenovo 2020 IdeaPad Laptop ComputerAMD A6-9220e 1.6GHz 4GB Memory 64GB eMMC Flash Memory 14\" AMD Radeon R4 AC WiFi Microsoft Office 365 Platinum Gray Windows 10 Home",
+    "brand": "Lenovo",
+    "image": "https://m.media-amazon.com/images/I/41acXx4-8iL._AC_.jpg",
+    "subcategory": "Traditional Laptops",
+    "price": 192.0,
+    "average_rating": 4.0,
+    "n_obs": 11,
+    "n_events": 10,
+    "median_months": 3.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 768.0
+  },
+  {
+    "parent_asin": "B00W4AMWCI",
+    "title": "Lenovo Thinkpad T420 - Intel Core i5 2520M 8GB 320GB Windows 10 Professional (Renewed)",
+    "brand": "Amazon Renewed",
+    "image": "https://m.media-amazon.com/images/I/31a9zhTJP0L._AC_.jpg",
+    "subcategory": "Traditional Laptops",
+    "price": 175.0,
+    "average_rating": 4.1,
+    "n_obs": 15,
+    "n_events": 9,
+    "median_months": 3.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 700.0
+  },
+  {
+    "parent_asin": "B015SJIUZY",
+    "title": "Apple MacBook Pro MF841LL/A 13.3-Inch Laptop with Retina Display (512 GB) Newest Version",
+    "brand": "Apple",
+    "image": "https://m.media-amazon.com/images/I/51nHbuhKnqL._AC_.jpg",
+    "subcategory": "Traditional Laptops",
+    "price": 208.4,
+    "average_rating": 4.5,
+    "n_obs": 14,
+    "n_events": 9,
+    "median_months": 18.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 138.93
   },
   {
     "parent_asin": "B09MGQS5MY",
@@ -414,6 +750,20 @@
     "median_months": 0.8,
     "median_is_lower_bound": false,
     "cost_per_year": 7499.85
+  },
+  {
+    "parent_asin": "B0757FYPBK",
+    "title": "SAMSUNG 11.6\" Chromebook with Intel N3060 up to 2.48GHz, 4GB Memory, 16GB eMMC Flash Memory, Bluetooth 4.0, USB 3.0, HDMI, Webcam, Chrome Operating System, Black",
+    "brand": "SAMSUNG",
+    "image": "https://m.media-amazon.com/images/I/51A4gx2Pe1L._AC_.jpg",
+    "subcategory": "Traditional Laptops",
+    "price": 158.0,
+    "average_rating": 4.4,
+    "n_obs": 8,
+    "n_events": 8,
+    "median_months": 6.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 316.0
   },
   {
     "parent_asin": "B0BW9B4YZL",

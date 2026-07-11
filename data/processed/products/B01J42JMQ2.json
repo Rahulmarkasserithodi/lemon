@@ -1,0 +1,206 @@
+{
+  "parent_asin": "B01J42JMQ2",
+  "title": "Acer Chromebook 14, Aluminum, 14-inch Full HD, Intel Celeron N3160, 4GB LPDDR3, 32GB, Chrome, Gold, CB3-431-C0AK",
+  "brand": "acer",
+  "image": "https://m.media-amazon.com/images/I/41lb2W+xO3L._AC_.jpg",
+  "price": 289.16,
+  "average_rating": 4.3,
+  "n_reviews": 308,
+  "n_candidates": 32,
+  "n_obs": 27,
+  "n_events": 18,
+  "median_months": 11.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 315.45,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.963,
+      "lo": 0.7649,
+      "hi": 0.9947
+    },
+    {
+      "t": 0.12,
+      "s": 0.963,
+      "lo": 0.7649,
+      "hi": 0.9947
+    },
+    {
+      "t": 0.25,
+      "s": 0.9244,
+      "lo": 0.7302,
+      "hi": 0.9806
+    },
+    {
+      "t": 0.5,
+      "s": 0.9244,
+      "lo": 0.7302,
+      "hi": 0.9806
+    },
+    {
+      "t": 0.66,
+      "s": 0.8824,
+      "lo": 0.6774,
+      "hi": 0.9606
+    },
+    {
+      "t": 1.0,
+      "s": 0.8404,
+      "lo": 0.6277,
+      "hi": 0.9371
+    },
+    {
+      "t": 2.0,
+      "s": 0.7564,
+      "lo": 0.5351,
+      "hi": 0.8828
+    },
+    {
+      "t": 3.0,
+      "s": 0.7143,
+      "lo": 0.4915,
+      "hi": 0.8527
+    },
+    {
+      "t": 3.5,
+      "s": 0.7143,
+      "lo": 0.4915,
+      "hi": 0.8527
+    },
+    {
+      "t": 6.5,
+      "s": 0.6697,
+      "lo": 0.4453,
+      "hi": 0.8198
+    },
+    {
+      "t": 8.0,
+      "s": 0.6251,
+      "lo": 0.4012,
+      "hi": 0.7852
+    },
+    {
+      "t": 10.0,
+      "s": 0.5804,
+      "lo": 0.3589,
+      "hi": 0.7491
+    },
+    {
+      "t": 11.0,
+      "s": 0.4911,
+      "lo": 0.2795,
+      "hi": 0.6726
+    },
+    {
+      "t": 12.0,
+      "s": 0.4465,
+      "lo": 0.2421,
+      "hi": 0.6322
+    },
+    {
+      "t": 14.0,
+      "s": 0.4018,
+      "lo": 0.2064,
+      "hi": 0.5904
+    },
+    {
+      "t": 18.0,
+      "s": 0.3125,
+      "lo": 0.1402,
+      "hi": 0.5023
+    },
+    {
+      "t": 24.0,
+      "s": 0.2679,
+      "lo": 0.1099,
+      "hi": 0.4558
+    },
+    {
+      "t": 30.0,
+      "s": 0.2009,
+      "lo": 0.0617,
+      "hi": 0.3967
+    },
+    {
+      "t": 36.0,
+      "s": 0.2009,
+      "lo": 0.0617,
+      "hi": 0.3967
+    },
+    {
+      "t": 60.0,
+      "s": 0.2009,
+      "lo": 0.0617,
+      "hi": 0.3967
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "screen_failure",
+      "count": 5
+    },
+    {
+      "mode": "control_failure",
+      "count": 3
+    },
+    {
+      "mode": "stopped_working",
+      "count": 3
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 3
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 2
+    },
+    {
+      "mode": "other",
+      "count": 1
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "control_failure": [
+      "I changed my review from 5 star to 1 star because 2.5 years after getting it, it quit updating. These have end of life dates that they do not tell you about!! I bought it November 29, 2019 and end of life massage came June 2022. So basically we got 2.5 years out of it before it stopped updating. These are cheap enough that I suppose they can be replaced every 5 years (which apparently is how long ",
+      "I feel like I got what I paid for.  About 6.5 months in, the cursor disappeared.  Support tried to help; they deemed it a hardware problem.  I\u2019m sending it back for repair.  I\u2019m still within warranty but have to pay for shipping to get it to them.  Feels like a loss if I have to pay any more out of pocket.",
+      "Complete waste of money.<br />I was initially excited about the prospect of a Chromebook being a relatively cheap device for media streaming and general internet browsing. Within 2-3 months of receiving this product and after only light use, all audio stopped working; I contacted customer support, went through all their suggestions to no avail. Since it was still covered by the 90-day warranty, I "
+    ],
+    "screen_failure": [
+      "On top of the scam planned obsoletion that is (Auto Update Expiration (AUE) date) this laptop is in shambles two years later. Screen flickers in and out, hdmi out port is malfunctioning. Two years later and I\u2019m receiving notifications that they\u2019re going to stop supporting OS updates. This is absurd considering it\u2019s only two years old.<br /><br />Absolute garbage. This thing has been used probably ",
+      "I did a lot of research before getting this chromebook and thankfully none of the issues other users have mentioned have plagued me. It's a great size, the screen is the perfect level of matte without being ashy or dull. Very lightweight. The gold is a light, brushed color, not overwhelming, flashy, or silly-looking. Keys are satisfyingly clicky. It feels very similar to my Macbook both in build a",
+      "lasted me less than a year!! The screen turned completely dark and when I took it to go get fixed the piece they needed to fix the laptop costed more than the actual laptop up until then the laptop was great and lightweight"
+    ],
+    "stopped_working": [
+      "Died within a week.  Getting a replacement of same item.  Sometimes you get a dud.  Hopefully the new one will work.",
+      "Less than a year old and it stopped working",
+      "Loved the Acer Chromebook for the 10 months that it lasted. Acer will not make any options for a new product, claiming that they have no warranty. Lie!"
+    ],
+    "charging_port_failure": [
+      "The computer constantly kicks me offline, is slow, times out & the charger port seems to be stretched out. I've had many Acer Chromebooks without issue. So, I tried a new cord - nope. It's defective. So, I ask the Seller to exchange it. I got this on August 16th. It's now, Oct. 18th & The Seller says \"Sorry. You had 30 days to return\". Grrrrrr...... I didn't WANT a return. I wanted a computer that",
+      "After 3 months, the charger stopped working and I can't use my chromebook anymore. Such a waist of money."
+    ],
+    "other": [
+      "We bought two of these and after 18 months the headphone jacks have failed or are failing. We use USB-->3.5mm adapters now. The keyboards are decent.  I have a dead pixel after1.5 years that is annoying.  The aluminum body feels solid.  I wish they were about 20 percent faster, but other than that no complaints.  The battery life on my wife's unit, which has seen heavy use, has decreased."
+    ],
+    "wont_power_on": [
+      "This chromebook worked great! For 20 days exactly. It was a great system while I had it. But one day, the screen went black, and it never turned on again. I tried various restart key patterns, and nothing worked. I'm very happy that it happened within my 30 day return window. I got a full refund from amazon. I decided you get what you pay for and will be buying another macbook instead.",
+      "After 8 months of normal use, it's dead suddenly without any signs of issue, and doesn't turn on any more.",
+      "We have had this laptop less than one month and it currently will not charge or turn on.  In process to see how difficult it will be to have it replaced."
+    ],
+    "keyboard_failure": [
+      "(BAD) This is hands down the worst experience with a computer company I have ever had!  I would never recommend to anyone.  I have been in I.T., a DevOps and Software developer for 10 years, and have bought and sold hundreds of computers.  Acer's customer service is by far the worst.  After reading many reviews about this laptop being DOA, I was sure to fully test this machine upon arrival, and ch"
+    ]
+  },
+  "published": true
+}

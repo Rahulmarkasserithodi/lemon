@@ -1,0 +1,152 @@
+{
+  "parent_asin": "B002JM2CB2",
+  "title": "Dell Latitude D610 Laptop CD-RW/ DVD Wireless Computer",
+  "brand": "Dell",
+  "image": "https://m.media-amazon.com/images/I/41SGQG-0EqL._AC_.jpg",
+  "price": 249.95,
+  "average_rating": 3.9,
+  "n_reviews": 246,
+  "n_candidates": 23,
+  "n_obs": 17,
+  "n_events": 12,
+  "median_months": 3.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 999.8,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.25,
+      "s": 0.9333,
+      "lo": 0.6126,
+      "hi": 0.9903
+    },
+    {
+      "t": 0.5,
+      "s": 0.9333,
+      "lo": 0.6126,
+      "hi": 0.9903
+    },
+    {
+      "t": 1.0,
+      "s": 0.7897,
+      "lo": 0.4791,
+      "hi": 0.9271
+    },
+    {
+      "t": 2.0,
+      "s": 0.5026,
+      "lo": 0.2305,
+      "hi": 0.7243
+    },
+    {
+      "t": 3.0,
+      "s": 0.359,
+      "lo": 0.1313,
+      "hi": 0.5963
+    },
+    {
+      "t": 4.0,
+      "s": 0.2872,
+      "lo": 0.0889,
+      "hi": 0.5256
+    },
+    {
+      "t": 6.0,
+      "s": 0.2154,
+      "lo": 0.0524,
+      "hi": 0.4495
+    },
+    {
+      "t": 12.0,
+      "s": 0.2154,
+      "lo": 0.0524,
+      "hi": 0.4495
+    },
+    {
+      "t": 36.0,
+      "s": 0.1077,
+      "lo": 0.0082,
+      "hi": 0.3554
+    },
+    {
+      "t": 84.0,
+      "s": 0.1077,
+      "lo": 0.0082,
+      "hi": 0.3554
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 5
+    },
+    {
+      "mode": "storage_failure",
+      "count": 1
+    },
+    {
+      "mode": "overheating",
+      "count": 1
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 1
+    },
+    {
+      "mode": "other",
+      "count": 1
+    },
+    {
+      "mode": "screen_failure",
+      "count": 1
+    },
+    {
+      "mode": "wont_boot",
+      "count": 1
+    },
+    {
+      "mode": "control_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "storage_failure": [
+      "This computer lasted all of three months- ( I had another of same kind to compare to as a rule this computer is ok, but wouldn't get a refurbished) Had issues with this new/refurbished one.. was listed as a a different RAM to begin with....- not the computer's fault...but seller......had to get new battery from get go too.Seller was not the most courteous when I called with questions- spoke 2-3 ti"
+    ],
+    "stopped_working": [
+      "It was slow at the beginning but I kept it cause it was used. It broke in 4 months. It is so slow that you can't run not even one program without it crashing. Total waste of my money!",
+      "Stopped working after a month.  We're working on a refund.",
+      "I purchased this laptop as a christmas gift  for my 11year old daughter, it was her first computer. It was barely touched other than used for a few references to google and within three months it just died. I had it analyzed and its not worth paying more to have it fixed than its original price. I would never recommend buying a refurbished model since warranty seems to expire just in time for the "
+    ],
+    "overheating": [
+      "This machine gets SOOO hot you can cook on it. It takes 20 minutes to boot and has almost no start up applications. The fan NEVER stop and blows air hot enough to dry your hair.<br /><br />I have been using Dells my whole life and I've had this machine for 3 years. I bought it new and it crashed 4 times. And when I say crashed I mean BSOD! In fact it crashed last night and I finally replaced it wi"
+    ],
+    "other": [
+      "So I purchased this computer back in March 2012, fully aware that it was refurbished. By June the sound started going on it, meaning it skips, almost like a cd, while listening to Pandora, Netflix, Youtube or any other site that requires streaming. The dvd player stopped working sometime in May. It is very slow. Bringing it to a computer repair shop the guy was nice enough to tell me \"get a new co"
+    ],
+    "screen_failure": [
+      "It broke within 2 months no screen just black and it had nothing such as windows xp or so on. all it had was a trial on it and when the trial was up it wanted me to pay another 200 to put one on ."
+    ],
+    "keyboard_failure": [
+      "I purchased 10 used D610s to use in my classroom. They all arrived in good shape and worked fine.<br /><br />However, very soon the keys started coming off. Within just a month, every single one of them had missing keys, some as many as 10 keys. So in the end, I have had to buy and add external keyboards to all of them.<br /><br />Some may argue that frequent use by careless 7th graders is the rea"
+    ],
+    "control_failure": [
+      "Bought this laptop for my 12 year old grandson for a Christmas present.  It did come on and he tried to use it for about 2 months.  So slow he couldn't do anything on it.  It was Junk!"
+    ],
+    "wont_boot": [
+      "I got a refurbished computer and will never do it again. It lasted two months, then crashed. It was my kids computer and crashed while playing one of the games already loaded on the computer. It did work great for two months just didnt last."
+    ]
+  },
+  "published": false
+}

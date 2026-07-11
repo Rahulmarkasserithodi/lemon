@@ -1,0 +1,261 @@
+{
+  "parent_asin": "B00PVOY9T8",
+  "title": "Dell Inspiron 13 7000 Series i7347 13-Inch Convertible Touchscreen Laptop, Intel Core i3 Processor",
+  "brand": "Dell",
+  "image": "https://m.media-amazon.com/images/I/41JPeLep8wL._AC_.jpg",
+  "price": 299.98,
+  "average_rating": 3.8,
+  "n_reviews": 274,
+  "n_candidates": 71,
+  "n_obs": 53,
+  "n_events": 44,
+  "median_months": 2.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 1799.88,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.0,
+      "s": 0.9811,
+      "lo": 0.8735,
+      "hi": 0.9973
+    },
+    {
+      "t": 0.03,
+      "s": 0.9245,
+      "lo": 0.8113,
+      "hi": 0.971
+    },
+    {
+      "t": 0.06,
+      "s": 0.9057,
+      "lo": 0.7881,
+      "hi": 0.9596
+    },
+    {
+      "t": 0.07,
+      "s": 0.8864,
+      "lo": 0.7644,
+      "hi": 0.9473
+    },
+    {
+      "t": 0.09,
+      "s": 0.8671,
+      "lo": 0.7413,
+      "hi": 0.9343
+    },
+    {
+      "t": 0.1,
+      "s": 0.8479,
+      "lo": 0.7186,
+      "hi": 0.9209
+    },
+    {
+      "t": 0.12,
+      "s": 0.8286,
+      "lo": 0.6964,
+      "hi": 0.9069
+    },
+    {
+      "t": 0.25,
+      "s": 0.7515,
+      "lo": 0.6107,
+      "hi": 0.8475
+    },
+    {
+      "t": 0.5,
+      "s": 0.6724,
+      "lo": 0.5267,
+      "hi": 0.7821
+    },
+    {
+      "t": 0.75,
+      "s": 0.6328,
+      "lo": 0.4863,
+      "hi": 0.748
+    },
+    {
+      "t": 1.0,
+      "s": 0.5735,
+      "lo": 0.4274,
+      "hi": 0.6951
+    },
+    {
+      "t": 1.67,
+      "s": 0.5537,
+      "lo": 0.4083,
+      "hi": 0.6771
+    },
+    {
+      "t": 2.0,
+      "s": 0.3955,
+      "lo": 0.2625,
+      "hi": 0.5256
+    },
+    {
+      "t": 3.0,
+      "s": 0.3955,
+      "lo": 0.2625,
+      "hi": 0.5256
+    },
+    {
+      "t": 4.0,
+      "s": 0.3736,
+      "lo": 0.2427,
+      "hi": 0.5042
+    },
+    {
+      "t": 5.0,
+      "s": 0.3736,
+      "lo": 0.2427,
+      "hi": 0.5042
+    },
+    {
+      "t": 6.0,
+      "s": 0.3502,
+      "lo": 0.2218,
+      "hi": 0.4815
+    },
+    {
+      "t": 7.0,
+      "s": 0.2963,
+      "lo": 0.1733,
+      "hi": 0.43
+    },
+    {
+      "t": 8.0,
+      "s": 0.2694,
+      "lo": 0.1504,
+      "hi": 0.4033
+    },
+    {
+      "t": 10.0,
+      "s": 0.2095,
+      "lo": 0.1015,
+      "hi": 0.3438
+    },
+    {
+      "t": 11.0,
+      "s": 0.1497,
+      "lo": 0.059,
+      "hi": 0.2795
+    },
+    {
+      "t": 12.0,
+      "s": 0.0898,
+      "lo": 0.0244,
+      "hi": 0.2093
+    },
+    {
+      "t": 18.0,
+      "s": 0.0449,
+      "lo": 0.0044,
+      "hi": 0.1695
+    },
+    {
+      "t": 36.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "screen_failure",
+      "count": 24
+    },
+    {
+      "mode": "control_failure",
+      "count": 11
+    },
+    {
+      "mode": "wont_boot",
+      "count": 4
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 4
+    },
+    {
+      "mode": "storage_failure",
+      "count": 3
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 2
+    },
+    {
+      "mode": "stopped_working",
+      "count": 2
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 1
+    },
+    {
+      "mode": "hinge_failure",
+      "count": 1
+    },
+    {
+      "mode": "battery_failure",
+      "count": 1
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "electrical_fault": [
+      "Not worth the cost.  laden with bugs<br /><br />The screen would randomly pretend link i was touching it in 10 places and then stop working all together.  had to send it in 3 times, and it came back with screws missing<br /><br />then the poorly designed power receptacle on the laptop broke, but was out of warranty.  ordered a new one, then the motherboard broke: when i plug in the ac adapter, the"
+    ],
+    "screen_failure": [
+      "It's been a few days since I had this product and it's a great product when simply functionality is considered. It allows me the opportunity to do work (use a computer) anywhere. The &#34;out the box&#34; settings suggest that battery life is 5 hours; I've only used the battery till 40% (suggesting that total free time is approximately 3 hours).<br /><br />Although the product greatly improves fun",
+      "I love this laptop, it is the perfect size for me and practically an ultrabook with its size and weight. I also love the the screen folds flat on itself so it can function like a tablet.  I also like that I can rest my palms on the laptop and not constantly be interacting with the touchpad.<br /><br />The first one I purchased would flicker every 15 seconds or so, so I returned it.  Bought it at a",
+      "The features on the computer are very nice. It is light weight and powerful and would have made a good business travel machine.<br /><br />BUT....<br /><br />2 months into it the touchscreen malfunctioned and &#34;self-touched&#34; and opened and close windows by itself. It was crazy, Then the touch pad became ultra sensitive. I called Dell technical and there started one of the most painful ordea"
+    ],
+    "control_failure": [
+      "This would be a great computer except it has the ghosting problem some have complained about. Without you touching it, it will jump around screen to screen and file to file while you stand there in awe! This was a warehouse deal. It was in perfect shape except for the ghosting problem. This problem makes it unusable. Some blogs have said to turn off the touch screen but why buy a laptop with a tou",
+      "Constantly freezing on internet. I used automatic Dell diagnostic tool, but it had not help.<br />Tech support absolutely useless.<br />The support guy from India did not give me even a hint how to solve the issue.<br /> I was  told that I had to pay for software support just after 2 days of receiving a brand new unit and using the installed software.<br />I decided to use Chrome as a search engin",
+      "I researched these &#34;convertible&#34; laptops d nauseum and finally (thought) I had found one in the great performance secs and price point ($400.00+++). Two months in use I regret this purchase with a vengence. We have high speed wi fi in house. My husband breezes along with his way older Toshiba problem free. This Dell is like having bought a used car from a flood zone. The core processor SHO"
+    ],
+    "wont_boot": [
+      "Had sporadic ghost touch issue upon receipt and delayed calling and missed return deadline.  Dell support helpful, but frustrating to have new machine not work. They sent field tech to me and he referred to it as &#34;phantom&#34; touches.  He put a different screen in- not sure if it was new.  Was ok for about 10 months, then the current issue:  freezes during startup and stays on logo screen.  G",
+      "I used to love dell products. I used to own the Inspiron laptop when I was in college. It would last me about 3 years before it gave up. I thought this one would be nice and it was cool looking. However, this laptop just did not work for me. I had trouble starting it up. It would stay on the black starting Windows screen for a while until I force restart it using the power button. Once I restart i",
+      "Ghost touchscreen, would go crazy all the time. Computer wouldnt boot after a couple months. Dell customer service was great, they replaced HD, mother board, Fan....however, now that I am 30 days out of warranty and it's happened AGAIN. Do not have problems with my other Dell computers, but this one has been a nightmare."
+    ],
+    "hinge_failure": [
+      "Within a few weeks of getting the laptop, the touchscreen started freaking out- you get &#34;ghost touches&#34; along a line down the screen, making the whole system freak out, so I had to turn the touchscreen off completely.  Now, the hinges to open and close the computer are breaking after about 6 months of use.  It has a myriad of other problems as well.  I wouldn't recommend it."
+    ],
+    "storage_failure": [
+      "When it worked, it worked ok. Bought it for my wife for light use for excess tasks for work. Don't be expected to be wow'd by this computer because you will be extremely disappointed. Touch screen worked well overall but that\u2019s about it. The computer is not all that fast(My $500 Toshiba destroys it). For the money I'd say you'd be better off buying something else. We've had the laptop for almost 3",
+      "The hard drive completely failed within a couple of weeks.",
+      "The hard drive completely crashed on me after just a couple months. Foursquare told me Dell would take care of it. Dell told me I had to send it in for a new hard drive and that it would take between 10-14 days to be returned to me. Being that I was in the middle of my last semester I was too busy to go that long without a laptop, so I bought a HP that same day and never sent it in to Dell. Dell c"
+    ],
+    "battery_failure": [
+      "I bought this Dell from a brick and mortar store. It is the 9th Dell I've personally owned over the past 30 years. The other computers were various makes including those I built myself. This is by far the most troublesome machine I have used. I have had to resolve more issues on its functionality than all of the others combined.<br /><br />Here's my experience:<br /><br />First Inspiron 7347 did n"
+    ],
+    "charging_port_failure": [
+      "It was doing great until the electrical port fell apart a couple of months in. I was under pressure with grad school and didn't have time to send it off under warranty so not once but twice did I have two different IT guys try to fix it. Both cited poor craftsmanship with the port connection. Both fixes would only get the computer on but not charge the battery. It also would always update every ti",
+      "I have this laptop since November and, in the beginning I just love it. But now, 2 months later, I am having some very annoying problems.<br />The laptop is great, beautiful, not that heavy, and the touchscreen is really very helpful and nice.<br />But, what annoys me most - and I really would like an answer from Amazon or Dell about this - is that the charger is not charging anymore. I have to ke",
+      "The first one I had recieved wouldnt charge or connect to wifi. Amazon willingly replaced it, and the second lasted less than a year. There was a serious problem with ghost touches and was slow. It then would no longer charge so I do not recommend this product."
+    ],
+    "physical_breakage": [
+      "I am sorry to inform you that I am so disappointed with the purchase of the laptop \u00a8 Dell Inspiron 13, Series 7000, ( Service tag 5NXW812), (Express Service Code 12331564454), I bought the laptop on December 2014 and 3 days later it broke down (a house accident).  I have not found in any place the piece to repair it. i.e. Dell Dominican Republic and LA team is telling me Dell does not have those p",
+      "This is the worst laptop I've owned for years, Major problems include<br />(1) Operating system completely &#34;freezes&#34; for 15-60 seconds at a time.<br />(2) We experience &#34;ghost&#34; touches where the computer acts like I'm touching it dozens of times per second and does not stop. The only way to stop it is to turn the computer off and back on.<br />(3) The case is made of plastic and fl"
+    ],
+    "stopped_working": [
+      "Deeply disturbed at the pathetic customer care services of Dell given in India.<br />I had bought Inspiron 13 7000 series and in the first few days of using the same it started showing weird signs with the screen acting on its own and various programs would open and close without me doing anything, stopping the same would also not be possible and the only option would be to switch it off using mai",
+      "worked for about 30 days. just enough for the return policy to expire!"
+    ],
+    "wont_power_on": [
+      "I assume that this is the exception, but when I first got it, the wireless card wasn't working. I insisted with Dell Customer Service that I would not return the laptop to Dell and that they had come and fix it--afterall, it was BRAND NEW! When they came, the laptop wouldn't even turn on. I called Dell and despite them saying it could take me 10 business days to receive a replacement, I got it wit"
+    ]
+  },
+  "published": true
+}

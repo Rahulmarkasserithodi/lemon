@@ -1,0 +1,145 @@
+{
+  "parent_asin": "B015SJIUZY",
+  "title": "Apple MacBook Pro MF841LL/A 13.3-Inch Laptop with Retina Display (512 GB) Newest Version",
+  "brand": "Apple",
+  "image": "https://m.media-amazon.com/images/I/51nHbuhKnqL._AC_.jpg",
+  "price": 208.4,
+  "average_rating": 4.5,
+  "n_reviews": 257,
+  "n_candidates": 23,
+  "n_obs": 14,
+  "n_events": 9,
+  "median_months": 18.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 138.93,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.09,
+      "s": 0.9286,
+      "lo": 0.5908,
+      "hi": 0.9896
+    },
+    {
+      "t": 0.12,
+      "s": 0.8571,
+      "lo": 0.5394,
+      "hi": 0.9622
+    },
+    {
+      "t": 0.75,
+      "s": 0.7143,
+      "lo": 0.4063,
+      "hi": 0.8819
+    },
+    {
+      "t": 1.0,
+      "s": 0.7143,
+      "lo": 0.4063,
+      "hi": 0.8819
+    },
+    {
+      "t": 1.33,
+      "s": 0.625,
+      "lo": 0.3153,
+      "hi": 0.8258
+    },
+    {
+      "t": 2.0,
+      "s": 0.625,
+      "lo": 0.3153,
+      "hi": 0.8258
+    },
+    {
+      "t": 13.0,
+      "s": 0.5208,
+      "lo": 0.2178,
+      "hi": 0.7564
+    },
+    {
+      "t": 18.0,
+      "s": 0.4167,
+      "lo": 0.1407,
+      "hi": 0.6765
+    },
+    {
+      "t": 19.0,
+      "s": 0.4167,
+      "lo": 0.1407,
+      "hi": 0.6765
+    },
+    {
+      "t": 24.0,
+      "s": 0.2778,
+      "lo": 0.0525,
+      "hi": 0.573
+    },
+    {
+      "t": 24.5,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "storage_failure",
+      "count": 2
+    },
+    {
+      "mode": "screen_failure",
+      "count": 2
+    },
+    {
+      "mode": "overheating",
+      "count": 1
+    },
+    {
+      "mode": "stopped_working",
+      "count": 1
+    },
+    {
+      "mode": "wont_boot",
+      "count": 1
+    },
+    {
+      "mode": "control_failure",
+      "count": 1
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "storage_failure": [
+      "Disappointed in reliability: used in a small business operated by my wife.<br /><br />The &#34;ssd drive&#34; is not user replaceable. This would not be a big problem except that the SSD has not proven reliable. She found out the hard way after 18 months - the 1 year limited warrantee expired - that people are finding the SSD failure a common problem (the Apple support representative explained dur",
+      "Be carefull!!!!!! It is the Laptop who lasted less than any I had before. After 13 month the SSD drive died, bought another SSD and two weeks later it died again. Service horrible. No help at all. Will never buy this branch and Dell again in my life."
+    ],
+    "stopped_working": [
+      "Mac broke in less than 40 days - just in time to NOT get a replacement.  Almost $2,000 down the drain!!!"
+    ],
+    "screen_failure": [
+      "I have an ENTIRE home of Apple products, which I used to love. Unfortunately, this particular computer is 100% unusable after only 2 years and 2 weeks. The screen just went blank and would not shut down, stayed in a cycle that would bring up some gray screen and then Just turn itself into sleep mode. (Not a full shut down and cannot hard reboot.) we have tried all the tricks and still no success. ",
+      "Loved this computer and was shocked when I noticed a screen defect which went unnoticed for 3 weeks.  I sent it back to amazon for credit.<br />Will buy again in a couple of weeks.  It is a wonderful piece of equipment!!"
+    ],
+    "overheating": [
+      "I HATE MINE!!! I have never ever had so many problems with a computer. period. purchased via apple in july 2015. second week of using it, worked 6 hrs on a TWENTY PAGE ID THEFT AFFADAVIT & screen went black. took to store. wiped all gone. got a new replacement...didnt even have the option ANYWHERE for bluetooth. called tech reset good. three weeks later... MELTED MY MEMORY CARD!!!! it was in sleep"
+    ],
+    "wont_boot": [
+      "I never thought I'd give any apple product a bad review but here I am... after 2 years with not even 1 fall & very good care of my laptop, it dies just like that! I paid $1500+ with my additional specs  & apple care is telling me I have to pay for a logic board. How could it be anywhere near fair to have to replace parts, that by the way are so expensive it's better you buy a new lapto, after just"
+    ],
+    "control_failure": [
+      "I am so sorry to have to give this a poor review but I even fluctuated from the 1 to 2 star rating. That's how disappointed that I am.<br /><br />My husband bought this as an anniversary gift for me. I was thrilled. The Macbook was delivered late, last Monday, the 25th of July. By Tuesday, I was experiencing problems with the laptop disconnecting from the wifi. The reconnect to wifi would not work"
+    ],
+    "keyboard_failure": [
+      "I own the 2015 MacBook Pro and it is awesome!! I owned the new 2017 with the touch bar and that was pretty cool but the keyboard was/ is awful! all the keys are to close to each other so that leads to so many errors. I couldn't stand it. One of the keys even broke within the first week. I did like that it was quieter to type on, but I can't deal with the accuracy issues at all.<br /><br />2017 Mac"
+    ]
+  },
+  "published": false
+}

@@ -1,0 +1,164 @@
+{
+  "parent_asin": "B01FWKBZP6",
+  "title": "Dell Latitude E6420 Laptop - HDMI - i5 2.5ghz - 4GB DDR3 - 320GB - DVD - Windows 10 64bit - (Renewed)",
+  "brand": "Amazon Renewed",
+  "image": "https://m.media-amazon.com/images/I/41GOQvsRuzS._AC_.jpg",
+  "price": 169.0,
+  "average_rating": 3.7,
+  "n_reviews": 453,
+  "n_candidates": 28,
+  "n_obs": 20,
+  "n_events": 16,
+  "median_months": 2.5,
+  "median_is_lower_bound": false,
+  "cost_per_year": 811.2,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.06,
+      "s": 0.9474,
+      "lo": 0.6812,
+      "hi": 0.9924
+    },
+    {
+      "t": 0.12,
+      "s": 0.8947,
+      "lo": 0.6408,
+      "hi": 0.9726
+    },
+    {
+      "t": 0.25,
+      "s": 0.8421,
+      "lo": 0.5865,
+      "hi": 0.9462
+    },
+    {
+      "t": 0.75,
+      "s": 0.8421,
+      "lo": 0.5865,
+      "hi": 0.9462
+    },
+    {
+      "t": 1.0,
+      "s": 0.5053,
+      "lo": 0.2637,
+      "hi": 0.7049
+    },
+    {
+      "t": 2.5,
+      "s": 0.4491,
+      "lo": 0.2193,
+      "hi": 0.6555
+    },
+    {
+      "t": 3.0,
+      "s": 0.3368,
+      "lo": 0.1385,
+      "hi": 0.5494
+    },
+    {
+      "t": 4.0,
+      "s": 0.2526,
+      "lo": 0.0763,
+      "hi": 0.4792
+    },
+    {
+      "t": 6.0,
+      "s": 0.0842,
+      "lo": 0.0058,
+      "hi": 0.3051
+    },
+    {
+      "t": 8.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 5
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 5
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 2
+    },
+    {
+      "mode": "other",
+      "count": 2
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 1
+    },
+    {
+      "mode": "screen_failure",
+      "count": 1
+    },
+    {
+      "mode": "wont_boot",
+      "count": 1
+    },
+    {
+      "mode": "control_failure",
+      "count": 1
+    },
+    {
+      "mode": "storage_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "physical_breakage": [
+      "UPDATE: Had issues ,sent it back . Returned with the same issues.  Had to figure that out cuz it needed a different key.  and it was returned with the dvd holder damaged. it will not stay closed. annoying to have it popping open constantly. would not buy this again.Update: now the Battery is shot. Will never by refurbished again and certainly not from this seller. Update: the sound is now defectiv"
+    ],
+    "keyboard_failure": [
+      "Amazing. The seller, Blazing Prices, agreed to repair the defective keyboard even after the 3-month return window had closed. Now it works perfectly. Thanks, Blazing Prices! (And Amazon, of course, which did a great job coordinating.)",
+      "INITIAL REVIEW: I got this computer for work as a writer. It works well with Dragon Naturally Speaking and has made my work easier. It does seem to run awfully hot.<br />UPDATED AFTER ONE MONTH: Runs very hot, shuts down randomly and repeatedly causing me loss of information, time and money.<br />A FEW DAYS LATER: Figured out a workaround of keeping an actual fan on the body of this worthless POS "
+    ],
+    "stopped_working": [
+      "Stopped working after two days, now i have to pay to return this junk box...",
+      "Had to purchase a dvd drive separately the one that arrived with the computer was completely dead.  Now after a few months the computer no longer works never again will I buy this way.",
+      "It stopped working after 6 months have take it somewhere to get it work on"
+    ],
+    "wont_power_on": [
+      "The SD card slot doesn't work in windows 10 from what I find. After only a few days  the charge cable or brick has died. If at least the charge stuff gets fixed I will update this review.<br /><br />10-16-18 company never responded about bad charger cable. So much for their warranty.",
+      "A piece of junk. It stopped coming on in less than 1 month of use",
+      "After 4 weeks of operation, something has burned out and the laptop won't turn on!. junk, This seems like a piece of junk to me, now. I will never buy from you again."
+    ],
+    "screen_failure": [
+      "Recognizing that this is a refurbished laptop, didn't expect to have to replace the screen after 8-months of use."
+    ],
+    "wont_boot": [
+      "Works fine if you can get it to boot... Until it randomly just shuts down while you're working. Constantly getting CMOS errors about an unknown power supply on boot.<br /><br />I'm a 25 year veteran computer engineer. Bought this as a cheap spare solely to log into work when on call. Can't depend on it to work when I need it.<br /><br />I do not recommend."
+    ],
+    "other": [
+      "Worked for a month before HDMI port quit. Not sure if it was a defect or damaged by something else. Was able to resell so I could get down payment for a replacement.",
+      "The labtop broke with in one week of ownership"
+    ],
+    "control_failure": [
+      "I ordered the E6420- It says it has a hard drive with 320gb,  then it shows in the product summary that it has 512gb, but if you understand laptops, you will know that 320gb actually means only 297gb can be used. Either way, the information has 2 different hard drive amounts.<br />After the 1st month, it would randomly lock on it's own and put it to sleep and I even messed with the settings plenty"
+    ],
+    "storage_failure": [
+      "Hard drive died in 1 month",
+      "Hard drive died in 1 month"
+    ]
+  },
+  "published": false
+}

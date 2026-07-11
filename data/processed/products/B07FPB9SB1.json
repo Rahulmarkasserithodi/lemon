@@ -1,0 +1,224 @@
+{
+  "parent_asin": "B07FPB9SB1",
+  "title": "Acer Chromebook R 13 Convertible, 13.3-inch Full HD Touch, MediaTek MT8173C, 4GB LPDDR3, 32GB, Chrome, CB5-312T-K5X4",
+  "brand": "Acer",
+  "image": "https://m.media-amazon.com/images/I/51XYSe+hfTL._AC_.jpg",
+  "price": 279.99,
+  "average_rating": 4.4,
+  "n_reviews": 420,
+  "n_candidates": 58,
+  "n_obs": 41,
+  "n_events": 27,
+  "median_months": 6.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 559.98,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9756,
+      "lo": 0.8392,
+      "hi": 0.9965
+    },
+    {
+      "t": 0.25,
+      "s": 0.8293,
+      "lo": 0.6749,
+      "hi": 0.9147
+    },
+    {
+      "t": 0.38,
+      "s": 0.8034,
+      "lo": 0.6448,
+      "hi": 0.8965
+    },
+    {
+      "t": 0.5,
+      "s": 0.8034,
+      "lo": 0.6448,
+      "hi": 0.8965
+    },
+    {
+      "t": 0.75,
+      "s": 0.7766,
+      "lo": 0.6141,
+      "hi": 0.8771
+    },
+    {
+      "t": 1.0,
+      "s": 0.7488,
+      "lo": 0.5826,
+      "hi": 0.8566
+    },
+    {
+      "t": 3.0,
+      "s": 0.6336,
+      "lo": 0.4589,
+      "hi": 0.7654
+    },
+    {
+      "t": 4.0,
+      "s": 0.576,
+      "lo": 0.4017,
+      "hi": 0.7164
+    },
+    {
+      "t": 5.0,
+      "s": 0.5457,
+      "lo": 0.3719,
+      "hi": 0.6901
+    },
+    {
+      "t": 6.0,
+      "s": 0.4548,
+      "lo": 0.2873,
+      "hi": 0.6078
+    },
+    {
+      "t": 8.0,
+      "s": 0.4198,
+      "lo": 0.2548,
+      "hi": 0.5763
+    },
+    {
+      "t": 12.0,
+      "s": 0.4198,
+      "lo": 0.2548,
+      "hi": 0.5763
+    },
+    {
+      "t": 13.25,
+      "s": 0.3778,
+      "lo": 0.2148,
+      "hi": 0.54
+    },
+    {
+      "t": 18.0,
+      "s": 0.2519,
+      "lo": 0.1113,
+      "hi": 0.4207
+    },
+    {
+      "t": 21.0,
+      "s": 0.2099,
+      "lo": 0.0821,
+      "hi": 0.3771
+    },
+    {
+      "t": 24.0,
+      "s": 0.1679,
+      "lo": 0.056,
+      "hi": 0.3313
+    },
+    {
+      "t": 33.0,
+      "s": 0.1679,
+      "lo": 0.056,
+      "hi": 0.3313
+    },
+    {
+      "t": 36.0,
+      "s": 0.1679,
+      "lo": 0.056,
+      "hi": 0.3313
+    },
+    {
+      "t": 60.0,
+      "s": 0.1679,
+      "lo": 0.056,
+      "hi": 0.3313
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "control_failure",
+      "count": 7
+    },
+    {
+      "mode": "screen_failure",
+      "count": 5
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 4
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 4
+    },
+    {
+      "mode": "hinge_failure",
+      "count": 4
+    },
+    {
+      "mode": "other",
+      "count": 2
+    },
+    {
+      "mode": "battery_failure",
+      "count": 2
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 1
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 1
+    },
+    {
+      "mode": "wont_boot",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "control_failure": [
+      "First thanks Amazon for lousy packing... delivery with no cushion packing and a piece of paper. Next the USB port plug was way to tight, touch pad barely worked, and my 64Gb external card would not read...I sent back to Acer repair after having for one day to see if they can fix my lemon laptop. Very disappointed on Amazon packing and poor manufacturing quality.  Will update post return from Acer ",
+      "When I got the laptop, I was relatively satisfied, the performance is a bit limited, but for the price that's to be expected<br /><br />However, after a few weeks I found a defect that caused the laptop to shut off while in tablet mode<br /><br />I contacted Acer to get it replaced, but all they could offer me was to send it to them to get repaired and get it back three weeks later.<br /><br />I'm",
+      "After 6 months of moderate use, the chromebook has started freezing frequently in all applications.  It will not unfreeze until you do a hard restart.  Tried powerwashing, no better.  Customer service is awful through Acer.  They're telling me I have to pay to ship it to their center in Texas to get it looked at.  Why should I have to pay anything for them to fix their defective product?!  Watch o"
+    ],
+    "physical_breakage": [
+      "I was excited to get this right before Christmas 2019.  After  about a week the case popped open and caused the screen to have lines through it. I had the insurance and they responded quickly and sent it back repaired. I just got done loading all my information a 2nd time when the lower left part of the screen is cracked an spreading. About 1\" square at this point. Even though I have the insurance",
+      "My son's 5th grade class requires a chromebook or laptop, so we got him this. He's been using it daily for 5 months. The \"R\" key fell off a month or so in, we sent it back, they fixed it and returned it. No problems. It's been great. He loves it, it's easy to use, the touchscreen is great, as is the webcam/mic for online classes.  The only problem now is that he stepped on it and cracked the scree",
+      "Broke after 4 months"
+    ],
+    "battery_failure": [
+      "Would not recommend getting this product at all. I have another chromebook at home and LOVE it. It doesn't have the fancy laptop/tablet mode however. The touch screen on this product doesn't work on mine if you have it in tablet mode... SO awesome... Also there is no charge on it.. I've left the charger plugged in for the last few days and made sure it was charging and it was. Then unplugged it an",
+      "I like everything about this chromebook, but less than a week into using it the battery died completely. I unplugged and replugged the battery, and ran a CROSH: battey_test, which said that there was no battery. If the battery had worked correctly, I would love this chromebook, but unfortunately I need to leave a poor rating for now."
+    ],
+    "other": [
+      "Great multi- use chromebook. The touch screen and keyboard combo works well. Screen size and weight are perfect. Lightweight chrome OS rocks. There is an issue with the mic. I sent it back to get fixed. Worked for a few weeks and now is not working. Headset with mic works fine. Not sure about ultimate fix yet. I would give it five, but the mic issue is real.",
+      "Don't recommend this Chromebook, returned only 1.5 weeks after purchase. It's slow, really slow. Octane 2.0 put it in the 9,000 range. Checked an ASUS 302 at the local big box, it clocked in at 20k, the base level Pixelbook was 35k. Video was OK, though a little jumpy at times. Playing slither.io or paper.io was abysmal. Extremely jumpy and unplayable. The microphone was also broken on delivery. A"
+    ],
+    "charging_port_failure": [
+      "Dec 2017:<br />This is a very sexy device, but with most really sexy things there are drawbacks.<br /><br />This unit charges very fast, battery really lasts a long time - Especially if you keep your screen brightness low.  Looks great!!!<br /><br />So far everything I have downloaded from the Google Store has worked just fine.  Nice touch to a Chromebook.<br /><br />However - a Ferrari is a very ",
+      "Received this chromebook and I liked all the features and usability of the device. I had to return it though due to an issue with the chromebook not charging, the space bar isn't always correctly responsive, and after less than a week of use began crashing and losing all my tabs. I expect a brand new device to not have any apparent issues.<br /><br />Maybe I just got a buggy one...who knows? I jus",
+      "A few months after my wife had purchased an R 13 we were so happy with it that I purchased another for my own use. Approximately 18 months later my wife began noticing that he charging cable appeared loose in the port and she had to jiggle it to get it to connect well enough to charge the device. It is important to note that her chromebook literally just sits on her desk plugged in and isn't being"
+    ],
+    "hinge_failure": [
+      "We when reading reviews people said the hinge could be an issue well they are right 3 month of use and mine is seperating.  Kinda expensive for the low quality.",
+      "I purchased this chromebook for my 14 year old son. After about 6 months of use, the hinges fell apart, which causes the screen to separate. I've seen this same issue on other recent reviews and would definitely stay away from this product.",
+      "A wonderful Chromebook until the hinge broke after 3 months of use."
+    ],
+    "keyboard_failure": [
+      "I had the Acer14 Chromebook which only lasted about a year and a half and now I am on track for the same longevity with this one. The hinges on the Acer 14 weakened to the point where the monitor would flop forwards and backwards constantly, and then essentially broke causing green and pink horizontal lines all over the screen. It was unusable so I trashed it and went for the Acer 13 Touchpad; the"
+    ],
+    "wont_power_on": [
+      "We purchased this for my son in April 2018.  Worked fine at first, easy setup, no issues. Around Dec. it started to power down while in use.  It didn't matter if it was plugged in and the battery wasn't dying, it just shuts off.  Spent too much money on this and everywhere I took it won't touch it and just gave me a lecture on why you shouldn't buy a Chromebook.  Everyone says it will cost more to"
+    ],
+    "screen_failure": [
+      "Received this Chromebook as a gift from my family when Microsoft stopped supporting Windows 7.<br />The good:<br />1. I no longer have to deal with buggy, clunky and overly expensive Microsoft software.<br />2. Sharp screen and good battery life.<br />3. Google auto updates software.<br />4. Nice keyboard layout and feel.<br />The bad:<br />1. The touchscreen is a real problem. Sometimes it stops ",
+      "I bought this chromebook from Costco and received it a little over a week ago.  It worked fine for several days and I was very happy with my purchase.  Then two days ago a vertical line appeared on the screen slightly off from the center.  I just experienced the frustration of speaking with an ACER rep that (theoretically) spoke English, but with such a thick accent that I had extreme difficulty i",
+      "I've bought three of these now.  First one bounced along so after a year I bought two more for my other 2 kids entering HS.  The second two went 6 months and then the touch screen was toast.  On both computers in the same week .  Suggests an error that was known in advance.  Kids have been able to use the computer so we're powering on.  However the hinge on the first computer purchased  stoped wor"
+    ],
+    "wont_boot": [
+      "Bought this Jan'2018.  E-cycled it today (July'2019).  I did all the Google research how to fix but this thing was just bricked.  I spend a lot of extra money for a good HD screen for my daughter, it was good for a year and a half.  I don't think I've ever had a Chromebook that has lasted past two years... I've had close to 10 of them FWIW..."
+    ]
+  },
+  "published": true
+}

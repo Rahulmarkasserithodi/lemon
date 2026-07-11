@@ -1,0 +1,273 @@
+{
+  "parent_asin": "B00WU37B2K",
+  "title": "ASUS T100 10-Inch Laptop [OLD VERSION]",
+  "brand": "ASUS",
+  "image": "https://m.media-amazon.com/images/I/51g5FYfhamL._AC_.jpg",
+  "price": 219.95,
+  "average_rating": 3.8,
+  "n_reviews": 514,
+  "n_candidates": 71,
+  "n_obs": 58,
+  "n_events": 38,
+  "median_months": 6.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 439.9,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.931,
+      "lo": 0.8266,
+      "hi": 0.9735
+    },
+    {
+      "t": 0.09,
+      "s": 0.931,
+      "lo": 0.8266,
+      "hi": 0.9735
+    },
+    {
+      "t": 0.1,
+      "s": 0.931,
+      "lo": 0.8266,
+      "hi": 0.9735
+    },
+    {
+      "t": 0.12,
+      "s": 0.9128,
+      "lo": 0.8029,
+      "hi": 0.9628
+    },
+    {
+      "t": 0.25,
+      "s": 0.8942,
+      "lo": 0.7792,
+      "hi": 0.9511
+    },
+    {
+      "t": 0.5,
+      "s": 0.8345,
+      "lo": 0.7053,
+      "hi": 0.9105
+    },
+    {
+      "t": 0.66,
+      "s": 0.8142,
+      "lo": 0.6812,
+      "hi": 0.8958
+    },
+    {
+      "t": 0.75,
+      "s": 0.7938,
+      "lo": 0.6576,
+      "hi": 0.8806
+    },
+    {
+      "t": 1.0,
+      "s": 0.7531,
+      "lo": 0.6119,
+      "hi": 0.849
+    },
+    {
+      "t": 1.25,
+      "s": 0.7322,
+      "lo": 0.5888,
+      "hi": 0.8324
+    },
+    {
+      "t": 2.0,
+      "s": 0.6276,
+      "lo": 0.4786,
+      "hi": 0.7449
+    },
+    {
+      "t": 3.0,
+      "s": 0.5627,
+      "lo": 0.4134,
+      "hi": 0.6877
+    },
+    {
+      "t": 4.0,
+      "s": 0.5402,
+      "lo": 0.3912,
+      "hi": 0.6675
+    },
+    {
+      "t": 5.0,
+      "s": 0.5402,
+      "lo": 0.3912,
+      "hi": 0.6675
+    },
+    {
+      "t": 6.0,
+      "s": 0.4911,
+      "lo": 0.3427,
+      "hi": 0.6236
+    },
+    {
+      "t": 7.0,
+      "s": 0.4394,
+      "lo": 0.293,
+      "hi": 0.5764
+    },
+    {
+      "t": 12.0,
+      "s": 0.336,
+      "lo": 0.2007,
+      "hi": 0.4768
+    },
+    {
+      "t": 14.0,
+      "s": 0.3024,
+      "lo": 0.1701,
+      "hi": 0.446
+    },
+    {
+      "t": 15.0,
+      "s": 0.2688,
+      "lo": 0.1413,
+      "hi": 0.414
+    },
+    {
+      "t": 24.0,
+      "s": 0.2352,
+      "lo": 0.1143,
+      "hi": 0.3807
+    },
+    {
+      "t": 36.0,
+      "s": 0.1411,
+      "lo": 0.0433,
+      "hi": 0.2949
+    },
+    {
+      "t": 48.0,
+      "s": 0.1411,
+      "lo": 0.0433,
+      "hi": 0.2949
+    },
+    {
+      "t": 60.0,
+      "s": 0.0706,
+      "lo": 0.0069,
+      "hi": 0.2431
+    },
+    {
+      "t": 108.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "wont_power_on",
+      "count": 10
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 4
+    },
+    {
+      "mode": "wont_boot",
+      "count": 4
+    },
+    {
+      "mode": "battery_failure",
+      "count": 4
+    },
+    {
+      "mode": "storage_failure",
+      "count": 4
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 4
+    },
+    {
+      "mode": "stopped_working",
+      "count": 3
+    },
+    {
+      "mode": "control_failure",
+      "count": 2
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 2
+    },
+    {
+      "mode": "screen_failure",
+      "count": 2
+    },
+    {
+      "mode": "other",
+      "count": 1
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "wont_power_on": [
+      "I have purchased many ASUS products througout the years, from their motherboards and video cards, to barebones laptops, to the Nexus 7 tablet. I have never had a problem with these so never had to deal with support, until now.<br /><br />I bought this for my mom so she can have a simple computer to watch movies and reply to emails on. At first it worked okay with the only problem being the speaker",
+      "Not impressed. Battery failed to charge after two weeks. Got an authorization to send it to Asus, and when they sent it back, &#34;repaired&#34;, it would not turn on. Shipped it back to Amazon for a full refund. Since then I've seen this puppy for $299 on Groupon. Don't waste your time or money. The upside is the ASUS employee I spoke to was very courteous, and sounded Amaerican. Unfortunately th",
+      "It worked really well when I first got it. After about a month the keyboard stopped working, now it only types numbers. One month after that, it stopped staying turned on when in use. It shuts down randomly when you're using it, especially when the battery is less than 80%"
+    ],
+    "wont_boot": [
+      "I had to send this back to Asus for tech help three days after I got it. They had to reinstall the OS because something in Windows 8 was causing it to have internet connection problems and I could barely use it. I couldn't even download an app from the Store. I was very excited about this product before it arrived, and even though it works perfectly now, the OS has ruined the novelty of a new toy.",
+      "The tablet was fine for a few days, but then had the problem that everybody else complained about. It wouldn't boot up any more. I returned it to Amazon and they refunded my account. I'm disappointed with the tablet as it looked like a great price for a good unit, but since this problem seems to be widespread amongst users, I wouldn't recommend buying it.",
+      "First, the GOOD:  It had everything I was looking for on paper (Windows 8, MSOffice Student version, great battery life) and it looked BEAUTIFUL (I got the red version).<br /><br />The BAD: Some other reviews refer to battery issues.  I rolled the dice, and sadly, I was one of the unlucky ones.  Despite several efforts and methods, including help from ASUS customer support, I could not even get th"
+    ],
+    "physical_breakage": [
+      "I had this laptop for seven months before needing to replace it, although admittedly that was partially my fault. I dropped it, cracking the screen, and found out that it would cost over $200 to get it fixed. I decided to save some money by trying to fix it myself and apparently fried the motherboard or something while doing so. Everything inside is attached to the screen, not the back, so to fix ",
+      "hard to keep charged if you don't use it and loses charge quickly during use - need to keep it plugged in during use.<br />Worst is that the screen cracked really easily and unexpectedly.  Can't use it now because it's a touch screen and it's not just the screen that must be replaced.  money down the drain as I must buy a new tablet just 15 months after purchasing this.",
+      "Bought this product for my daughter in October 2014 and one night in December 2014 my daughter and I were looking at it and the screen cracked open before our eyes while it was in its protective case. This was less than two month. Will not purchase this product again."
+    ],
+    "battery_failure": [
+      "Item was received as scheduled. Packaging was excellent. Opened package. Followed instructions for first use. Began use of device on second day. Device was only partially charged after 20 hours of charging. Would not charge further. Device discharged during use. Would not recharge. Went through the item return process which was excellent. Returned the item. Received a second item as a replacement.",
+      "I had this for less than two years before I had to replace it because the battery stopped charging or holding a charge. It says &#34;plugged in, not charging&#34; and loses power.<br /><br />After I wrote this review ASUS support contacted me and told me to send it in for repair, so I did, which I had to pay shipping for.<br />I got an invoice for $130. I wan't going to pay to have it fixed so I a",
+      "After a few months of use the computer kept crashing. I sent it to Asus for repairs where they said they reloaded the OS but that did nothing. The computer now crashes consistently when on battery. I thought at first the battery indicator may just be wrong and the battery was drained causing the crash. Then i purchased a different ASUS tablet and that problem doesn't occur. The warning for low bat"
+    ],
+    "stopped_working": [
+      "Bought one for my dad and it died 3 months after the warranty expired.",
+      "I bought one of these and it spent its entire one year warranty in the shop!!!!!!!!!!!!!!! It was NEVER fixed, nor they really intend to fix its problems, they simply wanted the time to run out  going back and forth to the factory rebuilding place.  I have never been so furious with a company in all my life.  We are a NON-PROFIT COMPANY, SERVING THE POOR, HUNGER AND HOMELESS WITH THEIR PETS!!!!The",
+      "I bought this notebook for my grandson.  After 3 months, it stopped working.  We sent it back to Amazon and they refunded my money.  My grandson liked so many of the features of this notebook, he asked that we purchase it again.  So, we did.  Every time he turned it on, there was a message from Microsoft to download Windows 10.  Finally, after repeatedly ignoring the invitation to install Windows "
+    ],
+    "control_failure": [
+      "Do not buy.  This unit worked for a period of a few months then started powering off randomly while in use.  Contacted ASUS as it was under warranty and sent it in via their RMA process.  They reloaded the operating software and sent it back to me (gee, thanks, like I could not have done that).  Obviously, it had nothing to do with the problem and still have the same issue.  Now they want me to se",
+      "After a couple of months, it is still nice. But the sound doesn't work. And the power button is fickle. And the battery seems to drain while it's \"sleeping.\" Buy it if you need something small that comes with Office and full Windows, but you might want to just spend some more money and get quality."
+    ],
+    "storage_failure": [
+      "This is my second Asus tablet. This one was purchased to replace my Transformer Infinity due to its full version of Windows. If you're expecting a hybrid that will operate like the big boys (e.g. Surface Pro) then you will be disappointed. This really is an entry level device. I bought it because it was rated highly by both by consumers and the tech websites, especially for its price (I paid nearl",
+      "It was losing operating system once every few months for no good reason. I had motherboard replaced by Asus when it was still under warranty  and the new unit developed the same problem right away.  I upgraded it to Windows 10 32bit edition hoping that this would improve things. It got worse, Windows got destroyed completely at every major update. Recovery was not working and going through the las",
+      "I recently bought the Asus Transformer Book in December and only a month later there is a problem with the hard drive! Of course the return policy only gives you a month and somehow the Asus died a month and a week later! I'm so annoyed! I will never purchase this product again."
+    ],
+    "charging_port_failure": [
+      "I bought this laptop in 2014, hardly ever use it and about a year ago it stopped charging when plugged in. I sent it in for repair and used it yesterday and the battery drained while plugged in. I left it plugged in all night and it's dead this morning. I've tried new chargers, different outlet. I'm so mad that I paid $300 for this. I wish I could go back in time and stop myself from buying this.",
+      "I received it a week ago, then charge it according to instruction (8 hours). At first the charger turns hot, one hour later charger turns cold. I haven't touch it, but afterwards all I get is the low battery level. I tried to charge it up for a few days-- but it apparently refuse to charge. The charger is cold; and when I charge my phone with the same charger, the phone charge and the charger turn",
+      "When considering any ASUS product consider the following.  My tablet quit charging after 14 months and nothing I could do could fix it.  After returning it to ASUS I was informed that the motherboard was bad and that the charge to fix it would be $236 including parts, labor and shipping.  ASUS refused to give any consideration to the fact that it was only 14 months old and barely out of warranty. "
+    ],
+    "keyboard_failure": [
+      "Never worked particularly well, then after a year the keyboard died. Spent many hours trying to troubleshoot to get a working screen plus keyboard, for naught. Waste of money. I already have tablets, I wanted the mini-computer function with keyboard.",
+      "I received my transformer just about two weeks ago, problems from beginning, first would not allow  me to set it up with office . Then after got that straight I was still unable to use touchpad and physical keyboard, at long last managed to get touch pad to work but as of yet keyboard still won't work. Contacted Asus a couple of times through their chat line, first time guy was helpful but not muc"
+    ],
+    "screen_failure": [
+      "I thought this was a great 2 in 1 for the price, but I guess I got what I paid for. After a couple of months the thing told me to wipe windows, and now all I get is a black screen. I don't know if I did something wrong, or if it just broke. I am not an IT person!!!!",
+      "This was a very disappointing purchase!  I bought this for my child for use in high school.  For the 1st couple of weeks, she didn't have a problem but after that, things went downhill fast.  She was constantly having the computer geeks at school trying to help her with a litany of problems.:<br />often times password won\u2019t unlock computer, has to be restarted/ shut down all the time<br />Around t"
+    ],
+    "other": [
+      "This laptop has lasted me about three years which is probably one of the few good things about it. Ive had times where it would not turn on for weeks or would take days to complete updates, and sometimes would run out of battery while charging and not being used. Its a very touchy laptop that I used to enjoy making videos and taking pictures with , until the camera stopped working saying that the "
+    ],
+    "noise_vibration": [
+      "This seemed like a great deal, now I wish I could return it. At first a cheap laptop with windows and office seemed like a steal. It it cheap, light, and looks good.<br />Two months later.<br />Now the touchpad is finicky, registers false touches when typing and hard to use when you need it. The screen is heavy and the keyboard is light so it just feels off and always feels like it will fall over."
+    ]
+  },
+  "published": true
+}

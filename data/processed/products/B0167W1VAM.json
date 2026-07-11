@@ -1,0 +1,188 @@
+{
+  "parent_asin": "B0167W1VAM",
+  "title": "Lenovo - IdeaPad 100s 11.6\" Laptop/Intel Atom Z3735F/ 2GB Memory / 32GB eMMC Flash Memory/Webcam/Windows 10- Red",
+  "brand": "Lenovo",
+  "image": "https://m.media-amazon.com/images/I/31XGyapToqL._AC_.jpg",
+  "price": 475.0,
+  "average_rating": 3.6,
+  "n_reviews": 245,
+  "n_candidates": 36,
+  "n_obs": 26,
+  "n_events": 17,
+  "median_months": 7.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 814.29,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9615,
+      "lo": 0.7569,
+      "hi": 0.9945
+    },
+    {
+      "t": 0.25,
+      "s": 0.9231,
+      "lo": 0.726,
+      "hi": 0.9802
+    },
+    {
+      "t": 0.5,
+      "s": 0.8846,
+      "lo": 0.6836,
+      "hi": 0.9613
+    },
+    {
+      "t": 1.0,
+      "s": 0.8042,
+      "lo": 0.5915,
+      "hi": 0.9135
+    },
+    {
+      "t": 1.5,
+      "s": 0.7619,
+      "lo": 0.5442,
+      "hi": 0.8855
+    },
+    {
+      "t": 2.0,
+      "s": 0.7195,
+      "lo": 0.4991,
+      "hi": 0.8557
+    },
+    {
+      "t": 3.0,
+      "s": 0.6746,
+      "lo": 0.4516,
+      "hi": 0.8229
+    },
+    {
+      "t": 4.0,
+      "s": 0.6227,
+      "lo": 0.3957,
+      "hi": 0.785
+    },
+    {
+      "t": 6.0,
+      "s": 0.5095,
+      "lo": 0.283,
+      "hi": 0.6975
+    },
+    {
+      "t": 7.0,
+      "s": 0.4458,
+      "lo": 0.2242,
+      "hi": 0.6463
+    },
+    {
+      "t": 9.0,
+      "s": 0.3715,
+      "lo": 0.1591,
+      "hi": 0.5866
+    },
+    {
+      "t": 11.0,
+      "s": 0.2972,
+      "lo": 0.1046,
+      "hi": 0.5209
+    },
+    {
+      "t": 12.0,
+      "s": 0.2229,
+      "lo": 0.0601,
+      "hi": 0.4487
+    },
+    {
+      "t": 19.25,
+      "s": 0.1486,
+      "lo": 0.0261,
+      "hi": 0.369
+    },
+    {
+      "t": 24.0,
+      "s": 0.0743,
+      "lo": 0.0049,
+      "hi": 0.2801
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 4
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 4
+    },
+    {
+      "mode": "screen_failure",
+      "count": 3
+    },
+    {
+      "mode": "control_failure",
+      "count": 2
+    },
+    {
+      "mode": "battery_failure",
+      "count": 1
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 1
+    },
+    {
+      "mode": "storage_failure",
+      "count": 1
+    },
+    {
+      "mode": "overheating",
+      "count": 1
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "battery_failure": [
+      "I bought this as a small/light light-use laptop, mostly just for note-taking... nothing demanding AT ALL. If it had lasted more than a few months, it might have worked well for that purpose. However, the original Lenovo internal/sealed battery started swelling up within the case just a few months after purchase until it forced the case open. Of course, this was shortly after the warranty expired. "
+    ],
+    "stopped_working": [
+      "Worked OK for a while, then magically died one day, of course after the warranty and support had ended.<br />Run far away from this piece of junk.",
+      "Had for a couple of months then it broke down ( did not open or perform any actions) spent many hours with costumer service and had a lot of aggravation if you use it lightly and need it for a few months then purchase if not don't<br />this is a warning",
+      "DO NOT BUY!! Not only is the computer flimsy and almost inoperable, but Lenovo customer support is a joke. In the months I've had this device, I've never gotten it to work properly, and have wasted hours and hours dealing with customer support. Most recently, the support agent told me that the warranty is expired, since I bought the computer 8 months ago. I've already sent it in for servicing and "
+    ],
+    "screen_failure": [
+      "Save yourself the hassle of having to replace this note book after limited use in less than 6 months.  Screen failure as well as the battery needing to be plugged in to 110 v. in order use.",
+      "I purchased this as a lightweight laptop to mainly read emails and take to meetings. After just over 6 months of very light use, the screen developed that cracked screen look, although plugging it into the TV I could see the screen. I thought about purchasing a new screen, but at $40, I don't want to sink any more money into it. I guess I can continue to use it as a laptop connected to the TV. Als",
+      "The screen on this laptop malfunctioned and stopped working properly only forty-five days after purchase.  I expected much better product reliability from Lenovo, even in light of this being their low-end laptop.  Don't make the same mistake I did and consider other buying options.  Very disappointing!"
+    ],
+    "physical_breakage": [
+      "I had thought this was such a good deal, but I guess you get what you pay for. Wave had it just over one year, and the plastic case is breaking apart in several places. within a few months of owning it the frame around the display started to separate from the the display, and now the hinge is broken and the whole thing is coming apart (see photo) so it will have to be replaced. It is not used heav"
+    ],
+    "keyboard_failure": [
+      "Keyboard stopped working after 9 months",
+      "I really liked this laptop for its light weight, perfect for running presentations. But after 11 months, the letter D and the lower row of keys completely stopped functioning.  Had to use an external keyboard (and change my startup password to avoid the letters zxcvbnm). But it was so cheap, I just bought another laptop. Great if you just need a cheap, low-used travel laptop for a few months. But ",
+      "The spacebar broke off within a week. Now I have a computer that works well otherwise...just no spacebar. It would cost half as much as the computer to fix that one bar. The size and color of the computer are great though, and it works for the size and price."
+    ],
+    "storage_failure": [
+      "To whom it may concern, especially Lenovo and anyone considering buying a Lenovo laptop.<br /><br />My 14 year old son saved up $600 and bought his first laptop with financial help and<br />technical advice from his technophile aunt in January, 2014: a Lenovo IdeaPad Z510.<br />Although I was staying out of it while he worked with his beloved aunt (who lives in<br />another state), I approved the "
+    ],
+    "control_failure": [
+      "Thought it would be a great laptop for minimal use. After 7 months sadly the internet card must be having issues as it has days it won't connect to internet at all. Also after 7 months of proper care the battery only lasts about an hour an a half to two hours at the most... Now I am going to have to buy another laptop to replace.",
+      "At first, I thought I liked it, until I discovered it did not have a DVD drive....then it got worse.  It is not accepting the four digit password I had to set during start-up without a &#34;forgot password&#34; option to help you reset it via email - so now it's useless.<br /><br />and...<br /><br />it has a sticker on it that stating it is &#34;thin and light&#34; (I agree with that one), &#34;18"
+    ],
+    "overheating": [
+      "Have owned this Lenovo 100 s  for a couple of years.  Always has been on a cooling pad.  Only used about once a week to check emails and do bills online.  Just recently I noticed a huge bulge pushing upwards from the middle of the keyboard area and touch pad area.  The upwards bulge is just obscene.  Further inspection and the bottom cover of keyboard housing cover has been heated up so badly that"
+    ],
+    "wont_power_on": [
+      "It worked well for the basics I needed for 4 months.  Then one day it simply would not charge and would not turn on.  Literally the night before it was working fine, then the next afternoon it would not turn on.  It is not a &#34;cheap&#34; lap top if it won't work for more than four months."
+    ]
+  },
+  "published": true
+}

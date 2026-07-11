@@ -1,0 +1,122 @@
+{
+  "parent_asin": "B0757FYPBK",
+  "title": "SAMSUNG 11.6\" Chromebook with Intel N3060 up to 2.48GHz, 4GB Memory, 16GB eMMC Flash Memory, Bluetooth 4.0, USB 3.0, HDMI, Webcam, Chrome Operating System, Black",
+  "brand": "SAMSUNG",
+  "image": "https://m.media-amazon.com/images/I/51A4gx2Pe1L._AC_.jpg",
+  "price": 158.0,
+  "average_rating": 4.4,
+  "n_reviews": 305,
+  "n_candidates": 20,
+  "n_obs": 8,
+  "n_events": 8,
+  "median_months": 6.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 316.0,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.25,
+      "s": 0.875,
+      "lo": 0.387,
+      "hi": 0.9814
+    },
+    {
+      "t": 2.0,
+      "s": 0.625,
+      "lo": 0.2293,
+      "hi": 0.8607
+    },
+    {
+      "t": 5.0,
+      "s": 0.5,
+      "lo": 0.152,
+      "hi": 0.7749
+    },
+    {
+      "t": 6.0,
+      "s": 0.375,
+      "lo": 0.087,
+      "hi": 0.6744
+    },
+    {
+      "t": 11.0,
+      "s": 0.25,
+      "lo": 0.0371,
+      "hi": 0.5581
+    },
+    {
+      "t": 11.97,
+      "s": 0.125,
+      "lo": 0.0066,
+      "hi": 0.4227
+    },
+    {
+      "t": 24.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "charging_port_failure",
+      "count": 3
+    },
+    {
+      "mode": "control_failure",
+      "count": 2
+    },
+    {
+      "mode": "other",
+      "count": 1
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 1
+    },
+    {
+      "mode": "battery_failure",
+      "count": 1
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 1
+    },
+    {
+      "mode": "screen_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "other": [
+      "Piece of junk! It lasted exactly 2 years and the hardware failed. I took it to Best Buy and they said it\u2019s not worth the cost to fix it. Very disappointed in Samsung."
+    ],
+    "wont_power_on": [
+      "Was working fine for a few months, then died. It just wouldn't turn on, and would not charge. I thought it was the cord, got a new cord, same story. It's dead. After less than a year. I'm still under warranty, but since I got this at a steep discount, at this point it's more trouble to try and repair it than to simply toss it in the garbage."
+    ],
+    "charging_port_failure": [
+      "This chromebook is awful. First of all, the charger doesn\u2019t even stay in. Even when I\u2019m level to the group, it won\u2019t even stay in\u2014it only charges if I\u2019m literally holding it into the port with my hand.<br />Secondly, Netflix and Hulu and any other streaming sites don\u2019t work properly. At first, they didn\u2019t load at all. I updated the chromebook twice and finally the videos would load \u2014 except, it wa",
+      "Product died within six months of using it due to the fact it would no longer charge.  Contacted Amazon customer service for assistance who stated they could help but then retracted the offer when i asked what happens to my wrap around insurance coverage and to contact 3rd party seller directly.  I've never had difficulty with customer svc ever with Amazon and I felt that they were about to help u",
+      "Complete POS!  Not even a year old of very little use and it will not charge!!  Junk!!"
+    ],
+    "control_failure": [
+      "I bought 2 of these over the summer for distance learning - I have 2 similarly aged kids who are on video calls for school 3 hours a day, usually simultaneously.  The headphone jacks are defective - they rarely, and only intermittently, recognize when headphones are plugged in.  Sometimes restarting the whole system will help, but not always.  I've tried 3 sets, so it's obviously a hardware issue.",
+      "My issues with this chrome book are that the mouse would suddenly disappear as I would be using it and a lot of times the mouse would simply freeze and stay unresponsive. IVE ONLY HAD THIS THING FOR A WEEK. Definitely returning as this is the 3rd Samsung product that\u2019s been defective for me right out of the box. Maybe it\u2019s just my computer and I have bad luck but Samsung is not the company for me."
+    ],
+    "keyboard_failure": [
+      "Bought two Samsung Chrome books for my kids with an extended warranty.  Both devices ran very slow and several computer keys broke off of the keyboard within 5 months of use.  I contacted Amazon on 2/23rd and spoke to a representative who is now trying to charge me a restocking fee.  Due to the timing of returning the product being 7 days past the expiration date.  They are not honoring their poli"
+    ],
+    "battery_failure": [
+      "After 2 months battery won't hold charge<br />Now it won't turn on at all"
+    ],
+    "screen_failure": [
+      "I enjoyed this item for the 2 months i had it.<br />I opened it one day and saw what looked like a cracked screen. Upon further inspection I see that it was what looked like a burst cells inside. Not sure of the precise term but i sent it in and was told it aas due to \"physical damage\" ....i was always extremely careful amd it was never dropped like they say it was.<br />I will mever buy another s"
+    ]
+  },
+  "published": false
+}

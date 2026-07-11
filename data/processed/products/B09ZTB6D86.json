@@ -1,0 +1,234 @@
+{
+  "parent_asin": "B09ZTB6D86",
+  "title": "HP 15-dy1036nr 10th Gen Intel Core i5-1035G1, 15.6-Inch FHD Laptop, Natural Silver",
+  "brand": "HP",
+  "image": "https://m.media-amazon.com/images/I/41p5adYQCyS._AC_.jpg",
+  "price": 458.0,
+  "average_rating": 4.5,
+  "n_reviews": 248,
+  "n_candidates": 49,
+  "n_obs": 37,
+  "n_events": 33,
+  "median_months": 3.3,
+  "median_is_lower_bound": false,
+  "cost_per_year": 1665.45,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.973,
+      "lo": 0.8232,
+      "hi": 0.9961
+    },
+    {
+      "t": 0.1,
+      "s": 0.9459,
+      "lo": 0.8007,
+      "hi": 0.9862
+    },
+    {
+      "t": 0.12,
+      "s": 0.9189,
+      "lo": 0.7693,
+      "hi": 0.9731
+    },
+    {
+      "t": 0.25,
+      "s": 0.8378,
+      "lo": 0.6742,
+      "hi": 0.9237
+    },
+    {
+      "t": 0.27,
+      "s": 0.8099,
+      "lo": 0.6421,
+      "hi": 0.9045
+    },
+    {
+      "t": 0.33,
+      "s": 0.8099,
+      "lo": 0.6421,
+      "hi": 0.9045
+    },
+    {
+      "t": 0.5,
+      "s": 0.781,
+      "lo": 0.6091,
+      "hi": 0.884
+    },
+    {
+      "t": 0.75,
+      "s": 0.7521,
+      "lo": 0.5771,
+      "hi": 0.8627
+    },
+    {
+      "t": 1.0,
+      "s": 0.6942,
+      "lo": 0.5155,
+      "hi": 0.8179
+    },
+    {
+      "t": 1.5,
+      "s": 0.6338,
+      "lo": 0.4531,
+      "hi": 0.769
+    },
+    {
+      "t": 2.0,
+      "s": 0.6037,
+      "lo": 0.423,
+      "hi": 0.7437
+    },
+    {
+      "t": 3.0,
+      "s": 0.5131,
+      "lo": 0.337,
+      "hi": 0.6641
+    },
+    {
+      "t": 3.33,
+      "s": 0.4829,
+      "lo": 0.3096,
+      "hi": 0.6364
+    },
+    {
+      "t": 4.0,
+      "s": 0.3924,
+      "lo": 0.2312,
+      "hi": 0.5501
+    },
+    {
+      "t": 5.0,
+      "s": 0.332,
+      "lo": 0.1822,
+      "hi": 0.4897
+    },
+    {
+      "t": 6.0,
+      "s": 0.2415,
+      "lo": 0.1144,
+      "hi": 0.394
+    },
+    {
+      "t": 6.5,
+      "s": 0.2113,
+      "lo": 0.0935,
+      "hi": 0.3606
+    },
+    {
+      "t": 7.0,
+      "s": 0.1811,
+      "lo": 0.0738,
+      "hi": 0.3262
+    },
+    {
+      "t": 8.0,
+      "s": 0.1509,
+      "lo": 0.0553,
+      "hi": 0.2908
+    },
+    {
+      "t": 12.0,
+      "s": 0.0604,
+      "lo": 0.0108,
+      "hi": 0.1754
+    },
+    {
+      "t": 25.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "control_failure",
+      "count": 15
+    },
+    {
+      "mode": "screen_failure",
+      "count": 6
+    },
+    {
+      "mode": "stopped_working",
+      "count": 4
+    },
+    {
+      "mode": "wont_boot",
+      "count": 2
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 2
+    },
+    {
+      "mode": "storage_failure",
+      "count": 2
+    },
+    {
+      "mode": "battery_failure",
+      "count": 2
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 1
+    },
+    {
+      "mode": "other",
+      "count": 1
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "screen_failure": [
+      "This unit will not run monitors off of the USB-C port which annoys me greatly since it only does data but it works quite well otherwise. The problem started a few days after I started using it. When I would move the mouse to do what you do with a mouse the screen would starting jumping and acting like it lost sync and at times the screen would go blank. A chat with HP support that ran over several",
+      "This system has NO battery,  After 8 days, aprox 19hrs of use by my wife doing some emails and web the screen started pixelating just by being turned on.  Seller is good, this unit is not.<br />UPDATE: 02/23/2023, Sell has not replied on return, it has been well over 2 weeks. A seller that seemed to be good has become a non-dependable seller.  NEVER AGAIN",
+      "I returned this laptop. It felt really cheap. Some of the keys were nearly popping off and with a few months the screen would flash on and off when I opened it. Too bad. My old HP is 10 years old and still good. Disappointed in you HP."
+    ],
+    "control_failure": [
+      "Bought this for my mother.  She used it two times and when attempting to use it the third time it did not work. Took it to a computer tech who advised that the mother board was not working.  Interesting to know after two months. I sent it to another country for her so it was difficult for me to bring it back in time for a return due to COVID.",
+      "Only had the product for about a month or so and the WiFi crashes and indicates it\u2019s not operational. Which really sucks when trying to work from home on a laptop. I did a reset and it worked the 1st time, but not the second time it happened. If I don\u2019t figure out something soon I\u2019ll have to return the product which significantly impedes my work schedule. Due to the WiFi headache, I would not reco",
+      "Less than 8 months of use and the WiFi module stopped working and there are no drivers on the HP site to update the software. Software support only valid for 30 days after purchase. So HP blames Windows for a botched update. Independent computer tech says there is no fix for the missing wireless software drivers. Now we have an 8 month old laptop that can not connect to the internet. Do not buy HP"
+    ],
+    "wont_boot": [
+      "This piece of crap died- wont boot up- no one to call- only emails- then a one hour chat and if I Pay $25 it will still take from 15 to 30 days to get it repaired?  up to 2 months if no charge in 12month warranty.<br />it took 2 days just to get on a chat - if you don't have a back-up PC, YOU ARE SCREWED.<br />Amazon was NO HELP WHAT SO EVER",
+      "I ordered a HP 15-1036, what they sent me was a HP 15 -1059MS. Which I guess was an upgrade being that I had more ram and a touchscreen. More ram was great, and I guess the touchscreen was good too but being that I\u2019m clumsy I would tend to touch the screen while using this keyboard which would mess things up, Which is no big deal being that\u2019s not HP\u2019s fault. I had had the computer only for five mo"
+    ],
+    "stopped_working": [
+      "I bought this replace my laptop from 2016 which suddenly died. It was a great Dell laptop and cost half the price, but I figured it'd be worth it. I only use my laptop to watch youtube/netflix, and just browse the web. So I figured at $600 this would be more than enough, but it's been more of a hastle.<br /><br />Firstly, the fan is pretty loud, and randomly revs up pretty significantly when I'm d",
+      "This computer is a real disappointment! I returned it the same day. It shutdown itself without any warning. the images are dull, is not bright at all. Its a waste of money. I returned it since 5 days and till now no acknowledge receipt, no response while they already took the money from my account.",
+      "Broke after a little over a year. No support from HP. I was told repair would start at $350 without shipping or parts."
+    ],
+    "wont_power_on": [
+      "This computer has needed to be returned 2x. And still doesn\u2019t work the first time the wireless internet wouldn\u2019t work. They took 2months to finally send a new computer which turned out to be a refurbished one. It lasted a week the. It wouldn\u2019t turn on. They tried to trouble shoot so they didn\u2019t have to send a new one.",
+      "I bought this laptop to work from home in 2020 during the pandemic. It worked well - good speed, got the job done. I'd had some issues with it being finicky about coming on from time to time. If it was left open, sometimes you'd have to close it and reopen it to get the screen to light up. Other times, I had to hold the restart button and reboot it, even though it was just in sleep mode (clicking "
+    ],
+    "storage_failure": [
+      "I had this laptop in my possession for four days -- just long enough to spend hours and hours and hours on the conversion from my old laptop. And that's when the hard-drive blew up. HP told me they could repair it and return it to me within three weeks of the time that they receive it. Then I guess I could take the chance that their quality would be better the second time around, and I could re-in",
+      "Horrible!<br />Had this computer for three months and it had a critical hardware failure. Lost all my files. HP tech support tried to blame it on the operating system after numerous diagnostic tests and hours of on the phone support with them. Once we took it to an authorized HP shop to retrieve my files from the hard drive the HP specialist told us that he couldn't retrieve any files because the "
+    ],
+    "battery_failure": [
+      "Do not buy any products for Christmas were your return window is limited.  This product was not opened until Dec 25th and was minimally used until the semester started the 2nd week of January.  Now, 11 days past the return date, the battery is not working (does not last past 1 hour) and the computer keeps freeqing during exams and usage..... AMAZON CHAT WAS HORRIBLE..... no help at all. Will never",
+      "I've had laptops last me for years. Never had HP though. Bought this one based on the price, but have had trouble with it ever since. And now just after the warranty expires after only just a year, the battery is dying and there is zero customer service unless you pay extra. The HP driver software isn't compatible with standard Intel drivers, so if you install based on the alerts from Intel it wil"
+    ],
+    "electrical_fault": [
+      "I bout this laptop in Sept in 2020 to work from home and the Intel wifi adapter failed in December 2020. Now HP is s telling me I can pay $80 bucks to get a 3 year extended warranty on both software band hardware. Why the hell would I want to invest more than the the $700 investment I already made during the pandemic. Idk what to do at this point. I can't sell it, I can't get a refund, and I'm not"
+    ],
+    "other": [
+      "This computer was defective brand new out of the box. We sent it back for a refund. Amazon promises that the refund will happen within 7 days of sent item. It's been longer than 7 days since the shipper said that the package was successfully returned. Where's our refund?"
+    ],
+    "charging_port_failure": [
+      "Unfortunately, the charger has stopped working, the computer is not yet 4 months old.<br />Very dissappointing..."
+    ]
+  },
+  "published": true
+}

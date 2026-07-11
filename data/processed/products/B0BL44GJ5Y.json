@@ -1,0 +1,116 @@
+{
+  "parent_asin": "B0BL44GJ5Y",
+  "title": "Lenovo 2020 IdeaPad Laptop ComputerAMD A6-9220e 1.6GHz 4GB Memory 64GB eMMC Flash Memory 14\" AMD Radeon R4 AC WiFi Microsoft Office 365 Platinum Gray Windows 10 Home",
+  "brand": "Lenovo",
+  "image": "https://m.media-amazon.com/images/I/41acXx4-8iL._AC_.jpg",
+  "price": 192.0,
+  "average_rating": 4.0,
+  "n_reviews": 320,
+  "n_candidates": 17,
+  "n_obs": 11,
+  "n_events": 10,
+  "median_months": 3.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 768.0,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.5,
+      "s": 0.9091,
+      "lo": 0.5081,
+      "hi": 0.9867
+    },
+    {
+      "t": 0.75,
+      "s": 0.8081,
+      "lo": 0.4235,
+      "hi": 0.9485
+    },
+    {
+      "t": 1.03,
+      "s": 0.7071,
+      "lo": 0.3373,
+      "hi": 0.8953
+    },
+    {
+      "t": 2.0,
+      "s": 0.6061,
+      "lo": 0.258,
+      "hi": 0.831
+    },
+    {
+      "t": 3.0,
+      "s": 0.404,
+      "lo": 0.1246,
+      "hi": 0.6741
+    },
+    {
+      "t": 4.0,
+      "s": 0.202,
+      "lo": 0.0313,
+      "hi": 0.4779
+    },
+    {
+      "t": 5.0,
+      "s": 0.101,
+      "lo": 0.0058,
+      "hi": 0.3607
+    },
+    {
+      "t": 24.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 4
+    },
+    {
+      "mode": "screen_failure",
+      "count": 3
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 2
+    },
+    {
+      "mode": "control_failure",
+      "count": 1
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "charging_port_failure": [
+      "This computer was awful for the 2 years I have had it now. It was beyond slow, and not even touch screen. I mean super duper slow. It recently fell less than 12 inches onto the floor and the charger broke off (half inside the port). It was not worth paying to be repaired and get a new charger. Bought an ASUS and it\u2019s fast and cheaper. Don\u2019t waste your money on this junk"
+    ],
+    "screen_failure": [
+      "The first one, the screen went black and Lenovo support made me do a factory reset where I lost everything, good thing I only had it just over a month.  After the reset, the thing was SO slow it was unusable.  Finally Amazon agreed to send me a new one.  I received that and booted it up.  Only to find a login name and requesting a PIN.  So they send me another POS that someone already had!  Finall",
+      "Hard to review completely as we purchased two to use in our business. Two weeks after the Amazon return policy, the screen on one quit functioning and the only way to use it is to tie it to an external monitor defeating the purpose of it being a laptop. Now Amazon wants us to send back for repair. It is usable but not what was paid for. If Amazon would send another to keep us up and running and th",
+      "I use for my personal use and after 3 months of use the electronics screen was damaged.<br />and I don\u2019t know what todo ."
+    ],
+    "control_failure": [
+      "not a touch screen but a good buy  works fine. Light weight. Although I see alot if post stating its slow I havent had that issue at all. So far good..<br />***ALERT***<br />Fast forward 3 months after purchase. Laptop is slow as ever! Unable to open anything on web. Unable to use it for web meetings because it keeps freezing!!! I truly hate i wasted my money on this product. You get what you pay "
+    ],
+    "stopped_working": [
+      "After 4 months computer stopped working! Have insurance on it but will cost more to fix then I paid! Never will buy another Lenova product again. Calling BBB",
+      "One day it just stopped working. I need to contact customer service to get a refund or replacement.",
+      "Laptop stopped working after 4 months have to call the company to fix"
+    ],
+    "wont_power_on": [
+      "This basic laptop seemed adequate at first and suited my basic needs, but after a couple months stopped turning on.  I don't even know if it's software or hardware but the lights and indicate charging or turned on just slowly blink and the screen never strays from dead black.  I haven't been able to get it to work with intermittent efforts and lots of charging the past few months.<br />I bought Le",
+      "The laptop just stopped working after 5 months, it just refused to power on. No, it did not get wet or damaged, one day it was working fine and then it just stopped working."
+    ]
+  },
+  "published": false
+}

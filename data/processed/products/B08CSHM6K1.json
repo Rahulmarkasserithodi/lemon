@@ -1,0 +1,149 @@
+{
+  "parent_asin": "B08CSHM6K1",
+  "title": "HP Stream 14-inch Laptop, AMD Dual-Core A4-9120E Processor, 4 GB SDRAM, 64 GB eMMC, Windows 10 Home in S Mode with Office 365 Personal for One Year (14-ds0150nr, Diamond White)",
+  "brand": "HP",
+  "image": "https://m.media-amazon.com/images/I/41cwnrge11L._AC_.jpg",
+  "price": 399.0,
+  "average_rating": 4.3,
+  "n_reviews": 351,
+  "n_candidates": 23,
+  "n_obs": 16,
+  "n_events": 14,
+  "median_months": 3.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 1596.0,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.06,
+      "s": 0.9375,
+      "lo": 0.6323,
+      "hi": 0.991
+    },
+    {
+      "t": 0.09,
+      "s": 0.875,
+      "lo": 0.586,
+      "hi": 0.9672
+    },
+    {
+      "t": 0.25,
+      "s": 0.6875,
+      "lo": 0.4046,
+      "hi": 0.8563
+    },
+    {
+      "t": 0.5,
+      "s": 0.6875,
+      "lo": 0.4046,
+      "hi": 0.8563
+    },
+    {
+      "t": 0.75,
+      "s": 0.6188,
+      "lo": 0.3393,
+      "hi": 0.808
+    },
+    {
+      "t": 2.0,
+      "s": 0.55,
+      "lo": 0.2793,
+      "hi": 0.7556
+    },
+    {
+      "t": 3.0,
+      "s": 0.4812,
+      "lo": 0.2241,
+      "hi": 0.6993
+    },
+    {
+      "t": 5.0,
+      "s": 0.4125,
+      "lo": 0.1734,
+      "hi": 0.6392
+    },
+    {
+      "t": 6.0,
+      "s": 0.2063,
+      "lo": 0.0508,
+      "hi": 0.4332
+    },
+    {
+      "t": 13.0,
+      "s": 0.1031,
+      "lo": 0.008,
+      "hi": 0.343
+    },
+    {
+      "t": 18.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "wont_boot",
+      "count": 4
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 3
+    },
+    {
+      "mode": "stopped_working",
+      "count": 2
+    },
+    {
+      "mode": "screen_failure",
+      "count": 2
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 1
+    },
+    {
+      "mode": "battery_failure",
+      "count": 1
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "battery_failure": [
+      "I purchased a new computer, but why does it work like an old device and also the battery life is very short. I really hope they didn't send me a used laptop. I've only used it for less than a month. The battery is completely dead, before when I tried to charge it the laptop would not respond to the charge. I definitely have to get a refund. I have had an hp stream laptop the older smaller versions"
+    ],
+    "wont_power_on": [
+      "I purchased this laptop for the purpose of  providing music for area non profits. I used  the laptop about twice monthly. Itunes worked well. At 18 months, it won't power up. I tried everything on the HP web-site. Seems the power button is of poor quality as other people had the same problem.  Cost to send out for repair? $300!  More than the replacement cost. Needless to say.. never again  HP  fo",
+      "Not happy, I will need to make a return because the computer will not turn on !!! I had it 2 days and within that time the computer won\u2019t turn on even after it\u2019s been charging ... need to take to customer service",
+      "I bought this for christmas for my daughter to do her zoom schooling. I purchased it NEW through amazon. She has maybe used it 2x and now the computer will not turn on. I am beyond disappointed that a $400 laptop will not turn on less than two months after purchasing it. When I plug the charger in it doesnt even light up to show that it is charging, I have tried to reset it and have spent hours tr"
+    ],
+    "charging_port_failure": [
+      "I purchased this 14\"hp- touch screen,used it in my beading /craft room. I worked ok for one year. Purchased Nov.25, 2019, On Dec. 27,2020 it would not charge. It seem to have died just as the  the warranty end.( Nov.25,2020. Purchased it as a new computer,but when I quoted the serial number to hp, they said it was not the right number for my unit. I am wondering if amazon sold me a refurbished com"
+    ],
+    "wont_boot": [
+      "This was great initially, no problems at all but now 6 months later, it's not starting up properly. It's taking 45 minutes to get started, the curser keeps disappearing and the computer just days self diagnose for an hour after that, we eventually get it started after 2 hours........",
+      "I have not has this computer maybe 3 months.  I had it fully charged and I went to turn it in days later and it was dead.  It then struggles to come on and had all kinds if error messages.  On top of all that, from day one it runs sooooo slow and I keep it in S mode.",
+      "Very disappointed computer worked for a week, then froze. all my personal info was lock in. I had to return computer .I call customer service  but due to COVID pandemic  I was unable to get assistance.  Automatic system was a mess. I had to change all my passwords and pray."
+    ],
+    "stopped_working": [
+      "Bought this laptop for my daughter to do online schooling. It worked fine for 3 days and then suddenly had a critical failure. Would not recommend",
+      "This product is junk, lasted less than 6 months. The seller, the manufacturer and Amazon were useless in resolving any issues. Don\u2019t waste your time or money purchasing this!!"
+    ],
+    "keyboard_failure": [
+      "Searched amazon for touch screen laptops and this popped up, but it is not touch screen. Used this for school work and it works fine for that. Isn\u2019t super slow for me, but I don\u2019t use a lot of apace on this since most of my work I do on google. Should have just went with a chromebook instead of this, but I loved my other touch screen HP laptop so much I decided to try this out. The left button on "
+    ],
+    "screen_failure": [
+      "I bought 2 of these & 1 the screen broke after 3 weeks. It was all distorted & I didnt even do anything so not sure what caused it. Hoping other one is okay. Returning the broken one & plan on buying something thats a little better quality.",
+      "I purchased the laptop to do my thesis. One morning, as I turned it on, the screen started to malfunction. This happened within five months of purchasing. See video above. It was good until one turn on, and then it wasn\u2019t.<br />The rose gold colour also faints after sometime."
+    ]
+  },
+  "published": false
+}

@@ -1,0 +1,209 @@
+{
+  "parent_asin": "B009F1JL5A",
+  "title": "ASUS S400CA-DH51 14-Inch TouchScreen Laptop",
+  "brand": "ASUS",
+  "image": "https://m.media-amazon.com/images/I/41mtNeVlYnL._AC_.jpg",
+  "price": 499.95,
+  "average_rating": 3.6,
+  "n_reviews": 240,
+  "n_candidates": 56,
+  "n_obs": 42,
+  "n_events": 18,
+  "median_months": 12.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 499.95,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9524,
+      "lo": 0.8227,
+      "hi": 0.9879
+    },
+    {
+      "t": 0.1,
+      "s": 0.9286,
+      "lo": 0.7947,
+      "hi": 0.9764
+    },
+    {
+      "t": 0.12,
+      "s": 0.9286,
+      "lo": 0.7947,
+      "hi": 0.9764
+    },
+    {
+      "t": 0.25,
+      "s": 0.9028,
+      "lo": 0.7611,
+      "hi": 0.9624
+    },
+    {
+      "t": 0.33,
+      "s": 0.9028,
+      "lo": 0.7611,
+      "hi": 0.9624
+    },
+    {
+      "t": 0.5,
+      "s": 0.8762,
+      "lo": 0.7273,
+      "hi": 0.9466
+    },
+    {
+      "t": 0.75,
+      "s": 0.846,
+      "lo": 0.6873,
+      "hi": 0.9281
+    },
+    {
+      "t": 1.0,
+      "s": 0.7809,
+      "lo": 0.6057,
+      "hi": 0.8852
+    },
+    {
+      "t": 2.0,
+      "s": 0.7809,
+      "lo": 0.6057,
+      "hi": 0.8852
+    },
+    {
+      "t": 3.0,
+      "s": 0.7375,
+      "lo": 0.5477,
+      "hi": 0.8573
+    },
+    {
+      "t": 3.25,
+      "s": 0.7375,
+      "lo": 0.5477,
+      "hi": 0.8573
+    },
+    {
+      "t": 4.0,
+      "s": 0.5993,
+      "lo": 0.3886,
+      "hi": 0.7577
+    },
+    {
+      "t": 10.0,
+      "s": 0.5532,
+      "lo": 0.3427,
+      "hi": 0.7208
+    },
+    {
+      "t": 12.0,
+      "s": 0.4149,
+      "lo": 0.2193,
+      "hi": 0.6004
+    },
+    {
+      "t": 16.0,
+      "s": 0.2766,
+      "lo": 0.0702,
+      "hi": 0.5369
+    },
+    {
+      "t": 18.0,
+      "s": 0.1383,
+      "lo": 0.01,
+      "hi": 0.4273
+    },
+    {
+      "t": 48.0,
+      "s": 0.1383,
+      "lo": 0.01,
+      "hi": 0.4273
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "screen_failure",
+      "count": 5
+    },
+    {
+      "mode": "control_failure",
+      "count": 5
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 3
+    },
+    {
+      "mode": "wont_boot",
+      "count": 2
+    },
+    {
+      "mode": "stopped_working",
+      "count": 2
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 1
+    },
+    {
+      "mode": "storage_failure",
+      "count": 1
+    },
+    {
+      "mode": "cooling_failure",
+      "count": 1
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 1
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "electrical_fault": [
+      "I have had no end of trouble with this piece of crap. 4 months after I bought it, the motherboard blew. After having it replaced, it blew again just 8 months after that. Then only 6 weeks after replacing the motherboard blew again, the hard drive crashes. On top of all of that, Asus has HORRIBLE customer support. Out of 8+ calls, only one representative was even close to competent. Do yourself a f"
+    ],
+    "wont_boot": [
+      "After 3 months, it took a real long time to start up. Then it took hours to update the system. Now it's not usable. Was already past the return window so i'm stuck with a $700 brick.",
+      "Ok, so I bought this notebook almost one year ago and it has had a host of problems. A little background information about myself is that I'm a Comp/TIA A+ certified repair technician and I fix computers for a living. When I first got this Asus notebook, I was thrilled with the price/performance ratio. I quickly became accustomed to Windows 8, and enjoyed many features that this laptop had such as"
+    ],
+    "storage_failure": [
+      "From the beginning we had a flawed keyboard with a space bar that didn't work well. Probably should have returned it, but we were too busy and got &#34;adapted&#34; to using it anyway.  After a year, the machine would occasionally just shut down.  Then after 16 months, the hard drive failed.  Not a good experience, overall.  By now it's an old model, so probably best to look for something more mod"
+    ],
+    "control_failure": [
+      "Ordered this based on several days of intensive research and on the positive reviews here on Amazon. I had read that several different ultrabook lines (Asus Zenbook, Lenovo U Series) had some wifi issues but did not read that on the Vivobook line (one of my reasons for ordering it).<br /><br />I received the box yesterday and unpacked everything. The laptop was beautiful. Well constructed and shar",
+      "(1/7/2014) I've had this laptop for less than a year and have been experiencing problems with it unexpectedly shutting down. This can occur at any time while using the laptop including immediately after logging in. After an RMA, Asus claimed to fix the problem by reinstalling Windows but the instability still persists. While the laptop has many appealing features for the price, I do not recommend ",
+      "The laptop lost connectivity to internet after 10 months of use."
+    ],
+    "screen_failure": [
+      "I have bought thousands of dollars of merchandise on Amazon over the years and here's my first review because i can't let this situation go without warning others.  I had a false sense that it would be okay even for something like a laptop computer. Within a couple of weeks my laptop screen would, on ocassion, not light up. The computer was running but i had no display. I immediately reached out f",
+      "I bought this device on 10/27/12 for my wife's anniversary (11/06) present.  It arrived 11/01/12 and immediately had a defect.  The right edge of the screen would not respond to touch input.  This made the gesture for slide in from the right edge to activate windows charm bar impossible.  I tried updating all software and firmware on the off-chance that it would fix the problem, including BIOS and",
+      "I am a software professional and I've used a plethora of devices.<br />First, hardware issues. The screen developed a patch right in the center one month after buying it. How convenient! cannot even return now.<br /><br />Performance wise, it performs worse than my 2004 , 1 GB RAM celeron laptop. The celeron laptop has windows XP and I run a virtual machine inside it and then, run matlab on the vi"
+    ],
+    "wont_power_on": [
+      "Highly disappointed! The worst computer I have ever had, and I have had many.<br />A brand new unit I purchased from Amazon stopped turning on just two weeks after arrival. I had to send it back. Asus send me the &#34;repaired&#34; unit four weeks later.<br />And then it stopped working again (same problem) after a year.<br />Working out a solution with Asus's customer service is much worse than g",
+      "Update: This laptop died on me about two weeks ago. I've since returned it to Amazon and plan on purchasing another machine. The machine would randomly turn off for no reason. I googled around to search for solutions to the issue, but the hardware is too new to find much information online. I finally decided to return it when I was in a meeting with a client when my machine randomly turned off and",
+      "Purchased this model back to Jun. 17, 2013. It was totally off after 4 months, repaired by Asus. It broke again another 5 months later, sent back Asus again for repair. All problems were due to faulty mother board and got replaced. We completely lost trust to the laptop, not dare to put any data in it. Won't buy Ausu laptop again and won't recommend Asus to anyone."
+    ],
+    "cooling_failure": [
+      "it did well for a long time but after about a year and a half of heavy use the cooling system started to run into some big problems. the fan had this terrible chatter to it that was so loud the speakers couldnt be heard, also the speakers were very soft. i had to have them up in the 70-100 range to hear the words when watching TV or youtube, the touchscreen was very sharp but the touchpad has majo"
+    ],
+    "stopped_working": [
+      "[[VIDEOID:8436190a29a9801d59e499f9bf46a985]] 1)It stopped working after 4 months of use.<br />2)I used it for housing working.<br />3)I will try to contact ASUS to send my laptop to servicing.",
+      "[[VIDEOID:8436190a29a9801d59e499f9bf46a985]] 1)It stopped working after 4 months of use.<br />2)I used it for housing working.<br />3)I will try to contact ASUS to send my laptop to servicing.",
+      "[[VIDEOID:8436190a29a9801d59e499f9bf46a985]] 1)It stopped working after 4 months of use.<br />2)I used it for housing working.<br />3)I will try to contact ASUS to send my laptop to servicing."
+    ],
+    "physical_breakage": [
+      "Love the touch screen... did not think I would use it but I actually use it all the time!<br /><br />The only thing that took me forever to get used too (and am still trying to get completely used to it after a year) is that it's WIndows 8. I wish there was an option to choose a different Windows!<br /><br />But I have not had any problems with this at all. Only one, which was my fault, where I cr"
+    ],
+    "keyboard_failure": [
+      "I received my laptop and I was super excited...only to find out that the touch screen keyboard DOES NOT WORK. Whenever I press the &#34;e&#34; key, a whole bunch of smiley faces show up instead. I would not recommend this laptop to anyone unless they want to waste money. I want to return it, and am in the process of figuring out how to. I had this laptop for less than a week."
+    ]
+  },
+  "published": true
+}

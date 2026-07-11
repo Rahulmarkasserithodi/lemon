@@ -1,0 +1,380 @@
+{
+  "parent_asin": "B01CVOLVPA",
+  "title": "Acer Chromebook 14, Aluminum, 14-inch Full HD, Intel Celeron N3160, 4GB LPDDR3, 32GB, Chrome, CB3-431-C5FM",
+  "brand": "Acer",
+  "image": "https://m.media-amazon.com/images/I/41810iOekqL._AC_.jpg",
+  "price": 298.0,
+  "average_rating": 4.2,
+  "n_reviews": 1198,
+  "n_candidates": 152,
+  "n_obs": 113,
+  "n_events": 79,
+  "median_months": 6.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 596.0,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.01,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9375,
+      "lo": 0.8734,
+      "hi": 0.9697
+    },
+    {
+      "t": 0.06,
+      "s": 0.9284,
+      "lo": 0.8619,
+      "hi": 0.9635
+    },
+    {
+      "t": 0.09,
+      "s": 0.9284,
+      "lo": 0.8619,
+      "hi": 0.9635
+    },
+    {
+      "t": 0.1,
+      "s": 0.9192,
+      "lo": 0.8505,
+      "hi": 0.9571
+    },
+    {
+      "t": 0.25,
+      "s": 0.8365,
+      "lo": 0.753,
+      "hi": 0.8937
+    },
+    {
+      "t": 0.27,
+      "s": 0.8271,
+      "lo": 0.7423,
+      "hi": 0.8861
+    },
+    {
+      "t": 0.33,
+      "s": 0.8177,
+      "lo": 0.7317,
+      "hi": 0.8784
+    },
+    {
+      "t": 0.38,
+      "s": 0.8083,
+      "lo": 0.7212,
+      "hi": 0.8706
+    },
+    {
+      "t": 0.5,
+      "s": 0.7893,
+      "lo": 0.7,
+      "hi": 0.8547
+    },
+    {
+      "t": 0.75,
+      "s": 0.7695,
+      "lo": 0.6781,
+      "hi": 0.8381
+    },
+    {
+      "t": 1.0,
+      "s": 0.7096,
+      "lo": 0.6129,
+      "hi": 0.7863
+    },
+    {
+      "t": 1.03,
+      "s": 0.6893,
+      "lo": 0.5913,
+      "hi": 0.7684
+    },
+    {
+      "t": 1.25,
+      "s": 0.6792,
+      "lo": 0.5806,
+      "hi": 0.7593
+    },
+    {
+      "t": 1.5,
+      "s": 0.669,
+      "lo": 0.5699,
+      "hi": 0.7503
+    },
+    {
+      "t": 2.0,
+      "s": 0.5981,
+      "lo": 0.4968,
+      "hi": 0.6854
+    },
+    {
+      "t": 3.0,
+      "s": 0.5568,
+      "lo": 0.4552,
+      "hi": 0.6469
+    },
+    {
+      "t": 4.0,
+      "s": 0.5358,
+      "lo": 0.4342,
+      "hi": 0.6271
+    },
+    {
+      "t": 5.0,
+      "s": 0.5043,
+      "lo": 0.4031,
+      "hi": 0.597
+    },
+    {
+      "t": 6.0,
+      "s": 0.4518,
+      "lo": 0.3522,
+      "hi": 0.546
+    },
+    {
+      "t": 7.0,
+      "s": 0.4297,
+      "lo": 0.3311,
+      "hi": 0.5245
+    },
+    {
+      "t": 8.0,
+      "s": 0.4297,
+      "lo": 0.3311,
+      "hi": 0.5245
+    },
+    {
+      "t": 9.0,
+      "s": 0.4181,
+      "lo": 0.3199,
+      "hi": 0.5132
+    },
+    {
+      "t": 10.0,
+      "s": 0.4065,
+      "lo": 0.3087,
+      "hi": 0.5018
+    },
+    {
+      "t": 11.0,
+      "s": 0.3833,
+      "lo": 0.2867,
+      "hi": 0.4789
+    },
+    {
+      "t": 11.97,
+      "s": 0.3717,
+      "lo": 0.2759,
+      "hi": 0.4673
+    },
+    {
+      "t": 12.0,
+      "s": 0.3252,
+      "lo": 0.2331,
+      "hi": 0.4204
+    },
+    {
+      "t": 12.5,
+      "s": 0.3127,
+      "lo": 0.2216,
+      "hi": 0.4078
+    },
+    {
+      "t": 13.0,
+      "s": 0.2877,
+      "lo": 0.199,
+      "hi": 0.3823
+    },
+    {
+      "t": 14.0,
+      "s": 0.2752,
+      "lo": 0.1878,
+      "hi": 0.3695
+    },
+    {
+      "t": 15.0,
+      "s": 0.2501,
+      "lo": 0.1659,
+      "hi": 0.3434
+    },
+    {
+      "t": 16.0,
+      "s": 0.2376,
+      "lo": 0.1551,
+      "hi": 0.3302
+    },
+    {
+      "t": 18.0,
+      "s": 0.2126,
+      "lo": 0.134,
+      "hi": 0.3034
+    },
+    {
+      "t": 19.67,
+      "s": 0.2126,
+      "lo": 0.134,
+      "hi": 0.3034
+    },
+    {
+      "t": 24.0,
+      "s": 0.1993,
+      "lo": 0.1228,
+      "hi": 0.2893
+    },
+    {
+      "t": 36.0,
+      "s": 0.1812,
+      "lo": 0.1065,
+      "hi": 0.2718
+    },
+    {
+      "t": 42.0,
+      "s": 0.1812,
+      "lo": 0.1065,
+      "hi": 0.2718
+    },
+    {
+      "t": 48.0,
+      "s": 0.1586,
+      "lo": 0.0856,
+      "hi": 0.2517
+    },
+    {
+      "t": 50.0,
+      "s": 0.1586,
+      "lo": 0.0856,
+      "hi": 0.2517
+    },
+    {
+      "t": 60.0,
+      "s": 0.1586,
+      "lo": 0.0856,
+      "hi": 0.2517
+    },
+    {
+      "t": 72.0,
+      "s": 0.1586,
+      "lo": 0.0856,
+      "hi": 0.2517
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "control_failure",
+      "count": 16
+    },
+    {
+      "mode": "screen_failure",
+      "count": 16
+    },
+    {
+      "mode": "stopped_working",
+      "count": 13
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 9
+    },
+    {
+      "mode": "wont_boot",
+      "count": 8
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 7
+    },
+    {
+      "mode": "battery_failure",
+      "count": 4
+    },
+    {
+      "mode": "storage_failure",
+      "count": 4
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 4
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 3
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 2
+    },
+    {
+      "mode": "other",
+      "count": 2
+    }
+  ],
+  "snippets": {
+    "control_failure": [
+      "***UPDATE*** (with a second unit, the replacement)<br />I really gave this Chromebook a chance only because it is really beautiful. And NO, it is not worth it. It crashes at least once every 2 days. Sometimes the flickering issues can be solved just by closing and opening the laptop, but sometimes it takes more than 5 minutes to work again. The mouse pad and the space key never worked the way they",
+      "UPDATE: After working with customer support, I've just decided to get my money back.  Instructions sent to me to recover and reinstall the OS have failed due to some hardware failure.  I don't know what happened, but six weeks of this garbage is enough.<br /><br />As a power user who is familiar with Mac, Windows and Linux, the Chrome OS is incredibly frustrating.  I have more control over my andr",
+      "UPDATE: Sent it in for repair. Only lasted a week before the touch pad stopped working again. Sent back again and they received it Feb 9. It is now Feb 24 and status is still &#34;received&#34;. I have now basically been without a computer since the beginning of January. Wish I could give negative stars!!!! Received it back from repair 2/28 they received it 2/9. Let's see how long it lasts this ti"
+    ],
+    "charging_port_failure": [
+      "Three stars because it was a fine chromebook for the first two months. But it suddenly stopped being able to charge. I tested the power supply and it is putting out the rated 19 volts, but the charging led on the chromebook doesn't light, and the device is completely unresponsive.",
+      "Review of November 2016<br />After having this Chromebook for three months the charging connection keeps falling out. It is an odd very thin pin charger like maybe 1/6 inch by 3/8. It now fits very loose and literally falls out. I might have to tape it into the charging port. Very disappointed. I like the Chromebook but would not buy this one again and would advise others to think twice about it.<",
+      "I've owned this chromebook for 1.5 years. As other reviewers have pointed out, the powercord doesn't stay in the decide due to the way the interface is made. So if you have it on any unsteady surface (like a bed) it may stop charging with a little movement. It is also very heavy due to the metal casing. Overall, I was fairly satisfied with this device until it fell off my bed (about 2 feet) on to "
+    ],
+    "electrical_fault": [
+      "Have had nothing but trouble!  Hardware and software issues galore.  I bought it because; it was a Chromebook; it was an ACER.  It's going back for warranty service, hopefully this will solve the multiple issues, but it also means I will be without a computer for 2 1/2 to 3 weeks.  If it worked I'd probably give it 4 stars because of the malware and virus protections built into the OS.  But it did",
+      "At first i was impressed by the look, feel and responsiveness.  Less than 3 months after purchase the mother board died.  After many calls to tech support i sent it back at my own expense.  A few weeks later it was returned with a new mother board.  A year after that the motherboard is dead again.  Two motherboard failures in less than 18 months. And of course it is out of warrantee now."
+    ],
+    "battery_failure": [
+      "Terrible machine. The battery died with very light use. Acer support would not help, since we were beyond the 1 year warranty. Save your money for a quality chromebook.",
+      "We originally bought this for my wife for school,,,, it ended upo being used for the household,,,yet it is only 4 years later and the battery dies within 1/2 an hour!! it has to be plugged in at all time or it dies!!,,, I wouldof expected it to last longer from an Acer product---<br />Dont Bother!!",
+      "Received my Chromebook and it is beautiful.  The aluminum case really is impressive and feels very nice compared to most plastic bodied laptops.<br /><br />The problem is that I received a defective unit that will not charge and will not stay powered on when unplugged from the charging cable.  After a bit of research on Google (search &#34;Chromebook battery 1%&#34; - yikes!), it sounds like there"
+    ],
+    "wont_boot": [
+      "So unhappy. The one I bought died within 5 weeks of purchase. Operating system failed. Okay...these things happen. I called Acer's outsourced customer service and they tell me that I'll have to send it in for REPAIR. It's less than SIX WEEKS OLD!! The only acceptable resolution when a brand new system fails is replacement. And to rub salt in my wounds, I'll have to wait 7-10 business days. Terribl",
+      "Garbage. I hate it. I thought, hey, no need for AV, no issues, sounds great. The thing almost never reconnects to wireless after going to sleep. Needs restarted nearly every day. Now 90 days after purchase it says that ChromeOS is damaged or missing. Better yet, recovery USB won't run. Gives an error. Tried 4 different USB thumb drives, but this is is toast 3 months after spending 300 dollars.",
+      "I bought a HP computer and just when the warranty expired it stopped working the right way.  I was constantly having to shut it down and start over; several times a day, and even then sometimes it wouldn't start up.  My son was visiting me and saw what was happening and told me about the Acer Chromebook 14 and how wonderful it was.  (he has one).  So I ordered one right away and it is just as he s"
+    ],
+    "screen_failure": [
+      "A week after arrival the screen began  blacking out, at first for a few seconds then I had to close the lid to get it to light up and then restart. THEN I kept getting error messages \"Oh, Snap....\"  began. This happened 7 times within 20 minutes when I was working on something.  They want you to give them feedback. I wanted to \"snap\" them. Let me add this computer is only used lightly.  I am retur",
+      "[[VIDEOID:84b11b042e69d2f88a6d5f55a1134faf]] My screen would flicker black, it drove me nuts, I got in on film, they had me sent it in twice, they said they would give me a call and replace the unit, they told me they would call me before they sent the unit back, and give me options.  After sending back my unit 2x, I still have the same problem!!  Acer flat out lied to me, I will never purchase an",
+      "Updated 3/24/2018 (four months later):<br />Great laptop despite many product and service limitations of Google itself. I am currently chatting with an Acer rep for a warranty repair, as I have had issues with a flickering or outright black screen. This is 99% my fault, as I played hour-long meditation videos non-stop a LOT. I will update this review again with info on how my experience with Acer "
+    ],
+    "stopped_working": [
+      "I have had this chromebook for about only about a year and it has completely stopped working.  I am so sorry I bought it.",
+      "I found out today that these notebooks are only meant to last a short period of time. Mine lasted 2 years and would be 150.00 to fix. Spend the money on a quality computer instead!",
+      "Died after one week. Avoid acer!"
+    ],
+    "storage_failure": [
+      "I have to rate this as a piece of junk.  Started having major issues about a week ago and today it totally died.  All symptoms point to the hard drive.  This is really SAD to pay almost $300 and get one year and one months use.<br /><br />I did like the fact that it was lightweight, and easy to travel with.  I WILL NOT purchase an Acer product again.",
+      "Dead after 1 week. SSD hardware issue",
+      "We loved this product and used it daily until the SSD failed 3 months after the warranty expired.  Because the SSD is not replaceable, the entire laptop is now a paper weight."
+    ],
+    "wont_power_on": [
+      "Very nice computer while it lasted, but mine died dead as a brick after one week, not even the charging light comes on.",
+      "Had this laptop for 14 months and now it won't charge or even power on. Since there is no warranty with purchase your credit card extended warranty will not cover the purchase either. Look at other laptops.",
+      "Personally, I would steer clear of this chromebook.  The first one went dead (stone cold) after about a week and the replacement showed up dead as well.  I suspect a systemic manufacturing defect."
+    ],
+    "other": [
+      "This Chromebook was still going strong almost three years later, and then it took an unexpected bath. RIP to a device that was always fast and reliable, with the best battery life of any laptop I've had. I'm replacing it with the next in line (the Acer Chromebook 15).",
+      "Do not buy this machine if you're hoping to run Android apps. Ignore anything you hear or read anywhere about all Chromebooks being able to run Android apps. Ignore anything you hear or read that includes this machine on a list of machines that have or are getting Android app support. This machine doesn't run them. Not even if you switch to the developer channel. Not even if you run all the variou"
+    ],
+    "keyboard_failure": [
+      "I promptly installed linux via crouton on it and I'm actually doing serious work on it. Trackpad is not the best, but I can live with that. Might want to get an external mouse for serious work.<br /><br />Some people list as one of the cons, that there is no sd card reader.. but hey, I just got one of those low profile 64GB sandisk flash drives for less than $20 and the inconvenience is minimal..<",
+      "I purchased two of these Chromebooks for my children.  They were required by their school district.  After one year both Chromebooks had the same issue, &quot;a&quot; key and some others keys in the immediate vicinity are intermittent or nonfunctional.  I had repaired since I had a warranty.  It worked okay for awhile and same problem came back.  Strange that both Chromebooks would experience the ",
+      "This product has already been in for repairs twice within a year.  After the last time it was returned to me a portion of the keyboard no longer works.  Impossible to contact Acer customer support and get a person to talk to.  It automatically routes the call to a 3rd party that is incredibly rude and unhelpful.  I will never purchase a product from them again."
+    ],
+    "physical_breakage": [
+      "So, I'll skip the niceties.  There's a lot to like.<br /><br />First, this IS NOT a Windows PC replacement.  Stating that, because Chrome OS/Browser incompatibilities, issues, etc are common enough during standard use that you'll need at least a spare PC laying around to compensate for them.  Don't think so?  How about, I can't login to my bank's website because the Chrome Browser throws (simplifi",
+      "Feels like an expensive laptop, but very affordable. I actually like this Chromebook better than my 2015 Macbook Pro. I wish it has a backlit keyboard.<br /><br />Update: after using less than one month, the screen of the laptop cracked without being dropped. The screen is thin but not solidly built. I searched online and there's no screen replacement yet.",
+      "Power cord broke within the first two weeks of use. Otherwise computer seems okay."
+    ]
+  },
+  "published": true
+}

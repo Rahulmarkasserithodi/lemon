@@ -1,0 +1,282 @@
+{
+  "parent_asin": "B00IQEA8UE",
+  "title": "Lenovo Yoga 2 11.6\" Touchscreen 2-in-1 Laptop PC - Intel Pentium N3520 / 4GB DDR3L / 500GB HD / HD Webcam / WLAN 802.11b/g/n / Bluetooth 4.0 / Windows 8.1 64-bit",
+  "brand": "Lenovo",
+  "image": "https://m.media-amazon.com/images/I/51zFDSAGWHL._AC_.jpg",
+  "price": 260.39,
+  "average_rating": 3.7,
+  "n_reviews": 251,
+  "n_candidates": 63,
+  "n_obs": 50,
+  "n_events": 40,
+  "median_months": 6.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 520.78,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.98,
+      "lo": 0.8664,
+      "hi": 0.9972
+    },
+    {
+      "t": 0.09,
+      "s": 0.9596,
+      "lo": 0.8479,
+      "hi": 0.9897
+    },
+    {
+      "t": 0.13,
+      "s": 0.9596,
+      "lo": 0.8479,
+      "hi": 0.9897
+    },
+    {
+      "t": 0.15,
+      "s": 0.9596,
+      "lo": 0.8479,
+      "hi": 0.9897
+    },
+    {
+      "t": 0.27,
+      "s": 0.9383,
+      "lo": 0.8205,
+      "hi": 0.9797
+    },
+    {
+      "t": 0.33,
+      "s": 0.9169,
+      "lo": 0.7935,
+      "hi": 0.968
+    },
+    {
+      "t": 0.5,
+      "s": 0.8956,
+      "lo": 0.767,
+      "hi": 0.9552
+    },
+    {
+      "t": 0.75,
+      "s": 0.8519,
+      "lo": 0.714,
+      "hi": 0.9266
+    },
+    {
+      "t": 1.0,
+      "s": 0.7864,
+      "lo": 0.639,
+      "hi": 0.879
+    },
+    {
+      "t": 2.0,
+      "s": 0.7645,
+      "lo": 0.6149,
+      "hi": 0.8622
+    },
+    {
+      "t": 3.0,
+      "s": 0.6971,
+      "lo": 0.5422,
+      "hi": 0.8084
+    },
+    {
+      "t": 3.75,
+      "s": 0.6746,
+      "lo": 0.5188,
+      "hi": 0.7897
+    },
+    {
+      "t": 4.0,
+      "s": 0.6296,
+      "lo": 0.4729,
+      "hi": 0.7514
+    },
+    {
+      "t": 5.0,
+      "s": 0.5847,
+      "lo": 0.4284,
+      "hi": 0.7119
+    },
+    {
+      "t": 6.0,
+      "s": 0.4947,
+      "lo": 0.3429,
+      "hi": 0.6295
+    },
+    {
+      "t": 7.0,
+      "s": 0.4476,
+      "lo": 0.2994,
+      "hi": 0.5852
+    },
+    {
+      "t": 7.5,
+      "s": 0.424,
+      "lo": 0.2782,
+      "hi": 0.5625
+    },
+    {
+      "t": 9.0,
+      "s": 0.4005,
+      "lo": 0.2574,
+      "hi": 0.5396
+    },
+    {
+      "t": 11.75,
+      "s": 0.3769,
+      "lo": 0.2369,
+      "hi": 0.5163
+    },
+    {
+      "t": 12.0,
+      "s": 0.3062,
+      "lo": 0.178,
+      "hi": 0.4443
+    },
+    {
+      "t": 12.33,
+      "s": 0.2784,
+      "lo": 0.1545,
+      "hi": 0.4166
+    },
+    {
+      "t": 12.5,
+      "s": 0.2506,
+      "lo": 0.132,
+      "hi": 0.3883
+    },
+    {
+      "t": 13.0,
+      "s": 0.2227,
+      "lo": 0.1105,
+      "hi": 0.3591
+    },
+    {
+      "t": 16.0,
+      "s": 0.1949,
+      "lo": 0.0901,
+      "hi": 0.3291
+    },
+    {
+      "t": 19.0,
+      "s": 0.167,
+      "lo": 0.0709,
+      "hi": 0.2982
+    },
+    {
+      "t": 24.0,
+      "s": 0.1114,
+      "lo": 0.0366,
+      "hi": 0.2331
+    },
+    {
+      "t": 42.0,
+      "s": 0.0742,
+      "lo": 0.016,
+      "hi": 0.1947
+    },
+    {
+      "t": 48.0,
+      "s": 0.0371,
+      "lo": 0.0032,
+      "hi": 0.1517
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "wont_power_on",
+      "count": 11
+    },
+    {
+      "mode": "control_failure",
+      "count": 10
+    },
+    {
+      "mode": "wont_boot",
+      "count": 6
+    },
+    {
+      "mode": "storage_failure",
+      "count": 4
+    },
+    {
+      "mode": "stopped_working",
+      "count": 3
+    },
+    {
+      "mode": "battery_failure",
+      "count": 3
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 3
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 2
+    },
+    {
+      "mode": "screen_failure",
+      "count": 2
+    },
+    {
+      "mode": "hinge_failure",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "control_failure": [
+      "Piece of crap! Straight out of the box I had no cursor. Toggled the settings myself and nothing changed. Thankfully, due to bad luck with laptops, I had bought 2yrs of geek squad support. Chatted with them and they remotely tried things for nearly TWO hours and still it didn't work!! This is unacceptable for a MINUTES old computer!! Took forever to boot up. Returning this piece of crap and I've no",
+      "[[VIDEOID:eebdf541b3294c29b51de782cfdecf28]] I just bought one from Best Buy. Brought it home, didn't work at all. The trackpad doesn't adequately follow my finger, and the touchscreen doesn't scroll. Also, when I used it as a tablet, the orientation wouldn't automatically change. I had to manually change it by using CTRL+ALT+an arrow key.<br /><br />On top of all that, the screen is dim (even at ",
+      "I've had this for a long time now, over 6 months. It's a love/hate relationship, but that's to be expected with a computer that only weighs a couple pounds and runs for up to 4 hours (if you're REALLY miserly) on a charge. It's my travel laptop and for that it's fabulous!<br /><br />Runs everything I can throw at it. Windows 8.1 is a pain, but that's not Lenovo's fault. Yes, it's slow compared to "
+    ],
+    "stopped_working": [
+      "DO NOT BUY!!! WORKED TERRIBLY FOR 5 MONTHS THEN BROKE DOWN!!!",
+      "Within two months of purchasing, the Conexant speaker/microphone system failed. The computer itself runs fine but I no longer have the ability to Skype, listen to movies and so on without headphones, and any related procedure. I would never buy this again versus paying more and getting something more reliable like a Surface Pro.",
+      "I purchased this at Bestbuy in April 10th. I returned this on 19th. So, during 9 days, I installed Firefox, google drive for my work, Quickbooks and office 2013. Office 2013 was installed at bestbuy, but this never work. Not even open the application. It crushed 3 times and turned off all of the sudden. I brought it to the Tech support (Geek) at Bestbuy, and a guy suggested me to return or exchang"
+    ],
+    "wont_boot": [
+      "Died within 1 year - not booting since yesterday",
+      "Laptop died in four years...bad product and very slow/unresponsive at times. Lenovo customer service sucks..I regret buying this now lost all my stuff.",
+      "It worked pretty well for a little less than a year. It randomly got itself into a start up loop one day, and I had to reset it to factory settings. Now the battery won't work unless plugged in, and it never gets past the first start up screen. I can't even get to the Windows start up screen anymore."
+    ],
+    "wont_power_on": [
+      "Bought my Lenovo Yoga 2 11 four months ago and was very satisfied with it. Unfortunately, my power button will no longer turn the unit on or off. If the unit shuts down the only way to turn it on is the NOVO button which should only be used by advanced operators. When something as necessary as the ON button breaks I don't think that's a good sign of a quality piece of equipment. Lenovo says they'l",
+      "Awful I purchased this tablet in 2014 and 3 months later if that had to send it back because it wouldn't power up.  They had to replace it.  Here it is months later and same thing.  I don't even use it that often and now my warranty has expired.  It's not worth buying an extended warranty.",
+      "I bought it for my son for Christmas.  He used it 3 days and then it wouldn't turn on.  It must have lost it's charge, and then battery wouldn't recharge.  I dunno, as I returned it to Best Buy.  I think it's an interesting idea, but I am glad ours failed so early, so we could return it.  Reading the reviews, it's terribly unreliable..."
+    ],
+    "storage_failure": [
+      "I bought 14 of these for my company and used them all for a certain period of time. After much usage, half of them had the hard drive die. Great...and it happens a few months after the warranty. I replaced them with solid state drives and it works great! The hard drives are a piece of junk! I checked the inners of them and can see why it's so fragile. Needless to say, poor quality built. Other tha",
+      "Item started going bad 7 months post purchase.  Heath checks showing &#34;Caution due to reallocated sectors count&#34;.  Machine hardly has anything loaded to it.  We had to restore to factory defaults.  Laptop runs incredibly slow.  Takes 30 minutes or more just to boot up (you can imagine the frustration).  Lenovo is advising us to contact the seller.  If not, they're 'willing' to refurbish it ",
+      "I bought this laptop last August. I had previously had a Mac for personal use and a Lenovo Thinkpad for work. When I got a new job I had to give my Thinkpad back to my former employers. My Mac is very old and does not work very well so since I had positive experiences with my Lenovo Thinkpad I purchased a Lenovo Yoga. Since I purchased this laptop I have been extremely disappointed. First off, the"
+    ],
+    "battery_failure": [
+      "This has turned out to be a terrible laptop. We have had nothing but problems since we purchased it in Sept. '14. To name a few, the battery won't hold a charge, the track pad doesn't work correctly and the screen brightness didn't work. Within the first 3 months, we had to call tech support and they had to reload software and make other adjustments that did not fix the battery drain issue. After ",
+      "I bought this laptop in August 2015 to replace an aging MacBook. Even brand-new, I wasn't too impressed, but figured my expectations were unrealistic for a $400 computer and I should cut it some slack. About a week after the warranty expired, the battery died completely, so now it only works when connected to a power source (kind of defeating the purpose of a laptop). Since it was out of warranty,",
+      "Pros: Windows 8.1 64bit; 4 GB Memory; 500 GB Hard Drive; 720p Display; micro HDMI output; solid craftsmanship/feel; 7 hour battery life; HD video camera; extremely convinient display modes (laptop/tablet/tent/stand)<br />Cons: Small keyboard; no Ethernet port; Too heavy to hold like a book for long periods of time; GPU cannot handle modern games<br /><br />This computer has been great for Microsof"
+    ],
+    "physical_breakage": [
+      "I chose this laptop over many others I was considering because its weight and capabilities seemed just right. It worked great and i loved it for about 6 months. Then someone knocked into my computer bag with a chair, breaking the screen. That should be an easy fix, right? Turns out, no computer repair shops stock Lenovo screens, and they are expensive to order directly from China. The first repair",
+      "This computer was a bad investment, we bought it for my daughter and it the bottom of the Keyboard got a massive crack across the bottom within a month, the outlet for the plug became loose and it stopped charging so we took it in to have it fixed, after $600 in repairs because it continually glitched and shut down while my daughter was working on school work, the outlet has become loose again and"
+    ],
+    "screen_failure": [
+      "Owned a lot of computers... This one is at the bottom.  Lcd dead after 16 months..  Lenovo wants nothing to do with it... If buying a Lenovo, get the extended warranty.  Your going to need it.",
+      "Great little piece of kit, except one problem: Your screen will crack, rendering the touch useless.<br /><br />The Yoga has a design flaw which causes the screen to crack after a few months. You can read about this problem online. The problem is the flimsy plastic case bends slightly when you close it. After a few times, you'll see a crack develop in the fragile screen.<br /><br />Once the screen "
+    ],
+    "electrical_fault": [
+      "I bought this computer last December (2014).  It was fantastic for the first 8 months. Once I downloaded Windows 10, the computer's screen would constantly flicker on and off until I restarted it.  The touch pad also malfunctioned.  This may have been due to the Windows 10 software, but it didn't carry over very well to mine.  I had a friend with the same computer who didn't experience any problem",
+      "This was actually a great laptop...while it worked. It lasted until exactly ONE month after the warranty expired, i.e. 13 months, and then about 5 minutes after it was booted up, it would freeze and crash. We took it to the computer repair place (since it was out of warranty) where we were told that there was nothing they could do. In their words: &#34;The mother board is fried.&#34; To fix it, we",
+      "I purchased this laptop less then 2 years ago. The computer ran great no issues up until the motherboard fried out. It will cost more money then it is worth to fix it. The part that  kills me is I Barely used this computer. And it only has a 1 year warranty. So now I'm out $450 and a laptop. Thanks lenovo."
+    ],
+    "hinge_failure": [
+      "Avoid.  I have Lenovo Yoga 2 for 4 years. The hinges have construction defect and are broken the 3d time.  Lenovo refuses to fix it now, BestBuy cannot fix it."
+    ]
+  },
+  "published": true
+}
