@@ -27,10 +27,20 @@ from .reviews_index import get_reviews, open_reviews_db
 
 app = FastAPI(title="Lemon API", version="0.1.0")
 
-# Vite dev server origins.
+# Allow localhost (dev) + any deployed frontend set via CORS_ORIGINS env var.
+# Set CORS_ORIGINS on Render to your Vercel URL, e.g.:
+#   https://lemon-xyz.vercel.app,https://yourdomain.com
+_cors_origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+]
+_extra = os.environ.get("CORS_ORIGINS", "")
+if _extra:
+    _cors_origins.extend([o.strip() for o in _extra.split(",") if o.strip()])
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=_cors_origins,
     allow_methods=["GET"],
     allow_headers=["*"],
 )
@@ -177,5 +187,8 @@ def resolve(url: str = "") -> dict:
 if __name__ == "__main__":
     import uvicorn
 
-    port = int(os.environ.get("LEMON_PORT", "8000"))
-    uvicorn.run(app, host="127.0.0.1", port=port)
+    # Render injects PORT; fall back to LEMON_PORT for local override, then 8000.
+    port = int(os.environ.get("PORT") or os.environ.get("LEMON_PORT") or "8000")
+    # Must bind 0.0.0.0 on Render (127.0.0.1 is unreachable from their load balancer).
+    host = os.environ.get("LEMON_HOST", "0.0.0.0")
+    uvicorn.run(app, host=host, port=port)

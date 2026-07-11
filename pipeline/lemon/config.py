@@ -1,13 +1,19 @@
 """Single place for category choice, paths, model, and thresholds."""
 
+import os
 from pathlib import Path
 
 from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parents[2]
-RAW = ROOT / "data" / "raw"
-CACHE = ROOT / "data" / "cache"
-PROCESSED = ROOT / "data" / "processed"
+
+# On Render, set LEMON_DATA_ROOT to the persistent disk mount path (e.g. /data).
+# Locally this is unset and the repo-relative data/ directory is used as normal.
+_DATA_ROOT = Path(os.environ.get("LEMON_DATA_ROOT", "")).resolve() if os.environ.get("LEMON_DATA_ROOT") else ROOT / "data"
+
+RAW = _DATA_ROOT / "raw"
+CACHE = _DATA_ROOT / "cache"
+PROCESSED = _DATA_ROOT / "processed"
 
 # Load environment variables from the repo-root .env (GEMINI_API_KEY, etc.).
 load_dotenv(ROOT / ".env")
