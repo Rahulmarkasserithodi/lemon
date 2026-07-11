@@ -46,6 +46,29 @@ export async function resolveProduct(url: string): Promise<ProductData> {
   return res.json()
 }
 
+/** Nearby e-waste drop-off points via the backend Overpass proxy (avoids the
+ *  browser's cross-origin block on the public Overpass API). Returns raw
+ *  Overpass JSON ({ elements: [...] }) for the caller to parse. */
+export async function fetchEwaste(
+  lat: number,
+  lon: number,
+  radiusM: number,
+  brands: string[],
+): Promise<{ elements: any[] }> {
+  const params = new URLSearchParams({
+    lat: String(lat),
+    lon: String(lon),
+    radius_m: String(Math.round(radiusM)),
+    brands: brands.join('|'),
+  })
+  const res = await fetch(`${API_BASE}/ewaste?${params}`)
+  if (!res.ok) {
+    const detail = await res.json().catch(() => ({}))
+    throw new Error(detail?.detail || `Location service error (${res.status}). Please try again.`)
+  }
+  return res.json()
+}
+
 /** True when the text looks like an Amazon URL or a bare 10-char ASIN. */
 export function looksLikeAmazonLink(text: string): boolean {
   const t = text.trim()

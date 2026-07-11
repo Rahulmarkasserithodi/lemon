@@ -16,7 +16,10 @@ import json
 import math
 import os
 import re
+import ssl
 import threading
+import urllib.parse
+import urllib.request
 from collections import defaultdict
 
 from fastapi import FastAPI, HTTPException
@@ -194,6 +197,61 @@ def catalog(q: str = "", limit: int = 200) -> list[dict]:
 
     items = sorted(items, key=sort_key, reverse=True)
     return items[: max(1, min(limit, 500))]
+
+
+# ── e-waste drop-off finder: server-side Overpass proxy ───────────────────────
+# The browser can't call Overpass directly (it doesn't return CORS headers), so
+# the finder calls this endpoint and we run the OpenStreetMap query server-side.
+try:
+    import certifi
+
+    _OVERPASS_SSL: ssl.SSLContext | None = ssl.create_default_context(cafile=certifi.where())
+except Exception:  # pragma: no cover
+    _OVERPASS_SSL = None
+
+_OVERPASS_ENDPOINTS = (
+    "https://overpass-api.de/api/interpreter",
+    "https://overpass.private.coffee/api/interpreter",
+    "https://overpass.kumi.systems/api/interpreter",
+)
+_OVERPASS_UA = "Tenure/1.0 (e-waste drop-off finder)"
+_OVERPASS_SANITISE = re.compile(r'["\[\]();\\{}]')  # keep untrusted input out of the QL
+
+
+@app.get("/api/ewaste")
+def ewaste(lat: float, lon: float, radius_m: int = 15000, brands: str = "") -> dict:
+    """Nearby recycling / waste-transfer points + named retailer take-back stores
+    (brands passed pipe-delimited), as raw Overpass JSON for the client to parse."""
+    radius_m = max(100, min(int(radius_m), 60000))
+    around = f"{radius_m},{lat},{lon}"
+    brand_q = "".join(
+        f'nwr["brand"="{b}"](around:{around});'
+        for b in (_OVERPASS_SANITISE.sub("", x).strip() for x in brands.split("|"))
+        if b
+    )
+    query = (
+        "[out:json][timeout:25];("
+        f'nwr["amenity"="recycling"](around:{around});'
+        f'nwr["amenity"="waste_transfer_station"](around:{around});'
+        f"{brand_q});out center tags;"
+    )
+    body = urllib.parse.urlencode({"data": query}).encode()
+    last_err: Exception | None = None
+    for url in _OVERPASS_ENDPOINTS:
+        try:
+            req = urllib.request.Request(
+                url,
+                data=body,
+                headers={
+                    "Content-Type": "application/x-www-form-urlencoded",
+                    "User-Agent": _OVERPASS_UA,
+                },
+            )
+            with urllib.request.urlopen(req, timeout=30, context=_OVERPASS_SSL) as resp:
+                return json.loads(resp.read())
+        except Exception as exc:  # try the next mirror
+            last_err = exc
+    raise HTTPException(status_code=502, detail=f"Location service unavailable: {last_err}")
 
 
 def _build(st: dict, parent_asin: str) -> dict:

@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react'
 import { INK, ON_INK, PANEL, TEAL, RUST, inkAlpha } from '../theme'
+import { fetchEwaste } from '../api'
 import EwasteMap from './EwasteMap'
 
 // ── Item categories the user can dispose, mapped to OpenStreetMap recycling tags ──
@@ -115,26 +116,9 @@ async function fetchSites(origin: Coords, picked: Set<string>, radiusM: number):
   const tagToCategory = new Map<string, Category>()
   for (const c of chosen) for (const t of c.osmTags) if (!tagToCategory.has(t)) tagToCategory.set(t, c)
 
-  const A = `${radiusM},${origin.lat},${origin.lon}`
-  const brandQueries = Object.keys(TAKEBACK_BRANDS)
-    .map((b) => `      nwr["brand"="${b}"](around:${A});`)
-    .join('\n')
-  const q = `
-    [out:json][timeout:25];
-    (
-      nwr["amenity"="recycling"](around:${A});
-      nwr["amenity"="waste_transfer_station"](around:${A});
-${brandQueries}
-    );
-    out center tags;`
-
-  const res = await fetch('https://overpass-api.de/api/interpreter', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: 'data=' + encodeURIComponent(q),
-  })
-  if (!res.ok) throw new Error(`Location service error (${res.status}). Please try again.`)
-  const data = await res.json()
+  // Run the OpenStreetMap Overpass query through our backend (the browser can't
+  // call Overpass directly — it doesn't send CORS headers).
+  const data = await fetchEwaste(origin.lat, origin.lon, radiusM, Object.keys(TAKEBACK_BRANDS))
 
   const sites: Site[] = []
   const seen = new Set<string>()
