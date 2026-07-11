@@ -114,6 +114,7 @@ def build_catalog(force: bool = False, min_reviews: int = 15) -> None:
 
     db = sqlite3.connect(config.REVIEWS_DB)
     counts = dict(db.execute("SELECT parent_asin, COUNT(*) FROM reviews GROUP BY parent_asin"))
+    latest = dict(db.execute("SELECT parent_asin, MAX(timestamp) FROM reviews GROUP BY parent_asin"))
     db.close()
 
     catalog = []
@@ -130,6 +131,7 @@ def build_catalog(force: bool = False, min_reviews: int = 15) -> None:
                 "average_rating": None if row.average_rating != row.average_rating else row.average_rating,
                 "subcategory": row.subcategory,
                 "n_reviews": n,
+                "latest_review": latest.get(row.parent_asin),  # epoch ms of most recent review
                 "image": row.image if isinstance(row.image, str) else None,
             }
         )

@@ -96,6 +96,20 @@
     "cost_per_year": 359.96
   },
   {
+    "parent_asin": "B00FFJ0HUE",
+    "title": "ASUS T100 10-Inch Laptop [2014],(gray)",
+    "brand": "ASUS",
+    "image": "https://m.media-amazon.com/images/I/41wV8ThpIbL._AC_.jpg",
+    "subcategory": "",
+    "price": null,
+    "average_rating": 4.0,
+    "n_obs": 238,
+    "n_events": 128,
+    "median_months": 4.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": null
+  },
+  {
     "parent_asin": "B07M8JMYHQ",
     "title": "Luma Comfort Clear Ice Cube Maker Machine | First Cubes In 15 Minutes, 28 lbs. of Ice in 24 Hours | Countertop Portable Design in Stainless Steel - IM200SS",
     "brand": "Luma Comfort",
@@ -485,6 +499,20 @@
     "median_months": 6.0,
     "median_is_lower_bound": false,
     "cost_per_year": 559.98
+  },
+  {
+    "parent_asin": "B00MNOPS1W",
+    "title": "Acer Aspire E 15 ES1-512-C88M 15.6-Inch Laptop (Diamond Black)",
+    "brand": "acer",
+    "image": "https://m.media-amazon.com/images/I/51NlEK0wX6L._AC_.jpg",
+    "subcategory": "",
+    "price": null,
+    "average_rating": 4.2,
+    "n_obs": 48,
+    "n_events": 25,
+    "median_months": 12.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": null
   },
   {
     "parent_asin": "B0B7BJZ4LX",

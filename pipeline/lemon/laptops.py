@@ -94,13 +94,19 @@ def _stream_reviews(db, laptop_parents: set[str], force: bool) -> None:
     _merge_asin_map(asin_map)
 
 
-def _counts_for(db, laptop_parents: set[str]) -> dict[str, int]:
-    """Reviews-per-product for laptop parents (one grouped scan of the index)."""
-    rows = db.execute("SELECT parent_asin, COUNT(*) FROM reviews GROUP BY parent_asin")
-    return {a: n for a, n in rows if a in laptop_parents}
+def _counts_for(db, laptop_parents: set[str]) -> tuple[dict[str, int], dict[str, int]]:
+    """Reviews-per-product and latest review timestamp for laptop parents."""
+    counts, latest = {}, {}
+    for a, n, mx in db.execute(
+        "SELECT parent_asin, COUNT(*), MAX(timestamp) FROM reviews GROUP BY parent_asin"
+    ):
+        if a in laptop_parents:
+            counts[a] = n
+            latest[a] = mx
+    return counts, latest
 
 
-def _merge_catalog(meta, counts: dict[str, int], min_reviews: int) -> None:
+def _merge_catalog(meta, counts: dict[str, int], latest: dict[str, int], min_reviews: int) -> None:
     by_asin = {row.parent_asin: row for row in meta.itertuples(index=False)}
     new_entries = []
     for pa, n in counts.items():
@@ -118,6 +124,7 @@ def _merge_catalog(meta, counts: dict[str, int], min_reviews: int) -> None:
                 "average_rating": _clean(m.average_rating),
                 "subcategory": m.subcategory,
                 "n_reviews": n,
+                "latest_review": latest.get(pa),
                 "image": m.image if isinstance(m.image, str) else None,
             }
         )
@@ -153,8 +160,8 @@ def ingest(min_reviews: int = MIN_REVIEWS, force: bool = False) -> None:
     db = open_reviews_db()
     try:
         _stream_reviews(db, laptop_parents, force)
-        counts = _counts_for(db, laptop_parents)
-        _merge_catalog(meta, counts, min_reviews)
+        counts, latest = _counts_for(db, laptop_parents)
+        _merge_catalog(meta, counts, latest, min_reviews)
     finally:
         db.close()
     print("\nDone. Laptops merged into the shared corpus (catalog + reviews.db + asin map).")

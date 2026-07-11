@@ -183,6 +183,7 @@ export default function ProductSearch({ onPick, selectedAsins }: Props) {
                       {e.price != null && <span>${e.price.toFixed(0)}</span>}
                       {e.average_rating != null && <span>★ {e.average_rating.toFixed(1)}</span>}
                       {e.subcategory && <span>{e.subcategory}</span>}
+                      {e.latest_review != null && <span>reviewed thru ’{String(new Date(e.latest_review).getFullYear()).slice(2)}</span>}
                     </div>
                   </div>
                 </div>

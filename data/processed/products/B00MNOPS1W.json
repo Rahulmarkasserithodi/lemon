@@ -1,0 +1,257 @@
+{
+  "parent_asin": "B00MNOPS1W",
+  "title": "Acer Aspire E 15 ES1-512-C88M 15.6-Inch Laptop (Diamond Black)",
+  "brand": "acer",
+  "image": "https://m.media-amazon.com/images/I/51NlEK0wX6L._AC_.jpg",
+  "price": null,
+  "average_rating": 4.2,
+  "n_reviews": 682,
+  "n_candidates": 67,
+  "n_obs": 48,
+  "n_events": 25,
+  "median_months": 12.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": null,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.03,
+      "s": 0.9792,
+      "lo": 0.8612,
+      "hi": 0.997
+    },
+    {
+      "t": 0.06,
+      "s": 0.9792,
+      "lo": 0.8612,
+      "hi": 0.997
+    },
+    {
+      "t": 0.15,
+      "s": 0.9574,
+      "lo": 0.8402,
+      "hi": 0.9892
+    },
+    {
+      "t": 0.25,
+      "s": 0.9356,
+      "lo": 0.8135,
+      "hi": 0.9788
+    },
+    {
+      "t": 0.5,
+      "s": 0.8911,
+      "lo": 0.7577,
+      "hi": 0.9532
+    },
+    {
+      "t": 0.75,
+      "s": 0.8676,
+      "lo": 0.7285,
+      "hi": 0.9383
+    },
+    {
+      "t": 1.0,
+      "s": 0.8676,
+      "lo": 0.7285,
+      "hi": 0.9383
+    },
+    {
+      "t": 2.0,
+      "s": 0.7557,
+      "lo": 0.5904,
+      "hi": 0.8617
+    },
+    {
+      "t": 3.0,
+      "s": 0.6976,
+      "lo": 0.5255,
+      "hi": 0.8174
+    },
+    {
+      "t": 4.0,
+      "s": 0.6976,
+      "lo": 0.5255,
+      "hi": 0.8174
+    },
+    {
+      "t": 6.0,
+      "s": 0.6311,
+      "lo": 0.4522,
+      "hi": 0.7658
+    },
+    {
+      "t": 7.0,
+      "s": 0.5979,
+      "lo": 0.4176,
+      "hi": 0.7387
+    },
+    {
+      "t": 11.0,
+      "s": 0.5627,
+      "lo": 0.3814,
+      "hi": 0.7097
+    },
+    {
+      "t": 12.0,
+      "s": 0.4572,
+      "lo": 0.2808,
+      "hi": 0.6175
+    },
+    {
+      "t": 15.0,
+      "s": 0.4064,
+      "lo": 0.229,
+      "hi": 0.577
+    },
+    {
+      "t": 15.25,
+      "s": 0.3556,
+      "lo": 0.1823,
+      "hi": 0.5336
+    },
+    {
+      "t": 18.0,
+      "s": 0.3556,
+      "lo": 0.1823,
+      "hi": 0.5336
+    },
+    {
+      "t": 23.0,
+      "s": 0.2963,
+      "lo": 0.1304,
+      "hi": 0.4838
+    },
+    {
+      "t": 24.0,
+      "s": 0.2371,
+      "lo": 0.0863,
+      "hi": 0.4292
+    },
+    {
+      "t": 30.0,
+      "s": 0.1185,
+      "lo": 0.0113,
+      "hi": 0.3624
+    },
+    {
+      "t": 72.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "wont_power_on",
+      "count": 5
+    },
+    {
+      "mode": "screen_failure",
+      "count": 4
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 4
+    },
+    {
+      "mode": "control_failure",
+      "count": 3
+    },
+    {
+      "mode": "stopped_working",
+      "count": 2
+    },
+    {
+      "mode": "battery_failure",
+      "count": 2
+    },
+    {
+      "mode": "wont_boot",
+      "count": 2
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 2
+    },
+    {
+      "mode": "noise_vibration",
+      "count": 1
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 1
+    },
+    {
+      "mode": "hinge_failure",
+      "count": 1
+    },
+    {
+      "mode": "storage_failure",
+      "count": 1
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "screen_failure": [
+      "Worst computer I have ever owned. I have had numerous problems and after 1 year my next and current problem is the screen blacks out. Personally I don't see how this computer gets good ratings because mine has had nothing but issues.  Slow,  many quirks, touch screen and mouse will lock up, and sometimes can't use the mouse but have to use the Touch screen.  Maybe I got a lemon but I have never ha",
+      "i sent this gift to my daughter for christmas. the screen does not work. unable to use computer. as it is &#34;outside the 30 days&#34; from when i bought it, i can't return it either",
+      "I bought one of these machines and two month later all it would do is give me a black screen.  The repair guy in my town could not even get it to work. don't buy one of these machines folks.  They are garbage.  In fact that's what I finally did with mine. I beat it against the side of a steel dumpster so nobody could retrieve my personal information from it and then I threw it away.  Two months an"
+    ],
+    "stopped_working": [
+      "For the second year in a row, I'm having to replace my laptop.  The last one was this same model, thought it died as a fluke.  Nope, this year's laptop is garbage, too. Slow as all get out, and finally around a year, it just dies.  Don't waste your money!!",
+      "It lasted for about 6 years but it worked awesome I do miss it"
+    ],
+    "noise_vibration": [
+      "Bought the laptop less than 6 months ago and already I am having problems with it. From making weird noises when the mouse goes over an online video to now making a loud squeaking/ screeching noise when watching a video. After powering down and turning on again still having the same noise on and off. Then the laptop heats up on the two front left and right hand corners. Today it doesn't over heat "
+    ],
+    "control_failure": [
+      "I bought this for my husband for Christmas. I remember Acer from years ago when they just made monitors. I remember when they began to branch out into ready made computers and they were not well received. So, I've always stayed away from them, but recently they've gotten pretty good reviews. I hoped that these reviews were true, but, unfortunately, I am not pleased with the this product. It looks ",
+      "I have been using Acer products since the 90's and some have been better than others but this is the first absolute piece of junk we have gotten with the Acer name on it. It feels and looks cheap. Within a few months of owning it, it had to be restored to get it to work without freezing up. I have restored it every month or so for a year to get it to work properly. Now, it is freezing up constantl",
+      "After the preliminary set up (naming the computer, small little stuff like that), I had adware and malware within 15 minutes. Our computer tech did a remote set-up within the hour which removed what had already infected the computer - brought in by McAfee, according to them. They installed security software and all seemed well for about a week. Understand this is not a computer we're gaming on - j"
+    ],
+    "wont_power_on": [
+      "I purchase this laptop in December and by June the capacitor went out on it, now it won't turn on at all. Even when it did run it was slow and programs would unexpectedly quit. I'm just hoping that the one year warranty covers this, otherwise I'm out on the $$ I paid for it.",
+      "Three weeks after buying this the power button lost its &#34;click&#34; and wouldn't turn on the computer.  Returning wasn't an option because we moved out of the country. It's a heavy laptop.  Can't recommend this particular one.",
+      "Graphics processor isn't bad. Lacks heavily in processing power though, but honestly you should only be looking at this laptop if you do simple things such as email. The trackpad is glitchy, I'm not a Windows genius so maybe it's something the OS is doing, but it keeps clicking and dragging when I click once.<br /><br />After some use, I would not recommend buying this computer. I recently bought "
+    ],
+    "battery_failure": [
+      "This computer's battery stopped holding a charge after about two months and it runs pretty slowly.  Luckily I got the warranty with it and will be returning it.",
+      "I've had this computer for less than a year and already the battery has stopped charging.  The computer will turn off immediately if it's not plugged in.  It's super slow - I can't even watch a movie without it freezing and glitching constantly, even with nothing else running and nothing extra downloaded onto it.  This computer is pretty useless aside from light web browsing."
+    ],
+    "physical_breakage": [
+      "This is my second Acer Aspire in a year and I am about to purchase another one.  The computer itself is great for the value but it is so delicate. My first one was sitting on top of my school bag and slid off.  Only about an inch fall if that and it died,  Last night I was plugging my power back into the computer and grabbed it by the open screen to tilt it up to plug the plug in and the screen fr"
+    ],
+    "hinge_failure": [
+      "It's a great, strong laptop except for the fact that after a few months, the flimsy screen almost broke off completely. I'll have to buy another more expensive laptop with a stronger screen."
+    ],
+    "wont_boot": [
+      "I am underwhelmed by this product.  Although the price was good and I did not expect a Cadillac I do expect basic functions to work.  The keyboard is cheaply made - the enter key sticks frequently and the space bar doesn't work about 1/3 of the time.  The built in &#34;mouse&#34; is clunky and unintuitive to say the least.  I've also had problems booting the machine now and then.  Today I went to ",
+      "The Acer Aspire E15 is by far the worst piece of junk I've ever wasted money on. I bought it with a factory install of Windows 10, within a month I had the &#34;black screen of death&#34; and wound up re-installing Windows. Now 2 months later the black screen is back and I can't get anywhere with it this time. The USB ports have only worked sporadically anyways and trying to boot from a USB drive "
+    ],
+    "keyboard_failure": [
+      "This could possibly be one of my worst Amazon purchases. I bought it as a 3rd computer for my small business.... faced issues from day 1.  Mainly the trackpad has issues (as many other reviewers have pointed out) and some of the keys get stuck... in particularly the F key... one moment we are working on a graphic designs project, the next the darn thing deletes our work because a key get stuck.<br",
+      "I bought mine from NewEgg on eBay in Dec 2014, so they're a trusted seller. UPDATE 3/2016: I originally left a 5-star review but this thing has been nothing but trouble since a few weeks after I bought it.<br /><br />First, it was never dropped, abused, spilled on, or even traveled with! After 3 weeks of ownership, the touchpad died. I spent two hours doing refreshes and resets while arguing with ",
+      "Keyboard stopped working after on 7 months.  Going to determine how to get it repaired.  Disappointing."
+    ],
+    "charging_port_failure": [
+      "Excellent product for leads and for comfortable and light office , quality hardware is not mu superior but in relation to price is very advantageous , have a deficiency with the battery and a design problem with that particular mine in particular failure unless one year of use and refuses to load",
+      "this laptop is only 2 months old and has already stopped charging. will not buy acer products again."
+    ],
+    "storage_failure": [
+      "I bought two of these. They work fine for about two years and then the hard drives fail."
+    ],
+    "electrical_fault": [
+      "I bought it in April and it completely died at the end of June. I took it to a computer repair shop and was told the motherboard was probably bad and would cost more to replace than the initial computer. For two months of usage, I'd say it was a horrible investment and ultimately, very expensive considering I only got two months of use out of it before it became worthless. but of course, my warran"
+    ]
+  },
+  "published": true
+}

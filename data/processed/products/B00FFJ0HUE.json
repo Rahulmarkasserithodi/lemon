@@ -1,0 +1,404 @@
+{
+  "parent_asin": "B00FFJ0HUE",
+  "title": "ASUS T100 10-Inch Laptop [2014],(gray)",
+  "brand": "ASUS",
+  "image": "https://m.media-amazon.com/images/I/41wV8ThpIbL._AC_.jpg",
+  "price": null,
+  "average_rating": 4.0,
+  "n_reviews": 1730,
+  "n_candidates": 325,
+  "n_obs": 238,
+  "n_events": 128,
+  "median_months": 4.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": null,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.0,
+      "s": 0.9958,
+      "lo": 0.9706,
+      "hi": 0.9994
+    },
+    {
+      "t": 0.03,
+      "s": 0.9496,
+      "lo": 0.9129,
+      "hi": 0.971
+    },
+    {
+      "t": 0.06,
+      "s": 0.9114,
+      "lo": 0.8674,
+      "hi": 0.9413
+    },
+    {
+      "t": 0.09,
+      "s": 0.8812,
+      "lo": 0.8326,
+      "hi": 0.9164
+    },
+    {
+      "t": 0.1,
+      "s": 0.8638,
+      "lo": 0.8129,
+      "hi": 0.9017
+    },
+    {
+      "t": 0.12,
+      "s": 0.8505,
+      "lo": 0.7979,
+      "hi": 0.8903
+    },
+    {
+      "t": 0.13,
+      "s": 0.846,
+      "lo": 0.7929,
+      "hi": 0.8864
+    },
+    {
+      "t": 0.15,
+      "s": 0.846,
+      "lo": 0.7929,
+      "hi": 0.8864
+    },
+    {
+      "t": 0.16,
+      "s": 0.8414,
+      "lo": 0.7878,
+      "hi": 0.8825
+    },
+    {
+      "t": 0.2,
+      "s": 0.8369,
+      "lo": 0.7828,
+      "hi": 0.8786
+    },
+    {
+      "t": 0.25,
+      "s": 0.7687,
+      "lo": 0.7083,
+      "hi": 0.8182
+    },
+    {
+      "t": 0.33,
+      "s": 0.7637,
+      "lo": 0.7029,
+      "hi": 0.8138
+    },
+    {
+      "t": 0.38,
+      "s": 0.7637,
+      "lo": 0.7029,
+      "hi": 0.8138
+    },
+    {
+      "t": 0.5,
+      "s": 0.7389,
+      "lo": 0.6761,
+      "hi": 0.7915
+    },
+    {
+      "t": 0.75,
+      "s": 0.7279,
+      "lo": 0.6641,
+      "hi": 0.7817
+    },
+    {
+      "t": 1.0,
+      "s": 0.6383,
+      "lo": 0.5684,
+      "hi": 0.7
+    },
+    {
+      "t": 1.33,
+      "s": 0.6383,
+      "lo": 0.5684,
+      "hi": 0.7
+    },
+    {
+      "t": 1.5,
+      "s": 0.6318,
+      "lo": 0.5614,
+      "hi": 0.6941
+    },
+    {
+      "t": 2.0,
+      "s": 0.578,
+      "lo": 0.5043,
+      "hi": 0.6448
+    },
+    {
+      "t": 2.73,
+      "s": 0.5709,
+      "lo": 0.4967,
+      "hi": 0.6382
+    },
+    {
+      "t": 3.0,
+      "s": 0.5138,
+      "lo": 0.4374,
+      "hi": 0.5849
+    },
+    {
+      "t": 4.0,
+      "s": 0.4982,
+      "lo": 0.4213,
+      "hi": 0.5704
+    },
+    {
+      "t": 4.25,
+      "s": 0.4982,
+      "lo": 0.4213,
+      "hi": 0.5704
+    },
+    {
+      "t": 5.0,
+      "s": 0.4899,
+      "lo": 0.4126,
+      "hi": 0.5627
+    },
+    {
+      "t": 5.5,
+      "s": 0.4899,
+      "lo": 0.4126,
+      "hi": 0.5627
+    },
+    {
+      "t": 6.0,
+      "s": 0.4393,
+      "lo": 0.3605,
+      "hi": 0.5151
+    },
+    {
+      "t": 7.0,
+      "s": 0.4118,
+      "lo": 0.3326,
+      "hi": 0.4892
+    },
+    {
+      "t": 8.0,
+      "s": 0.4022,
+      "lo": 0.3228,
+      "hi": 0.4802
+    },
+    {
+      "t": 8.5,
+      "s": 0.3927,
+      "lo": 0.3132,
+      "hi": 0.4711
+    },
+    {
+      "t": 9.0,
+      "s": 0.3831,
+      "lo": 0.3036,
+      "hi": 0.4619
+    },
+    {
+      "t": 11.0,
+      "s": 0.3831,
+      "lo": 0.3036,
+      "hi": 0.4619
+    },
+    {
+      "t": 12.0,
+      "s": 0.3438,
+      "lo": 0.2647,
+      "hi": 0.4241
+    },
+    {
+      "t": 13.0,
+      "s": 0.33,
+      "lo": 0.2503,
+      "hi": 0.4118
+    },
+    {
+      "t": 15.0,
+      "s": 0.3025,
+      "lo": 0.2221,
+      "hi": 0.3868
+    },
+    {
+      "t": 16.0,
+      "s": 0.3025,
+      "lo": 0.2221,
+      "hi": 0.3868
+    },
+    {
+      "t": 17.0,
+      "s": 0.3025,
+      "lo": 0.2221,
+      "hi": 0.3868
+    },
+    {
+      "t": 18.0,
+      "s": 0.242,
+      "lo": 0.1624,
+      "hi": 0.3304
+    },
+    {
+      "t": 20.0,
+      "s": 0.2269,
+      "lo": 0.1484,
+      "hi": 0.3157
+    },
+    {
+      "t": 24.0,
+      "s": 0.1664,
+      "lo": 0.0957,
+      "hi": 0.254
+    },
+    {
+      "t": 30.0,
+      "s": 0.1331,
+      "lo": 0.0617,
+      "hi": 0.2323
+    },
+    {
+      "t": 48.0,
+      "s": 0.1331,
+      "lo": 0.0617,
+      "hi": 0.2323
+    },
+    {
+      "t": 72.0,
+      "s": 0.1331,
+      "lo": 0.0617,
+      "hi": 0.2323
+    },
+    {
+      "t": 117.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "wont_boot",
+      "count": 26
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 21
+    },
+    {
+      "mode": "screen_failure",
+      "count": 18
+    },
+    {
+      "mode": "control_failure",
+      "count": 17
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 15
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 14
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 14
+    },
+    {
+      "mode": "stopped_working",
+      "count": 12
+    },
+    {
+      "mode": "battery_failure",
+      "count": 6
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 2
+    },
+    {
+      "mode": "storage_failure",
+      "count": 2
+    },
+    {
+      "mode": "leak",
+      "count": 1
+    },
+    {
+      "mode": "hinge_failure",
+      "count": 1
+    },
+    {
+      "mode": "other",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "control_failure": [
+      "I have had two of these.  The first one never worked.<br />The second one has been sent in and was returned to me still not working correctly.  They wanted me to pay shipping even though the box said 2way free standard shipping.  Now they want me to give them a credit card number so they can charge me for a new cord.<br /><br />Do NOT listen to the good reviews.  This company does not care about t",
+      "I cannot stress this enough. I was looking for a tablet and a computer. I bought an ASUS computer first. Read some good reviews. For three months everything seemed fine. So I bought an ASUS Tablet. Stay away. Stay as far away as possible. The ASUS brand is garbage. Worse computer I've ever owned hands down. The tablet isn't any better. Customer service is crap. I've restored the computer twice in ",
+      "Updating this device is a nightmare, check out on Google for yourself...yes it's cheap, and when it works it's OK. Updates worked fine the first time, but now one day after the cutoff for returns, it will not update and is simply an expensive brick POS. It's not cheap if it doesn't work. Look elsewhere."
+    ],
+    "wont_power_on": [
+      "Latest one evening.<br />Charged it. Loaded software on it. Used it one evening. The next morning would not turn on no matter what was tried. Sent back for refund - took awhile.<br />Great idea - price was right but it not any good if it only last one day.",
+      "Ive had this for 3 months and hate it. I am constantly fighting the system breaking update that sneak through even when i set it to manual.<br />The computer crashes, dock stops working, and fails when i use it in the middle of class. It charges slow, the screen randomly dims, and sometime refuses to turn on in the first place.",
+      "I bought this at Best Buy considerably cheaper, so my first piece of advice would be to check there before ordering through Amazon (I would not have paid nor is it worth more than the $349 I paid for it).<br /><br />I decided to try out the idea of a transformer after my less than 2 year old laptop broke- one of the screen clips broke completely off and I was given a $200+ quote to get it fixed, s"
+    ],
+    "wont_boot": [
+      "Over a period of several weeks I tried out the following.  (I will post this same review in Amazon under each device.)<br /><br />1. ASUS Transformer T100 hybrid tablet/notebook \u2028<br />2. Samsung Galaxy Tab 3 10.1 Tablet\u2028<br />3. Google Nexus 10 tablet<br /><br />I also looked at an iPad Air.  They are way overpriced.  And I still have a grudge against Apple for the 2012 hard drive recall they had",
+      "As most of the reviews will tell you ,this is great ,so since I'm not a techie ,I will tell you about one experience I had, and not repeat things that more knowledgeable people have said .There has been a couple of people that have said you really have to charge the computer about 8 hours which I did .The next day after using it for around 4 hours ,I charged it again ,maybe for 5 hours .When I wen",
+      "I would give this tablet 5 stars if it had lasted more than 2 days. Would not boot up, the on button seamed to have stuck. When working it was great & I love windows 8.1 especially after reading how to work the touch screen in the help section. Amazon issued return label instantly, no charge, and I received credit the next Day!"
+    ],
+    "charging_port_failure": [
+      "After having this for 1 month the power button broke. I sent it in for a replacement, but then a little over a year later, it will no longer charge (I have confirmed it is the tablet itself). I now have a $500 paperweight. Thanks ASUS.",
+      "I love the form factor of this Asus device, but after two day of really enjoyable work on it the device would no loner charge. I would report that it was charging but the reporter percentage would continue to drop. I always charged from a wall outlet, no power strip or extension involved. I tried charging off the dock, reset the device to factory status with no success. I had to return it. I will ",
+      "When it works this is an awesome little laptop/tablet for the price. When it first arrived worked great for about a month then the wifi kept disconnecting for no reason and it kept giving a blue screen of death saying IRQL_NOT_LESS_OR_EQUAL and would reboot. It was within the warranty so I sent it back, they fixed those issues. And again worked great for a month. Now it wont charge very well, and "
+    ],
+    "keyboard_failure": [
+      "I bought this last Christmas for my husband and we have paid to send it back 5 times for the keyboard not working, and each time it comes back with the keyboard NOT working. Asus's customer service is deplorable. They have not only sent back the computer without even touching it (because we didn't respond to ONE email they sent that was in our junk mail. Couldn't try to email again, or maybe call?",
+      "Read the blogs about this tablet before purchasing it! (http://www.transformerforums.com/forum/asus-transformer-book-t100-help/39718-transformer-book-t100-cannot-connect-wifi.html) I wish I had. I loved it at first. It fit in my carry-on bag when I traveled, and I could type messages on the keyboard instead of the screen. It was also nice to disconnect the tablet from the keyboard and use it to re",
+      "This is my first tablet/laptop, so I have no previous experience with the product line, much less other brands.  I have always relied on desktop PC's in a home office atmosphere, and still prefer that scenario.  I considered myself above average when it came to understanding and working with PC's that were running Microsoft Windows operating systems; that is until Windows 8 came along.  I decided "
+    ],
+    "leak": [
+      "I had bought this laptop while I was in college and my old one died unexpectedly. Ordered it April 2014. It worked perfect the whole time. The camera was pretty much a potato, but it wasn't a problem because who uses computers to take pictures/videos anymore...?<br />The keyboard is so comfortable to type on. I had gotten a mouse, but ended up just using the touch pad since it was so compact and r"
+    ],
+    "stopped_working": [
+      "Product advertised as new, was used. It stopped working after one month. I would not get another tablet like this. I certainly would not buy used (had I known!)",
+      "I had to send this back at 5 months because it quit working. It was fixed and returned to me but never really worked right--would freeze and I would have to reboot.  Its just out of warranty and made a horrible noise, the screen was filled with zig zag lines and it got really hot and just quit. I'm sure its dead this time. Run from this product as fast as you can. Its a piece of hunk!",
+      "Broke after a year and a half"
+    ],
+    "screen_failure": [
+      "It lasted a week and then nothing but a black screen on a $400 frisbee.  I am so very disappointed.  I wanted to love it.  It seemed like the future of computing.",
+      "Have had this about 18 months.  Great tablet, Windows 8 is great and love the detachable keyboard.  Keyboard is a little different as keys are sort of recessed but is easy to adapt to the different style.  Make sure you buy a cover or case, I dropped it in the security line at the airport and it landed on the corner and cracked the screen.  Replaced the screen for $100 and now 6 months later the s",
+      "When I first got this laptop, I was very impressed. It was ready to use right out of the box, Windows 8.1 meant that it literally set itself up once I logged in with my Microsoft account, and the performance exceeded my expectations. I originally got this to replace my Android Tablet, but with the added convenience of the keyboard, the ability to run full Windows applications, and the full license"
+    ],
+    "electrical_fault": [
+      "UPDATE: I bought nine months ago and have been very kind to it. Still hate that it won't open far enough when attached to keyboard, but generally liked it OK. Now, though, I have just been zapped by the charger. No signs of damage, but it just shocked me and left a painful, visible burn. Always hated the short cord, but have tried lots of other good chargers and premium dedicated charging cords, a",
+      "I've had the device for just over a year and a half, and now the motherboard needs replacing.  $$$$."
+    ],
+    "physical_breakage": [
+      "Edit: Well I either dropped it or someone stepped on it while it was in a laptop sleeve. The USB port is dented so I can't use it and there is a crack running all the way to the other side on the bezel. Another one running all the way up on the top left side. The bottom left corner is totally cracked. I can't believe this cracked so easy! My last phone I had that cracked on me was a flip phone fro",
+      "I had this product for all of 2 months.  It appears to be a great deal.  However, the tablet didn't sit very well within the keyboard so it always took some pushing.  Along with that, the on keyboard mouse was pretty useless as it was a bit unresponsive and often movements I tried to make were imprecise or changed screens on me without my intention.  I practically only used as a tablet but the ons",
+      "I only recommend buying this if you want to work on becoming a more patient individual not inclined towards violent fits of rage against electronic equipment, and you need something to help you exercise your patience.<br /><br />The most serious problem is inconsistent charging.  Look online, you will find HUNDREDS of posts related to this.  It's not a one-time problem, or a matter of the battery "
+    ],
+    "battery_failure": [
+      "the ACTUAL TITLE is WORST SUPPORT EVER<br />I bought my Asus T100 64gb directly from Microsoft. I immediately had issues with the tablet's battery and charging, and I sent it in for repair. When I got my tablet back, not only was the original issue unsolved, but now the WiFi adapter malfunctioned as well. So I sent in the tablet YET AGAIN.<br />Asus slowly fixed the computer. Then, they shipped it",
+      "So I got this to be a more portable option to take to school and back, and I was disappointed.<br />The Bad<br />Although it functions great as a netbook, The tablet interface is hairy at best. the thing that really drove me  up a wall though with this device though, is that when I would have it charging (with the supplied cord and charger) It would be losing battery power AS I used it plugged in.",
+      "FINAL UPDATE TO THIS REVIEW, 12/11/14:<br /><br />Quick Summary: Don't buy Asus.  If I could, I'd give this product, and Asus as a company, Zero Stars.<br /><br />While the Transformer Book could be a really awesome product (I did like it when it worked), it suffers from a battery failure issue where it will not charge, or takes days to charge, or won't turn on after a charge, or all of the above."
+    ],
+    "hinge_failure": [
+      "Pros:<br /><br />-Comes with a keyboard. There aren't many (if any) that offer that standard.<br /><br />-Windows 8.1 is fantastically smooth. I literally opened all of the programs and apps I had (11) and it was still running smoothly.<br /><br />-Intel Atom Bay Trail Processor. Uses much less energy to do the same task than the Intel i series or even the previous generation Atoms. Look for Intel"
+    ],
+    "other": [
+      "Jan. 24, 2014 update: Asus disinformation<br /><br />Asus's official position, stated in a comment on my Jan. 16, 2014 review, is that the computer malfunctioning I noted is \"an isolated case.\"<br /><br />Really? Then how does Asus account for all the other Amazon reviewers on one of two T100 product pages, as of this date, noting malfunctioning Asus T100 computers?<br /><br />Here's Asus's self-s"
+    ],
+    "storage_failure": [
+      "I loved this little laptop until the hard drive quit working - less than 2 1/2 years after I bought it! It was treated with care, never dropped, still looks new, but is now a useless piece of junk. I will never buy from Asus again, and neither should you!!",
+      "I loved this item out of the box. but with further play time I noticed the keyboard comes undocked WAY too much, and no matter what memory card I put in it, none of them worked. I googled and Binged for an answer for two days before I threw in the towel and returned it. ASUS has always made good products for me but this one fell short on the manufacturing side. There are better options out there n"
+    ]
+  },
+  "published": true
+}

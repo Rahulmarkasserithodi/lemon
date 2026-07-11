@@ -5,6 +5,10 @@ interface Props {
   snippetsLeft: string[]
   snippetsRight: string[]
   onClose: () => void
+  labelLeft?: string
+  labelRight?: string
+  colorLeft?: string
+  colorRight?: string
 }
 
 function Snippet({ text }: { text: string }) {
@@ -18,7 +22,16 @@ function Snippet({ text }: { text: string }) {
   )
 }
 
-export default function SnippetDrawer({ mode, snippetsLeft, snippetsRight, onClose }: Props) {
+export default function SnippetDrawer({
+  mode,
+  snippetsLeft,
+  snippetsRight,
+  onClose,
+  labelLeft = 'Longer-lived product',
+  labelRight = 'Shorter-lived product',
+  colorLeft = TEAL,
+  colorRight = RUST,
+}: Props) {
   const label = mode.replace(/_/g, ' ')
   const hasAny = snippetsLeft.length > 0 || snippetsRight.length > 0
 
@@ -46,8 +59,8 @@ export default function SnippetDrawer({ mode, snippetsLeft, snippetsRight, onClo
 
         {snippetsLeft.length > 0 && (
           <section>
-            <div className="font-mono text-[10px] uppercase tracking-[0.1em] mb-2" style={{ color: TEAL }}>
-              Longer-lived product
+            <div className="font-mono text-[10px] uppercase tracking-[0.1em] mb-2" style={{ color: colorLeft }}>
+              {labelLeft}
             </div>
             <div className="space-y-3">
               {snippetsLeft.map((s, i) => <Snippet key={i} text={s} />)}
@@ -57,8 +70,8 @@ export default function SnippetDrawer({ mode, snippetsLeft, snippetsRight, onClo
 
         {snippetsRight.length > 0 && (
           <section>
-            <div className="font-mono text-[10px] uppercase tracking-[0.1em] mb-2" style={{ color: RUST }}>
-              Shorter-lived product
+            <div className="font-mono text-[10px] uppercase tracking-[0.1em] mb-2" style={{ color: colorRight }}>
+              {labelRight}
             </div>
             <div className="space-y-3">
               {snippetsRight.map((s, i) => <Snippet key={i} text={s} />)}

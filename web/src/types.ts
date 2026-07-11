@@ -42,6 +42,7 @@ export interface CatalogEntry {
   average_rating: number | null
   n_reviews: number
   image?: string | null
+  latest_review?: number | null   // epoch ms of the most recent review (recency)
 }
 
 export interface IndexEntry {

@@ -84,43 +84,19 @@ def _is_device(title: str | None, categories) -> bool:
 
 
 # ── laptop selection (Electronics category) ───────────────────────────────────
-# A real laptop: a laptop/notebook in the title or category, minus the huge long
-# tail of laptop *accessories* and *parts* (cases, chargers, RAM, screens, …).
-_LAPTOP_INCL = re.compile(
-    r"\b(laptop|notebook|chromebook|macbook|ultrabook|thinkpad|ideapad|"
-    r"chrome\s*book|note\s*book)\b",
-    re.IGNORECASE,
-)
-_LAPTOP_EXCL = re.compile(
-    r"""\b(
-        case|sleeve|bag|backpack|briefcase|
-        charger|adapter|power\s+cord|power\s+supply|ac\s+adapter|
-        battery|batteries|
-        screen\s+protector|privacy\s+(screen|filter)|screen\s+film|
-        skin|decal|sticker|cover|shell|
-        stand|riser|mount|cooling\s+pad|cooler|lap\s+desk|tray|
-        dock|docking|hub|port\s+replicator|
-        keyboard|keypad|mouse|mice|
-        ram|memory\s+module|so-?dimm|
-        ssd|hard\s+drive|hdd|nvme|storage\s+drive|
-        cable|cord|dongle|
-        replacement|repair|
-        screen|display\s+panel|lcd|led\s+panel|digitizer|
-        hinge|palmrest|bezel|housing|
-        fan|heatsink|motherboard|logic\s+board|
-        feet|rubber\s+foot|
-        for\s+(macbook|laptop|notebook|chromebook|hp|dell|lenovo|asus|acer)
-    )\b""",
-    re.IGNORECASE | re.VERBOSE,
-)
+# A real laptop sits in Amazon's "Laptops" category (plural): "Laptops",
+# "Traditional Laptops", "2 in 1 Laptops", "Gaming Laptops", "Touchscreen
+# Laptops", etc. Accessories are shelved under "Laptop Accessories / Bags /
+# Network Adapters" (singular "Laptop") or their own peripheral categories
+# (Webcams, Computer Headsets, Video Projectors, Briefcases, …). So a whole-word
+# "Laptops" in the category breadcrumb is a clean, high-precision signal — and,
+# unlike title matching, it never over-filters on spec words (SSD / RAM /
+# keyboard / webcam) that legitimately appear in real laptop titles.
+_LAPTOP_CAT = re.compile(r"\blaptops\b", re.IGNORECASE)
 
 
 def _is_laptop(title: str | None, categories) -> bool:
-    text = (title or "") + _cats_flat(categories)
-    if not _LAPTOP_INCL.search(text):
-        return False
-    # Exclusions checked mainly on the title (categories can be broad).
-    return not bool(_LAPTOP_EXCL.search(title or ""))
+    return bool(_LAPTOP_CAT.search(_cats_flat(categories)))
 
 
 def _deepest_category(categories) -> str:

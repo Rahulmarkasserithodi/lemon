@@ -13,6 +13,7 @@ later request is served from the SQLite cache instantly. Run with:
 """
 
 import json
+import math
 import os
 import re
 import threading
@@ -110,8 +111,25 @@ def _init() -> dict:
             catalog=catalog,
             catalog_by_asin={c["parent_asin"]: c for c in catalog},
             asin_to_parent=asin_map,
+            rank=_build_rank(catalog),
         )
     return _state
+
+
+def _build_rank(catalog: list[dict]) -> dict[str, float]:
+    """Per-product search score: recency-dominant, with a review-volume term so
+    fresh-but-substantial products rank first. (No-price handling is applied at
+    query time so those products always sort to the bottom.)"""
+    ts = [c["latest_review"] for c in catalog if c.get("latest_review")]
+    ts_min, ts_max = (min(ts), max(ts)) if ts else (0, 1)
+    span = (ts_max - ts_min) or 1
+    max_logrev = max((math.log1p(c.get("n_reviews") or 0) for c in catalog), default=1.0) or 1.0
+    rank: dict[str, float] = {}
+    for c in catalog:
+        rec = ((c.get("latest_review") or ts_min) - ts_min) / span          # 0..1 recency
+        vol = math.log1p(c.get("n_reviews") or 0) / max_logrev              # 0..1 volume
+        rank[c["parent_asin"]] = 0.7 * rec + 0.3 * vol
+    return rank
 
 
 def _resolve_parent(st: dict, asin: str) -> str | None:
@@ -154,8 +172,8 @@ def health() -> dict:
 def catalog(q: str = "", limit: int = 200) -> list[dict]:
     st = _init()
     items = st["catalog"]
-    if q:
-        ql = q.lower()
+    ql = q.strip().lower()
+    if ql:
         items = [
             c
             for c in items
@@ -163,6 +181,18 @@ def catalog(q: str = "", limit: int = 200) -> list[dict]:
             or ql in (c.get("brand") or "").lower()
             or ql in (c.get("subcategory") or "").lower()
         ]
+
+    rank = st["rank"]
+
+    def sort_key(c: dict):
+        has_price = c.get("price") is not None            # priceless products sort last
+        score = rank.get(c["parent_asin"], 0.0)
+        # small relevance nudge when the query hits the start of the title/brand
+        if ql and (c["title"].lower().startswith(ql) or (c.get("brand") or "").lower().startswith(ql)):
+            score += 0.15
+        return (has_price, score)
+
+    items = sorted(items, key=sort_key, reverse=True)
     return items[: max(1, min(limit, 500))]
 
 
