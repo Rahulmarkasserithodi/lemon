@@ -16,7 +16,41 @@ import {
   StatRow,
   CostToOwn,
 } from './productBits'
-import { INK, RUST, TEAL, inkAlpha } from '../theme'
+import { repairTip, ifixitUrl } from './repairTips'
+import { INK, ON_INK, RUST, TEAL, inkAlpha } from '../theme'
+
+// Compact "make it last" hint — the product's top failure mode → a repair tip
+// and an iFixit link, so the comparison also nudges repair over replacement.
+function RepairHint({ product, color }: { product: ProductData; color: string }) {
+  const top = product.failure_modes[0]
+  const t = top && repairTip(top.mode)
+  if (!t) return null
+  return (
+    <div className="mt-3.5 pt-3 flex flex-col gap-1.5" style={{ borderTop: `1px dashed ${inkAlpha(0.2)}` }}>
+      <div className="flex items-center gap-2">
+        <span
+          className="font-mono text-[8.5px] font-semibold uppercase tracking-[0.06em] px-1.5 py-0.5"
+          style={{ background: color, color: ON_INK }}
+        >
+          {t.effort}
+        </span>
+        <span className="font-mono text-[9px] font-semibold uppercase tracking-[0.08em]" style={{ color: inkAlpha(0.5) }}>
+          Make it last
+        </span>
+      </div>
+      <p className="text-[12px] leading-snug" style={{ color: inkAlpha(0.65) }}>{t.tip}</p>
+      <a
+        href={ifixitUrl(product.brand, product.title)}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-mono text-[10px] font-semibold uppercase tracking-[0.06em]"
+        style={{ color }}
+      >
+        Repair guides →
+      </a>
+    </div>
+  )
+}
 
 interface Props {
   left: ProductData   // longer-lived  (better → teal, right column)
@@ -138,6 +172,7 @@ export default function CompareView({ left, right }: Props) {
             Failure modes — {shortTitle(worse)}
           </div>
           <FailureModes modes={worse.failure_modes} nEvents={worse.n_events} scaleMax={failureMax} color={RUST} onSelect={setActiveMode} />
+          <RepairHint product={worse} color={RUST} />
         </div>
         <div className="flex flex-col gap-2.5">
           <div
@@ -147,6 +182,7 @@ export default function CompareView({ left, right }: Props) {
             Failure modes — {shortTitle(better)}
           </div>
           <FailureModes modes={better.failure_modes} nEvents={better.n_events} scaleMax={failureMax} color={TEAL} onSelect={setActiveMode} />
+          <RepairHint product={better} color={TEAL} />
         </div>
       </div>
 

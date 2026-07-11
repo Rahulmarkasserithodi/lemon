@@ -282,17 +282,17 @@ export default function EwasteFinder() {
   return (
     <div className="max-w-3xl space-y-8">
       <div className="space-y-3">
-        <h1 className="font-serif text-[30px] font-bold text-[#1c1f21]">Dispose e-waste</h1>
+        <h1 className="font-serif text-[30px] font-bold text-[#1c1f21]">Recycle your e-waste</h1>
         <p className="text-[15px] leading-relaxed" style={{ color: inkAlpha(0.72) }}>
-          A dead appliance doesn't belong in landfill. Tell us what you're retiring, share your
-          location, and we'll find the nearest certified drop-off points — plus how to prep each item
-          safely.
+          A dead appliance doesn't belong in landfill — it belongs at a recycling point where its
+          metals and materials get recovered. Tell us what you're retiring, share your location, and
+          we'll find the nearest certified recycling drop-offs — plus how to prep each item safely.
         </p>
       </div>
 
-      {/* Step 1 — what to dispose */}
+      {/* Step 1 — what to recycle */}
       <section className="space-y-3">
-        <StepHeading n={1} title="What are you disposing?" />
+        <StepHeading n={1} title="What are you recycling?" />
         <div className="flex flex-wrap gap-2">
           {CATEGORIES.map((c) => {
             const on = picked.has(c.id)
@@ -387,7 +387,7 @@ export default function EwasteFinder() {
           for the rest of the session (only a full reload closes it). */}
       {coords && (
         <section className="space-y-4">
-          <StepHeading n={3} title="Nearest drop-off points" />
+          <StepHeading n={3} title="Nearest recycling drop-offs" />
 
           <EwasteMap origin={coords} sites={sites ?? []} activeId={activeId} />
 
@@ -399,7 +399,7 @@ export default function EwasteFinder() {
 
           {sites && sites.length === 0 && !loading && (
             <p className="text-[14px]" style={{ color: inkAlpha(0.6) }}>
-              No matching e-waste points found within {radiusKm} km. Try widening the radius, or contact
+              No matching recycling points found within {radiusKm} km. Try widening the radius, or contact
               your local council — many run periodic e-waste collection days.
             </p>
           )}

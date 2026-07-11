@@ -1,0 +1,495 @@
+{
+  "parent_asin": "B009T3EYHO",
+  "title": "Samsung Chromebook (Wi-Fi, 11.6-Inch) 2012 Model",
+  "brand": "SAMSUNG",
+  "image": "https://m.media-amazon.com/images/I/41pK4rlZbdL._AC_.jpg",
+  "price": 69.99,
+  "average_rating": 4.1,
+  "n_reviews": 10234,
+  "n_candidates": 1128,
+  "n_obs": 408,
+  "n_events": 196,
+  "median_months": 11.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 76.35,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.01,
+      "s": 0.9975,
+      "lo": 0.9827,
+      "hi": 0.9997
+    },
+    {
+      "t": 0.03,
+      "s": 0.9877,
+      "lo": 0.9708,
+      "hi": 0.9949
+    },
+    {
+      "t": 0.05,
+      "s": 0.9877,
+      "lo": 0.9708,
+      "hi": 0.9949
+    },
+    {
+      "t": 0.06,
+      "s": 0.9802,
+      "lo": 0.9607,
+      "hi": 0.99
+    },
+    {
+      "t": 0.09,
+      "s": 0.9776,
+      "lo": 0.9574,
+      "hi": 0.9883
+    },
+    {
+      "t": 0.1,
+      "s": 0.9724,
+      "lo": 0.9508,
+      "hi": 0.9846
+    },
+    {
+      "t": 0.12,
+      "s": 0.9698,
+      "lo": 0.9475,
+      "hi": 0.9828
+    },
+    {
+      "t": 0.13,
+      "s": 0.9672,
+      "lo": 0.9442,
+      "hi": 0.9808
+    },
+    {
+      "t": 0.15,
+      "s": 0.9646,
+      "lo": 0.9409,
+      "hi": 0.9789
+    },
+    {
+      "t": 0.16,
+      "s": 0.9646,
+      "lo": 0.9409,
+      "hi": 0.9789
+    },
+    {
+      "t": 0.2,
+      "s": 0.9619,
+      "lo": 0.9376,
+      "hi": 0.9769
+    },
+    {
+      "t": 0.21,
+      "s": 0.9593,
+      "lo": 0.9343,
+      "hi": 0.9748
+    },
+    {
+      "t": 0.25,
+      "s": 0.946,
+      "lo": 0.9183,
+      "hi": 0.9644
+    },
+    {
+      "t": 0.38,
+      "s": 0.946,
+      "lo": 0.9183,
+      "hi": 0.9644
+    },
+    {
+      "t": 0.5,
+      "s": 0.9148,
+      "lo": 0.8816,
+      "hi": 0.939
+    },
+    {
+      "t": 0.75,
+      "s": 0.8793,
+      "lo": 0.841,
+      "hi": 0.9088
+    },
+    {
+      "t": 0.97,
+      "s": 0.8762,
+      "lo": 0.8376,
+      "hi": 0.9062
+    },
+    {
+      "t": 1.0,
+      "s": 0.8397,
+      "lo": 0.797,
+      "hi": 0.8742
+    },
+    {
+      "t": 1.03,
+      "s": 0.8332,
+      "lo": 0.7897,
+      "hi": 0.8684
+    },
+    {
+      "t": 1.25,
+      "s": 0.8299,
+      "lo": 0.7861,
+      "hi": 0.8655
+    },
+    {
+      "t": 1.5,
+      "s": 0.8299,
+      "lo": 0.7861,
+      "hi": 0.8655
+    },
+    {
+      "t": 2.0,
+      "s": 0.7701,
+      "lo": 0.721,
+      "hi": 0.8117
+    },
+    {
+      "t": 2.25,
+      "s": 0.7666,
+      "lo": 0.7172,
+      "hi": 0.8086
+    },
+    {
+      "t": 2.5,
+      "s": 0.7631,
+      "lo": 0.7134,
+      "hi": 0.8054
+    },
+    {
+      "t": 3.0,
+      "s": 0.676,
+      "lo": 0.6211,
+      "hi": 0.7248
+    },
+    {
+      "t": 3.25,
+      "s": 0.6724,
+      "lo": 0.6173,
+      "hi": 0.7214
+    },
+    {
+      "t": 3.5,
+      "s": 0.6651,
+      "lo": 0.6097,
+      "hi": 0.7145
+    },
+    {
+      "t": 4.0,
+      "s": 0.6506,
+      "lo": 0.5946,
+      "hi": 0.7009
+    },
+    {
+      "t": 4.5,
+      "s": 0.6469,
+      "lo": 0.5907,
+      "hi": 0.6974
+    },
+    {
+      "t": 5.0,
+      "s": 0.6101,
+      "lo": 0.5527,
+      "hi": 0.6625
+    },
+    {
+      "t": 6.0,
+      "s": 0.5457,
+      "lo": 0.4868,
+      "hi": 0.6007
+    },
+    {
+      "t": 7.0,
+      "s": 0.5376,
+      "lo": 0.4785,
+      "hi": 0.5929
+    },
+    {
+      "t": 7.5,
+      "s": 0.5376,
+      "lo": 0.4785,
+      "hi": 0.5929
+    },
+    {
+      "t": 8.0,
+      "s": 0.5334,
+      "lo": 0.4742,
+      "hi": 0.5889
+    },
+    {
+      "t": 9.0,
+      "s": 0.5248,
+      "lo": 0.4654,
+      "hi": 0.5807
+    },
+    {
+      "t": 10.0,
+      "s": 0.5073,
+      "lo": 0.4475,
+      "hi": 0.5639
+    },
+    {
+      "t": 11.0,
+      "s": 0.4983,
+      "lo": 0.4384,
+      "hi": 0.5553
+    },
+    {
+      "t": 11.99,
+      "s": 0.4938,
+      "lo": 0.4338,
+      "hi": 0.5509
+    },
+    {
+      "t": 12.0,
+      "s": 0.4077,
+      "lo": 0.3475,
+      "hi": 0.4669
+    },
+    {
+      "t": 13.0,
+      "s": 0.3948,
+      "lo": 0.334,
+      "hi": 0.4548
+    },
+    {
+      "t": 13.5,
+      "s": 0.3883,
+      "lo": 0.3273,
+      "hi": 0.4487
+    },
+    {
+      "t": 14.0,
+      "s": 0.3753,
+      "lo": 0.314,
+      "hi": 0.4365
+    },
+    {
+      "t": 16.0,
+      "s": 0.3689,
+      "lo": 0.3074,
+      "hi": 0.4303
+    },
+    {
+      "t": 17.0,
+      "s": 0.3623,
+      "lo": 0.3007,
+      "hi": 0.4241
+    },
+    {
+      "t": 18.0,
+      "s": 0.3425,
+      "lo": 0.2807,
+      "hi": 0.4051
+    },
+    {
+      "t": 21.0,
+      "s": 0.3425,
+      "lo": 0.2807,
+      "hi": 0.4051
+    },
+    {
+      "t": 22.0,
+      "s": 0.3354,
+      "lo": 0.2735,
+      "hi": 0.3983
+    },
+    {
+      "t": 24.0,
+      "s": 0.2712,
+      "lo": 0.2101,
+      "hi": 0.3357
+    },
+    {
+      "t": 26.0,
+      "s": 0.2712,
+      "lo": 0.2101,
+      "hi": 0.3357
+    },
+    {
+      "t": 30.0,
+      "s": 0.2599,
+      "lo": 0.198,
+      "hi": 0.3258
+    },
+    {
+      "t": 36.0,
+      "s": 0.2599,
+      "lo": 0.198,
+      "hi": 0.3258
+    },
+    {
+      "t": 42.0,
+      "s": 0.2362,
+      "lo": 0.1671,
+      "hi": 0.3123
+    },
+    {
+      "t": 48.0,
+      "s": 0.189,
+      "lo": 0.1144,
+      "hi": 0.2779
+    },
+    {
+      "t": 60.0,
+      "s": 0.189,
+      "lo": 0.1144,
+      "hi": 0.2779
+    },
+    {
+      "t": 72.0,
+      "s": 0.1417,
+      "lo": 0.0597,
+      "hi": 0.2581
+    },
+    {
+      "t": 84.0,
+      "s": 0.1417,
+      "lo": 0.0597,
+      "hi": 0.2581
+    },
+    {
+      "t": 120.0,
+      "s": 0.1417,
+      "lo": 0.0597,
+      "hi": 0.2581
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "screen_failure",
+      "count": 67
+    },
+    {
+      "mode": "control_failure",
+      "count": 38
+    },
+    {
+      "mode": "physical_breakage",
+      "count": 22
+    },
+    {
+      "mode": "stopped_working",
+      "count": 21
+    },
+    {
+      "mode": "wont_boot",
+      "count": 15
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 14
+    },
+    {
+      "mode": "charging_port_failure",
+      "count": 13
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 9
+    },
+    {
+      "mode": "battery_failure",
+      "count": 9
+    },
+    {
+      "mode": "hinge_failure",
+      "count": 3
+    },
+    {
+      "mode": "electrical_fault",
+      "count": 3
+    },
+    {
+      "mode": "other",
+      "count": 2
+    },
+    {
+      "mode": "storage_failure",
+      "count": 2
+    },
+    {
+      "mode": "overheating",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "stopped_working": [
+      "My mac died. It took some data with it. Not much, but I was annoyed.<br /><br />I guess I could have gotten the icloud, or a time machine thingy. Effort/money. Bah.<br /><br />My mac cost 2000$ and lasted 6 years, 333 dollars a year. If this chromebook lasts 2 years that'll be 125 a year, and I can throw it in the trash and not lose any data since it uses the google cloud idrive jobby. Did I menti",
+      "After waiting for this to get restocked, I finally got it for my daughter who is a nursing student.  All of the reviews made it sound like it would be perfect for her.  Sadly, it just stopped working after 14 months.  The worst part is that this was just used very little.  She had a desktop for her regular work.  It crashed and burned,  missed the one year warranty by a few months.  She had to hav",
+      "Mine broke a few months after I received it"
+    ],
+    "keyboard_failure": [
+      "update: the keyboard stoped working after 1 month so had to replace it. it is really fragile and you should be really careful with handling it<br />it is pretty good for what it is ( not for what it isn't) it is a 250 dollar online machine. my only complain so far is the lack of Ethernet slot",
+      "This is an OK product for its price. Its battery is good (but does not last as much as they promise). Due to google cloud storage you do not miss hard disk (though it gets very expensive after a point).<br /><br />My biggest complain is about the invisible button on the touch pad. You can click on the lower half of the touch pad to \"left click\". But in this product the button gets stuck. So it is ",
+      "I ordered and received a Chromebook I ordered via Amazon in September that I'd ordered for my son for Christmas. I opened it up when it arrived and discovered the a key had fallen off and I fixed it. My son received his gift on Christmas day and was so excited he began to use it immediately but the key was sticky.  It has subsequently fallen off a number of times and now the Shift key is also not "
+    ],
+    "wont_boot": [
+      "I bought this as a fill in when my ASUS laptop needed repair. Chose a Samsung based on reviews from CNET and others. Three weeks of use and suddenly couldn't connect to WiFi. I followed Google's steps to fix the problem then the OS vanished. I found info in Google help forum telling me reload the OS from a backup I create on another device which I have admin rights on. As I only bought this to use",
+      "I bought a Samsung Chromebook from Amazon in November of 2012.  It worked well and I was pleased with it.  The machine did  not get a lot of use because I do not travel very much; my principal computer is a Mac desktop.  Right after the warranty expired, the computer would not boot up.  All I got was a blue screen.  I googled this issue and learned that you are supposed to \"reset\" the machine by t",
+      "Worked great for the first 3 days from arrival to my doorstep.  The battery died after some time of watching prime video.  Then I went to charge it, it would not boot up.  Chrome OS is missing or damaged.  Went through MULTIPLE attempts of recoverying the OS. I used a MAC and a Windows PC to work with the chromebook recovery utility. Google says if it doesn't work use a DIFFERENT flash drive or SS"
+    ],
+    "screen_failure": [
+      "Was singing the praises of this product to all that would listen to me but maybe I spoke to soon: after 10 months of use the quality of the image on the monitor/screen became so poor that I had to send the unit in for repair.  Much to Samsung's credit the repair didn't take long (a part was changed) nor was the process a hassle particularly but I have realized that the Samsung Chromebook is in fac",
+      "Bought it a year ago, and the screen died yesterday. Not sure how to fix it (or worth fixing) and I guess the warranty is over. I should have got an older version of iPad and an external monitor instead of this.",
+      "The screen of my netbook died after almost 4 years.  Guess I can't complain.<br /><br />I travel for a living so light and fast are everything for me.  Well, so is durable, yet to be seen.<br /><br />The little chromebook is featherweight, perfect for travel.  It's very fast, what a concept.<br />I have typed on all sorts of keyboards, this one seems perfectly fine.  Better than many.<br /><br />O"
+    ],
+    "control_failure": [
+      "This would be GREAT if the keyboard was in upper case.  Lower case is much harder to differentiate which keys you want in low light. I mostly use this little laptop when on the couch or in bed.  On other laptops I can type without looking at the keyboard, but this one is slightly \"off center\" from what I am used to so I often need to stop and \"look\" for a key.<br /><br />There isn't an All Caps ke",
+      "I bought this Samsung Chromebook  one year ago.  I needed it for writing and basic internet use.<br /><br />I like that it is light-weight.  When I first bought it, the internet connection was strong and fast.  However, after a few months, the Samsung would not connect to my wi-fi network.  I have to do all sorts of tricks to get it to connect to the internet like opening and closing it a million ",
+      "i paid juan eighty for this at amazon warehouse deals.<br /><br />for the first month i was VERY HAPPY<br /><br />2 months after purchase the trackpad stopped working.<br /><br />Netflix:  every 5 weeks there's a big netflix/flash crash problem.  you'll spend the following 2 weeks figuring out how to get netflix to work: NOT A NETFLIX STABLE DEVICE<br /><br />Bluetooth:  you can't figure out how t"
+    ],
+    "physical_breakage": [
+      "I'm  a college student and got this at the begging of the school year and about 3 months after i got it, the screen cracked, there wasn't even any rough handling or dropping or spills just in my back pack as i walked around campus and the delicate flower of a laptop cracked i opened it up to do notes and it was unusable. the chrome operating system however was quick and everything i could want out",
+      "Google &#34;cracked samsung chromebook display&#34;. The screens spontaneously crack. Mine broke while stored away for a week. Samsung won't repair them under warranty. This is the WORST computer I've ever had - and I go back to the original IBM PC. I like Chromebooks, but never a Samsung again - Samsung creates garbage.",
+      "After wasting hours trying to get this new computer up and running I have hit a dead end.<br />A screen opens that allows you to select the language that you want to use and what type of keyboard layout that you prefer.<br />A third option asks you to &#34;Select a network&#34; but when the drop down menu opens, there is just the same list of languages shown in the &#34;Select a language&#34; drop"
+    ],
+    "charging_port_failure": [
+      "I bought this chromebook to use at school in early 2013. It served me well while it lasted (it just kicked the bucket).<br /><br />When I first got it, I was stunned. The computer was so inexpensive but fast and functional! It has a sleek design. Feels a bit cheap and plastic-y at times, but usually it functions well. The display isn't too amazing. The keyboard is very nice, spaced out, and easy t",
+      "THis was a GREAT tool for our 15 yr old.  But don't fool yourself... it really is just a tablet with a keyboard and cover.  Read somewhere that the charger eventually dies and only way to fix is to replace Mother Board.  Definately not cost effective. Got this last Christmas, so if you want to figure $25/month usage, not bad.  But very disappointed.  He did not abuse it,  only had to keep rechargi",
+      "I bought four of these for four girls, ages 12-16. They are mostly used for video chatting, watching videos, and doing Khan Academy exercises (in addition to general-purpose web browsing, of course).<br /><br />The Chromebooks are easy to use, and it's very convenient that they're tied to their google accounts - any girl can log in on any Chromebook and still see their own bookmarks, Google Docs, "
+    ],
+    "other": [
+      "I bought two of these chromebooks for my daughters.  One of the units broke after a few weeks of use (purchased from Google Play).  I called Samsung customer service, and they arranged for me to send it back.  So far so good.  Well, it's now been almost one month.  it was originally going to be repaired but they \"didn't have the part\" for a brand new product?  The status of my service ticket now (",
+      "Very lightweight and terrific for searching web needs. Reviews were very helpful in choosing the product and it has lasted 6 months until a problem arose.",
+      "I bought two of these chromebooks for my daughters.  One of the units broke after a few weeks of use (purchased from Google Play).  I called Samsung customer service, and they arranged for me to send it back.  So far so good.  Well, it's now been almost one month.  it was originally going to be repaired but they \"didn't have the part\" for a brand new product?  The status of my service ticket now ("
+    ],
+    "overheating": [
+      "I love this Chromebook.  It boots up immediately, it operates as quickly as a tablet, and it isn't as expensive as an iPad -- only about $250.<br />It is also very sturdy; I drop things a lot, and my first one put up with a great deal of abuse.  It's still operative after two years, even though it's missing bits now.<br />There are two drawbacks to this machine.  One is the touch pad -- I never wi",
+      "I love this Chromebook.  It boots up immediately, it operates as quickly as a tablet, and it isn't as expensive as an iPad -- only about $250.<br />It is also very sturdy; I drop things a lot, and my first one put up with a great deal of abuse.  It's still operative after two years, even though it's missing bits now.<br />There are two drawbacks to this machine.  One is the touch pad -- I never wi"
+    ],
+    "wont_power_on": [
+      "This device was fine until it died after 2 months. It will not power up any longer. There is just a black screen. Amazon.com will not take it back before it is just a few weeks past their &#34;return window&#34;. How convenient for them. I would not recommend buying this product. I'm out of a couple of hundred dollars and it sucks!",
+      "I bought this Chromebook in August 2013.  I really liked it at first but it got really hot after a few hour's use on the bottom side of the machine.  I also noticed that the exterior of the machine is very cheaply made and the card reader slot never really closed correctly.<br /><br />The mousepad stopped functioning well in May 2014 but was still usable but only to click on the screen.  I had to ",
+      "After just a couple of months of use, the Chromebook just stopped working - it was completely dead.  Not able to turn on...nothing.  We returned it and received a replacement.  A few months after receiving the replacement, the screen went out.  Luckily it was under warranty - so it was fixed in a timely manner.  Though we love the Chromebook when it works, we are afraid it will not last very long "
+    ],
+    "electrical_fault": [
+      "The Cloud system is at bit complicated to work with especially since there really are no directions provided.  It was hard, to find a printer at a reasonable price in the store, I ended up having to purchase one on Amazon because, there were none in the stores.  Once I had the printer, I spent well over two hours on the phone talking with tech support at the company, giving me directions on how to",
+      "I read a lot of reviews and thought this would be a good purchase. I disregarded all the reviews that complained about product malfunctions and poor service because I thought, its a Samsung! I've always loved my Samsung products!<br /><br />Boy was I wrong.<br /><br />For the first two months, it was a great little machine. Performed adequately and exactly how I needed it to. It was my tertiary co",
+      "Great computer but after only 2 months the power cord broke.. NOT COOL. I am trying to figure out how to contact amazon and get them to replace it."
+    ],
+    "hinge_failure": [
+      "I'm on my second chromebook in 2-1/2 years (the first died and it was still under warranty). The increasing unresponsiveness in loading pages, unable to connect to internet repeatedly, and a touchpad that is no longer responsive will make me to go a laptop again. The cursor jumps to a line above where I'm typing.  What the heck???  Also, I feel that the Samsung product is cheaply made.  One of the",
+      "I'm giving this 2 stars because the build quality is awful, i've had this thing for about 4 or 5 months now and its falling apart... and i've been taking extra special care of the thing. The screen is literally coming off its hinges, and its pinching a cable and causing the screen to flicker... it is impossible to open this thing with one hand, and the touchpad doesn't work very well.<br />Asides ",
+      "Its a good computer but its made with cheap materials hence the price. I have had this computer for almost a year and the hinge on the lid isn't opening properly which is causing the lid to crack. Otherwise I haven't had any other issues, the computer is good for everyday use like video streaming and browsing the internet."
+    ],
+    "battery_failure": [
+      "It was great . . . while it lasted.  I used it to access the Internet because it was faster than my slow Windows computer, but one day it just stopped working!  The internal battery would not charge, so I assumed it was the AC adapter/power supply.  I bought a new power supply, but got the same results.  So now I have a dead Chromebook, which is not even heavy enough to use as a boat anchor.  I gu",
+      "I received my Samsung Chromebook on 1/17/2013. Yesterday (12/16/2013) the battery went dead. That's 11 months - 11 months of daily use, with AM/PM charging and 4-6 hours of evening use.<br /><br />The replacement battery is $45. Needless to say, I am not too happy about this.<br /><br />Apart from this, the Chromebook is a neat browser machine. However, more than once did I wish for full compatibi",
+      "Cons:<br /><br />I bought this back in August, and when I first got it I could charge it the night before and it would make it though a full 8 hour day of law school. Now I have to charge it several times a day, so the battery is garbage. Yes it lasts as long as advertised when you first get it, but only after a few months it no longer keeps that kind of charge.<br /><br />The not holding a charge"
+    ],
+    "storage_failure": [
+      "When a device that is inherently for browsing the internet continuously crashes, refusing to load internet pages, and requires repeated restarting to use the internet, I call it a piece of garbage.  100 gb free Google Drive?  When I copy files from this device to the Google Drive, I have to do it a few individual items (few jpegs, avi, doc files, edt) at a time, because I have to double check each",
+      "I was a bit hesitant to purchase a \"glorified web browser\" but in all honesty, this Samsung Chromebook has far exceeded my expectations.  There is virtually no lag whatsoever when I open it from \"sleep\".  The trackpad is quite sensitive and feels well built.  When I ordered the Chromebook, I was intending on purchasing a small wired or wireless mouse to go with it as I've never really been a fan o",
+      "When a device that is inherently for browsing the internet continuously crashes, refusing to load internet pages, and requires repeated restarting to use the internet, I call it a piece of garbage.  100 gb free Google Drive?  When I copy files from this device to the Google Drive, I have to do it a few individual items (few jpegs, avi, doc files, edt) at a time, because I have to double check each"
+    ]
+  },
+  "published": true
+}

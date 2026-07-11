@@ -1,0 +1,122 @@
+{
+  "parent_asin": "B09WGF8HZ2",
+  "title": "Late 2016 Apple MacBook Pro with 2.7GHz Intel Core i7 (15.4 inch, 16GB RAM, 512GB) Silver (Renewed)",
+  "brand": "Amazon Renewed",
+  "image": "https://m.media-amazon.com/images/I/41i2yZD9EnL._AC_.jpg",
+  "price": 588.62,
+  "average_rating": 3.8,
+  "n_reviews": 108,
+  "n_candidates": 15,
+  "n_obs": 9,
+  "n_events": 7,
+  "median_months": 3.0,
+  "median_is_lower_bound": false,
+  "cost_per_year": 2354.48,
+  "curve": [
+    {
+      "t": 0.0,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.06,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.12,
+      "s": 1.0,
+      "lo": 1.0,
+      "hi": 1.0
+    },
+    {
+      "t": 0.75,
+      "s": 0.8571,
+      "lo": 0.3341,
+      "hi": 0.9786
+    },
+    {
+      "t": 1.0,
+      "s": 0.7143,
+      "lo": 0.2582,
+      "hi": 0.9198
+    },
+    {
+      "t": 2.0,
+      "s": 0.5714,
+      "lo": 0.1719,
+      "hi": 0.8371
+    },
+    {
+      "t": 3.0,
+      "s": 0.4286,
+      "lo": 0.0978,
+      "hi": 0.7344
+    },
+    {
+      "t": 4.0,
+      "s": 0.2857,
+      "lo": 0.0411,
+      "hi": 0.6115
+    },
+    {
+      "t": 5.0,
+      "s": 0.1429,
+      "lo": 0.0071,
+      "hi": 0.4649
+    },
+    {
+      "t": 9.0,
+      "s": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    }
+  ],
+  "failure_modes": [
+    {
+      "mode": "stopped_working",
+      "count": 3
+    },
+    {
+      "mode": "battery_failure",
+      "count": 3
+    },
+    {
+      "mode": "keyboard_failure",
+      "count": 2
+    },
+    {
+      "mode": "control_failure",
+      "count": 1
+    },
+    {
+      "mode": "wont_power_on",
+      "count": 1
+    }
+  ],
+  "snippets": {
+    "battery_failure": [
+      "Due to the dishonesty of the seller, this was a piece of JUNK. It arrived with a defective battery and motherboard. This is the lowest form of dishonesty. Now the refund is withheld for up to a month! It really leaves a bad taste in my mouth towards Amazon. I\u2019d say stay away from marketplace sellers! LESSON LEARNED!",
+      "I got this MacBook a month ago and I was very happy when I got it. It turned on properly and was working but then I check the battery and it says \"SERVICE RECOMMENDED\". I Paid all this money just to get a MacBook that has less then half life of a battery. Now the laptop won't even charge properly and I just wasted my money. Hopefully I can get a refund because if not I am actually gonna be so sad.",
+      "This refurb is crap. Some of the ports didn\u2019t work out of the box but I figured I could get by. Wrong. Now none work, the battery won\u2019t charge, and this thing is dead. Waste of $2000 after only 9 months. The warranty is so short by the time u figure it out you are stuck."
+    ],
+    "control_failure": [
+      "Logic board failed after only a few months. Never getting something from this company again."
+    ],
+    "keyboard_failure": [
+      "Seller refuses to issue a refund despite having the product back for two weeks now. The product was defective. The keyboard was broken.",
+      "Not worth it -- buy a brand new one or get someone with better customer service.<br /><br />I purchased this laptop for work. Most of the features were great. The keyboard is AWFUL. At least half a dozen keys double enter, and several keys don't work unless I hold them down for at least one second. It makes typing abysmal, as my writing requires extra time to clear up typos lest I slow down my typ"
+    ],
+    "stopped_working": [
+      "Unit lasted less than five months. Took it to Apple Store and they looked up the serial number. They said it had been repaired MULTIPLE times before and had suffered another critical failure. Unit was not under warranty and would cost more to fix than it would be worth to trade in even if it functioned. To sum up I basically just rented this MacBook for $200+ a month",
+      "Don\u2019t waste your money!! Work for 2 months then it broke down, we reached out to the buyer but they said contact warranty and they should help.  We did and they didn\u2019t help.  We submitted an e-mail but yet no response.  Over 1k down the drain.  Trust me, move on and pay for better quality.",
+      "I bought a Macbook Pro and it worked for 4 months and failed. I hoped there would be some way to get some help with this but have hit a dead end. There should be some kind of warranty to fix a problem beyond the 90 day refund period."
+    ],
+    "wont_power_on": [
+      "Submitting a refund. The machine got hot during use and now doesn't even charge. I've hard it for barely 3 weeks. I even went and purchased a brand new charger as the one with the machine was not an Apple charger. Still nothing. I can't believe I have to start over and get a new computer! This is awful!"
+    ]
+  },
+  "published": false
+}

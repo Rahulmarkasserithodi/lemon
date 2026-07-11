@@ -10,11 +10,15 @@ import {
   topFailureText,
   ratingText,
   shortTitle,
+  label,
   ProductPhoto,
   StatRow,
   CostToOwn,
 } from './productBits'
-import { INK, RUST, inkAlpha } from '../theme'
+import { repairTip, ifixitUrl, type Effort } from './repairTips'
+import { INK, ON_INK, RUST, TEAL, inkAlpha } from '../theme'
+
+const EFFORT_BG: Record<Effort, string> = { DIY: TEAL, Shop: INK, Pro: RUST }
 
 interface Props {
   product: ProductData
@@ -77,6 +81,55 @@ export default function ProductDetail({ product, onCompareWith, busy, error }: P
             onSelect={setActiveMode}
           />
         </div>
+      </div>
+
+      {/* make it last — repair, don't replace */}
+      <div className="mt-10 pt-8" style={{ borderTop: `1px solid ${inkAlpha(0.18)}` }}>
+        <h2 className="font-serif text-[19px] font-semibold mb-1">Already own one? Make it last</h2>
+        <p className="text-[13px] mb-5 max-w-2xl" style={{ color: inkAlpha(0.55) }}>
+          Most of these failures are fixable — a repair beats a replacement for your wallet
+          <em> and</em> the planet.
+        </p>
+
+        <div className="max-w-2xl flex flex-col gap-4">
+          {product.failure_modes.slice(0, 3).map((m) => {
+            const t = repairTip(m.mode)
+            if (!t) return null
+            const pct = product.n_events > 0 ? Math.round((m.count / product.n_events) * 100) : null
+            return (
+              <div key={m.mode} className="flex gap-3">
+                <span
+                  className="font-mono text-[9px] font-semibold uppercase tracking-[0.06em] px-1.5 py-1 h-fit shrink-0 w-[38px] text-center"
+                  style={{ background: EFFORT_BG[t.effort], color: ON_INK }}
+                  title={t.effort === 'DIY' ? 'Do it yourself' : t.effort === 'Shop' ? 'Repair shop' : 'Needs a specialist'}
+                >
+                  {t.effort}
+                </span>
+                <div>
+                  <div className="text-[14px] font-semibold capitalize">
+                    {label(m.mode)}
+                    {pct != null && (
+                      <span className="font-mono text-[11px] font-normal ml-1.5" style={{ color: inkAlpha(0.45) }}>
+                        {pct}% of failures
+                      </span>
+                    )}
+                  </div>
+                  <p className="text-[13px] leading-snug mt-0.5" style={{ color: inkAlpha(0.7) }}>{t.tip}</p>
+                </div>
+              </div>
+            )
+          })}
+        </div>
+
+        <a
+          href={ifixitUrl(product.brand, product.title)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 mt-6 font-mono text-[11px] font-semibold uppercase tracking-[0.08em] px-4 py-2 border transition-colors"
+          style={{ borderColor: INK, color: INK }}
+        >
+          Find repair guides on iFixit →
+        </a>
       </div>
 
       {/* compare-with CTA */}

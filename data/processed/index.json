@@ -68,6 +68,20 @@
     "cost_per_year": null
   },
   {
+    "parent_asin": "B009T3EYHO",
+    "title": "Samsung Chromebook (Wi-Fi, 11.6-Inch) 2012 Model",
+    "brand": "SAMSUNG",
+    "image": "https://m.media-amazon.com/images/I/41pK4rlZbdL._AC_.jpg",
+    "subcategory": "",
+    "price": 69.99,
+    "average_rating": 4.1,
+    "n_obs": 408,
+    "n_events": 196,
+    "median_months": 11.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 76.35
+  },
+  {
     "parent_asin": "B01ALBMIEI",
     "title": "Giantex Portable Mini Compact Twin Tub Washing Machine 20lbs Washer Spain Spinner Portable Washing Machine, Blue+ White",
     "brand": "Giantex",
@@ -806,5 +820,19 @@
     "median_months": null,
     "median_is_lower_bound": true,
     "cost_per_year": null
+  },
+  {
+    "parent_asin": "B09WGF8HZ2",
+    "title": "Late 2016 Apple MacBook Pro with 2.7GHz Intel Core i7 (15.4 inch, 16GB RAM, 512GB) Silver (Renewed)",
+    "brand": "Amazon Renewed",
+    "image": "https://m.media-amazon.com/images/I/41i2yZD9EnL._AC_.jpg",
+    "subcategory": "",
+    "price": 588.62,
+    "average_rating": 3.8,
+    "n_obs": 9,
+    "n_events": 7,
+    "median_months": 3.0,
+    "median_is_lower_bound": false,
+    "cost_per_year": 2354.48
   }
 ]
