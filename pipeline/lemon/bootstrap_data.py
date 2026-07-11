@@ -38,13 +38,20 @@ def _download(url: str, dest: Path) -> None:
 def ensure_data() -> None:
     config.CACHE.mkdir(parents=True, exist_ok=True)
 
-    # Small git-tracked files: copy from the repo checkout if absent on the disk.
-    for name in ("catalog.json", "extractions.sqlite"):
+    # catalog.json is read-only reference data shipped in git — always refresh it
+    # from the repo checkout so catalog edits (e.g. adding laptops) reach the disk
+    # on redeploy, not just on first provision.
+    # extractions.sqlite is a runtime-written cache — copy only if absent so we
+    # never clobber extractions the server has accumulated on the disk.
+    for name, overwrite in (("catalog.json", True), ("extractions.sqlite", False)):
         dest = config.CACHE / name
         src = _REPO_CACHE / name
-        if not dest.exists() and src.exists() and src.resolve() != dest.resolve():
+        if not src.exists() or src.resolve() == dest.resolve():
+            continue
+        existed = dest.exists()
+        if overwrite or not existed:
             shutil.copy2(src, dest)
-            print(f"[bootstrap] copied {name} from repo checkout")
+            print(f"[bootstrap] {'refreshed' if existed else 'copied'} {name} from repo checkout")
 
     # Large files (not in git): download from configured URLs if absent.
     import os
