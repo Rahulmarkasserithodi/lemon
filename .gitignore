@@ -1,5 +1,8 @@
 data/raw/
-data/cache/
+data/cache/reviews.db
+data/cache/asin_to_parent.json
+data/cache/batch_requests.jsonl
+data/cache/batch_jobs.json
 .venv/
 __pycache__/
 *.pyc
